@@ -4,12 +4,12 @@ This is a repository to hold a mirror of Patrick Joyce's SpeakBook project. More
 
 ## Downloads
 
-* [version 4 - English](/raw/master/PDFs/Speakbook-4th-ed-Francais-final.pdf)
-* [Printing Insructions](/raw/master/PDFs/Printing-Instructions1.pdf)
-* [version 3- classic](/raw/master/PDFs/speakbook3rdedition.pdf)
-* [Francais Edition](/raw/master/PDFs/Speakbook-4th-ed-Francais-final.pdf)
-* [Spanish Edition](/raw/master/PDFs/speakbook-4th-ed-spanish.pdf)
-* [Svenska Pratbook (Swedish)](/raw/master/PDFs/speakbook-4th-ed_DART.pdf)
+* [version 4 - English](https://raw.githubusercontent.com/ACECentre/SpeakBook/raw/master/PDFs/Speakbook-4th-ed-Francais-final.pdf)
+* [Printing Insructions](https://raw.githubusercontent.com/ACECentre/SpeakBook/raw/master/PDFs/Printing-Instructions1.pdf)
+* [version 3- classic](https://raw.githubusercontent.com/ACECentre/SpeakBook/raw/master/PDFs/speakbook3rdedition.pdf)
+* [Francais Edition](https://raw.githubusercontent.com/ACECentre/SpeakBook/raw/master/PDFs/Speakbook-4th-ed-Francais-final.pdf)
+* [Spanish Edition](https://raw.githubusercontent.com/ACECentre/SpeakBook/raw/master/PDFs/speakbook-4th-ed-spanish.pdf)
+* [Svenska Pratbook (Swedish)](https://raw.githubusercontent.com/ACECentre/SpeakBook/raw/master/PDFs/speakbook-4th-ed_DART.pdf)
 
 
 ## Licence
