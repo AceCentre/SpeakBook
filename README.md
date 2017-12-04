@@ -1,6 +1,6 @@
 # SpeakBook
 
-This is a repository to hold a mirror of Patrick Joyce's SpeakBook project. More to follow soon
+This is a repository to hold a mirror of [Patrick Joyce's SpeakBook project](https://web.archive.org/web/20170325172200/http://www.speakbook.org/) which is sadly no longer accessible on the web. More to follow soon
 
 ## Downloads
 
@@ -14,5 +14,5 @@ This is a repository to hold a mirror of Patrick Joyce's SpeakBook project. More
 
 ## Licence
 
-As per the original project, this is issued under [Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/) licewnce.
+As per the original project, this is issued under [Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/) licence.
 
