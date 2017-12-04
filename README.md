@@ -4,7 +4,7 @@ This is a repository to hold a mirror of [Patrick Joyce's SpeakBook project](htt
 
 ## Downloads
 
-* [version 4 - English](https://raw.githubusercontent.com/ACECentre/SpeakBook/master/PDFs/Speakbook-4th-ed-Francais-final.pdf)
+* [version 4 - English](https://raw.githubusercontent.com/ACECentre/SpeakBook/master/PDFs/speakbook-4th-ed.pdf)
 * [Printing Insructions](https://raw.githubusercontent.com/ACECentre/SpeakBook/master/PDFs/Printing-Instructions1.pdf)
 * [version 3- classic](https://raw.githubusercontent.com/ACECentre/SpeakBook/master/PDFs/speakbook3rdedition.pdf)
 * [Francais Edition](https://raw.githubusercontent.com/ACECentre/SpeakBook/master/PDFs/Speakbook-4th-ed-Francais-final.pdf)
