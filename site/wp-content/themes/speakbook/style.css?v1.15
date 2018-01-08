@@ -1,0 +1,309 @@
+/*
+Theme Name: SpeakBook
+Theme URI: http://wordpress.org/
+Description: Custom design integrated into a hack of TwentyTen
+Author: Gabriel de Kadt on the backs of the WordPress team
+Version: 1.01
+*/
+
+
+/* Eric Meyer's Reset v2 
+-------------------------------------------------------------- */
+
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;}
+/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+	body {line-height: 1;}
+	ol, ul {list-style: none;}
+	blockquote, q {quotes: none;}
+	blockquote:before, blockquote:after,q:before, q:after {content: ''; content: none;}
+	table {border-collapse: collapse; border-spacing: 0;}
+
+/* 960.gs grid system. Simplified version of Fluid grid generated at grids.heroku.com
+settings: fluid, 12col, 53px colwidth, 24px gutter 
+-------------------------------------------------------------- */
+
+	.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12 { display:inline; float: left; position: relative; margin-left: 1%; margin-right: 1%; }
+	.alpha { margin-left: 0; } .omega { margin-right: 0; }
+	.grid_1 { width:6.333%; }.grid_2 { width:14.667%; }.grid_3 { width:23.0%; }.grid_4 { width:31.333%; }.grid_5 { width:39.667%; }.grid_6 { width:48.0%; }.grid_7 { width:56.333%; }.grid_8 { width:64.667%; }.grid_9 { width:73.0%; }.grid_10 { width:81.333%; }.grid_11 { width:89.667%; }.grid_12 { width:98.0%; }.prefix_1 { padding-left:8.333%; }.prefix_2 { padding-left:16.667%; }.prefix_3 { padding-left:25.0%; }.prefix_4 { padding-left:33.333%; }.prefix_5 { padding-left:41.667%; }.prefix_6 { padding-left:50.0%; }.prefix_7 { padding-left:58.333%; }.prefix_8 { padding-left:66.667%; }.prefix_9 { padding-left:75.0%; }.prefix_10 { padding-left:83.333%; }.prefix_11 { padding-left:91.667%; }.suffix_1 { padding-right:8.333%; }.suffix_2 { padding-right:16.667%; }.suffix_3 { padding-right:25.0%; }.suffix_4 { padding-right:33.333%; }.suffix_5 { padding-right:41.667%; }.suffix_6 { padding-right:50.0%; }.suffix_7 { padding-right:58.333%; }.suffix_8 { padding-right:66.667%; }.suffix_9 { padding-right:75.0%; }.suffix_10 { padding-right:83.333%; }.suffix_11 { padding-right:91.667%; }.push_1 { left:8.333%; }.push_2 { left:16.667%; }.push_3 { left:25.0%; }.push_4 { left:33.333%; }.push_5 { left:41.667%; }.push_6 { left:50.0%; }.push_7 { left:58.333%; }.push_8 { left:66.667%; }.push_9 { left:75.0%; }.push_10 { left:83.333%; }.push_11 { left:91.667%; }.pull_1 { left:-8.333%; }.pull_2 { left:-16.667%; }.pull_3 { left:-25.0%; }.pull_4 { left:-33.333%; }.pull_5 { left:-41.667%; }.pull_6 { left:-50.0%; }.pull_7 { left:-58.333%; }.pull_8 { left:-66.667%; }.pull_9 { left:-75.0%; }.pull_10 { left:-83.333%; }.pull_11 { left:-91.667%; }
+
+/* explicit max-width on full container off into wrapper class*/
+	.container_12 {}
+/* extra wrapper to allow for decent outer margins */
+	.wrapper {max-width:924px; margin: 0 auto; padding:0 18px;}
+
+/* beta media queries fo iphone  */
+@media only screen and (max-device-width: 480px) {
+		body {zoom:200%; -webkit-text-size-adjust:240%;}
+		.wrapper {max-width: 460px}
+	}
+
+/*custom min widths to prevent unreadable columns in narrow widths*/
+	.grid_6 {min-width: 400px}
+	.grid_4 {min-width: 210px}
+
+/* Clearfix
+-------------------------------------------------------------- */
+	.clearfix:before, .clearfix:after { content: '\0020'; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0; }
+	.clearfix:after { clear: both; }
+	.clearfix { zoom: 1; }
+	
+/* Universal classes
+-------------------------------------------------------------- */
+	.clear {clear:both;}
+
+/* IE hacks
+-------------------------------------------------------------- */
+	/* IE 6 and below */
+* html {}
+	/* IE 7 only */
+*:first-child+html {}
+
+
+/* Colours
+-------------------------------------------------------------- */
+	body, #footer * {color:#454545;}
+	body {background: #28A8D7;}
+	#page {background: #e7e5e5}
+	#mainfoot, h3 {color:#333;}
+	
+	.cr {color:rgb(255,163,218)}
+	.cg {color:rgb(111,253,89)}
+	.cb {color:rgb(104,193,227)}
+	.cb2, h2 {color:#28a8d7;}
+	.cy {color:rgb(248,235,35)}
+
+	.bgr {background:rgb(255,163,218);}
+	.bgg {background:rgb(111,253, 89);}
+	.bgb {background:rgb(104,193,227);}
+	.bgy {background:rgb(248,235, 35);}
+
+	.bgra {background:rgb(255,163,218); filter:alpha(opacity=80); background:rgba(255,163,218,0.8)}
+	.bgga {background:rgb(111,253, 89); filter:alpha(opacity=80); background:rgba(111,253, 89,0.8)}
+	.bgba {background:rgb(104,193,227); filter:alpha(opacity=80); background:rgba(104,193,227,0.8)}
+	.bgya {background:rgb(248,235, 35); filter:alpha(opacity=80); background:rgba(248,235, 35,0.8)}
+
+/* Structure
+-------------------------------------------------------------- */
+
+	#page {background: #e7e5e5 url(images/body_bg.jpg) repeat; padding-bottom: 40px; border-bottom:1px solid #eee;}
+
+	#masthead {position: relative;}
+	
+	#masthead .wrapper {margin: 0; padding:30px 0 20px;}
+	#branding {float:left; margin-right: 10px}
+	#site-description {text-align: right;}
+	#site-title, #site-description {margin: 0; line-height:1.2em;}
+	h1#site-title, h3#site-title {font-size: 64px; text-transform: uppercase; none; height:54px; line-height: 42px}
+	h1#site-title a, h3#site-title a { text-decoration: none;}
+	#site-title {width:460px; height:60px; overflow: hidden}
+	#site-title img {margin:-20px 0 0 -16px;}
+
+	
+
+	#c2a {float:left; width:433px; height:71px; }
+	#c2a .button, #c2a .or {display: block; float:left; overflow: hidden; height: 80px;}
+	.buySpeakBook {width: 155px;}
+	.or {width: 71px; background: url(images/speakbook_sprite_2.png) no-repeat -169px -73px;}
+	.downloadSpeakBook {width: 206px;}
+	.buySpeakBook img {margin:-73px 0 0 -14px;}
+	.downloadSpeakBook img {margin:-73px 0 0 -240px;}
+
+	.mainNav ul {border-top: 1px solid #999; border-bottom: 1px solid #999; }
+ 	
+	#main {border-bottom: 1px solid #bbb; padding-bottom: 20px}
+	
+	#mainfoot {border-top: 1px solid #eee; clear:both; padding:20px 0 0; margin-bottom: 20px }
+	#mainfoot h3 {margin-bottom: 3px; color: #999}
+
+	#colophon h2, #colophon span {color:#fff}
+	#footerTopWidget { }
+	#footer {padding: 20px 0;}
+	
+/* Graphic elements
+-------------------------------------------------------------- */
+	.strips {width:100%; display:block; height: 24px;}
+	#header .strips {height:12px;}
+	span.strips span {width:25%; display:block; float:left; height: 100%}
+	/* text-shadow */
+	.ts {text-shadow: 1px 1px 3px rgba(255,255,255,0.9);}
+
+	/* inline label style 1 */
+	  div.labelStyle { min-height: 6em}
+	  .labelStyle div /* NB lte-ie7 hack in separate stylesheet */ { line-height: 24px; padding: 0; border-left: 20px solid #f1e970; display:inline-block; margin:1.5em 15% 0.5em 1em;}
+		.ie8 .labelStyle div {line-height: 25px}
+	  .labelStyle h6	/* NB lte-ie7 hack in separate stylesheet */
+{ font-size:12px ; background: #f1e970; color: #fff; display: inline; margin: -1px 0 0 0; line-height: 14px	; padding: 5px 0 ; position: relative; top:-1px;}
+	  .labelStyle span { position: relative; left:-10px;}
+
+	/* inline label style 2  */
+	  .labelStyle2 /* NB lte-ie7 hack in separate stylesheet */{ line-height: 32px; border-left: 20px solid #f1e970; margin: 10px 0  }
+			.ie8 .labelStyle2 {line-height: 34px;} 
+	  .labelStyle2 h3 /* NB lte-ie7 hack in separate stylesheet */{ background: #f1e970; color: #545454; display: inline; font-size: 20px; line-height: 20px; padding: 5px 0 ; position: relative; top: 2px}
+			.ie8 .labelStyle2 h3 {line-height: 21px;} 
+	  .labelStyle2 span { position: relative; left:-10px;}
+
+
+/* Typography
+-------------------------------------------------------------- */
+	/* Faces */
+	body, .more-nav b {font-family: Arial, Helvetica, sans-serif; font-size: 15px}
+	.serif, #site_description, h1, .h1, h2, h4, .faq h3, .testimonialsWrap blockquote p  {font-family: Georgia, Times, serif;}
+	.black, #site-title a {font-family: "Arial Black", Gadget, sans-serif;}
+	code {font-family: Consolas, 'Lucida Console', 'Andale Mono', 'Courier New', Monaco, monospace}
+
+	small, #mainfoot p {font-size: 0.9em}
+	
+	h1,.h1,h2 {font-size:25px; line-height:1.4em;}
+	#content h1, #content .h1 {color:#aaa; text-transform: uppercase; display: inline;}
+	#content .h1.standfirst {font-size: 32px; text-transform: none;}
+	#content h1+h2 {display: inline} 	
+	#content h1+h2:after {content: ''; clear:both;} 	
+	h3 {font-size:21px; line-height:1.4em;}
+	h4 {font-size:19px; line-height:1.4em;}
+	h5 {font-size:17px; line-height:1.4em;}
+	h6 {font-size:15px; line-height:1.4em;}
+	
+	p,li {font-size:16px; line-height: 1.7em}
+	
+	strong,b {font-weight:bold}
+
+	i, em {font-style:italic;}
+	
+  p, li {margin-bottom: 20px;}     
+  h1,h2,h3,h4,h5,h6{margin-bottom: 10px; font-weight: normal}
+  dl,hr,ol,ul,pre,table,address,fieldset{margin-bottom:10px;}
+  p+p,li+li {margin-top: 10px;}
+  p+h1,p+h2,p+h3 {margin-top: 5px;}
+
+	p.form-allowed-tags {font-size: 0.8em;}
+	
+	blockquote { background:#eee; padding: 20px 20px 1px; margin-bottom: 10px}
+
+
+/* Links
+-------------------------------------------------------------- */
+	a, a:link, a:visited, a:hover, a:active {color: #454545}
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {text-decoration: none}
+	.more-nav {text-decoration: none; display: block; margin: 8px 0 0}
+	.more-nav b {font-size: 10px; color: #eee; background: #28A8D7; padding:2px 6px 3px;}
+	body.attachment .entry-attachment {position: relative}
+	.more-nav.attachment {position: absolute; left:-10px; top:5px;}
+
+
+/* Lists
+-------------------------------------------------------------- */
+	.inline li {display: inline; margin-right: 10px; padding:2px 6px; line-height: 1.7em; background: #fff; white-space: nowrap}
+
+
+/* Naviagtion menus
+-------------------------------------------------------------- */
+	.mainNav ul {margin:0 0 20px;}
+	.mainNav li {display: block; float: left; margin: 9px 36px 0 0 ; padding: 0 24px 4px 0; position: relative; }
+	/* icons */
+	.mainNav a span {display: block; width: 16px; height: 16px; overflow: hidden; position: absolute; top:0; left:100%; margin: 0 0 0 -16px }
+	.mainNav a span span{display: block; width: 16px; height: 32px; margin: -16px 0 0 -16px}
+	.mainNav a:hover span span, .mainNav .current-menu-item a span span {margin-top:0;}
+	 	.mainNav a {text-decoration: none; color: #999}
+	 	.mainNav a:hover {text-decoration: none; color: #454545}
+/* Naviagtion menus */
+	 	.menu-item a span span {background: url(images/speakbook_sprite_2.png) no-repeat; }
+	/* home			*/	#menu-item-18 span span {background-position:-16px -154px;}
+	/* about 		*/	#menu-item-17 span span {background-position:-32px -154px;}
+	/* downloads	*/	#menu-item-16 span span {background-position:-96px -154px;}
+	/* faq			*/	#menu-item-15 span span {background-position:-64px -154px;}
+	/* faqs cat 	*/	#menu-item-187 span span {background-position:-64px -154px;}
+	/* testimonials */	#menu-item-35 span span {background-position:-128px -154px;}
+	 	.mainNav .menu-item {border-bottom: solid 4px transparent}
+	 	.mainNav .menu-item:hover {border-bottom: solid 4px #ccc}
+	 	.mainNav .current-menu-item:hover {border-bottom: solid 4px #999}
+	 	.mainNav .current-menu-item {border-bottom: solid 4px #999}
+	 	.mainNav .current-menu-item a {cursor: default; color: #454545}
+	 	
+	 	/* Secondary footer nav */
+	 	#footerLinks {text-align: left}
+	 	#footerLinks li {display: inline; font-size: 12px; padding-right: 5px}
+	 	
+	 	
+/* Images
+-------------------------------------------------------------- */
+	p img {border: 4px solid #fff; }
+	.content img {width:100%;}
+	
+/* Forms
+-------------------------------------------------------------- */
+	label {display: block }
+	label.agreeTerms {display: inline}
+	input.agreeTerms {display: inline}
+
+/* Comments (& WP meta)
+-------------------------------------------------------------- */
+	#comments {border-top: dashed 4px #666; margin: 30px 0 ; padding: 20px 0}
+	
+	
+	/* Testimonials
+-------------------------------------------------------------- */
+	.testimonialsWrap .grid_4:nth-child(3n+1) {margin-left:0;}
+	.testimonialsWrap .grid_4:nth-child(3n+3) {margin-right:0;}
+	.testimonialsWrap .grid_4:nth-child(3n+3):after {content: '\0020'; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0; clear: both;}
+	.testimonialsWrap .entry-title {padding:2em 15% 0 0.3em ;min-height: 2.5em;}
+	.testimonialsWrap blockquote {margin-top: -30px}
+	.testimonialsWrap blockquote p {font-size: 18;}
+
+	/* FAQs
+-------------------------------------------------------------- */
+	.faqsWrap .grid_6 {margin: 0}
+
+/* Downloads
+-------------------------------------------------------------- */
+	.pdfDownload {position:relative; padding: 20px 10px 20px 70px; background: #f1e970 url(images/pdficon_large.gif) no-repeat 20px center; margin-bottom: 10px}
+	.pdfDownload h5 a {color: blue}
+	.pdfDownload h5 a span { display: block; position:absolute; width:100%; height:100%; top:0; left: 0; z-index: 1}
+	.fileSize {color: #999}
+	.agreeTermsWrap {padding: 16px; font-size: 1.3em; text-align: center; line-height: 1.6em}
+	.agreeTermsWrap span {color: #999}
+	.agreeTermsWrap input[type="submit"] {font-size: 24px}
+		
+/* FancyBox ... examples and documentation at: http://fancybox.net
+-------------------------------------------------------------- */
+    #fancybox-loading { position: fixed; top: 50%; left: 50%; width: 40px; height: 40px; margin-top: -20px; margin-left: -20px; cursor: pointer; overflow: hidden; z-index: 1104; display: none;}
+    #fancybox-loading div { position: absolute; top: 0; left: 0; width: 40px; height: 480px; background-image: url('images/fancybox.png');}
+    #fancybox-overlay { position: absolute; top: 0; left: 0; width: 100%; z-index: 1100; display: none; background: #000!important; opacity:0.75!important;}
+    #fancybox-tmp { padding: 0; margin: 0; border: 0; overflow: auto; display: none;}
+    #fancybox-wrap { position: absolute; top: 0; left: 0; padding: 20px; z-index: 1101; outline: none; display: none;}
+    #fancybox-outer { position: relative; width: 100%; height: 100%; background: #fff;}
+    #fancybox-content { width: 0; height: 0; padding: 0; outline: none; position: relative; overflow: hidden; z-index: 1102; border: 0px solid #fff;}
+    #fancybox-hide-sel-frame { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: transparent; z-index: 1101;}
+    #fancybox-close { position: absolute; top: -15px; right: -15px; width: 30px; height: 30px; background: transparent url('images/fancybox.png') -40px 0px; cursor: pointer; z-index: 1103; display: none;}
+    #fancybox-error { color: #444; font: normal 12px/20px Arial; padding: 14px; margin: 0;}
+    #fancybox-img { width: 100%; height: 100%; padding: 0; margin: 0; border: none; outline: none; line-height: 0; vertical-align: top;}
+    #fancybox-frame { width: 100%; height: 100%; border: none; display: block;}
+    #fancybox-left, #fancybox-right { position: absolute; bottom: 0px; height: 100%; width: 35%; cursor: pointer; outline: none; background: transparent url('images/blank.gif'); z-index: 1102; display: none;}
+    #fancybox-left { left: 0px;}
+    #fancybox-right { right: 0px;}
+    #fancybox-left-ico, #fancybox-right-ico { position: absolute; top: 50%; left: -9999px; width: 30px; height: 30px; margin-top: -15px; cursor: pointer; z-index: 1102; display: block;}
+    #fancybox-left-ico { background-image: url('images/fancybox.png'); background-position: -40px -30px;}
+    #fancybox-right-ico { background-image: url('images/fancybox.png'); background-position: -40px -60px;}
+    #fancybox-left:hover, #fancybox-right:hover { visibility: visible; /* IE6 */ }
+    #fancybox-left:hover span { left: 20px;}
+    #fancybox-right:hover span { left: auto; right: 20px;}
+    .fancybox-bg { position: absolute; padding: 0; margin: 0; border: 0; width: 20px; height: 20px; z-index: 1001;}
+    #fancybox-bg-n { top: -20px; left: 0; width: 100%; background-image: url('images/fancybox-x.png');}
+    #fancybox-bg-ne { top: -20px; right: -20px; background-image: url('images/fancybox.png'); background-position: -40px -162px;}
+    #fancybox-bg-e { top: 0; right: -20px; height: 100%; background-image: url('images/fancybox-y.png'); background-position: -20px 0px;}
+    #fancybox-bg-se { bottom: -20px; right: -20px; background-image: url('images/fancybox.png'); background-position: -40px -182px;}
+    #fancybox-bg-s { bottom: -20px; left: 0; width: 100%; background-image: url('images/fancybox-x.png'); background-position: 0px -20px;}
+    #fancybox-bg-sw { bottom: -20px; left: -20px; background-image: url('images/fancybox.png'); background-position: -40px -142px;}
+    #fancybox-bg-w { top: 0; left: -20px; height: 100%; background-image: url('images/fancybox-y.png');}
+    #fancybox-bg-nw { top: -20px; left: -20px; background-image: url('images/fancybox.png'); background-position: -40px -122px;}
+    #fancybox-title { font-family: Helvetica; font-size: 12px; z-index: 1102;}
+    .fancybox-title-inside { padding-bottom: 10px; text-align: center; color: #333; background: #fff; position: relative;}
+    .fancybox-title-outside { padding-top: 10px; color: #fff;}
+    .fancybox-title-over { position: absolute; bottom: 0; left: 0; color: #FFF; text-align: left;}
+    #fancybox-title-over { padding: 10px; background-image: url('images/fancy_title_over.png'); display: block;}
+    .fancybox-title-float { position: absolute; left: 0; bottom: -20px; height: 32px;}
+    #fancybox-title-float-wrap { border: none; border-collapse: collapse; width: auto;}
+    #fancybox-title-float-wrap td { border: none; white-space: nowrap;}
+    #fancybox-title-float-left { padding: 0 0 0 15px; background: url('images/fancybox.png') -40px -90px no-repeat;}
+    #fancybox-title-float-main { color: #FFF; line-height: 29px; font-weight: bold; padding: 0 0 3px 0; background: url('images/fancybox-x.png') 0px -40px;}
+    #fancybox-title-float-right { padding: 0 0 0 15px; background: url('images/fancybox.png') -55px -90px no-repeat;}
+		
