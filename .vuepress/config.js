@@ -16,4 +16,7 @@ module.exports = {
       },
     },
   },
+  plugins: [
+    require('./build-pdf-plugin.js'),
+  ],
 }

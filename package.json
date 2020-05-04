@@ -7,11 +7,13 @@
   "private": true,
   "scripts": {
     "dev": "vuepress dev",
-    "build": "vuepress build"
+    "build": "vuepress build",
+    "buildpdf": "vuepress buildpdf"
   },
   "devDependencies": {
     "@vuepress/plugin-register-components": "^1.4.1",
     "node-sass": "^4.13.1",
+    "puppeteer": "^3.0.2",
     "sass-loader": "^8.0.2",
     "vuepress": "^1.4.1"
   }

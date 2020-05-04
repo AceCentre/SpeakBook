@@ -6,3 +6,15 @@ description: This is a repository to hold a mirror of [Patrick Joyce's SpeakBook
 
 
 - [SpeakBook](./speakbook/)
+
+
+# Package scripts
+
+```
+# run a local server for development
+$ yarn dev
+# build it in static html format
+$ yarn build
+# build pdf format for all pages
+$ yarn buildpdf
+```

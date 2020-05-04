@@ -381,16 +381,16 @@ grid_pages:
               - text_key: Z
                 inlinecss:
                   color: var(--color-white)
-              - text_key: 1
+              - text_key: _one
                 inlinecss:
                   color: var(--color-green)
-              - text_key: 2
+              - text_key: _two
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: 3
+              - text_key: _three
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: 4
+              - text_key: _four
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -404,19 +404,19 @@ grid_pages:
               height: var(--grid-item-height)
               background-color: var(--color-cyan)
             entries:
-              - text_key: 5
+              - text_key: _five
                 inlinecss:
                   color: var(--color-purple)
-              - text_key: 6
+              - text_key: _six
                 inlinecss:
                   color: var(--color-white)
-              - text_key: 7
+              - text_key: _seven
                 inlinecss:
                   color: var(--color-green)
-              - text_key: 8
+              - text_key: _eight
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: 9
+              - text_key: _nine
                 inlinecss:
                   color: var(--color-orange)
               - text_key: HOME
@@ -569,16 +569,16 @@ grid_pages:
               - text_key: Z
                 inlinecss:
                   color: var(--color-white)
-              - text_key: 1
+              - text_key: _one
                 inlinecss:
                   color: var(--color-green)
-              - text_key: 2
+              - text_key: _two
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: 3
+              - text_key: _three
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: 4
+              - text_key: _four
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -592,19 +592,19 @@ grid_pages:
               height: var(--grid-item-height)
               background-color: var(--color-cyan)
             entries:
-              - text_key: 5
+              - text_key: _five
                 inlinecss:
                   color: var(--color-purple)
-              - text_key: 6
+              - text_key: _six
                 inlinecss:
                   color: var(--color-white)
-              - text_key: 7
+              - text_key: _seven
                 inlinecss:
                   color: var(--color-green)
-              - text_key: 8
+              - text_key: _eight
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: 9
+              - text_key: _nine
                 inlinecss:
                   color: var(--color-orange)
               - text_key: HOME
