@@ -1,37 +1,59 @@
 @import './variables.scss';
+@import './fonts.scss';
 
 html, body {
   padding: 0;
   margin: 0;
 }
+body {
+  font-family: 'Montserrat';
+}
+.bold {
+  font-family: 'Neris-Bold';
+}
 
 .page-break { page-break-before: always; clear: both; }
 
-.grey-color { color: $light-grey; }
-.red-color { color: $red; }
-.purple-bkg { background-color: $purple; }
-.green-bkg { background-color: $green; }
-.cyan-bkg { background-color: $cyan; }
-.yellow-bkg { background-color: $yellow; }
+.black-color {  color: var(--color-black); }
+.white-color { color: var(--color-white); }
+.grey-color { color: var(--color-light-grey); }
+.red-color { color: var(--color-red); }
+.orange-color { color: var(--color-orange); }
+.white-bkg { background-color: var(--color-white); }
+.black-bkg { background-color: var(--color-black); }
+.purple-bkg { background-color: var(--color-purple); }
+.green-bkg { background-color: var(--color-green); }
+.cyan-bkg { background-color: var(--color-cyan); }
+.yellow-bkg { background-color: var(--color-yellow); }
+.orange-bkg { background-color: var(--color-orange); }
+.pink-bkg { background-color: var(--color-pink); }
 
 .text-center { text-align: center; }
 .wmode-vertical-lr { writing-mode: vertical-lr; }
 .float-left { float: left; }
 .float-right { float: right; }
 .fsize-3 { font-size: 8pt; }
-.v-oneline-fsize-3 { width: 0.5cm; white-space: nowrap; }
 .fsize-4 { font-size: 10pt; }
+.fsize-4_5 { font-size: 11pt; }
 .fsize-5 { font-size: 12pt; }
 .fsize-6 { font-size: 16pt; }
 .fsize-8 { font-size: 20pt; }
 .fsize-9 { font-size: 22pt; }
 .fsize-10 { font-size: 25pt; }
+.fsize-11 { font-size: 28pt; }
+.fsize-12 { font-size: 32pt; }
 .fsize-13 { font-size: 40pt; }
-.v-oneline-fsize-10 { width: 1cm; white-space: nowrap; }
 .rotate-180 { transform: rotate(180deg); }
+.rotate-90 { transform: rotate(90deg); }
 .height-100pw { height: var(--page-width-content); }
 .height-100ph { height: var(--page-height-content); }
 .bold { font-weight: bold; }
+.line-height-1 { line-height: 1; }
+.text-black-stroke-1 { -webkit-text-stroke: 1px var(--color-black); }
+.v-oneline-fsize-3 { width: 0.5cm; white-space: nowrap; }
+.v-oneline-fsize-8 { width: 0.8cm; white-space: nowrap; }
+.v-oneline-fsize-9 { width: 1cm; white-space: nowrap; }
+.v-oneline-fsize-10 { width: 1cm; white-space: nowrap; }
 
 .p-1 { padding: 1mm; }
 .p-2 { padding: 2mm; }
@@ -48,6 +70,14 @@ html, body {
 .my-3 { margin-top: 3.5mm; margin-bottom: 3.5mm; }
 .my-4 { margin-top: 5mm; margin-bottom: 5mm; }
 .my-6 { margin-top: 8mm; margin-bottom: 8mm; }
+
+.mx-1 { margin-left: 1mm; margin-right: 1mm; }
+.mx-2 { margin-left: 2mm; margin-right: 2mm; }
+.mx-3 { margin-left: 3.5mm; margin-right: 3.5mm; }
+.mx-4 { margin-left: 5mm; margin-right: 5mm; }
+.mx-6 { margin-left: 8mm; margin-right: 8mm; }
+
+.mx-auto { margin-left: auto; margin-right: auto; }
 
 .mt-1 { margin-top: 1mm; }
 .mt-2 { margin-top: 2mm; }
@@ -73,9 +103,20 @@ html, body {
 .mr-4 { margin-right: 5mm; }
 .mr-6 { margin-right: 8mm; }
 
+.overflow-hidden { overflow: hidden; }
 .pos-rel { position: relative; }
 .abs-fill-parent { position: absolute; top: 0; right: 0; bottom: 0; left: 0; }
-.abs-at-left-center {
+.abs-at-bottom-left {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.abs-at-top-left {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.abs-at-center-left {
   position: absolute;
   left: 0;
   top: 50%;
@@ -87,14 +128,18 @@ html, body {
   top: 50%;
   transform: translate(-50%, -50%);
 }
+.abs-at-center.rotate-90 { transform: translate(-50%, -50%) rotate(90deg); }
+.abs-at-center.rotate-180 { transform: translate(-50%, -50%) rotate(180deg); }
 .fill-width { width: 100%; }
 .fill-height { height: 100%; }
 .lheight-2x { line-height: 2; }
 .lheight-1_5x { line-height: 1.5; }
 
+.inline-block { display: inline-block; }
 .flex-v { display: flex; flex-direction: column; }
 .flex-h { display: flex; flex-direction: row; }
 .flex-grow-1 { flex-grow: 1; }
+.flex-wrap { flex-wrap: wrap; }
 .items-align-center { align-items: center; }
 .justify-content-center { justify-content: center; }
 .self-align-center { align-self: center; }
@@ -149,6 +194,6 @@ html, body {
 
 .flt-box {
   background-color: white;
-  border: 1px solid $dark-stroke;
+  border: 0.5mm solid var(--color-dark-stroke);
 }
 
