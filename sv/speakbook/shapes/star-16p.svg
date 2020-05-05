@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="star-16p.svg"
+   inkscape:version="1.0beta2 (unknown)"
+   version="1.1"
+   viewBox="0 0 27.743147 27.74597"
+   height="27.74597mm"
+   width="27.743147mm">
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="27"
+     inkscape:window-x="0"
+     inkscape:window-height="704"
+     inkscape:window-width="1366"
+     fit-margin-bottom="0"
+     fit-margin-right="0"
+     fit-margin-left="0"
+     fit-margin-top="0"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="svg1130"
+     inkscape:document-units="mm"
+     inkscape:cy="159.25776"
+     inkscape:cx="22.277648"
+     inkscape:zoom="0.98994949"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata1127">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     inkscape:connector-curvature="0"
+     style="display:inline;fill:#66cef5;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.352777"
+     d="m 27.330347,10.114139 -4.10986,-0.973667 1.64747,-3.887611 -4.16983,0.670278 0.0318,-4.222751 L 17.13512,3.915833 15.55115,0 13.07818,3.425472 10.11449,0.416277 9.13941,4.522611 5.2503901,2.875138 5.9210202,7.044972 1.69827,7.013222 3.91336,10.608027 0,12.195527 3.423,14.6685 0.41381003,17.631833 4.5222599,18.605499 2.8754901,22.49311 l 4.1694801,-0.670277 -0.0328,4.22275 3.5965598,-2.215445 1.58398,3.915832 2.47297,-3.421943 2.96333,3.009193 0.9772,-4.10986 3.887607,1.643945 -0.67028,-4.166306 4.22275,0.03175 -2.21544,-3.594805 3.9123,-1.5875 -3.42194,-2.472972 z"
+     inkscape:label="star" />
+</svg>
