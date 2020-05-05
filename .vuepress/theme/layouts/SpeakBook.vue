@@ -50,7 +50,7 @@
       <div style="width: 10mm;"></div>
       <div class="flex-v block-holder b10x">
         <Content slot-key="last-page-heading" />
-        <div class="flex-v"> <!-- split between letters keys and others -->
+        <div class="flex-v mt-2"> <!-- split between letters keys and others -->
           <div class="flex-h">
             <div class="flex-v block-holder b3x">
               <div class="block b0x flex-grow-1" style="margin-left: 8mm;"></div>
@@ -259,7 +259,7 @@ export default {
 .block-holder {
   --block-width: 17mm;
   --block-height: 17mm;
-  --block-margin: 0.5mm;
+  --block-margin: 0.7mm;
   &.b1x {
     width: calc(var(--block-width) + var(--block-margin));
     height: calc(var(--block-width) + var(--block-margin));
