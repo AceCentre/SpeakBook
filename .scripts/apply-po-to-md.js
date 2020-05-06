@@ -30,7 +30,6 @@ for (let key in podata.translations['']) {
       continue
     }
     let value = podata.translations[''][key].msgstr[0]
-    value = '__value_' + key
     if (!key.startsWith('__slot_')) {
       newtext[key] = value
     } else {
