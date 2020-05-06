@@ -18,5 +18,8 @@
     "sass-loader": "^8.0.2",
     "vuepress": "^1.4.1",
     "yaml": "^1.9.2"
+  },
+  "dependencies": {
+    "node-poeditor": "1.0.7"
   }
 }
