@@ -1404,7 +1404,7 @@ grid_pages:
 :::
 
 ::: slot inst-01-flt-right-content
-div class="abs-fill-parent flex-h" style="align-items: flex-end;">
+<div class="abs-fill-parent flex-h" style="align-items: flex-end;">
   <div class="flex-grow-1"></div>
   <div class="flex-v">
     <img class="m-1" style="width: 58.5mm; height: 79.7mm; box-sizing: border-box;" :src="$withBase('/speakbook/images/01.png')"  />
