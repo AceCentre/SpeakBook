@@ -1,18 +1,18 @@
 ---
 layout: SpeakBook
 text:
-  ring_bind_edge: Ring bind along this edge
-  cut_out_this_part: Cut out this part.
-  SPEAKBOOK: SPEAKBOOK
+  ring_bind_edge: Ringbind längs denna kant
+  cut_out_this_part: Klipp ut denna del.
+  SPEAKBOOK: PRATBOK
   edition_nth: 4th
   EDITION: EDITION
-  color_blind: Colour Blind
-  friendly: Friendly!
-  instructions: instructions
-  HOME_PAGE: HOME PAGE
-  SPELL: SPELL
-  HOME: HOME
-  THANK_YOU: THANK YOU
+  color_blind: Färgblinds-
+  friendly: vänlig!
+  instructions: Instruktioner
+  HOME_PAGE: STARTSIDA
+  SPELL: STAVA
+  HOME: START
+  THANK_YOU: TACK
   A: A
   B: B
   C: C
@@ -39,45 +39,53 @@ text:
   X: X
   Y: Y
   Z: Z
-  _zero: 0
-  _one: 1
-  _two: 2
-  _three: 3
-  _four: 4
-  _five: 5
-  _six: 6
-  _seven: 7
-  _eight: 8
-  _nine: 9
-  im_too_hot: I'm too hot
-  im_too_cold: I'm too cold
-  cup_of_tea: Cup of tea!
-  cup_of_coffee: Cup of coffee!
-  i_love_you: I love you
-  yes: yes
-  no: no
-  CAR: CAR
-  BED: BED
-  CLOTHING: CLOTHING
-  BATHTIME: BATHTIME
-  MEALS: MEALS
-  COMFORT: COMFORT
-  TOILET: TOILET
-  DRINKS: DRINKS
-  TRAINING_PAGE: TRAINING PAGE
-  training_page: trading page
-  _GBP: '£'
-  _USD: '$'
-  _percent: '%'
-  _plus: '+'
-  _minus: '-'
-  _slash: '/'
+  _zero: "0"
+  _one: "1"
+  _two: "2"
+  _three: "3"
+  _four: "4"
+  _five: "5"
+  _six: "6"
+  _seven: "7"
+  _eight: "8"
+  _nine: "9"
+  im_too_hot: Jag är för varm
+  im_too_cold: Jag fyrser
+  cup_of_tea: En kopp te!
+  cup_of_coffee: En kopp kaffe!
+  i_love_you: jag älskar dig
+  yes: ja
+  no: nej
+  CAR: BIL
+  BED: SOVA
+  CLOTHING: KLÄ SIG
+  BATHTIME: BADA
+  MEALS: ÄTA
+  COMFORT: SITTA
+  TOILET: TOA
+  DRINKS: DRICKA
+  TRAINING_PAGE: ÖVNINGSSIDA
+  training_page: övnings sida
+  _GBP: ""
+  _USD: $
+  _percent: "%"
+  _plus: +
+  _minus: "-"
+  _slash: /
   _X: X
-  _equal: '='
-  _question_mark: '?'
-  _atsign: '@'
-  YES: YES
-  NO: NO
+  _equal: =
+  _question_mark: "?"
+  _atsign: ""
+  YES: ""
+  NO: ""
+slots_in_need_for_translation:
+  - training-page-description
+  - last-page-heading
+  - cover-footer
+  - inst-01-flt-right-content
+  - inst-01-content
+  - inst-02-flt-right-label
+  - inst-02-content
 inlinecss:
   --page-width: 210mm
   --page-height: 297mm
@@ -94,7 +102,10 @@ instruction_pages:
           --max-left-spacing: 40mm
           width: var(--max-left-spacing)
           height: var(--page-height)
-          shape-outside: polygon(0 var(--spacing-offset-top), var(--max-left-spacing) var(--spacing-offset-top), var(--left-spacing) calc(var(--spacing-offset-top) + 20mm), var(--left-spacing) var(--page-height), 0 var(--page-height))
+          shape-outside: polygon(0 var(--spacing-offset-top), var(--max-left-spacing)
+            var(--spacing-offset-top), var(--left-spacing)
+            calc(var(--spacing-offset-top) + 20mm), var(--left-spacing)
+            var(--page-height), 0 var(--page-height))
       - comment: floating content at center right
         dir: right
         mode: fixed
@@ -1242,6 +1253,7 @@ grid_pages:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
               height: var(--grid-item-height)
+
 ---
 ::: slot redheart-img
 <img style="width: var(--img-width); height: var(--img-width);" :src="$withBase('/speakbook/shapes/redheart.svg')" />
@@ -1251,19 +1263,17 @@ grid_pages:
 :::
 ::: slot last-page-heading
 <div class="float-left" style="width: 40mm; height: 37mm; shape-outside: polygon(0 0, 40mm 0, 10mm 100%, 0 100%);"></div>
-<h2 class="my-2">Finger spelling page.</h2>
+<h2 class="my-2">Fingerstavning.</h2>
 <p class="my-2">
-  If you still have the use of your hands, then this page is for you.
-  By pointing with a finger you can spell out words and phrases to your partner.
-  Frequently used words can be written in the blank boxes.
-  Pointing to the word <strong class="bold">„ HOME ‟*</strong> indicates to your partner that you now
-  want to communicate with your eyes using the main book.
+ Om du kan använda dina händer passar den här sidan för dig. Genom att peka med fingret kan
+du stava ord och fraser för din samtalspartner. Ofta använda ord kan skrivas i de tomma rutorna.
+Genom att peka på ordet <strong class="bold">„ START ‟*</strong> visar du att du istället vill använda resten av boken.
 </p>
 :::
 ::: slot training-page-description
 <p class="fsize-3">
-  When you've learnt the basic technique using this training page,
-  you can write your own pages using the blank ones in this book.
+  När du har lärt dig tekniken genom att använda den här övningssidan
+kan du göra dina egna sidor på de tomma bladen
 </p>
 :::
 ::: slot table-overlay-01
@@ -1381,13 +1391,13 @@ grid_pages:
   <img class="abs-at-bottom-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-13.svg')" />
 </CutOutSideGuide>
 :::
-
 ::: slot cover-footer
 <div class="lheight-1_5x">
   <p class="text-center cover-footer-text">
-    <span class="fsize-8 bold">non verbal communication system</span><br>
+    <span class="fsize-8 bold">system för icke-verbal kommunikation</span><br>
     <span class="red-color fsize-8 bold">www.speakbook.org</span><br>
-    <span class="fsize-4">Speakbook 4th edition © 2011 Patrick Joyce</span>
+    <span class="fsize-4">Speakbook 4th edition © 2011 Patrick Joyce</span><br>
+ <span class="fsize-4">Anpassning för svenska av DART 2012</span>
   </p>
 </div>
 :::
@@ -1398,8 +1408,8 @@ grid_pages:
   <div class="flex-v">
     <img class="m-1" style="width: 58.5mm; height: 79.7mm; box-sizing: border-box;" :src="$withBase('/speakbook/images/01.png')"  />
     <div class="m-1 p-1 flex-grow-1 flt-box" style="width: 57.5mm; min-height: 79.7mm; box-sizing: border-box;">
-      <h3 class="my-1 fsize-5">How to write on the speakbook</h3>
-      <p class="my-2 fsize-4_5">Exactly what you write on the speakbook will depend on your particular requirements, but whatever you write, it is important that each side of any double page spread has the same text on it, and that they are a mirror image of each other - as in the example above. Do you and your partner speak different languages? No problem - just write a different language on either side.</p>
+      <h3 class="my-1 fsize-5">Att skriva i pratboken</h3>
+      <p class="my-2 fsize-4_5">Exakt vad du skriver i pratboken beror på vad du själv behöver. Oavsett vad du skriver är det viktigt att båda sidorna av ett uppslag har samma text i rutorna, och att de är spegelbilder av varandra som i exemplet. Om du och din samtalspartner talar olika språk kan ni använda varsin sida till varsitt språk.</p>
     </div>
   </div>
 </div>
@@ -1409,14 +1419,47 @@ grid_pages:
 <div class="p-1 text-center">
   <SpeakBookTextFourColorBkg class="speakbook-title fsize-10 p-1 bold" :text="$page.frontmatter.text.SPEAKBOOK"></SpeakBookTextFourColorBkg>
 </div>
-<p>Speakbook is a non verbal communication tool for people who cannot speak and have difficulty using their hands or arms, but who retain the use of their eyes. This edition is for people who can read and spell. For versions for non-readers, foreign language versions, and the pocket edition, visit <b>www.speakbook.org</b></p>
-<h2 class="fsize-6">Instructions for use.</h2>
-<p>To get started, you will need; the speakbook, a black, non-permanent whiteboard pen, a cloth to rub out, and a speaking partner.</p>
+<p>Pratboken är ett verktyg för icke-verbal kommunikation. Den passar för personer som inte kan tala och som har svårigheter att använda armar och händer, men som kan använda ögonen för att peka. Den här utgåvan är till för de som kan läsa och stava. För att hämta versioner på andra språk eller för de som inte kan läsa, titta på <b>www.speakbook.org</b></p>
+<h2 class="fsize-6">Instruktioner</h2>
+<p>För att komma igång behöver du pratboken, en svart icke-permanent whiteboard-penna, en trasa för att sudda och en samtalspartner. Blyertspenna och suddgummi går också bra.</p>
 <p>
-You and your speaking partner sit opposite each other about three feet apart. Depending on your eyesight, you may find it helpful to decrease or increase this distance. Open the speakbook to the training page inside the back cover. This is filled in already to help you learn the basic technique. When you‟ve mastered it, you can write your own pages, using the blank ones provided. Fold the book back on itself and hold it up between you, so you are both facing a ‟training page‟, and you can see each others eyes through the hole in the middle. You now look at the choices on the page to decide which one to communicate. When you‟ve decided, you indicate to your partner that you are ready to start
-- this could be by looking at your partner and blinking, or by waggling your eyes up and down - whatever suits you. Then look at the message you want, for a second or so, followed by the large symbol the same as the little one by the side of the message. Your partner then follows your eye movements - for instance he might see that you have looked at the top left hand side of the board followed by the big triangle, so he knows that you must want to say „cup of tea !‟. He then says, “cup of tea !” out loud, and you confirm this with a blink, or some other pre-arranged signal
+Du och din samtalspartner
+sitter mittemot varandra,
+med ungefär en meters
+mellanrum. Beroende på
+hur bra du ser kan det
+underlätta att öka eller
+minska avståndet. Öppna
+pratboken och slå upp
+övningssidan längst bak.
+Den är redan ifylld för att
+hjälpa dig att förstå den
+grundläggande tekniken.
+När du har lärt dig den kan
+du fylla i egna ord på de
+blanka sidorna i boken. Vik
+ihop boken och håll upp
+den emellan er så att ni
+båda ser övningssidan och
+varandras ögon genom
+hålet i mitten. Nu ser du de
+olika möjliga fraserna och
+orden som du kan säga.
+När du har bestämt dig för
+vad du vill säga, visar du
+din samtalspartner att du
+är redo att börja. Detta kan
+du göra genom att titta på
+din partner och blinka eller röra upp och ned på ögonen, eller något annat sätt som passar dig.
+Titta sedan på det du vill säga i ungefär en sekund, och fortsätt med att titta på den symbol i stort
+format som motsvarar den lilla symbolen vid sidan om ordet. Din partner följer dina ögonrörelser.
+Till exempel ser hon att du tittar i övre vänstra hörnet av boken, och sedan på en stor triangel,
+och då vet hon att du vill säga ”en kopp te”. Hon säger då ”en kopp te” högt, och du bekräftar
+med en nick eller en blinkning eller någon annan signal som ni kommer överens om.
 </p>
-<p>This is the basic technique for using the speakbook. Now you need to learn how to use the other pages in the book, because the true genius of the speakbook lies in its ability to give you easy access to hundreds of phrases of your own choosing, phrases that you can change at any time, with only a damp cloth and the stroke of a pen.</p>
+<p>Det är grundtekniken för hur man använder pratboken. Nu behöver du lära dig hur man använder
+de andra sidorna i boken. Bokens storhet ligger nämligen i att ge dig enkel tillgång till hundratals
+valfria fraser som du kan ändra när du vill med bara en trasa och en penna.</p>
 :::
 
 
@@ -1426,6 +1469,7 @@ You and your speaking partner sit opposite each other about three feet apart. De
   <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 18px), calc(-50% - 18px)) rotate(45deg); color: white;">{{ $page.frontmatter.text.instructions }}</div>
 </div>
 :::
+:
 ::: slot inst-02-flt-left-content
 <div class="flex-h" style="padding: 3mm;">
   <div class="flex-grow-1 flex-v">
@@ -1436,8 +1480,59 @@ You and your speaking partner sit opposite each other about three feet apart. De
 </div>
 :::
 ::: slot inst-02-content
-<p>Each page of the speakbook has 14 or 15 blank sections on which you can write your own text. In order that the user can move between the different pages, we have created the „home‟ page. This is found at the front of the book, and is marked with a black „HOME‟ tab at the edge of the page. The idea is that you write the 7 phrases you use the most on this page, as it is the page you always start on. Also, on 8 of the blank strips you write links to the other 8 blank double pages. These should be the parts of your life that require a more in depth set of phrases, these might be areas like bathtime, or going out in the car. On the left is an example of a possible layout for the „HOME‟ page. The 8 words in bold capital letters are links to double page spreads elsewhere in the book. What you do is, you find a blank page and write, for instance, „BED‟ on the edge tab, then on the strips you write the 14 phrases most relevant to your bedtime routine. Then you repeat this process for the other 7 links, until your book is full. If you make a mistake, or want to change a phrase, then just wipe it off with a damp cloth and start again.</p>
-<p>To use the speakbook, you indicate to your partner that you want to communicate. Your partner opens the speakbook to the „HOME‟ page and you communicate, for example, „BED‟. Your partner then turns to the „BED‟ page and you can then communicate, „I want to go to bed‟ - or whatever. Each page has „HOME‟ and „SPELL‟ pre-printed on it. The „HOME‟ is so that you can can always get back to the „HOME‟ page (you might want a „Cup of tea !‟ to take to bed with you). The ‟SPELL‟ page allows you to spell out individual words and phrases that don‟t appear elsewhere in the book. It works in a similar way as the other pages, with one difference. On this page there are 6 coloured blocks, each with 6 coloured letters or numbers on it. The whole alphabet is there, plus numbers 1-9 (for zero use the letter O). You look at the letter you want to communicate, for a second or so, followed by the coloured block of the same colour as your chosen letter. Your partner follows your eyes, sees that you have looked at, for instance, the top left block followed by the top right block (which is green), and knows you want „C‟. Your partner says „C‟ out loud to confirm, and you move on to the next letter. Your partner guesses the rest of the word when possible, to speed the process up.</p>
-<p>Speakbook has room for 119 phrases of your choosing. If this is not enough, or if you need more than 14 phrases in one particular section, then you can double its capacity by writing two phrases on each line, one in black pen, one in red. You choose a black phrase in the normal way, a red one by blinking when you look at the large symbol.</p>
+<p>Varje sida i pratboken har 14 eller 15 blanka rutor som du kan skriva på. För
+att du ska kunna flytta dig mellan olika sidor har vi skapat en startsida. Den ser
+du på framsidan av boken och är markerad med en svart START-flik i sidans
+nederkant. Tanken är att du skriver de 7 fraser du använder oftast på den här sidan
+eftersom det är här du alltid kommer börja. De återstående 8 rutorna är tänkta att
+länkas till de övriga 8 blanka sidorna i boken. Där bör du därför skriva områden i ditt liv
+som kräver fler fraser, som till exempel badrumsbesök eller åka ut med bilen. På bilden ser
+du en möjlig layout för START-sidan. De 8 orden i feta stora bokstäver länkar till uppslag i
+resten av boken. Hitta en blank sida och skriv till exempel SOVA på fliken i nederkanten. Fyll
+sedan sidans rutor med 14 fraser som du använder mest när du ska sova. Sedan gör du likadant
+för de andra 7 orden på startsidan. Om du gör ett misstag eller vill byta ut en fras, torkar du bara av
+ordet med en trasa och
+börjar om.</p>
+<p>För att använda pratboken
+visar du din samtalspartner
+att du vill kommunicera. Din
+partner slår upp pratboken
+på START-sidan och du
+visar med ögonen ett ord du
+vill säga. Din partner slår då
+upp den flik som passar till
+ordet och du kan fortsätta
+att prata kring detta ämne.
+På varje sida finns START
+och STAVA förtryckt. På så
+sätt kan du alltid ta dig
+tillbaka till START-sidan (du
+kanske vill ta med dig ”en
+kopp te” när du ska sova).
+På STAVA-sidan kan du
+bokstavera ord och fraser
+som inte finns någon
+annanstans i boken. Den
+fungerar på samma sätt
+som de övriga sidorna, men
+med ett undantag. På den
+här sidan finns det 6
+färgade rutor som alla har 6
+färgade bokstäver. Hela
+alfabetet finns här. Du tittar
+på den bokstav du vill
+förmedla i ungefär en
+sekund och fortsätter med
+att titta på den ruta som har
+samma färg som bokstaven.
+Din samtalspartner följer
+dina ögonrörelser. Till exempel ser hon att du tittar på den övre vänstra rutan och sedan på den
+övre högra rutan (som är grön) och vet då att du menar ”C”. Din partner säger ”C” högt för att
+bekräfta ditt val och du fortsätter med nästa bokstav. Din partner kan gissa vilket ord du vill säga
+så snart hon kan för att snabba upp samtalet.</p>
+<p>Pratboken har plats för 119 valfria fraser. Om detta inte räcker, eller om du behöver fler än 14
+fraser inom ett visst område kan du öka kapaciteten genom att skriva två fraser på en rad. Då
+skriver du en fras med svart färg och en med röd färg. Om du vill välja den röda frasen visar du det
+genom att blinka när du tittar på den stora symbolen. Den svarta frasen väljer du som vanligt.</p>
 :::
 
