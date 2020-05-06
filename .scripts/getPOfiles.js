@@ -2,36 +2,6 @@ const fs = require('fs');
 const request = require('request');
 const poconnect = require('node-poeditor');
 
-
-const token = process.env.poeditorToken;
-const id = '339273';
-const obj = {
-  language: 'po', // Define the language which you like to export
-  type: 'po' // Define the export type. Please read the options in the API 
-};
-
-// Get languages
-(async () => {
-  try {
-    const res = await poconnect.languages.available(token);
-    // returns array. We want codes
-  } catch (err) {
-    // err => returns an error when failed
-  }
-})();
-
-// Download language files
-(async () => {
-  try {
-    const res = await poconnect.projects.export(token, id, obj);
-    //download(res.url)
-    print(res.url);
-  } catch (err) {
-    // err => returns an error when failed
-  }
-})();
-
-
 const download = (url, dest, cb) => {
     const file = fs.createWriteStream(dest);
     const sendReq = request.get(url);
@@ -59,3 +29,34 @@ const download = (url, dest, cb) => {
         return cb(err.message);
     });
 };
+
+
+const token = process.env.poeditorToken;
+const id = '339273';
+
+// Get languages available
+(async () => {
+  try {
+    const languagesAvailable = await poconnect.languages.list(token, id);
+  } catch (err) {
+    // err => returns an error when failed
+  }
+})();
+
+// Download language files
+var gFiles = async.queue(function (lang, done) => {
+   const obj = {
+     language: lang['code'], // Define the language which you like to export
+     type: 'po' // Define the export type. Please read the options in the API 
+   };
+
+  try {
+    const res = await poconnect.projects.export(token, id, obj);
+    download(res.url, 'res/lang/'+lang['code']+'.po');
+    done();
+  } catch (err) {
+    // err => returns an error when failed
+  }
+})();
+
+languagesAvailable['languages'].forEach(gFiles);
