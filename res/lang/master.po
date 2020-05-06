@@ -1,0 +1,251 @@
+msgid "ring_bind_edge"
+msgstr "Ring bind along this edge"
+
+msgid "cut_out_this_part"
+msgstr "Cut out this part."
+
+msgid "SPEAKBOOK"
+msgstr "SPEAKBOOK"
+
+msgid "edition_nth"
+msgstr "4th"
+
+msgid "EDITION"
+msgstr "EDITION"
+
+msgid "color_blind"
+msgstr "Colour Blind"
+
+msgid "friendly"
+msgstr "Friendly!"
+
+msgid "instructions"
+msgstr "instructions"
+
+msgid "HOME_PAGE"
+msgstr "HOME PAGE"
+
+msgid "SPELL"
+msgstr "SPELL"
+
+msgid "HOME"
+msgstr "HOME"
+
+msgid "THANK_YOU"
+msgstr "THANK YOU"
+
+msgid "A"
+msgstr "A"
+
+msgid "B"
+msgstr "B"
+
+msgid "C"
+msgstr "C"
+
+msgid "D"
+msgstr "D"
+
+msgid "E"
+msgstr "E"
+
+msgid "F"
+msgstr "F"
+
+msgid "G"
+msgstr "G"
+
+msgid "H"
+msgstr "H"
+
+msgid "I"
+msgstr "I"
+
+msgid "J"
+msgstr "J"
+
+msgid "K"
+msgstr "K"
+
+msgid "L"
+msgstr "L"
+
+msgid "M"
+msgstr "M"
+
+msgid "N"
+msgstr "N"
+
+msgid "O"
+msgstr "O"
+
+msgid "P"
+msgstr "P"
+
+msgid "Q"
+msgstr "Q"
+
+msgid "R"
+msgstr "R"
+
+msgid "S"
+msgstr "S"
+
+msgid "T"
+msgstr "T"
+
+msgid "U"
+msgstr "U"
+
+msgid "V"
+msgstr "V"
+
+msgid "W"
+msgstr "W"
+
+msgid "X"
+msgstr "X"
+
+msgid "Y"
+msgstr "Y"
+
+msgid "Z"
+msgstr "Z"
+
+msgid "_zero"
+msgstr ""
+
+msgid "_one"
+msgstr "1"
+
+msgid "_two"
+msgstr "2"
+
+msgid "_three"
+msgstr "3"
+
+msgid "_four"
+msgstr "4"
+
+msgid "_five"
+msgstr "5"
+
+msgid "_six"
+msgstr "6"
+
+msgid "_seven"
+msgstr "7"
+
+msgid "_eight"
+msgstr "8"
+
+msgid "_nine"
+msgstr "9"
+
+msgid "im_too_hot"
+msgstr "I'm too hot"
+
+msgid "im_too_cold"
+msgstr "I'm too cold"
+
+msgid "cup_of_tea"
+msgstr "Cup of tea!"
+
+msgid "cup_of_coffee"
+msgstr "Cup of coffee!"
+
+msgid "i_love_you"
+msgstr "I love you"
+
+msgid "yes"
+msgstr "yes"
+
+msgid "no"
+msgstr "no"
+
+msgid "CAR"
+msgstr "CAR"
+
+msgid "BED"
+msgstr "BED"
+
+msgid "CLOTHING"
+msgstr "CLOTHING"
+
+msgid "BATHTIME"
+msgstr "BATHTIME"
+
+msgid "MEALS"
+msgstr "MEALS"
+
+msgid "COMFORT"
+msgstr "COMFORT"
+
+msgid "TOILET"
+msgstr "TOILET"
+
+msgid "DRINKS"
+msgstr "DRINKS"
+
+msgid "TRAINING_PAGE"
+msgstr "TRAINING PAGE"
+
+msgid "trading_page"
+msgstr "trading page"
+
+msgid "_GBP"
+msgstr "£"
+
+msgid "_USD"
+msgstr "$"
+
+msgid "_percent"
+msgstr "%"
+
+msgid "_plus"
+msgstr "+"
+
+msgid "_minus"
+msgstr "-"
+
+msgid "_slash"
+msgstr "/"
+
+msgid "_X"
+msgstr "X"
+
+msgid "_equal"
+msgstr "="
+
+msgid "_question_mark"
+msgstr "?"
+
+msgid "_atsign"
+msgstr "@"
+
+msgid "YES"
+msgstr "YES"
+
+msgid "NO"
+msgstr "NO"
+
+msgid "__slot_training-page-description"
+msgstr "<p class=\"fsize-3\">\n  When you've learnt the basic technique using this training page,\n  you can write your own pages using the blank ones in this book.\n</p>"
+
+msgid "__slot_last-page-heading"
+msgstr "<div class=\"float-left\" style=\"width: 40mm; height: 37mm; shape-outside: polygon(0 0, 40mm 0, 10mm 100%, 0 100%);\"></div>\n<h2 class=\"my-2\">Finger spelling page.</h2>\n<p class=\"my-2\">\n  If you still have the use of your hands, then this page is for you.\n  By pointing with a finger you can spell out words and phrases to your partner.\n  Frequently used words can be written in the blank boxes.\n  Pointing to the word <strong class=\"bold\">„ HOME ‟*</strong> indicates to your partner that you now\n  want to communicate with your eyes using the main book.\n</p>"
+
+msgid "__slot_cover-footer"
+msgstr "<div class=\"lheight-1_5x\">\n  <p class=\"text-center cover-footer-text\">\n    <span class=\"fsize-8 bold\">non verbal communication system</span><br>\n    <span class=\"red-color fsize-8 bold\">www.speakbook.org</span><br>\n    <span class=\"fsize-4\">Speakbook 4th edition © 2011 Patrick Joyce</span>\n  </p>\n</div>"
+
+msgid "__slot_inst-01-flt-right-content"
+msgstr "<div class=\"abs-fill-parent flex-h\" style=\"align-items: flex-end;\">\n  <div class=\"flex-grow-1\"></div>\n  <div class=\"flex-v\">\n    <img class=\"m-1\" style=\"width: 58.5mm; height: 79.7mm; box-sizing: border-box;\" :src=\"$withBase('/speakbook/images/01.png')\"  />\n    <div class=\"m-1 p-1 flex-grow-1 flt-box\" style=\"width: 57.5mm; min-height: 79.7mm; box-sizing: border-box;\">\n      <h3 class=\"my-1 fsize-5\">How to write on the speakbook</h3>\n      <p class=\"my-2 fsize-4_5\">Exactly what you write on the speakbook will depend on your particular requirements, but whatever you write, it is important that each side of any double page spread has the same text on it, and that they are a mirror image of each other - as in the example above. Do you and your partner speak different languages? No problem - just write a different language on either side.</p>\n    </div>\n  </div>\n</div>"
+
+msgid "__slot_inst-01-content"
+msgstr "<div class=\"p-1 text-center\">\n  <SpeakBookTextFourColorBkg class=\"speakbook-title fsize-10 p-1 bold\" :text=\"$page.frontmatter.text.SPEAKBOOK\"></SpeakBookTextFourColorBkg>\n</div>\n<p>Speakbook is a non verbal communication tool for people who cannot speak and have difficulty using their hands or arms, but who retain the use of their eyes. This edition is for people who can read and spell. For versions for non-readers, foreign language versions, and the pocket edition, visit <b>www.speakbook.org</b></p>\n<h2 class=\"fsize-6\">Instructions for use.</h2>\n<p>To get started, you will need; the speakbook, a black, non-permanent whiteboard pen, a cloth to rub out, and a speaking partner.</p>\n<p>\nYou and your speaking partner sit opposite each other about three feet apart. Depending on your eyesight, you may find it helpful to decrease or increase this distance. Open the speakbook to the training page inside the back cover. This is filled in already to help you learn the basic technique. When you‟ve mastered it, you can write your own pages, using the blank ones provided. Fold the book back on itself and hold it up between you, so you are both facing a ‟training page‟, and you can see each others eyes through the hole in the middle. You now look at the choices on the page to decide which one to communicate. When you‟ve decided, you indicate to your partner that you are ready to start\n- this could be by looking at your partner and blinking, or by waggling your eyes up and down - whatever suits you. Then look at the message you want, for a second or so, followed by the large symbol the same as the little one by the side of the message. Your partner then follows your eye movements - for instance he might see that you have looked at the top left hand side of the board followed by the big triangle, so he knows that you must want to say „cup of tea !‟. He then says, “cup of tea !” out loud, and you confirm this with a blink, or some other pre-arranged signal\n</p>\n<p>This is the basic technique for using the speakbook. Now you need to learn how to use the other pages in the book, because the true genius of the speakbook lies in its ability to give you easy access to hundreds of phrases of your own choosing, phrases that you can change at any time, with only a damp cloth and the stroke of a pen.</p>"
+
+msgid "__slot_inst-02-flt-right-label"
+msgstr "<div class=\"pos-rel fill-height fill-width\">\n  <img class=\"abs-fill-parent\" :src=\"$withBase('/speakbook/shapes/inst-02-right-label-bkg.svg')\" />\n  <div class=\"fsize-8 abs-at-center\" style=\"transform: translate(calc(-50% + 18px), calc(-50% - 18px)) rotate(45deg); color: white;\">{{ $page.frontmatter.text.instructions }}</div>\n</div>"
+
+msgid "__slot_inst-02-content"
+msgstr "<p>Each page of the speakbook has 14 or 15 blank sections on which you can write your own text. In order that the user can move between the different pages, we have created the „home‟ page. This is found at the front of the book, and is marked with a black „HOME‟ tab at the edge of the page. The idea is that you write the 7 phrases you use the most on this page, as it is the page you always start on. Also, on 8 of the blank strips you write links to the other 8 blank double pages. These should be the parts of your life that require a more in depth set of phrases, these might be areas like bathtime, or going out in the car. On the left is an example of a possible layout for the „HOME‟ page. The 8 words in bold capital letters are links to double page spreads elsewhere in the book. What you do is, you find a blank page and write, for instance, „BED‟ on the edge tab, then on the strips you write the 14 phrases most relevant to your bedtime routine. Then you repeat this process for the other 7 links, until your book is full. If you make a mistake, or want to change a phrase, then just wipe it off with a damp cloth and start again.</p>\n<p>To use the speakbook, you indicate to your partner that you want to communicate. Your partner opens the speakbook to the „HOME‟ page and you communicate, for example, „BED‟. Your partner then turns to the „BED‟ page and you can then communicate, „I want to go to bed‟ - or whatever. Each page has „HOME‟ and „SPELL‟ pre-printed on it. The „HOME‟ is so that you can can always get back to the „HOME‟ page (you might want a „Cup of tea !‟ to take to bed with you). The ‟SPELL‟ page allows you to spell out individual words and phrases that don‟t appear elsewhere in the book. It works in a similar way as the other pages, with one difference. On this page there are 6 coloured blocks, each with 6 coloured letters or numbers on it. The whole alphabet is there, plus numbers 1-9 (for zero use the letter O). You look at the letter you want to communicate, for a second or so, followed by the coloured block of the same colour as your chosen letter. Your partner follows your eyes, sees that you have looked at, for instance, the top left block followed by the top right block (which is green), and knows you want „C‟. Your partner says „C‟ out loud to confirm, and you move on to the next letter. Your partner guesses the rest of the word when possible, to speed the process up.</p>\n<p>Speakbook has room for 119 phrases of your choosing. If this is not enough, or if you need more than 14 phrases in one particular section, then you can double its capacity by writing two phrases on each line, one in black pen, one in red. You choose a black phrase in the normal way, a red one by blinking when you look at the large symbol.</p>"
