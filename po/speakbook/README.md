@@ -65,7 +65,7 @@ text:
   TOILET: BANHEIRO
   DRINKS: BEBIDAS
   TRAINING_PAGE: PÁGINA DE FORMAÇÃO
-  trading_page: página de negociação
+  training_page: página de negociação
   _GBP: £
   _USD: $
   _percent: "%"

@@ -65,7 +65,7 @@ text:
   TOILET: TOILET
   DRINKS: DRINKS
   TRAINING_PAGE: TRAINING PAGE
-  trading_page: trading page
+  training_page: trading page
   _GBP: '£'
   _USD: '$'
   _percent: '%'
