@@ -78,6 +78,14 @@ text:
   _atsign: '@'
   YES: YES
   NO: NO
+slots_in_need_for_translation:
+  - training-page-description
+  - last-page-heading
+  - cover-footer
+  - inst-01-flt-right-content
+  - inst-01-content
+  - inst-02-flt-right-label
+  - inst-02-content
 inlinecss:
   --page-width: 210mm
   --page-height: 297mm
@@ -1244,10 +1252,10 @@ grid_pages:
               height: var(--grid-item-height)
 ---
 ::: slot redheart-img
-<img style="width: var(--img-width); height: var(--img-width);" src="./shapes/redheart.svg" />
+<img style="width: var(--img-width); height: var(--img-width);" :src="$withBase('/speakbook/shapes/redheart.svg')" />
 :::
 ::: slot smileyface-img
-<img style="width: var(--img-width); height: var(--img-width);" src="./shapes/smileyface.svg" />
+<img style="width: var(--img-width); height: var(--img-width);" :src="$withBase('/speakbook/shapes/smileyface.svg')" />
 :::
 ::: slot last-page-heading
 <div class="float-left" style="width: 40mm; height: 37mm; shape-outside: polygon(0 0, 40mm 0, 10mm 100%, 0 100%);"></div>
@@ -1267,43 +1275,43 @@ grid_pages:
 </p>
 :::
 ::: slot table-overlay-01
-<img class="abs-at-top-left" style="top: 0.5mm; left: 0.5mm; width: 44mm; height: 44mm;" src="./shapes/table-overlay-01.svg" />
+<img class="abs-at-top-left" style="top: 0.5mm; left: 0.5mm; width: 44mm; height: 44mm;" :src="$withBase('/speakbook/shapes/table-overlay-01.svg')" />
 :::
 
 ::: slot table-overlay-02
-<img class="abs-at-bottom-left rotate-180" style="bottom: 0.5mm; left: 0.5mm; width: 44mm; height: 44mm;" src="./shapes/table-overlay-02.svg" />
+<img class="abs-at-bottom-left rotate-180" style="bottom: 0.5mm; left: 0.5mm; width: 44mm; height: 44mm;" :src="$withBase('/speakbook/shapes/table-overlay-02.svg')" />
 :::
 
 ::: slot shape-square-2x-img
-<img style="width: var(--img-width); height: var(--img-width);" src="./shapes/square-2x.svg" />
+<img style="width: var(--img-width); height: var(--img-width);" :src="$withBase('/speakbook/shapes/square-2x.svg')" />
 :::
 ::: slot shape-heart-2x-img
-<img style="width: var(--img-width); height: var(--img-width);" src="./shapes/heart-2x.svg" />
+<img style="width: var(--img-width); height: var(--img-width);" :src="$withBase('/speakbook/shapes/heart-2x.svg')" />
 :::
 ::: slot shape-circle-2x-img
-<img style="width: var(--img-width); height: var(--img-width);" src="./shapes/circle-2x.svg" />
+<img style="width: var(--img-width); height: var(--img-width);" :src="$withBase('/speakbook/shapes/circle-2x.svg')" />
 :::
 ::: slot shape-triangle-2x-img
-<img style="width: var(--img-width); height: var(--img-width);" src="./shapes/triangle-2x.svg" />
+<img style="width: var(--img-width); height: var(--img-width);" :src="$withBase('/speakbook/shapes/triangle-2x.svg')" />
 :::
 ::: slot shape-square-1x-img
-<img style="width: var(--img-width); height: var(--img-width);" src="./shapes/square-1x.svg" />
+<img style="width: var(--img-width); height: var(--img-width);" :src="$withBase('/speakbook/shapes/square-1x.svg')" />
 :::
 ::: slot shape-heart-1x-img
-<img style="width: var(--img-width); height: var(--img-width);" src="./shapes/heart-1x.svg" />
+<img style="width: var(--img-width); height: var(--img-width);" :src="$withBase('/speakbook/shapes/heart-1x.svg')" />
 :::
 ::: slot shape-circle-1x-img
-<img style="width: var(--img-width); height: var(--img-width);" src="./shapes/circle-1x.svg" />
+<img style="width: var(--img-width); height: var(--img-width);" :src="$withBase('/speakbook/shapes/circle-1x.svg')" />
 :::
 ::: slot shape-triangle-1x-img
-<img style="width: var(--img-width); height: var(--img-width);" src="./shapes/triangle-1x.svg" />
+<img style="width: var(--img-width); height: var(--img-width);" :src="$withBase('/speakbook/shapes/triangle-1x.svg')" />
 :::
 ::: slot star-16p-bkg
-<img class="fill-width fill-height" src="./shapes/star-16p.svg" />
+<img class="fill-width fill-height" :src="$withBase('/speakbook/shapes/star-16p.svg')" />
 :::
 ::: slot cut-out-center-guide
 <div class="pos-rel flex-h justify-content-center" style="width: var(--cut-out-center-guide-width); height: var(--cut-out-center-guide-height);">
-  <img class="abs-fill-parent" src="./shapes/cut-out-center-guide.svg" />
+  <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/cut-out-center-guide.svg')" />
   <div class="wmode-vertical-lr rotate-180 fsize-10 v-oneline-fsize-10 bold grey-color text-center">
     {{ $page.frontmatter.text.cut_out_this_part }}
   </div>
@@ -1311,7 +1319,7 @@ grid_pages:
 :::
 ::: slot cut-out-right-side-guide-01
 <div class="flex-h height-100ph grey-color">
-  <img style="width: 44.5mm; height: 287.2mm;" src="./shapes/cut-out-right-side-guide.svg" />
+  <img style="width: 44.5mm; height: 287.2mm;" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide.svg')" />
   <div class="flex-v mx-auto fsize-8 v-oneline-fsize-8 bold">
     <div v-for="i in 2" class="wmode-vertical-lr rotate-180 flex-grow-1 text-center">
       {{ $page.frontmatter.text.cut_out_this_part }}
@@ -1321,67 +1329,66 @@ grid_pages:
 :::
 ::: slot cut-out-right-side-guide-02
 <CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part">
-  <img class="abs-at-center-left" src="./shapes/cut-out-right-side-guide-02.svg" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-02.svg')" />
 </CutOutSideGuide>
 :::
 ::: slot cut-out-right-side-guide-03
 <CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part">
-  <img class="abs-at-center-left" src="./shapes/cut-out-right-side-guide-03.svg" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-03.svg')" />
   <div class="white-color wmode-vertical-lr rotate-180 fsize-8 bold flex-v items-align-center justify-content-center" style="position: absolute; top: 2mm; left: 0mm; width: 10mm; height: 28mm;">{{ $page.frontmatter.text.HOME }}</div>
 </CutOutSideGuide>
 :::
 ::: slot cut-out-right-side-guide-04
 <CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-top: 30mm; box-sizing: border-box;">
-  <img class="abs-at-center-left" src="./shapes/cut-out-right-side-guide-04.svg" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-04.svg')" />
   <div class="red-color wmode-vertical-lr rotate-180 fsize-8 bold flex-v items-align-center justify-content-center" style="position: absolute; top: 30.5mm; left: 0mm; width: 10mm; height: 28mm;">{{ $page.frontmatter.text.SPELL }}</div>
 </CutOutSideGuide>
 :::
 ::: slot cut-out-right-side-guide-05
 <CutOutSideGuide textlen="1" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-top: 90mm; box-sizing: border-box;">
-  <img class="abs-at-center-left" src="./shapes/cut-out-right-side-guide-05.svg" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-05.svg')" />
 </CutOutSideGuide>
 :::
 ::: slot cut-out-right-side-guide-06
 <CutOutSideGuide textlen="1" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-top: 90mm; box-sizing: border-box;">
-  <img class="abs-at-center-left" src="./shapes/cut-out-right-side-guide-06.svg" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-06.svg')" />
 </CutOutSideGuide>
 :::
 ::: slot cut-out-right-side-guide-07
 <CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part">
-  <img class="abs-at-center-left" src="./shapes/cut-out-right-side-guide-07.svg" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-07.svg')" />
 </CutOutSideGuide>
 :::
 ::: slot cut-out-right-side-guide-08
 <CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-top: 10mm; box-sizing: border-box;">
-  <img class="abs-at-center-left" src="./shapes/cut-out-right-side-guide-08.svg" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-08.svg')" />
 </CutOutSideGuide>
 :::
 ::: slot cut-out-right-side-guide-09
 <CutOutSideGuide textlen="1" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-bottom: 80mm; box-sizing: border-box;">
-  <img class="abs-at-center-left" src="./shapes/cut-out-right-side-guide-09.svg" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-09.svg')" />
 </CutOutSideGuide>
 :::
 ::: slot cut-out-right-side-guide-10
 <CutOutSideGuide textlen="1" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-bottom: 90mm; box-sizing: border-box;">
-  <img class="abs-at-center-left" src="./shapes/cut-out-right-side-guide-10.svg" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-10.svg')" />
 </CutOutSideGuide>
 :::
 ::: slot cut-out-right-side-guide-11
 <CutOutSideGuide textlen="1" :text="$page.frontmatter.text.cut_out_this_part">
-  <img class="abs-at-center-left" src="./shapes/cut-out-right-side-guide-11.svg" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-11.svg')" />
 </CutOutSideGuide>
 :::
 ::: slot cut-out-right-side-guide-12
 <CutOutSideGuide textlen="1" :text="$page.frontmatter.text.cut_out_this_part">
-  <img class="abs-at-center-left" src="./shapes/cut-out-right-side-guide-12.svg" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-12.svg')" />
 </CutOutSideGuide>
 :::
 ::: slot cut-out-right-side-guide-13
 <CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part">
-  <img class="abs-at-bottom-left" src="./shapes/cut-out-right-side-guide-13.svg" />
+  <img class="abs-at-bottom-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-13.svg')" />
 </CutOutSideGuide>
 :::
-
 ::: slot cover-footer
 <div class="lheight-1_5x">
   <p class="text-center cover-footer-text">
@@ -1396,7 +1403,7 @@ grid_pages:
 <div class="abs-fill-parent flex-h" style="align-items: flex-end;">
   <div class="flex-grow-1"></div>
   <div class="flex-v">
-    <img class="m-1" style="width: 58.5mm; height: 79.7mm; box-sizing: border-box;" src="./images/01.png"  />
+    <img class="m-1" style="width: 58.5mm; height: 79.7mm; box-sizing: border-box;" :src="$withBase('/speakbook/images/01.png')"  />
     <div class="m-1 p-1 flex-grow-1 flt-box" style="width: 57.5mm; min-height: 79.7mm; box-sizing: border-box;">
       <h3 class="my-1 fsize-5">How to write on the speakbook</h3>
       <p class="my-2 fsize-4_5">Exactly what you write on the speakbook will depend on your particular requirements, but whatever you write, it is important that each side of any double page spread has the same text on it, and that they are a mirror image of each other - as in the example above. Do you and your partner speak different languages? No problem - just write a different language on either side.</p>
@@ -1404,7 +1411,6 @@ grid_pages:
   </div>
 </div>
 :::
-
 ::: slot inst-01-content
 <div class="p-1 text-center">
   <SpeakBookTextFourColorBkg class="speakbook-title fsize-10 p-1 bold" :text="$page.frontmatter.text.SPEAKBOOK"></SpeakBookTextFourColorBkg>
@@ -1419,18 +1425,17 @@ You and your speaking partner sit opposite each other about three feet apart. De
 <p>This is the basic technique for using the speakbook. Now you need to learn how to use the other pages in the book, because the true genius of the speakbook lies in its ability to give you easy access to hundreds of phrases of your own choosing, phrases that you can change at any time, with only a damp cloth and the stroke of a pen.</p>
 :::
 
-
 ::: slot inst-02-flt-right-label
 <div class="pos-rel fill-height fill-width">
-  <img class="abs-fill-parent" src="./shapes/inst-02-right-label-bkg.svg" />
+  <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-right-label-bkg.svg')" />
   <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 18px), calc(-50% - 18px)) rotate(45deg); color: white;">{{ $page.frontmatter.text.instructions }}</div>
 </div>
 :::
 ::: slot inst-02-flt-left-content
 <div class="flex-h" style="padding: 3mm;">
   <div class="flex-grow-1 flex-v">
-    <img class="m-1" style="width: 57.5mm; height: 79.7mm; box-sizing: border-box;" src="./images/02.png"  />
-    <img class="m-1" style="width: 57.5mm; height: 79.7mm; box-sizing: border-box;" src="./images/03.png"  />
+    <img class="m-1" style="width: 57.5mm; height: 79.7mm; box-sizing: border-box;" :src="$withBase('/speakbook/images/02.png')"  />
+    <img class="m-1" style="width: 57.5mm; height: 79.7mm; box-sizing: border-box;" :src="$withBase('/speakbook/images/03.png')"  />
   </div>
   <Content slot-key="cut-out-center-guide" />
 </div>

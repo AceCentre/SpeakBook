@@ -8,13 +8,15 @@
   "scripts": {
     "dev": "vuepress dev",
     "build": "vuepress build",
-    "buildpdf": "vuepress buildpdf"
+    "buildpdf": "vuepress build && vuepress buildpdf"
   },
   "devDependencies": {
     "@vuepress/plugin-register-components": "^1.4.1",
+    "gettext-parser": "^4.0.3",
     "node-sass": "^4.13.1",
     "puppeteer": "^3.0.2",
     "sass-loader": "^8.0.2",
-    "vuepress": "^1.4.1"
+    "vuepress": "^1.4.1",
+    "yaml": "^1.9.2"
   }
 }
