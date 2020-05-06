@@ -1417,8 +1417,8 @@ div class="abs-fill-parent flex-h" style="align-items: flex-end;">
 :::
 
 ::: slot inst-01-content
-<div class = "p-1 centro de texto">
-  <SpeakBookTextFourColorBkg class = "speakbook-title fsize-10 p-1 bold": text = "$ page.frontmatter.text.SPEAKBOOK"> </SpeakBookTextFourColorBkg>
+<div class="p-1 text-center">
+  <SpeakBookTextFourColorBkg class="speakbook-title fsize-10 p-1 bold" :text="$page.frontmatter.text.SPEAKBOOK"></SpeakBookTextFourColorBkg>
 </div>
 <p> O Speakbook é uma ferramenta de comunicação não verbal para pessoas que não conseguem falar e têm dificuldade em usar as mãos ou os braços, mas que mantêm o uso dos olhos. Esta edição é para pessoas que sabem ler e soletrar. Para versões para não leitores, versões em idiomas estrangeiros e a edição de bolso, visite <b> www.speakbook.org</b> </p>
 <h2 class = "fsize-6"> Instruções de uso. </h2>
