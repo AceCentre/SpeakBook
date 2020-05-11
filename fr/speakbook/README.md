@@ -10,10 +10,10 @@ text:
   friendly: daltoniens
   instructions: instructions
   HOME_PAGE: ACCUEIL
-  SPELL: Epeler
+  SPELL: EPELER
   HOME: ACCUEIL
   THANK_YOU: MERCI
-  A: Q
+  A: A
   B: B
   C: C
   D: D
@@ -25,20 +25,20 @@ text:
   J: J
   K: K
   L: L
-  M: "@"
+  M: M
   N: N
   O: O
   P: P
-  Q: A
+  Q: Q
   R: R
   S: S
   T: T
   U: U
   V: V
-  W: Z
+  W: W
   X: X
   Y: Y
-  Z: W
+  Z: Z
   _zero: "0"
   _one: "1"
   _two: "2"
@@ -66,7 +66,7 @@ text:
   DRINKS: BOISSONS
   TRAINING_PAGE: Page d’essai
   training_page: Page d’essai
-  _GBP: £
+  _GBP: €
   _USD: $
   _percent: "%"
   _plus: +
@@ -425,7 +425,7 @@ grid_pages:
               - text_key: HOME
                 inlinecss:
                   color: var(--color-cyan)
-                  font-size: 18pt
+                  font-size: 12pt
       - comment: Center
         inlinecss:
           width: 76mm
@@ -613,7 +613,7 @@ grid_pages:
               - text_key: HOME
                 inlinecss:
                   color: var(--color-cyan)
-                  font-size: 18pt
+                  font-size: 12pt
       - comment: Center
         inlinecss:
           width: 76mm
@@ -1393,6 +1393,7 @@ Lorsque vous avez appris la technique de base en utilisant cette page d'essai, v
 
 
 
+
 ::: slot inst-01-flt-right-content
 <div class="abs-fill-parent flex-h" style="align-items: flex-end;">
   <div class="flex-grow-1"></div>
@@ -1404,6 +1405,7 @@ Lorsque vous avez appris la technique de base en utilisant cette page d'essai, v
     </div>
   </div>
 </div>
+:::
 :::
 ::
 :
@@ -1420,6 +1422,8 @@ Vous vous asseyez, face à face avec votre interlocuteur, à environ un mètre d
 </p>
 <p>Ceci est la méthode de base pour utiliser le Speakbook. Maintenant il faut apprendre à utiliser les autres pages, parce que le vrai génie de Speakbook réside dans sa capacité à vous donner un accès facile à des centaines de phrases de votre choix, des phrases que vous pouvez changer à tout moment, avec seulement un chiffon humide et d'un coup de stylo.</p>
 :::
+.</p>
+:::
 >
 :::
 ::
@@ -1429,6 +1433,9 @@ Vous vous asseyez, face à face avec votre interlocuteur, à environ un mètre d
 <div class="pos-rel fill-height fill-width">
   <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-right-label-bkg.svg')" />
   <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 18px), calc(-50% - 18px)) rotate(45deg); color: white;">{{ $page.frontmatter.text.instructions }}</div>
+</div>
+:::
+ }}</div>
 </div>
 :::
 </div>
@@ -1507,8 +1514,8 @@ Vous vous asseyez, face à face avec votre interlocuteur, à environ un mètre d
       </div>
     </div>
     <div class="flex-h flex-wrap">
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.Q }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.W }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.A }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.Z }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.E }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.R }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.T }}</div>
@@ -1517,7 +1524,7 @@ Vous vous asseyez, face à face avec votre interlocuteur, à environ un mètre d
       <div class="block cyan-bkg">{{ $page.frontmatter.text.I }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.O }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.P }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.A }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.Q }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.S }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.D }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.F }}</div>
@@ -1526,8 +1533,8 @@ Vous vous asseyez, face à face avec votre interlocuteur, à environ un mètre d
       <div class="block cyan-bkg">{{ $page.frontmatter.text.J }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.K }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.L }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text._atsign }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.Z }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.M }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.W }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.X }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.C }}</div>
       <div class="block b1_5x yellow-bkg">{{ $page.frontmatter.text.YES }}</div>
@@ -1535,7 +1542,7 @@ Vous vous asseyez, face à face avec votre interlocuteur, à environ un mètre d
       <div class="block b1_5x yellow-bkg">{{ $page.frontmatter.text.NO }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.B }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.N }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.M }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text._atsign }}</div>
     </div>
   </div>
 </div>
