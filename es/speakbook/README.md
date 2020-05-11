@@ -1302,7 +1302,7 @@ dice a su interlocutor que ahora quiere comunicarse con sus ojos con el libro pr
 ::: slot cut-out-center-guide
 <div class="pos-rel flex-h justify-content-center" style="width: var(--cut-out-center-guide-width); height: var(--cut-out-center-guide-height);">
   <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/cut-out-center-guide.svg')" />
-  <div class="wmode-vertical-lr rotate-180 fsize-10 v-oneline-fsize-10 bold grey-color text-center">
+  <div class="wmode-vertical-lr rotate-180 fsize-12 v-oneline-fsize-10 bold grey-color text-center">
     {{ $page.frontmatter.text.cut_out_this_part }}
   </div>
 </div>
