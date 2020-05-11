@@ -1,18 +1,18 @@
 ---
 layout: SpeakBook
 text:
-  ring_bind_edge: Ring bind along this edge
-  cut_out_this_part: Cut out this part.
+  ring_bind_edge: Encuadernación espiral en este lado
+  cut_out_this_part: Recorte esta parte.
   SPEAKBOOK: SPEAKBOOK
-  edition_nth: 4th
-  EDITION: EDITION
-  color_blind: Colour Blind
-  friendly: Friendly!
-  instructions: instructions
-  HOME_PAGE: HOME PAGE
-  SPELL: SPELL
-  HOME: HOME
-  THANK_YOU: THANK YOU
+  edition_nth: 4ª
+  EDITION: EDICIÓN
+  color_blind: daltónicos
+  friendly: ¡simpático
+  instructions: instrucciones
+  HOME_PAGE: PÁGINA INICIO
+  SPELL: ABC
+  HOME: INICIO
+  THANK_YOU: GRACIAS
   A: A
   B: B
   C: C
@@ -27,56 +27,56 @@ text:
   L: L
   M: M
   N: N
-  O: O
-  P: P
-  Q: Q
-  R: R
-  S: S
-  T: T
-  U: U
-  V: V
-  W: W
+  O: Ñ
+  P: o
+  Q: P
+  R: Q
+  S: R
+  T: S
+  U: T
+  V: U
+  W: V
   X: X
   Y: Y
   Z: Z
-  _zero: 0
-  _one: 1
-  _two: 2
-  _three: 3
-  _four: 4
-  _five: 5
-  _six: 6
-  _seven: 7
-  _eight: 8
-  _nine: 9
-  im_too_hot: I'm too hot
-  im_too_cold: I'm too cold
-  cup_of_tea: Cup of tea!
-  cup_of_coffee: Cup of coffee!
-  i_love_you: I love you
-  yes: yes
+  _zero: "0"
+  _one: "1"
+  _two: "2"
+  _three: "3"
+  _four: "4"
+  _five: "5"
+  _six: "6"
+  _seven: "7"
+  _eight: "8"
+  _nine: "9"
+  im_too_hot: Tengo calor
+  im_too_cold: Tengo frío
+  cup_of_tea: ¡Taza de té!
+  cup_of_coffee: ¡Un café!
+  i_love_you: Te quiero
+  yes: sí
   no: no
-  CAR: CAR
-  BED: BED
-  CLOTHING: CLOTHING
-  BATHTIME: BATHTIME
-  MEALS: MEALS
-  COMFORT: COMFORT
-  TOILET: TOILET
-  DRINKS: DRINKS
-  TRAINING_PAGE: TRAINING PAGE
-  training_page: trading page
-  _GBP: '£'
-  _USD: '$'
-  _percent: '%'
-  _plus: '+'
-  _minus: '-'
-  _slash: '/'
+  CAR: COCHE
+  BED: CAMA
+  CLOTHING: ROPA
+  BATHTIME: BAÑARSE
+  MEALS: COMIDAS
+  COMFORT: CONFORT
+  TOILET: RETRETE
+  DRINKS: BEBIDAS
+  TRAINING_PAGE: PÁGINA DE PRÁCTICAS
+  training_page: PÁGINA DE PRÁCTICAS
+  _GBP: "@"
+  _USD: €
+  _percent: "%"
+  _plus: +
+  _minus: "-"
+  _slash: /
   _X: X
-  _equal: '='
-  _question_mark: '?'
-  _atsign: '@'
-  YES: YES
+  _equal: =
+  _question_mark: "?"
+  _atsign: Ñ
+  YES: SÍ
   NO: NO
 inlinecss:
   --page-width: 210mm
@@ -94,7 +94,10 @@ instruction_pages:
           --max-left-spacing: 40mm
           width: var(--max-left-spacing)
           height: var(--page-height)
-          shape-outside: polygon(0 var(--spacing-offset-top), var(--max-left-spacing) var(--spacing-offset-top), var(--left-spacing) calc(var(--spacing-offset-top) + 20mm), var(--left-spacing) var(--page-height), 0 var(--page-height))
+          shape-outside: polygon(0 var(--spacing-offset-top), var(--max-left-spacing)
+            var(--spacing-offset-top), var(--left-spacing)
+            calc(var(--spacing-offset-top) + 20mm), var(--left-spacing)
+            var(--page-height), 0 var(--page-height))
       - comment: floating content at center right
         dir: right
         mode: fixed
@@ -1242,6 +1245,7 @@ grid_pages:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
               height: var(--grid-item-height)
+
 ---
 ::: slot redheart-img
 <img style="width: var(--img-width); height: var(--img-width);" :src="$withBase('/speakbook/shapes/redheart.svg')" />
@@ -1251,20 +1255,14 @@ grid_pages:
 :::
 ::: slot last-page-heading
 <div class="float-left" style="width: 40mm; height: 37mm; shape-outside: polygon(0 0, 40mm 0, 10mm 100%, 0 100%);"></div>
-<h2 class="my-2">Finger spelling page.</h2>
-<p class="my-2">
-  If you still have the use of your hands, then this page is for you.
-  By pointing with a finger you can spell out words and phrases to your partner.
-  Frequently used words can be written in the blank boxes.
-  Pointing to the word <strong class="bold">„ HOME ‟*</strong> indicates to your partner that you now
-  want to communicate with your eyes using the main book.
-</p>
+<h2 class="my-2">Deletreo con el dedo.</h2>
+<p class="my-2">Si todavía puedes usar las manos, entonces esta página es para ti. Señalando
+con el dedo puedes deletrear palabras y frases a tu interlocutor. Las palabras de
+uso frecuente se escriben en las casillas en blanco. Al señalar la palabra "INICIO" le
+dice a su interlocutor que ahora quiere comunicarse con sus ojos con el libro principal.</p>
 :::
 ::: slot training-page-description
-<p class="fsize-3">
-  When you've learnt the basic technique using this training page,
-  you can write your own pages using the blank ones in this book.
-</p>
+<p class="fsize-3">Cuando aprenda la técnica básica con esta página, podrá escribir sus propias páginas utilizando las páginas en blanco. </p>
 :::
 ::: slot table-overlay-01
 <img class="abs-at-top-left" style="top: 0.5mm; left: 0.5mm; width: 44mm; height: 44mm;" :src="$withBase('/speakbook/shapes/table-overlay-01.svg')" />
@@ -1387,10 +1385,12 @@ grid_pages:
   <p class="text-center cover-footer-text">
     <span class="fsize-8 bold">non verbal communication system</span><br>
     <span class="red-color fsize-8 bold">www.speakbook.org</span><br>
-    <span class="fsize-4">Speakbook 4th edition © 2011 Patrick Joyce</span>
+    <span class="fsize-4">Speakbook 4th edition © 2011 Patrick Joyce - Traducción al Español, 2012</span>
   </p>
 </div>
+
 :::
+
 
 ::: slot inst-01-flt-right-content
 <div class="abs-fill-parent flex-h" style="align-items: flex-end;">
@@ -1398,26 +1398,63 @@ grid_pages:
   <div class="flex-v">
     <img class="m-1" style="width: 58.5mm; height: 79.7mm; box-sizing: border-box;" :src="$withBase('/speakbook/images/01.png')"  />
     <div class="m-1 p-1 flex-grow-1 flt-box" style="width: 57.5mm; min-height: 79.7mm; box-sizing: border-box;">
-      <h3 class="my-1 fsize-5">How to write on the speakbook</h3>
-      <p class="my-2 fsize-4_5">Exactly what you write on the speakbook will depend on your particular requirements, but whatever you write, it is important that each side of any double page spread has the same text on it, and that they are a mirror image of each other - as in the example above. Do you and your partner speak different languages? No problem - just write a different language on either side.</p>
+      <h3 class="my-1 fsize-5">Cómo escribir en el
+speakbook</h3>
+      <p class="my-2 fsize-4_5">
+Lo que precisamente escriba en speakbook dependerá de sus necesidades concretas. Pero, escriba lo que escriba, es imprescindible que ambas caras de cada doble página desplegada tengan el mismo texto, puesto que son una imagen especular una de la otra (vea ejemplo anterior). ¿Hablan diferentes idiomas? Sin problemas, simplemente escriba en un idioma distinto por cada lado.</p>
     </div>
   </div>
 </div>
 :::
+:
 
 ::: slot inst-01-content
 <div class="p-1 text-center">
   <SpeakBookTextFourColorBkg class="speakbook-title fsize-10 p-1 bold" :text="$page.frontmatter.text.SPEAKBOOK"></SpeakBookTextFourColorBkg>
 </div>
-<p>Speakbook is a non verbal communication tool for people who cannot speak and have difficulty using their hands or arms, but who retain the use of their eyes. This edition is for people who can read and spell. For versions for non-readers, foreign language versions, and the pocket edition, visit <b>www.speakbook.org</b></p>
-<h2 class="fsize-6">Instructions for use.</h2>
-<p>To get started, you will need; the speakbook, a black, non-permanent whiteboard pen, a cloth to rub out, and a speaking partner.</p>
+<p>Speakbook es un instrumento de comunicación no oral destinado a personas que no
+pueden hablar y que tienen dificultades para utilizar manos o brazos pero que conservan
+la vista. Esta edición es para personas que saben leer y deletrear. Para obtener versiones
+para no-lectores, en otros idiomas y la edición de bolsillo, visite www.speakbook.org</b></p>
+<h2 class="fsize-6">Instrucciones de uso.</h2>
 <p>
-You and your speaking partner sit opposite each other about three feet apart. Depending on your eyesight, you may find it helpful to decrease or increase this distance. Open the speakbook to the training page inside the back cover. This is filled in already to help you learn the basic technique. When you‟ve mastered it, you can write your own pages, using the blank ones provided. Fold the book back on itself and hold it up between you, so you are both facing a ‟training page‟, and you can see each others eyes through the hole in the middle. You now look at the choices on the page to decide which one to communicate. When you‟ve decided, you indicate to your partner that you are ready to start
-- this could be by looking at your partner and blinking, or by waggling your eyes up and down - whatever suits you. Then look at the message you want, for a second or so, followed by the large symbol the same as the little one by the side of the message. Your partner then follows your eye movements - for instance he might see that you have looked at the top left hand side of the board followed by the big triangle, so he knows that you must want to say „cup of tea !‟. He then says, “cup of tea !” out loud, and you confirm this with a blink, or some other pre-arranged signal
-</p>
-<p>This is the basic technique for using the speakbook. Now you need to learn how to use the other pages in the book, because the true genius of the speakbook lies in its ability to give you easy access to hundreds of phrases of your own choosing, phrases that you can change at any time, with only a damp cloth and the stroke of a pen.</p>
+Para empezar, necesitará
+el speakbook, un rotulador
+negro para pizarra blanca,
+un trapo para borrar y un
+compañero para hablar.</p>
+<p>
+Usted y su interlocutor se
+sientan uno frente al otro a
+una distancia aproximada
+de un metro. En función
+de su vista puede reducir
+o aumentar esta distancia.
+Abra el speakbook por la
+página de prácticas
+(interior contracubierta).
+Esta página está completa
+para ayudarle a aprender
+la técnica básica. Cuando
+la tenga dominada, podrá
+escribir sus propios textos
+en las páginas en blanco
+proporcionadas. Cierre el
+libro sobre sí mismo
+sujetándolo de tal forma
+que ambos interlocutores
+vean la “página de
+prácticas” y al mismo
+tiempo puedan verse los
+ojos a través del hueco
+central del libro. Examine
+ahora las opciones de la
+página para decidir cuál va
+a transmitir. </p>
+<p>Cuando haya decidido, indíquele a su interlocutor que está preparado para comenzar mediante el gesto que más le convenga (por ejemplo, mirando a su interlocutor y parpadeando, o moviendo los ojos arriba y abajo). Después mire el mensaje que prefiera, durante un segundo más o menos, seguido por el símbolo grande cuya figura sea la misma que el símbolo pequeñito junto al mensaje elegido. Entonces su interlocutor sigue los movimientos del ojo, por ejemplo, ve que usted ha mirado a la parte superior izquierda del tablero seguido por el triángulo grande, por lo tanto sabe que usted quiere decir "¡Taza de té!". Luego en voz alta dice "¡Taza de té!" y usted se lo confirma con un parpadeo o con cualquier otra señal preestablecida.
+Esta es la técnica básica para utilizar speakbook. Ahora tiene que aprender a usar las otras páginas del libro porque la verdadera genialidad de speakbook reside en su capacidad para facilitar el acceso a cientos de frases de su propia elección, frases que se pueden cambiar en cualquier momento, con sólo un paño húmedo y un rotulador.</p>
 :::
+::
 
 
 ::: slot inst-02-flt-right-label
@@ -1425,6 +1462,8 @@ You and your speaking partner sit opposite each other about three feet apart. De
   <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-right-label-bkg.svg')" />
   <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 18px), calc(-50% - 18px)) rotate(45deg); color: white;">{{ $page.frontmatter.text.instructions }}</div>
 </div>
+:::
+
 :::
 ::: slot inst-02-flt-left-content
 <div class="flex-h" style="padding: 3mm;">
@@ -1436,9 +1475,65 @@ You and your speaking partner sit opposite each other about three feet apart. De
 </div>
 :::
 ::: slot inst-02-content
-<p>Each page of the speakbook has 14 or 15 blank sections on which you can write your own text. In order that the user can move between the different pages, we have created the „home‟ page. This is found at the front of the book, and is marked with a black „HOME‟ tab at the edge of the page. The idea is that you write the 7 phrases you use the most on this page, as it is the page you always start on. Also, on 8 of the blank strips you write links to the other 8 blank double pages. These should be the parts of your life that require a more in depth set of phrases, these might be areas like bathtime, or going out in the car. On the left is an example of a possible layout for the „HOME‟ page. The 8 words in bold capital letters are links to double page spreads elsewhere in the book. What you do is, you find a blank page and write, for instance, „BED‟ on the edge tab, then on the strips you write the 14 phrases most relevant to your bedtime routine. Then you repeat this process for the other 7 links, until your book is full. If you make a mistake, or want to change a phrase, then just wipe it off with a damp cloth and start again.</p>
-<p>To use the speakbook, you indicate to your partner that you want to communicate. Your partner opens the speakbook to the „HOME‟ page and you communicate, for example, „BED‟. Your partner then turns to the „BED‟ page and you can then communicate, „I want to go to bed‟ - or whatever. Each page has „HOME‟ and „SPELL‟ pre-printed on it. The „HOME‟ is so that you can can always get back to the „HOME‟ page (you might want a „Cup of tea !‟ to take to bed with you). The ‟SPELL‟ page allows you to spell out individual words and phrases that don‟t appear elsewhere in the book. It works in a similar way as the other pages, with one difference. On this page there are 6 coloured blocks, each with 6 coloured letters or numbers on it. The whole alphabet is there, plus numbers 1-9 (for zero use the letter O). You look at the letter you want to communicate, for a second or so, followed by the coloured block of the same colour as your chosen letter. Your partner follows your eyes, sees that you have looked at, for instance, the top left block followed by the top right block (which is green), and knows you want „C‟. Your partner says „C‟ out loud to confirm, and you move on to the next letter. Your partner guesses the rest of the word when possible, to speed the process up.</p>
-<p>Speakbook has room for 119 phrases of your choosing. If this is not enough, or if you need more than 14 phrases in one particular section, then you can double its capacity by writing two phrases on each line, one in black pen, one in red. You choose a black phrase in the normal way, a red one by blinking when you look at the large symbol.</p>
+<p>Cada página de speakbook tiene 14 o 15 huecos en blanco donde puede
+escribir su propio texto. Para que el usuario pueda moverse por las páginas
+hemos creado, al principio del libro, la página "Inicio" marcada con una pestaña
+INICIO en negro al borde de la misma. Se trata de que escriba, en esta página, las
+7 frases que use con más frecuencia ya que será la página por donde comenzará
+siempre. En los 8 huecos vacíos escriba enlaces a las otras 8 páginas dobles en blanco.
+Estas páginas deberían ser las facetas de su vida que requieran un conjunto más detallado
+de frases como pueden ser la hora del baño o salir en coche. A la izquierda hay un posible
+diseño para la página INICIO. Las 8 palabras en mayúsculas y negrita son enlaces a una doble
+página del libro. Lo que debe hacer es buscar una página en blanco y escribir, por ejemplo, CAMA
+en la pestaña del borde. Entonces, en los huecos correspondientes, escriba las 14 frases más
+significativas de su rutina a
+la hora de acostarse. Repita
+este proceso para los otros
+7 enlaces hasta que su libro
+esté completo. Si comete
+un error o si desea cambiar
+una frase sólo tiene que
+borrar con un paño húmedo
+y vuelta a empezar.</p>
+<p>
+Para usar el speakbook
+indique a su interlocutor que
+quiere comunicarse. Su
+interlocutor abre speakbook
+por la página INICIO y
+usted le transmite, por
+ejemplo, "CAMA". Su
+interlocutor pasa a la página
+"CAMA" y usted le dice
+"Quiero acostarme" u otra
+cosa. Cada página tiene 2
+huecos impresos INICIO y
+ABC. INICIO es para que
+siempre se pueda volver a
+la página INICIO (quizás
+quiera una "¡Taza de té!"
+para llevársela a la cama).
+La página ABC le permite
+deletrear palabras sueltas y
+frases que no aparecen en
+el resto del libro. Funciona
+de manera similar a las
+otras páginas pero con una
+diferencia. En esta página
+hay 6 bloques de colores,
+cada bloque tiene 6 letras o
+números de colores. Se representan 26 letras del abecedario español (se excluyen ch, ll, w) y los
+números del 1 al 9 (para el cero emplee la letra O). Usted mira la letra que quiera, durante un
+segundo más o menos, seguido por el bloque cuyo color sea el mismo que la letra elegida. Su
+interlocutor sigue sus ojos, ve que ha mirado, por ejemplo, el bloque de arriba a la izquierda
+seguido por el bloque de arriba a la derecha (de color verde), y sabe que ha dicho "C". Su
+interlocutor dice "C" en voz alta para confirmarlo y usted pasa a la siguiente letra. Para acelerar el
+proceso, su interlocutor adivina, siempre que sea posible, el resto de la palabra.</p>
+<p>
+Speakbook tiene sitio para las 119 frases que usted escoja. Si no bastara o si necesita más de 14
+frases en una sección determinada, puede duplicar su capacidad escribiendo dos frases en cada
+línea, una en color negro y la otra en rojo. Usted elige una frase de negro en el modo normal y una
+roja con un parpadeo cuando mire el símbolo grande.</p>
 :::
 
 ::: slot last-page-content

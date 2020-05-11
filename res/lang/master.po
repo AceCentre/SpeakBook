@@ -190,7 +190,7 @@ msgstr "DRINKS"
 msgid "TRAINING_PAGE"
 msgstr "TRAINING PAGE"
 
-msgid "trading_page"
+msgid "training_page"
 msgstr "trading page"
 
 msgid "_GBP"

@@ -39,8 +39,8 @@ text:
   X: X
   Y: Y
   Z: Z
-  _zero: 0 0
-  _one: 1 1
+  _zero: "0"
+  _one: "1"
   _two: "2"
   _three: "3"
   _four: "4"
@@ -1416,6 +1416,7 @@ grid_pages:
 </div>
 :::
 
+
 ::: slot inst-01-content
 <div class="p-1 text-center">
   <SpeakBookTextFourColorBkg class="speakbook-title fsize-10 p-1 bold" :text="$page.frontmatter.text.SPEAKBOOK"></SpeakBookTextFourColorBkg>
@@ -1429,6 +1430,7 @@ Você e seu parceiro de fala se sentam um em frente ao outro, a um metro de dist
 </p>
 <p> Esta é a técnica básica para usar o speakbook. Agora você precisa aprender como usar as outras páginas do livro, porque o verdadeiro gênio do livro de palestras reside na sua capacidade de fornecer acesso fácil a centenas de frases de sua escolha, frases que você pode alterar a qualquer momento, com apenas um pano úmido e o toque de uma caneta. </p>
 :::
+:
 
 
 ::: slot inst-02-flt-right-label
@@ -1436,6 +1438,7 @@ Você e seu parceiro de fala se sentam um em frente ao outro, a um metro de dist
   <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-right-label-bkg.svg')" />
   <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 18px), calc(-50% - 18px)) rotate(45deg); color: white;">{{ $page.frontmatter.text.instructions }}</div>
 </div>
+:::
 :::
 :
 ::: slot inst-02-flt-left-content
