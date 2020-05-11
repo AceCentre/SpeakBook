@@ -75,7 +75,7 @@ text:
   _X: X
   _equal: =
   _question_mark: "?"
-  _atsign: M
+  _atsign: @
   YES: OUI
   NO: NON
 inlinecss:
@@ -1175,7 +1175,7 @@ grid_pages:
                 inlinecss:
                   margin-right: 43mm
                 text_inlinecss:
-                 font-size: 10pt
+                 font-size: 24pt
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -1265,7 +1265,7 @@ grid_pages:
 <div class="float-left" style="width: 40mm; height: 37mm; shape-outside: polygon(0 0, 40mm 0, 10mm 100%, 0 100%);"></div>
 <h2 class="my-2">Page pour épeler en utilisant les doigts.</h2>
 <p class="my-2">
-Si vous avez encore l'usage de vos mains, cette page est pour vous. Vous pouvez épe-ler des mots ou des phrases à votre partenaire en les montrant du doigt. Les mots fré-quemment utilisés peuvent être écrits dans les cases vides. Quand vous voulez revenir au livre principal pour communiquer, attirez l'attention sur <strong class="bold">„ ACCUEIL‟*</strong> .
+Si vous avez encore l'usage de vos mains, cette page est pour vous. Vous pouvez épe-ler des mots ou des phrases à votre partenaire en les montrant du doigt. Les mots fré-quemment utilisés peuvent être écrits dans les cases vides. Quand vous voulez revenir au livre principal pour communiquer, attirez l'attention sur <strong class="bold">"ACCUEIL</strong>.
 </p>
 :::
 ::: slot training-page-description
@@ -1334,13 +1334,13 @@ Lorsque vous avez appris la technique de base en utilisant cette page d'essai, v
 ::: slot cut-out-right-side-guide-03
 <CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part">
   <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-03.svg')" />
-  <div class="white-color wmode-vertical-lr rotate-180 fsize-8 bold flex-v items-align-center justify-content-center" style="position: absolute; top: 2mm; left: 0mm; width: 10mm; height: 28mm;">{{ $page.frontmatter.text.HOME }}</div>
+  <div class="white-color wmode-vertical-lr rotate-180 fsize-6 bold flex-v items-align-center justify-content-center" style="position: absolute; top: 2mm; left: 0mm; width: 10mm; height: 28mm;">{{ $page.frontmatter.text.HOME }}</div>
 </CutOutSideGuide>
 :::
 ::: slot cut-out-right-side-guide-04
 <CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-top: 30mm; box-sizing: border-box;">
   <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-04.svg')" />
-  <div class="red-color wmode-vertical-lr rotate-180 fsize-8 bold flex-v items-align-center justify-content-center" style="position: absolute; top: 30.5mm; left: 0mm; width: 10mm; height: 28mm;">{{ $page.frontmatter.text.SPELL }}</div>
+  <div class="red-color wmode-vertical-lr rotate-180 fsize-6 bold flex-v items-align-center justify-content-center" style="position: absolute; top: 30.5mm; left: 0mm; width: 10mm; height: 28mm;">{{ $page.frontmatter.text.SPELL }}</div>
 </CutOutSideGuide>
 :::
 ::: slot cut-out-right-side-guide-05
@@ -1417,43 +1417,24 @@ Lorsque vous avez appris la technique de base en utilisant cette page d'essai, v
 :::
 
 :::
-:::
-::
-:
-
 ::: slot inst-01-content
 <div class="p-1 text-center">
   <SpeakBookTextFourColorBkg class="speakbook-title fsize-10 p-1 bold" :text="$page.frontmatter.text.SPEAKBOOK"></SpeakBookTextFourColorBkg>
 </div>
-<p>Le Speakbook est un outil de communication non-verbale pour les personnes qui ne peuvent pas parler et qui ont des difficultés à utiliser leurs mains ou les bras, mais qui conservent l'usage de leurs yeux. Cette version est destinée aux personnes qui savent lire et épeler. Pour les versions pour les non-lecteurs, les versions en langue étrangère, et l'édition de poche, allez sur le site<b>acecent.re/speakbook</b></p>
+<p>Le Speakbook est un outil de communication non-verbale pour les personnes qui ne peuvent pas parler et qui ont des difficultés à utiliser leurs mains ou les bras, mais qui conservent l'usage de leurs yeux. Cette version est destinée aux personnes qui savent lire et épeler. Pour les versions pour les non-lecteurs, les versions en langue étrangère, et l'édition de poche, allez sur le site <b>acecent.re/speakbook</b></p>
 <h2 class="fsize-6">Mode d'emploi.</h2>
 <p>Vous aurez besoin du Speakbook, un marqueur noir effaçable, un chiffon pour effacer et un interlocuteur.</p>
 <p>
-Vous vous asseyez, face à face avec votre interlocuteur, à environ un mètre de distance. En fonction de votre vision, diminuez ou augmentez la distance. Ouvrez le Speakbook à la page d'essai, à l'intérieur de la couverture arrière. La page est déjà remplie pour vous aider à apprendre les bases. Lorsque vous aurez compris le fonctionnement, écrivez vos propres pages, en utilisant les blancs. Pliez le livre sur lui-même et tenez-le entre vous. Vous êtes chacun face à une page d’essai, et vous voyez les yeux de l'autre à travers le trou. Choisissez sur la page ce que vous allez communiquer à votre interlocuteur. Lorsque vous avez décidé, indiquez à votre partenaire que vous êtes prêt à commencer, en clignant des yeux par exemple. Regardez le message que vous avez choisi pendant une seconde ou deux, puis le cercle de la même couleur que la bande sur laquelle le message est écrit. Votre partenaire suit maintenant vos mouvements oculaires - par exemple, il voit que vous avez regardé le côté supérieur gauche du tableau suivi par le cercle bleu, donc il sait que vous voulez dire "un verre d'eau". Il dit alors, '"un verre d'eau" à haute voix, et vous le confirmez avec un clignement d'oeil, ou un autre signal choisi à l'avance.
+Vous vous asseyez, face à face avec votre interlocuteur, à environ un mètre de distance. En fonction de votre vision, diminuez ou augmentez la distance. Ouvrez le Speakbook à la page d'essai, à l'intérieur de la couverture arrière. La page est déjà remplie pour vous aider à apprendre les bases. Lorsque vous aurez compris le fonctionnement, écrivez vos propres pages, en utilisant les blancs. Pliez le livre sur lui-même et tenez-le entre vous. Vous êtes chacun face à une page d’essai, et vous voyez les yeux de l'autre à travers le trou. Choisissez sur la page ce que vous allez communiquer à votre interlocuteur. Lorsque vous avez décidé, indiquez à votre partenaire que vous êtes prêt à commencer, en clignant des yeux par exemple. Regardez le message que vous avez choisi pendant une seconde ou deux, puis le cercle de la même couleur que la bande sur laquelle le message est écrit. Votre partenaire suit maintenant vos mouvements oculaires - par exemple, il voit que vous avez regardé le côté supérieur gauche du tableau suivi par le cercle bleu, donc il sait que vous voulez dire <b>"un verre d'eau"</b>. Il dit alors, <b>"un verre d'eau"</b> à haute voix, et vous le confirmez avec un clignement d'oeil, ou un autre signal choisi à l'avance.
 </p>
 <p>Ceci est la méthode de base pour utiliser le Speakbook. Maintenant il faut apprendre à utiliser les autres pages, parce que le vrai génie de Speakbook réside dans sa capacité à vous donner un accès facile à des centaines de phrases de votre choix, des phrases que vous pouvez changer à tout moment, avec seulement un chiffon humide et d'un coup de stylo.</p>
 :::
-stylo.</p>
-:::
-.</p>
-:::
->
-:::
-::
 
 
 ::: slot inst-02-flt-right-label
 <div class="pos-rel fill-height fill-width">
   <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-right-label-bkg.svg')" />
   <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 18px), calc(-50% - 18px)) rotate(45deg); color: white;">{{ $page.frontmatter.text.instructions }}</div>
-</div>
-:::
-xt.instructions }}</div>
-</div>
-:::
- }}</div>
-</div>
-:::
 </div>
 :::
 
@@ -1468,9 +1449,9 @@ xt.instructions }}</div>
 </div>
 :::
 ::: slot inst-02-content
-<p>Chaque page du Speakbook a 14 ou 15 sections vierges sur laquelle vous écrivez vos propres textes. Afin que l'utilisateur puisse se déplacer entre les différentes pages, nous avons créé la page "Accueil". Elle se trouve au début et est indiquée par un onglet noir en bordure de page. Ecrivez les 7 expressions que vous employez le plus souvent sur cette page, car vous commencerez toujours par cette page <b>"ACCUEIL"</b>. Sur 8 des bandes vides, écrivez des liens vers les 8 autres doubles pages vierges. Ces liens doivent correspondre à des moments répresentatifs de votre vie les plus importants, tels que les repas, l'heure du bain, ou sortir chercher du pain.</p>
-<p>A gauche vous trouvez un exemple d'une mise en page possible pour la page <b>"ACCUEIL"</b>. Les 8 mots en majuscules gras sont des liens vers des doubles pages du livre. Sur une page vierge, écrivez, par exemple, "LIT" sur l'onglet, puis, sur les bandes, écrivez les 14 phrases correspondant le plus à votre routine du coucher. Ensuite, répétez ce processus pour les 7 autres liens, jusqu'à ce que votre Speakbook soit rempli. Si vous faites une erreur, ou si vous voulez changer une phrase, effacez avec un chiffon humide et recommencez!</p>
-<p>Pour utiliser le Speakbook, indiquez à votre partenaire que vous souhaitez communiquer. Votre partenaire ouvre le Speakbook à la page <b>"ACCUEIL"</b> et vous montrez du regard par exemple, "LIT". Votre partenaire se tourne alors vers la page "LIT" et vous pouvez alors lui communiquer la suite "Je veux me coucher" - ou autre chose. <b>"ACCUEIL"</b> et <b>"EPELER"</b> sont pré-remplis sur chaque page. <b>"ACCUEIL"</b> vous permet de toujours revenir à la page <b>"ACCUEIL"</b> (vous voulez peut-être un "VERRE D'EAU!" quand vous vous couchez). La page <b>"EPELER"</b> vous permet d'épeler des mots individuels et les expressions qui n'apparaissent pas dans le livre. Il fonctionne de façon similaire aux autres pages, mais avec une différence. Sur cette page il y a 6 blocs de couleur, chacun marqué avec des lettres colorées ou des chiffres. Vous avez tout l'alphabet, plus les chiffres 1-9 (pour zéro utilisez la lettre O). Regardez la lettre que vous souhaitez indiquer pendant une seconde ou deux, suivi du bloc coloré de la même couleur que votre lettre choisie. Votre partenaire suit vos yeux, voit par exemple que vous avez regardé le bloc supérieur gauche suivi du bloc en haut à droite (vert), et sait que vous avez choisi "C". Votre partenaire dit "C" à haute voix pour confirmer, et vous passez à la prochaine lettre. Votre partenaire peut deviner le reste du mot, si possible, pour accélérer le processus<br> Le Speakbook a de la place pour 119 phrases de votre choix. Si cela ne suffit pas, ou si vous avez besoin de plus de 14 phrases dans une section particulière, vous pouvez doubler sa capacité en écrivant deux phrases sur chaque ligne, une en noir, une en rouge. Vous choisissez une phrase en noir de façon normale, une en rouge en clignant des yeux quand vous regardez le grand symbole.</p>
+<p>Chaque page du Speakbook a 14 ou 15 sections vierges sur laquelle vous écrivez vos propres textes. Afin que l'utilisateur puisse se déplacer entre les différentes pages, nous avons créé la page <b>"ACCUEIL"</b>. Elle se trouve au début et est indiquée par un onglet noir en bordure de page. Ecrivez les 7 expressions que vous employez le plus souvent sur cette page, car vous commencerez toujours par cette page <b>"ACCUEIL"</b>. Sur 8 des bandes vides, écrivez des liens vers les 8 autres doubles pages vierges. Ces liens doivent correspondre à des moments répresentatifs de votre vie les plus importants, tels que les repas, l'heure du bain, ou sortir chercher du pain.</p>
+<p>A gauche vous trouvez un exemple d'une mise en page possible pour la page <b>"ACCUEIL"</b>. Les 8 mots en majuscules gras sont des liens vers des doubles pages du livre. Sur une page vierge, écrivez, par exemple, <b>"LIT"</b> sur l'onglet, puis, sur les bandes, écrivez les 14 phrases correspondant le plus à votre routine du coucher. Ensuite, répétez ce processus pour les 7 autres liens, jusqu'à ce que votre Speakbook soit rempli. Si vous faites une erreur, ou si vous voulez changer une phrase, effacez avec un chiffon humide et recommencez!</p>
+<p>Pour utiliser le Speakbook, indiquez à votre partenaire que vous souhaitez communiquer. Votre partenaire ouvre le Speakbook à la page <b>"ACCUEIL"</b> et vous montrez du regard par exemple, <b>"LIT"</b>. Votre partenaire se tourne alors vers la page <b>"LIT"</b> et vous pouvez alors lui communiquer la suite "Je veux me coucher" - ou autre chose. <b>"ACCUEIL"</b> et <b>"EPELER"</b> sont pré-remplis sur chaque page. <b>"ACCUEIL"</b> vous permet de toujours revenir à la page <b>"ACCUEIL"</b> (vous voulez peut-être un "VERRE D'EAU!" quand vous vous couchez). La page <b>"EPELER"</b> vous permet d'épeler des mots individuels et les expressions qui n'apparaissent pas dans le livre. Il fonctionne de façon similaire aux autres pages, mais avec une différence. Sur cette page il y a 6 blocs de couleur, chacun marqué avec des lettres colorées ou des chiffres. Vous avez tout l'alphabet, plus les chiffres 1-9 (pour zéro utilisez la lettre O). Regardez la lettre que vous souhaitez indiquer pendant une seconde ou deux, suivi du bloc coloré de la même couleur que votre lettre choisie. Votre partenaire suit vos yeux, voit par exemple que vous avez regardé le bloc supérieur gauche suivi du bloc en haut à droite (vert), et sait que vous avez choisi <b>"C"</b>. Votre partenaire dit <b>"C"</b> à haute voix pour confirmer, et vous passez à la prochaine lettre. Votre partenaire peut deviner le reste du mot, si possible, pour accélérer le processus<br> Le Speakbook a de la place pour 119 phrases de votre choix. Si cela ne suffit pas, ou si vous avez besoin de plus de 14 phrases dans une section particulière, vous pouvez doubler sa capacité en écrivant deux phrases sur chaque ligne, une en noir, une en rouge. Vous choisissez une phrase en noir de façon normale, une en rouge en clignant des yeux quand vous regardez le grand symbole.</p>
 :::
 
 ::: slot last-page-content
@@ -1498,7 +1479,7 @@ xt.instructions }}</div>
           <div class="block">{{ $page.frontmatter.text._question_mark }}</div>
         </div>
         <div class="block b3x white-color black-bkg">{{ $page.frontmatter.text.HOME }}</div>
-        <div class="block b3x yellow-bkg" style="font-size: 18pt;">{{ $page.frontmatter.text.THANK_YOU }}</div>
+        <div class="block b3x yellow-bkg" style="font-size: 26pt;">{{ $page.frontmatter.text.THANK_YOU }}</div>
       </div>
       <div class="flex-v block-holder b4x">
         <div class="block b4x">
