@@ -6,8 +6,8 @@ text:
   SPEAKBOOK: SPEAKBOOK
   edition_nth: 4ª
   EDITION: EDICIÓN
-  color_blind: daltónicos
-  friendly: ¡simpático
+  color_blind: "¡apta para "
+  friendly: daltónicos!
   instructions: instrucciones
   HOME_PAGE: PÁGINA INICIO
   SPELL: ABC
@@ -1383,13 +1383,14 @@ dice a su interlocutor que ahora quiere comunicarse con sus ojos con el libro pr
 ::: slot cover-footer
 <div class="lheight-1_5x">
   <p class="text-center cover-footer-text">
-    <span class="fsize-8 bold">non verbal communication system</span><br>
+    <span class="fsize-8 bold">sistema de comunicación no oral</span><br>
     <span class="red-color fsize-8 bold">www.speakbook.org</span><br>
     <span class="fsize-4">Speakbook 4th edition © 2011 Patrick Joyce - Traducción al Español, 2012</span>
   </p>
 </div>
 
 :::
+
 
 
 ::: slot inst-01-flt-right-content
@@ -1406,6 +1407,7 @@ Lo que precisamente escriba en speakbook dependerá de sus necesidades concretas
   </div>
 </div>
 :::
+::
 :
 
 ::: slot inst-01-content
@@ -1454,6 +1456,8 @@ a transmitir. </p>
 <p>Cuando haya decidido, indíquele a su interlocutor que está preparado para comenzar mediante el gesto que más le convenga (por ejemplo, mirando a su interlocutor y parpadeando, o moviendo los ojos arriba y abajo). Después mire el mensaje que prefiera, durante un segundo más o menos, seguido por el símbolo grande cuya figura sea la misma que el símbolo pequeñito junto al mensaje elegido. Entonces su interlocutor sigue los movimientos del ojo, por ejemplo, ve que usted ha mirado a la parte superior izquierda del tablero seguido por el triángulo grande, por lo tanto sabe que usted quiere decir "¡Taza de té!". Luego en voz alta dice "¡Taza de té!" y usted se lo confirma con un parpadeo o con cualquier otra señal preestablecida.
 Esta es la técnica básica para utilizar speakbook. Ahora tiene que aprender a usar las otras páginas del libro porque la verdadera genialidad de speakbook reside en su capacidad para facilitar el acceso a cientos de frases de su propia elección, frases que se pueden cambiar en cualquier momento, con sólo un paño húmedo y un rotulador.</p>
 :::
+>
+:::
 ::
 
 
@@ -1461,6 +1465,8 @@ Esta es la técnica básica para utilizar speakbook. Ahora tiene que aprender a 
 <div class="pos-rel fill-height fill-width">
   <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-right-label-bkg.svg')" />
   <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 18px), calc(-50% - 18px)) rotate(45deg); color: white;">{{ $page.frontmatter.text.instructions }}</div>
+</div>
+:::
 </div>
 :::
 
