@@ -66,8 +66,8 @@ text:
   DRINKS: DRICKA
   TRAINING_PAGE: ÖVNINGSSIDA
   training_page: övnings sida
-  _GBP: ""
-  _USD: $
+  _GBP: "Kr"
+  _USD: €
   _percent: "%"
   _plus: +
   _minus: "-"
@@ -75,9 +75,9 @@ text:
   _X: X
   _equal: =
   _question_mark: "?"
-  _atsign: ""
-  YES: ""
-  NO: ""
+  _atsign: "@"
+  YES: "YES"
+  NO: "NO"
 slots_in_need_for_translation:
   - training-page-description
   - last-page-heading
@@ -1004,16 +1004,24 @@ grid_pages:
             rows:
               - image: shape-heart-1x-img
                 text_key: i_love_you
+                text_inlinecss:
+                  font-size: 20pt
               - image: shape-circle-1x-img
                 text_key: yes
+                text_inlinecss:
+                  font-size: 20pt
                 inlinecss:
                   margin-left: 14mm
               - image: shape-triangle-1x-img
                 text_key: no
+                text_inlinecss:
+                  font-size: 20pt
                 inlinecss:
                   margin-left: 30mm
               - image: shape-square-1x-img
                 text_key: CAR
+                text_inlinecss:
+                  font-size: 20pt
                 inlinecss:
                   margin-left: 43mm
             inlinecss:
@@ -1077,12 +1085,20 @@ grid_pages:
             rows:
               - image: shape-heart-1x-img
                 text_key: im_too_hot
+                text_inlinecss:
+                  font-size: 20pt
               - image: shape-circle-1x-img
                 text_key: im_too_cold
+                text_inlinecss:
+                  font-size: 20pt
               - image: shape-triangle-1x-img
                 text_key: cup_of_tea
+                text_inlinecss:
+                  font-size: 20pt
               - image: shape-square-1x-img
                 text_key: cup_of_coffee
+                text_inlinecss:
+                  font-size: 20pt
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -1166,16 +1182,24 @@ grid_pages:
             rows:
               - image: shape-heart-1x-img
                 text_key: i_love_you
+                text_inlinecss:
+                  font-size: 20pt
               - image: shape-circle-1x-img
                 text_key: yes
+                text_inlinecss:
+                  font-size: 20pt
                 inlinecss:
                   margin-right: 14mm
               - image: shape-triangle-1x-img
                 text_key: no
+                text_inlinecss:
+                  font-size: 20pt
                 inlinecss:
                   margin-right: 30mm
               - image: shape-square-1x-img
                 text_key: CAR
+                text_inlinecss:
+                  font-size: 20pt
                 inlinecss:
                   margin-right: 43mm
             inlinecss:
@@ -1243,12 +1267,20 @@ grid_pages:
             rows:
               - image: shape-heart-1x-img
                 text_key: im_too_hot
+                text_inlinecss:
+                  font-size: 20pt
               - image: shape-circle-1x-img
                 text_key: im_too_cold
+                text_inlinecss:
+                  font-size: 20pt
               - image: shape-triangle-1x-img
                 text_key: cup_of_tea
+                text_inlinecss:
+                  font-size: 20pt
               - image: shape-square-1x-img
                 text_key: cup_of_coffee
+                text_inlinecss:
+                  font-size: 20pt
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -1416,6 +1448,7 @@ kan du göra dina egna sidor på de tomma bladen
 :::
 
 
+
 ::: slot inst-01-content
 <div class="p-1 text-center">
   <SpeakBookTextFourColorBkg class="speakbook-title fsize-10 p-1 bold" :text="$page.frontmatter.text.SPEAKBOOK"></SpeakBookTextFourColorBkg>
@@ -1428,14 +1461,17 @@ Du och din samtalspartner sitter mittemot varandra, med ungefär en meters mella
 </p>
 <p>Det är grundtekniken för hur man använder pratboken. Nu behöver du lära dig hur man använder de andra sidorna i boken. Bokens storhet ligger nämligen i att ge dig enkel tillgång till hundratals valfria fraser som du kan ändra när du vill med bara en trasa och en penna.</p>
 :::
+::
 :
 
 
 ::: slot inst-02-flt-right-label
 <div class="pos-rel fill-height fill-width">
   <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-right-label-bkg.svg')" />
-  <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 18px), calc(-50% - 18px)) rotate(45deg); color: white;">{{ $page.frontmatter.text.instructions }}</div>
+  <div class="fsize-6 abs-at-center" style="transform: translate(calc(-50% + 18px), calc(-50% - 18px)) rotate(45deg); color: white;">{{ $page.frontmatter.text.instructions }}</div>
 </div>
+:::
+v>
 :::
 :::
 :
@@ -1449,60 +1485,8 @@ Du och din samtalspartner sitter mittemot varandra, med ungefär en meters mella
 </div>
 :::
 ::: slot inst-02-content
-<p>Varje sida i pratboken har 14 eller 15 blanka rutor som du kan skriva på. För
-att du ska kunna flytta dig mellan olika sidor har vi skapat en startsida. Den ser
-du på framsidan av boken och är markerad med en svart START-flik i sidans
-nederkant. Tanken är att du skriver de 7 fraser du använder oftast på den här sidan
-eftersom det är här du alltid kommer börja. De återstående 8 rutorna är tänkta att
-länkas till de övriga 8 blanka sidorna i boken. Där bör du därför skriva områden i ditt liv
-som kräver fler fraser, som till exempel badrumsbesök eller åka ut med bilen. På bilden ser
-du en möjlig layout för START-sidan. De 8 orden i feta stora bokstäver länkar till uppslag i
-resten av boken. Hitta en blank sida och skriv till exempel SOVA på fliken i nederkanten. Fyll
-sedan sidans rutor med 14 fraser som du använder mest när du ska sova. Sedan gör du likadant
-för de andra 7 orden på startsidan. Om du gör ett misstag eller vill byta ut en fras, torkar du bara av
-ordet med en trasa och
-börjar om.</p>
-<p>För att använda pratboken
-visar du din samtalspartner
-att du vill kommunicera. Din
-partner slår upp pratboken
-på START-sidan och du
-visar med ögonen ett ord du
-vill säga. Din partner slår då
-upp den flik som passar till
-ordet och du kan fortsätta
-att prata kring detta ämne.
-På varje sida finns START
-och STAVA förtryckt. På så
-sätt kan du alltid ta dig
-tillbaka till START-sidan (du
-kanske vill ta med dig ”en
-kopp te” när du ska sova).
-På STAVA-sidan kan du
-bokstavera ord och fraser
-som inte finns någon
-annanstans i boken. Den
-fungerar på samma sätt
-som de övriga sidorna, men
-med ett undantag. På den
-här sidan finns det 6
-färgade rutor som alla har 6
-färgade bokstäver. Hela
-alfabetet finns här. Du tittar
-på den bokstav du vill
-förmedla i ungefär en
-sekund och fortsätter med
-att titta på den ruta som har
-samma färg som bokstaven.
-Din samtalspartner följer
-dina ögonrörelser. Till exempel ser hon att du tittar på den övre vänstra rutan och sedan på den
-övre högra rutan (som är grön) och vet då att du menar ”C”. Din partner säger ”C” högt för att
-bekräfta ditt val och du fortsätter med nästa bokstav. Din partner kan gissa vilket ord du vill säga
-så snart hon kan för att snabba upp samtalet.</p>
-<p>Pratboken har plats för 119 valfria fraser. Om detta inte räcker, eller om du behöver fler än 14
-fraser inom ett visst område kan du öka kapaciteten genom att skriva två fraser på en rad. Då
-skriver du en fras med svart färg och en med röd färg. Om du vill välja den röda frasen visar du det
-genom att blinka när du tittar på den stora symbolen. Den svarta frasen väljer du som vanligt.</p>
+<p>Varje sida i pratboken har 14 eller 15 blanka rutor som du kan skriva på. För att du ska kunna flytta dig mellan olika sidor har vi skapat en startsida. Den ser du på framsidan av boken och är markerad med en svart START-flik i sidans nederkant. Tanken är att du skriver de 7 fraser du använder oftast på den här sidan eftersom det är här du alltid kommer börja. De återstående 8 rutorna är tänkta att länkas till de övriga 8 blanka sidorna i boken. Där bör du därför skriva områden i ditt liv som kräver fler fraser, som till exempel badrumsbesök eller åka ut med bilen. På bilden ser du en möjlig layout för START-sidan. De 8 orden i feta stora bokstäver länkar till uppslag i resten av boken. Hitta en blank sida och skriv till exempel SOVA på fliken i nederkanten. Fyll sedan sidans rutor med 14 fraser som du använder mest när du ska sova. Sedan gör du likadant för de andra 7 orden på startsidan. Om du gör ett misstag eller vill byta ut en fras, torkar du bara av ordet med en trasa och börjar om.</p> <p>För att använda pratboken visar du din samtalspartner att du vill kommunicera. Din partner slår upp pratboken på START-sidan och du visar med ögonen ett ord du vill säga. Din partner slår då upp den flik som passar till ordet och du kan fortsätta att prata kring detta ämne. På varje sida finns START och STAVA förtryckt. På så sätt kan du alltid ta dig tillbaka till START-sidan (du kanske vill ta med dig ”en kopp te” när du ska sova). På STAVA-sidan kan du bokstavera ord och fraser som inte finns någon annanstans i boken. Den fungerar på samma sätt som de övriga sidorna, men med ett undantag. På den här sidan finns det 6 färgade rutor som alla har 6 färgade bokstäver. Hela alfabetet finns här. Du tittar på den bokstav du vill förmedla i ungefär en sekund och fortsätter med att titta på den ruta som har samma färg som bokstaven. Din samtalspartner följer dina ögonrörelser. Till exempel ser hon att du tittar på den övre vänstra rutan och sedan på den övre högra rutan (som är grön) och vet då att du menar ”C”. Din partner säger ”C” högt för att bekräfta ditt val och du fortsätter med nästa bokstav. Din partner kan gissa vilket ord du vill säga så snart hon kan för att snabba upp samtalet.</p>
+<p>Pratboken har plats för 119 valfria fraser. Om detta inte räcker, eller om du behöver fler än 14 fraser inom ett visst område kan du öka kapaciteten genom att skriva två fraser på en rad. Då skriver du en fras med svart färg och en med röd färg. Om du vill välja den röda frasen visar du det genom att blinka när du tittar på den stora symbolen. Den svarta frasen väljer du som vanligt.</p>
 :::
 
 ::: slot last-page-content
@@ -1517,7 +1501,7 @@ genom att blinka när du tittar på den stora symbolen. Den svarta frasen välje
         <div class="block b3x"></div>
         <div class="block b3x"></div>
         <div class="block b3x"></div>
-        <div class="block b3x"></div>
+        <div class="block b3x green-bkg">JA</div>
         <div class="flex-h flex-wrap">
           <div class="block">{{ $page.frontmatter.text._GBP }}</div>
           <div class="block">{{ $page.frontmatter.text._USD }}</div>
@@ -1543,8 +1527,8 @@ genom att blinka när du tittar på den stora symbolen. Den svarta frasen välje
         <div class="block b3x"></div>
         <div class="block b3x"></div>
         <div class="block b3x"></div>
-        <div class="block b3x"></div>
-        <div class="block b3x"></div>
+        <div class="block b3x pink-bkg">NEJ</div>
+        <div class="block b3x">KLAR</div>
         <div class="flex-h flex-wrap">
           <div class="block pink-bkg">{{ $page.frontmatter.text._one }}</div>
           <div class="block pink-bkg">{{ $page.frontmatter.text._two }}</div>
@@ -1581,7 +1565,7 @@ genom att blinka när du tittar på den stora symbolen. Den svarta frasen välje
       <div class="block cyan-bkg">{{ $page.frontmatter.text.J }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.K }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.L }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text._atsign }}</div>
+      <div class="block cyan-bkg">Å</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.Z }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.X }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.C }}</div>
@@ -1589,9 +1573,9 @@ genom att blinka när du tittar på den stora symbolen. Den svarta frasen välje
       <div class="block cyan-bkg">{{ $page.frontmatter.text.B }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.N }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.M }}</div>
-      <div class="block cyan-bkg"></div>
-      <div class="block cyan-bkg"></div>
-      <div class="block cyan-bkg"></div>
+      <div class="block cyan-bkg">Ö</div>
+      <div class="block cyan-bkg">Ä</div>
+      <div class="block cyan-bkg">@</div>
     </div>
   </div>
 </div>
