@@ -75,7 +75,7 @@ text:
   _X: X
   _equal: =
   _question_mark: "?"
-  _atsign: @
+  _atsign: "@"
   YES: OUI
   NO: NON
 inlinecss:
