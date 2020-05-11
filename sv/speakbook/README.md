@@ -14,6 +14,8 @@ text:
   HOME: START
   THANK_YOU: TACK
   A: A
+  A1: Å
+  A2: Ä
   B: B
   C: C
   D: D
@@ -28,6 +30,7 @@ text:
   M: M
   N: N
   O: O
+  O1: Ö
   P: P
   Q: Q
   R: R
@@ -76,8 +79,9 @@ text:
   _equal: =
   _question_mark: "?"
   _atsign: "@"
-  YES: "YES"
-  NO: "NO"
+  YES: "JA"
+  NO: "NEJ"
+  CLEAR: KLAR
 slots_in_need_for_translation:
   - training-page-description
   - last-page-heading
@@ -1501,7 +1505,7 @@ v>
         <div class="block b3x"></div>
         <div class="block b3x"></div>
         <div class="block b3x"></div>
-        <div class="block b3x green-bkg">JA</div>
+        <div class="block b3x green-bkg">{{ $page.frontmatter.text.YES }}</div>
         <div class="flex-h flex-wrap">
           <div class="block">{{ $page.frontmatter.text._GBP }}</div>
           <div class="block">{{ $page.frontmatter.text._USD }}</div>
@@ -1527,8 +1531,8 @@ v>
         <div class="block b3x"></div>
         <div class="block b3x"></div>
         <div class="block b3x"></div>
-        <div class="block b3x pink-bkg">NEJ</div>
-        <div class="block b3x">KLAR</div>
+        <div class="block b3x pink-bkg">{{ $page.frontmatter.text.NO }}</div>
+        <div class="block b3x">{{ $page.frontmatter.text.CLEAR }}</div>
         <div class="flex-h flex-wrap">
           <div class="block pink-bkg">{{ $page.frontmatter.text._one }}</div>
           <div class="block pink-bkg">{{ $page.frontmatter.text._two }}</div>
@@ -1565,7 +1569,7 @@ v>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.J }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.K }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.L }}</div>
-      <div class="block cyan-bkg">Å</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.A1 }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.Z }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.X }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.C }}</div>
@@ -1573,9 +1577,9 @@ v>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.B }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.N }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.M }}</div>
-      <div class="block cyan-bkg">Ö</div>
-      <div class="block cyan-bkg">Ä</div>
-      <div class="block cyan-bkg">@</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.O1 }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.A2 }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text._atsign }}</div>
     </div>
   </div>
 </div>
