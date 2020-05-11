@@ -82,6 +82,10 @@ text:
   YES: "JA"
   NO: "NEJ"
   CLEAR: KLAR
+  _fel: FEL
+  _clear: KLAR
+  _nytt: NYTT
+  _start: START 
 slots_in_need_for_translation:
   - training-page-description
   - last-page-heading
@@ -396,16 +400,16 @@ grid_pages:
               - text_key: Z
                 inlinecss:
                   color: var(--color-white)
-              - text_key: _one
+              - text_key: A1
                 inlinecss:
                   color: var(--color-green)
-              - text_key: _two
+              - text_key: A2
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: _three
+              - text_key: O1
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: _four
+              - text_key: 
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -419,25 +423,29 @@ grid_pages:
               height: var(--grid-item-height)
               background-color: var(--color-cyan)
             entries:
-              - text_key: _five
+              - text_key: _fel
                 inlinecss:
                   color: var(--color-purple)
-              - text_key: _six
+                  font-size: 12pt
+              - text_key: _start
                 inlinecss:
                   color: var(--color-white)
-              - text_key: _seven
+                  font-size: 12pt
+              - text_key: _clear
                 inlinecss:
                   color: var(--color-green)
-              - text_key: _eight
+                  font-size: 12pt
+              - text_key: _nytt
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: _nine
+                  font-size: 12pt
+              - text_key: 
                 inlinecss:
                   color: var(--color-orange)
               - text_key: HOME
                 inlinecss:
                   color: var(--color-cyan)
-                  font-size: 18pt
+                  font-size: 12pt
       - comment: Center
         inlinecss:
           width: 76mm
@@ -584,16 +592,16 @@ grid_pages:
               - text_key: Z
                 inlinecss:
                   color: var(--color-white)
-              - text_key: _one
+              - text_key: A1
                 inlinecss:
                   color: var(--color-green)
-              - text_key: _two
+              - text_key: A2
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: _three
+              - text_key: O1
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: _four
+              - text_key: 
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -607,25 +615,29 @@ grid_pages:
               height: var(--grid-item-height)
               background-color: var(--color-cyan)
             entries:
-              - text_key: _five
+              - text_key: _fel                  
                 inlinecss:
                   color: var(--color-purple)
-              - text_key: _six
+                  font-size: 12pt
+              - text_key: _start
                 inlinecss:
                   color: var(--color-white)
-              - text_key: _seven
+                  font-size: 12pt
+              - text_key: _clear
                 inlinecss:
                   color: var(--color-green)
-              - text_key: _eight
+                  font-size: 12pt
+              - text_key: _nytt
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: _nine
+                  font-size: 12pt
+              - text_key: 
                 inlinecss:
                   color: var(--color-orange)
               - text_key: HOME
                 inlinecss:
                   color: var(--color-cyan)
-                  font-size: 18pt
+                  font-size: 12pt
       - comment: Center
         inlinecss:
           width: 76mm
