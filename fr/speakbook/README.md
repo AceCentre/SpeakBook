@@ -11,7 +11,7 @@ text:
   instructions: instructions
   HOME_PAGE: ACCUEIL
   SPELL: Epeler
-  HOME: HOME
+  HOME: ACCUEIL
   THANK_YOU: MERCI
   A: Q
   B: B
@@ -1392,6 +1392,7 @@ Lorsque vous avez appris la technique de base en utilisant cette page d'essai, v
 :::
 
 
+
 ::: slot inst-01-flt-right-content
 <div class="abs-fill-parent flex-h" style="align-items: flex-end;">
   <div class="flex-grow-1"></div>
@@ -1404,6 +1405,7 @@ Lorsque vous avez appris la technique de base en utilisant cette page d'essai, v
   </div>
 </div>
 :::
+::
 :
 
 ::: slot inst-01-content
@@ -1418,6 +1420,8 @@ Vous vous asseyez, face à face avec votre interlocuteur, à environ un mètre d
 </p>
 <p>Ceci est la méthode de base pour utiliser le Speakbook. Maintenant il faut apprendre à utiliser les autres pages, parce que le vrai génie de Speakbook réside dans sa capacité à vous donner un accès facile à des centaines de phrases de votre choix, des phrases que vous pouvez changer à tout moment, avec seulement un chiffon humide et d'un coup de stylo.</p>
 :::
+>
+:::
 ::
 
 
@@ -1425,6 +1429,8 @@ Vous vous asseyez, face à face avec votre interlocuteur, à environ un mètre d
 <div class="pos-rel fill-height fill-width">
   <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-right-label-bkg.svg')" />
   <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 18px), calc(-50% - 18px)) rotate(45deg); color: white;">{{ $page.frontmatter.text.instructions }}</div>
+</div>
+:::
 </div>
 :::
 
@@ -1439,9 +1445,9 @@ Vous vous asseyez, face à face avec votre interlocuteur, à environ un mètre d
 </div>
 :::
 ::: slot inst-02-content
-<p>Chaque page du Speakbook a 14 ou 15 sections vierges sur laquelle vous écrivez vos propres textes. Afin que l'utilisateur puisse se déplacer entre les différentes pages, nous avons créé la page "Accueil". Elle se trouve au début et est indiquée par un onglet noir en bordure de page. Ecrivez les 7 expressions que vous employez le plus souvent sur cette page, car vous commencerez toujours par cette page "ACCUEIL". Sur 8 des bandes vides, écrivez des liens vers les 8 autres doubles pages vierges. Ces liens doivent correspondre à des moments répresentatifs de votre vie les plus importants, tels que les repas, l'heure du bain, ou sortir chercher du pain.</p>
-<p>A gauche vous trouvez un exemple d'une mise en page possible pour la page "ACCUEIL". Les 8 mots en majuscules gras sont des liens vers des doubles pages du livre. Sur une page vierge, écrivez, par exemple, "LIT" sur l'onglet, puis, sur les bandes, écrivez les 14 phrases correspondant le plus à votre routine du coucher. Ensuite, répétez ce processus pour les 7 autres liens, jusqu'à ce que votre Speakbook soit rempli. Si vous faites une erreur, ou si vous voulez changer une phrase, effacez avec un chiffon humide et recommencez!</p>
-<p>Pour utiliser le Speakbook, indiquez à votre partenaire que vous souhaitez communiquer. Votre partenaire ouvre le Speakbook à la page "ACCUEIL" et vous montrez du regard par exemple, "LIT". Votre partenaire se tourne alors vers la page "LIT" et vous pouvez alors lui communiquer la suite "Je veux me coucher" - ou autre chose. "ACCUEIL" et "EPELER" sont pré-remplis sur chaque page. "ACCUEIL" vous permet de toujours revenir à la page "ACCUEIL" (vous voulez peut-être un "VERRE D'EAU!" quand vous vous couchez). La page "EPELER" vous permet d'épeler des mots individuels et les expressions qui n'apparaissent pas dans le livre. Il fonctionne de façon similaire aux autres pages, mais avec une différence. Sur cette page il y a 6 blocs de couleur, chacun marqué avec des lettres colorées ou des chiffres. Vous avez tout l'alphabet, plus les chiffres 1-9 (pour zéro utilisez la lettre O). Regardez la lettre que vous souhaitez indiquer pendant une seconde ou deux, suivi du bloc coloré de la même couleur que votre lettre choisie. Votre partenaire suit vos yeux, voit par exemple que vous avez regardé le bloc supérieur gauche suivi du bloc en haut à droite (vert), et sait que vous avez choisi "C". Votre partenaire dit "C" à haute voix pour confirmer, et vous passez à la prochaine lettre. Votre partenaire peut deviner le reste du mot, si possible, pour accélérer le processus<br> Le Speakbook a de la place pour 119 phrases de votre choix. Si cela ne suffit pas, ou si vous avez besoin de plus de 14 phrases dans une section particulière, vous pouvez doubler sa capacité en écrivant deux phrases sur chaque ligne, une en noir, une en rouge. Vous choisissez une phrase en noir de façon normale, une en rouge en clignant des yeux quand vous regardez le grand symbole.</p>
+<p>Chaque page du Speakbook a 14 ou 15 sections vierges sur laquelle vous écrivez vos propres textes. Afin que l'utilisateur puisse se déplacer entre les différentes pages, nous avons créé la page "Accueil". Elle se trouve au début et est indiquée par un onglet noir en bordure de page. Ecrivez les 7 expressions que vous employez le plus souvent sur cette page, car vous commencerez toujours par cette page <b>"ACCUEIL"</b>. Sur 8 des bandes vides, écrivez des liens vers les 8 autres doubles pages vierges. Ces liens doivent correspondre à des moments répresentatifs de votre vie les plus importants, tels que les repas, l'heure du bain, ou sortir chercher du pain.</p>
+<p>A gauche vous trouvez un exemple d'une mise en page possible pour la page <b>"ACCUEIL"</b>. Les 8 mots en majuscules gras sont des liens vers des doubles pages du livre. Sur une page vierge, écrivez, par exemple, "LIT" sur l'onglet, puis, sur les bandes, écrivez les 14 phrases correspondant le plus à votre routine du coucher. Ensuite, répétez ce processus pour les 7 autres liens, jusqu'à ce que votre Speakbook soit rempli. Si vous faites une erreur, ou si vous voulez changer une phrase, effacez avec un chiffon humide et recommencez!</p>
+<p>Pour utiliser le Speakbook, indiquez à votre partenaire que vous souhaitez communiquer. Votre partenaire ouvre le Speakbook à la page <b>"ACCUEIL"</b> et vous montrez du regard par exemple, "LIT". Votre partenaire se tourne alors vers la page "LIT" et vous pouvez alors lui communiquer la suite "Je veux me coucher" - ou autre chose. <b>"ACCUEIL"</b> et <b>"EPELER"</b> sont pré-remplis sur chaque page. <b>"ACCUEIL"</b> vous permet de toujours revenir à la page <b>"ACCUEIL"</b> (vous voulez peut-être un "VERRE D'EAU!" quand vous vous couchez). La page <b>"EPELER"</b> vous permet d'épeler des mots individuels et les expressions qui n'apparaissent pas dans le livre. Il fonctionne de façon similaire aux autres pages, mais avec une différence. Sur cette page il y a 6 blocs de couleur, chacun marqué avec des lettres colorées ou des chiffres. Vous avez tout l'alphabet, plus les chiffres 1-9 (pour zéro utilisez la lettre O). Regardez la lettre que vous souhaitez indiquer pendant une seconde ou deux, suivi du bloc coloré de la même couleur que votre lettre choisie. Votre partenaire suit vos yeux, voit par exemple que vous avez regardé le bloc supérieur gauche suivi du bloc en haut à droite (vert), et sait que vous avez choisi "C". Votre partenaire dit "C" à haute voix pour confirmer, et vous passez à la prochaine lettre. Votre partenaire peut deviner le reste du mot, si possible, pour accélérer le processus<br> Le Speakbook a de la place pour 119 phrases de votre choix. Si cela ne suffit pas, ou si vous avez besoin de plus de 14 phrases dans une section particulière, vous pouvez doubler sa capacité en écrivant deux phrases sur chaque ligne, une en noir, une en rouge. Vous choisissez une phrase en noir de façon normale, une en rouge en clignant des yeux quand vous regardez le grand symbole.</p>
 :::
 
 ::: slot last-page-content
