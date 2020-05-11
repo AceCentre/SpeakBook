@@ -28,7 +28,7 @@ text:
   M: M
   N: N
   O: Ñ
-  P: o
+  P: O
   Q: P
   R: Q
   S: R
@@ -1393,6 +1393,7 @@ dice a su interlocutor que ahora quiere comunicarse con sus ojos con el libro pr
 
 
 
+
 ::: slot inst-01-flt-right-content
 <div class="abs-fill-parent flex-h" style="align-items: flex-end;">
   <div class="flex-grow-1"></div>
@@ -1406,6 +1407,7 @@ Lo que precisamente escriba en speakbook dependerá de sus necesidades concretas
     </div>
   </div>
 </div>
+:::
 :::
 ::
 :
@@ -1456,6 +1458,8 @@ a transmitir. </p>
 <p>Cuando haya decidido, indíquele a su interlocutor que está preparado para comenzar mediante el gesto que más le convenga (por ejemplo, mirando a su interlocutor y parpadeando, o moviendo los ojos arriba y abajo). Después mire el mensaje que prefiera, durante un segundo más o menos, seguido por el símbolo grande cuya figura sea la misma que el símbolo pequeñito junto al mensaje elegido. Entonces su interlocutor sigue los movimientos del ojo, por ejemplo, ve que usted ha mirado a la parte superior izquierda del tablero seguido por el triángulo grande, por lo tanto sabe que usted quiere decir "¡Taza de té!". Luego en voz alta dice "¡Taza de té!" y usted se lo confirma con un parpadeo o con cualquier otra señal preestablecida.
 Esta es la técnica básica para utilizar speakbook. Ahora tiene que aprender a usar las otras páginas del libro porque la verdadera genialidad de speakbook reside en su capacidad para facilitar el acceso a cientos de frases de su propia elección, frases que se pueden cambiar en cualquier momento, con sólo un paño húmedo y un rotulador.</p>
 :::
+.</p>
+:::
 >
 :::
 ::
@@ -1465,6 +1469,9 @@ Esta es la técnica básica para utilizar speakbook. Ahora tiene que aprender a 
 <div class="pos-rel fill-height fill-width">
   <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-right-label-bkg.svg')" />
   <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 18px), calc(-50% - 18px)) rotate(45deg); color: white;">{{ $page.frontmatter.text.instructions }}</div>
+</div>
+:::
+ }}</div>
 </div>
 :::
 </div>
