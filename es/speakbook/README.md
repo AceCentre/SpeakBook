@@ -1488,65 +1488,9 @@ Esta es la técnica básica para utilizar speakbook. Ahora tiene que aprender a 
 </div>
 :::
 ::: slot inst-02-content
-<p>Cada página de speakbook tiene 14 o 15 huecos en blanco donde puede
-escribir su propio texto. Para que el usuario pueda moverse por las páginas
-hemos creado, al principio del libro, la página "Inicio" marcada con una pestaña
-INICIO en negro al borde de la misma. Se trata de que escriba, en esta página, las
-7 frases que use con más frecuencia ya que será la página por donde comenzará
-siempre. En los 8 huecos vacíos escriba enlaces a las otras 8 páginas dobles en blanco.
-Estas páginas deberían ser las facetas de su vida que requieran un conjunto más detallado
-de frases como pueden ser la hora del baño o salir en coche. A la izquierda hay un posible
-diseño para la página INICIO. Las 8 palabras en mayúsculas y negrita son enlaces a una doble
-página del libro. Lo que debe hacer es buscar una página en blanco y escribir, por ejemplo, CAMA
-en la pestaña del borde. Entonces, en los huecos correspondientes, escriba las 14 frases más
-significativas de su rutina a
-la hora de acostarse. Repita
-este proceso para los otros
-7 enlaces hasta que su libro
-esté completo. Si comete
-un error o si desea cambiar
-una frase sólo tiene que
-borrar con un paño húmedo
-y vuelta a empezar.</p>
-<p>
-Para usar el speakbook
-indique a su interlocutor que
-quiere comunicarse. Su
-interlocutor abre speakbook
-por la página INICIO y
-usted le transmite, por
-ejemplo, "CAMA". Su
-interlocutor pasa a la página
-"CAMA" y usted le dice
-"Quiero acostarme" u otra
-cosa. Cada página tiene 2
-huecos impresos INICIO y
-ABC. INICIO es para que
-siempre se pueda volver a
-la página INICIO (quizás
-quiera una "¡Taza de té!"
-para llevársela a la cama).
-La página ABC le permite
-deletrear palabras sueltas y
-frases que no aparecen en
-el resto del libro. Funciona
-de manera similar a las
-otras páginas pero con una
-diferencia. En esta página
-hay 6 bloques de colores,
-cada bloque tiene 6 letras o
-números de colores. Se representan 26 letras del abecedario español (se excluyen ch, ll, w) y los
-números del 1 al 9 (para el cero emplee la letra O). Usted mira la letra que quiera, durante un
-segundo más o menos, seguido por el bloque cuyo color sea el mismo que la letra elegida. Su
-interlocutor sigue sus ojos, ve que ha mirado, por ejemplo, el bloque de arriba a la izquierda
-seguido por el bloque de arriba a la derecha (de color verde), y sabe que ha dicho "C". Su
-interlocutor dice "C" en voz alta para confirmarlo y usted pasa a la siguiente letra. Para acelerar el
-proceso, su interlocutor adivina, siempre que sea posible, el resto de la palabra.</p>
-<p>
-Speakbook tiene sitio para las 119 frases que usted escoja. Si no bastara o si necesita más de 14
-frases en una sección determinada, puede duplicar su capacidad escribiendo dos frases en cada
-línea, una en color negro y la otra en rojo. Usted elige una frase de negro en el modo normal y una
-roja con un parpadeo cuando mire el símbolo grande.</p>
+<p>Cada página de speakbook tiene 14 o 15 huecos en blanco donde puede escribir su propio texto. Para que el usuario pueda moverse por las páginas hemos creado, al principio del libro, la página "Inicio" marcada con una pestaña <b>INICIO</b> en negro al borde de la misma. Se trata de que escriba, en esta página, las 7 frases que use con más frecuencia ya que será la página por donde comenzará siempre. En los 8 huecos vacíos escriba enlaces a las otras 8 páginas dobles en blanco. Estas páginas deberían ser las facetas de su vida que requieran un conjunto más detallado de frases como pueden ser la hora del baño o salir en coche. A la izquierda hay un posible diseño para la página <b>INICIO</b>. Las 8 palabras en mayúsculas y negrita son enlaces a una doble página del libro. Lo que debe hacer es buscar una página en blanco y escribir, por ejemplo, <b>CAMA</b> en la pestaña del borde. Entonces, en los huecos correspondientes, escriba las 14 frases más significativas de su rutina a la hora de acostarse. Repita este proceso para los otros 7 enlaces hasta que su libro esté completo. Si comete un error o si desea cambiar una frase sólo tiene que borrar con un paño húmedo y vuelta a empezar.</p>
+<p> Para usar el speakbook indique a su interlocutor que quiere comunicarse. Su interlocutor abre speakbook por la página <b>INICIO</b> y usted le transmite, por ejemplo, "CAMA". Su interlocutor pasa a la página <b>"CAMA"</b> y usted le dice "Quiero acostarme" u otra cosa. Cada página tiene 2 huecos impresos <b>INICIO</b> y ABC. <b>INICIO</b> es para que siempre se pueda volver a la página <b>INICIO</b> (quizás quiera una "¡Taza de té!" para llevársela a la cama). La página ABC le permite deletrear palabras sueltas y frases que no aparecen en el resto del libro. Funciona de manera similar a las otras páginas pero con una diferencia. En esta página hay 6 bloques de colores, cada bloque tiene 6 letras o números de colores. Se representan 26 letras del abecedario español (se excluyen ch, ll, w) y los números del 1 al 9 (para el cero emplee la letra O). Usted mira la letra que quiera, durante un segundo más o menos, seguido por el bloque cuyo color sea el mismo que la letra elegida. Su interlocutor sigue sus ojos, ve que ha mirado, por ejemplo, el bloque de arriba a la izquierda seguido por el bloque de arriba a la derecha (de color verde), y sabe que ha dicho "C". Su interlocutor dice "C" en voz alta para confirmarlo y usted pasa a la siguiente letra. Para acelerar el proceso, su interlocutor adivina, siempre que sea posible, el resto de la palabra.</p>
+<p> Speakbook tiene sitio para las 119 frases que usted escoja. Si no bastara o si necesita más de 14 frases en una sección determinada, puede duplicar su capacidad escribiendo dos frases en cada línea, una en color negro y la otra en rojo. Usted elige una frase de negro en el modo normal y una roja con un parpadeo cuando mire el símbolo grande.</p>
 :::
 
 ::: slot last-page-content
