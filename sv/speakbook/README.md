@@ -1395,7 +1395,7 @@ kan du göra dina egna sidor på de tomma bladen
 <div class="lheight-1_5x">
   <p class="text-center cover-footer-text">
     <span class="fsize-8 bold">system för icke-verbal kommunikation</span><br>
-    <span class="red-color fsize-8 bold">www.speakbook.org</span><br>
+    <span class="red-color fsize-8 bold">acecent.re/speakbook</span><br>
     <span class="fsize-4">Speakbook 4th edition © 2011 Patrick Joyce</span><br>
  <span class="fsize-4">Anpassning för svenska av DART 2012</span>
   </p>
@@ -1415,52 +1415,20 @@ kan du göra dina egna sidor på de tomma bladen
 </div>
 :::
 
+
 ::: slot inst-01-content
 <div class="p-1 text-center">
   <SpeakBookTextFourColorBkg class="speakbook-title fsize-10 p-1 bold" :text="$page.frontmatter.text.SPEAKBOOK"></SpeakBookTextFourColorBkg>
 </div>
-<p>Pratboken är ett verktyg för icke-verbal kommunikation. Den passar för personer som inte kan tala och som har svårigheter att använda armar och händer, men som kan använda ögonen för att peka. Den här utgåvan är till för de som kan läsa och stava. För att hämta versioner på andra språk eller för de som inte kan läsa, titta på <b>www.speakbook.org</b></p>
+<p>Pratboken är ett verktyg för icke-verbal kommunikation. Den passar för personer som inte kan tala och som har svårigheter att använda armar och händer, men som kan använda ögonen för att peka. Den här utgåvan är till för de som kan läsa och stava. För att hämta versioner på andra språk eller för de som inte kan läsa, titta på <b>https://acecent.re/speakbook</b></p>
 <h2 class="fsize-6">Instruktioner</h2>
 <p>För att komma igång behöver du pratboken, en svart icke-permanent whiteboard-penna, en trasa för att sudda och en samtalspartner. Blyertspenna och suddgummi går också bra.</p>
 <p>
-Du och din samtalspartner
-sitter mittemot varandra,
-med ungefär en meters
-mellanrum. Beroende på
-hur bra du ser kan det
-underlätta att öka eller
-minska avståndet. Öppna
-pratboken och slå upp
-övningssidan längst bak.
-Den är redan ifylld för att
-hjälpa dig att förstå den
-grundläggande tekniken.
-När du har lärt dig den kan
-du fylla i egna ord på de
-blanka sidorna i boken. Vik
-ihop boken och håll upp
-den emellan er så att ni
-båda ser övningssidan och
-varandras ögon genom
-hålet i mitten. Nu ser du de
-olika möjliga fraserna och
-orden som du kan säga.
-När du har bestämt dig för
-vad du vill säga, visar du
-din samtalspartner att du
-är redo att börja. Detta kan
-du göra genom att titta på
-din partner och blinka eller röra upp och ned på ögonen, eller något annat sätt som passar dig.
-Titta sedan på det du vill säga i ungefär en sekund, och fortsätt med att titta på den symbol i stort
-format som motsvarar den lilla symbolen vid sidan om ordet. Din partner följer dina ögonrörelser.
-Till exempel ser hon att du tittar i övre vänstra hörnet av boken, och sedan på en stor triangel,
-och då vet hon att du vill säga ”en kopp te”. Hon säger då ”en kopp te” högt, och du bekräftar
-med en nick eller en blinkning eller någon annan signal som ni kommer överens om.
+Du och din samtalspartner sitter mittemot varandra, med ungefär en meters mellanrum. Beroende på hur bra du ser kan det underlätta att öka eller minska avståndet. Öppna pratboken och slå upp övningssidan längst bak. Den är redan ifylld för att hjälpa dig att förstå den grundläggande tekniken. När du har lärt dig den kan du fylla i egna ord på de blanka sidorna i boken. Vik ihop boken och håll upp den emellan er så att ni båda ser övningssidan och varandras ögon genom hålet i mitten. Nu ser du de olika möjliga fraserna och orden som du kan säga. När du har bestämt dig för vad du vill säga, visar du din samtalspartner att du är redo att börja. Detta kan du göra genom att titta på din partner och blinka eller röra upp och ned på ögonen, eller något annat sätt som passar dig. Titta sedan på det du vill säga i ungefär en sekund, och fortsätt med att titta på den symbol i stort format som motsvarar den lilla symbolen vid sidan om ordet. Din partner följer dina ögonrörelser. Till exempel ser hon att du tittar i övre vänstra hörnet av boken, och sedan på en stor triangel, och då vet hon att du vill säga ”en kopp te”. Hon säger då ”en kopp te” högt, och du bekräftar med en nick eller en blinkning eller någon annan signal som ni kommer överens om.
 </p>
-<p>Det är grundtekniken för hur man använder pratboken. Nu behöver du lära dig hur man använder
-de andra sidorna i boken. Bokens storhet ligger nämligen i att ge dig enkel tillgång till hundratals
-valfria fraser som du kan ändra när du vill med bara en trasa och en penna.</p>
+<p>Det är grundtekniken för hur man använder pratboken. Nu behöver du lära dig hur man använder de andra sidorna i boken. Bokens storhet ligger nämligen i att ge dig enkel tillgång till hundratals valfria fraser som du kan ändra när du vill med bara en trasa och en penna.</p>
 :::
+:
 
 
 ::: slot inst-02-flt-right-label
@@ -1468,6 +1436,7 @@ valfria fraser som du kan ändra när du vill med bara en trasa och en penna.</p
   <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-right-label-bkg.svg')" />
   <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 18px), calc(-50% - 18px)) rotate(45deg); color: white;">{{ $page.frontmatter.text.instructions }}</div>
 </div>
+:::
 :::
 :
 ::: slot inst-02-flt-left-content

@@ -1385,11 +1385,12 @@ Lorsque vous avez appris la technique de base en utilisant cette page d'essai, v
 <div class="lheight-1_5x">
   <p class="text-center cover-footer-text">
     <span class="fsize-8 bold">Outil de communication non-verbale</span><br>
-    <span class="red-color fsize-8 bold">www.speakbook.org</span><br>
+    <span class="red-color fsize-8 bold">acecent.re/speakbook</span><br>
     <span class="fsize-4">Speakbook 4ème version © 2011 Patrick Joyce, traduit en français par Myrande Robin et Jill Shepperd</span>
   </p>
 </div>
 :::
+
 
 
 
@@ -1406,6 +1407,8 @@ Lorsque vous avez appris la technique de base en utilisant cette page d'essai, v
   </div>
 </div>
 :::
+
+:::
 :::
 ::
 :
@@ -1414,13 +1417,15 @@ Lorsque vous avez appris la technique de base en utilisant cette page d'essai, v
 <div class="p-1 text-center">
   <SpeakBookTextFourColorBkg class="speakbook-title fsize-10 p-1 bold" :text="$page.frontmatter.text.SPEAKBOOK"></SpeakBookTextFourColorBkg>
 </div>
-<p>Le Speakbook est un outil de communication non-verbale pour les personnes qui ne peuvent pas parler et qui ont des difficultés à utiliser leurs mains ou les bras, mais qui conservent l'usage de leurs yeux. Cette version est destinée aux personnes qui savent lire et épeler. Pour les versions pour les non-lecteurs, les versions en langue étrangère, et l'édition de poche, allez sur le site<b>www.speakbook.org</b></p>
+<p>Le Speakbook est un outil de communication non-verbale pour les personnes qui ne peuvent pas parler et qui ont des difficultés à utiliser leurs mains ou les bras, mais qui conservent l'usage de leurs yeux. Cette version est destinée aux personnes qui savent lire et épeler. Pour les versions pour les non-lecteurs, les versions en langue étrangère, et l'édition de poche, allez sur le site<b>acecent.re/speakbook</b></p>
 <h2 class="fsize-6">Mode d'emploi.</h2>
 <p>Vous aurez besoin du Speakbook, un marqueur noir effaçable, un chiffon pour effacer et un interlocuteur.</p>
 <p>
 Vous vous asseyez, face à face avec votre interlocuteur, à environ un mètre de distance. En fonction de votre vision, diminuez ou augmentez la distance. Ouvrez le Speakbook à la page d'essai, à l'intérieur de la couverture arrière. La page est déjà remplie pour vous aider à apprendre les bases. Lorsque vous aurez compris le fonctionnement, écrivez vos propres pages, en utilisant les blancs. Pliez le livre sur lui-même et tenez-le entre vous. Vous êtes chacun face à une page d’essai, et vous voyez les yeux de l'autre à travers le trou. Choisissez sur la page ce que vous allez communiquer à votre interlocuteur. Lorsque vous avez décidé, indiquez à votre partenaire que vous êtes prêt à commencer, en clignant des yeux par exemple. Regardez le message que vous avez choisi pendant une seconde ou deux, puis le cercle de la même couleur que la bande sur laquelle le message est écrit. Votre partenaire suit maintenant vos mouvements oculaires - par exemple, il voit que vous avez regardé le côté supérieur gauche du tableau suivi par le cercle bleu, donc il sait que vous voulez dire "un verre d'eau". Il dit alors, '"un verre d'eau" à haute voix, et vous le confirmez avec un clignement d'oeil, ou un autre signal choisi à l'avance.
 </p>
 <p>Ceci est la méthode de base pour utiliser le Speakbook. Maintenant il faut apprendre à utiliser les autres pages, parce que le vrai génie de Speakbook réside dans sa capacité à vous donner un accès facile à des centaines de phrases de votre choix, des phrases que vous pouvez changer à tout moment, avec seulement un chiffon humide et d'un coup de stylo.</p>
+:::
+stylo.</p>
 :::
 .</p>
 :::
@@ -1433,6 +1438,9 @@ Vous vous asseyez, face à face avec votre interlocuteur, à environ un mètre d
 <div class="pos-rel fill-height fill-width">
   <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-right-label-bkg.svg')" />
   <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 18px), calc(-50% - 18px)) rotate(45deg); color: white;">{{ $page.frontmatter.text.instructions }}</div>
+</div>
+:::
+xt.instructions }}</div>
 </div>
 :::
  }}</div>

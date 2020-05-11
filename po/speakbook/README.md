@@ -1397,7 +1397,7 @@ grid_pages:
 <div class="lheight-1_5x">
   <p class="text-center cover-footer-text">
     <span class="fsize-8 bold">sistema de comunicação não verbal </span> <br>
-    <span class="red-color fsize-8 bold"> www.speakbook.org </span> <br>
+    <span class="red-color fsize-8 bold">acecent.re/speakbook</span> <br>
     <span class="fsize-4"> Speakbook 4ª edição © 2011 Patrick Joyce </span>
   </p>
 </div>
@@ -1417,11 +1417,12 @@ grid_pages:
 :::
 
 
+
 ::: slot inst-01-content
 <div class="p-1 text-center">
   <SpeakBookTextFourColorBkg class="speakbook-title fsize-10 p-1 bold" :text="$page.frontmatter.text.SPEAKBOOK"></SpeakBookTextFourColorBkg>
 </div>
-<p> O Speakbook é uma ferramenta de comunicação não verbal para pessoas que não conseguem falar e têm dificuldade em usar as mãos ou os braços, mas que mantêm o uso dos olhos. Esta edição é para pessoas que sabem ler e soletrar. Para versões para não leitores, versões em idiomas estrangeiros e a edição de bolso, visite <b> www.speakbook.org</b> </p>
+<p> O Speakbook é uma ferramenta de comunicação não verbal para pessoas que não conseguem falar e têm dificuldade em usar as mãos ou os braços, mas que mantêm o uso dos olhos. Esta edição é para pessoas que sabem ler e soletrar. Para versões para não leitores, versões em idiomas estrangeiros e a edição de bolso, visite <b>https://acecent.re/speakbook</b> </p>
 <h2 class = "fsize-6"> Instruções de uso. </h2>
 <p> Para começar, você precisará; o speakbook, uma caneta preta não permanente no quadro branco, um pano para esfregar e um parceiro que fala. </p>
 <p>
@@ -1430,6 +1431,7 @@ Você e seu parceiro de fala se sentam um em frente ao outro, a um metro de dist
 </p>
 <p> Esta é a técnica básica para usar o speakbook. Agora você precisa aprender como usar as outras páginas do livro, porque o verdadeiro gênio do livro de palestras reside na sua capacidade de fornecer acesso fácil a centenas de frases de sua escolha, frases que você pode alterar a qualquer momento, com apenas um pano úmido e o toque de uma caneta. </p>
 :::
+::
 :
 
 
@@ -1438,6 +1440,8 @@ Você e seu parceiro de fala se sentam um em frente ao outro, a um metro de dist
   <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-right-label-bkg.svg')" />
   <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 18px), calc(-50% - 18px)) rotate(45deg); color: white;">{{ $page.frontmatter.text.instructions }}</div>
 </div>
+:::
+v>
 :::
 :::
 :

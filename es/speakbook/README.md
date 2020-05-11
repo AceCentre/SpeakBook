@@ -1384,12 +1384,13 @@ dice a su interlocutor que ahora quiere comunicarse con sus ojos con el libro pr
 <div class="lheight-1_5x">
   <p class="text-center cover-footer-text">
     <span class="fsize-8 bold">sistema de comunicación no oral</span><br>
-    <span class="red-color fsize-8 bold">www.speakbook.org</span><br>
+    <span class="red-color fsize-8 bold">acecent.re/speakbook</span><br>
     <span class="fsize-4">Speakbook 4th edition © 2011 Patrick Joyce - Traducción al Español, 2012</span>
   </p>
 </div>
 
 :::
+
 
 
 
@@ -1408,6 +1409,8 @@ Lo que precisamente escriba en speakbook dependerá de sus necesidades concretas
   </div>
 </div>
 :::
+
+:::
 :::
 ::
 :
@@ -1416,47 +1419,17 @@ Lo que precisamente escriba en speakbook dependerá de sus necesidades concretas
 <div class="p-1 text-center">
   <SpeakBookTextFourColorBkg class="speakbook-title fsize-10 p-1 bold" :text="$page.frontmatter.text.SPEAKBOOK"></SpeakBookTextFourColorBkg>
 </div>
-<p>Speakbook es un instrumento de comunicación no oral destinado a personas que no
-pueden hablar y que tienen dificultades para utilizar manos o brazos pero que conservan
-la vista. Esta edición es para personas que saben leer y deletrear. Para obtener versiones
-para no-lectores, en otros idiomas y la edición de bolsillo, visite www.speakbook.org</b></p>
+<p>Speakbook es un instrumento de comunicación no oral destinado a personas que no pueden hablar y que tienen dificultades para utilizar manos o brazos pero que conservan la vista. Esta edición es para personas que saben leer y deletrear. Para obtener versiones para no-lectores, en otros idiomas y la edición de bolsillo, visite <b>https://acecent.re/speakbook</b></p>
 <h2 class="fsize-6">Instrucciones de uso.</h2>
 <p>
-Para empezar, necesitará
-el speakbook, un rotulador
-negro para pizarra blanca,
-un trapo para borrar y un
-compañero para hablar.</p>
+Para empezar, necesitará el speakbook, un rotulador
+negro para pizarra blanca, un trapo para borrar y un compañero para hablar.</p>
 <p>
-Usted y su interlocutor se
-sientan uno frente al otro a
-una distancia aproximada
-de un metro. En función
-de su vista puede reducir
-o aumentar esta distancia.
-Abra el speakbook por la
-página de prácticas
-(interior contracubierta).
-Esta página está completa
-para ayudarle a aprender
-la técnica básica. Cuando
-la tenga dominada, podrá
-escribir sus propios textos
-en las páginas en blanco
-proporcionadas. Cierre el
-libro sobre sí mismo
-sujetándolo de tal forma
-que ambos interlocutores
-vean la “página de
-prácticas” y al mismo
-tiempo puedan verse los
-ojos a través del hueco
-central del libro. Examine
-ahora las opciones de la
-página para decidir cuál va
-a transmitir. </p>
+Usted y su interlocutor se sientan uno frente al otro a una distancia aproximada de un metro. En función de su vista puede reducir o aumentar esta distancia. Abra el speakbook por la página de prácticas (interior contracubierta). Esta página está completa para ayudarle a aprender la técnica básica. Cuando la tenga dominada, podrá escribir sus propios textos en las páginas en blanco proporcionadas. Cierre el libro sobre sí mismo sujetándolo de tal forma que ambos interlocutores vean la “página de prácticas” y al mismo tiempo puedan verse los ojos a través del hueco central del libro. Examine ahora las opciones de la página para decidir cuál va a transmitir. </p>
 <p>Cuando haya decidido, indíquele a su interlocutor que está preparado para comenzar mediante el gesto que más le convenga (por ejemplo, mirando a su interlocutor y parpadeando, o moviendo los ojos arriba y abajo). Después mire el mensaje que prefiera, durante un segundo más o menos, seguido por el símbolo grande cuya figura sea la misma que el símbolo pequeñito junto al mensaje elegido. Entonces su interlocutor sigue los movimientos del ojo, por ejemplo, ve que usted ha mirado a la parte superior izquierda del tablero seguido por el triángulo grande, por lo tanto sabe que usted quiere decir "¡Taza de té!". Luego en voz alta dice "¡Taza de té!" y usted se lo confirma con un parpadeo o con cualquier otra señal preestablecida.
 Esta es la técnica básica para utilizar speakbook. Ahora tiene que aprender a usar las otras páginas del libro porque la verdadera genialidad de speakbook reside en su capacidad para facilitar el acceso a cientos de frases de su propia elección, frases que se pueden cambiar en cualquier momento, con sólo un paño húmedo y un rotulador.</p>
+:::
+lador.</p>
 :::
 .</p>
 :::
@@ -1469,6 +1442,9 @@ Esta es la técnica básica para utilizar speakbook. Ahora tiene que aprender a 
 <div class="pos-rel fill-height fill-width">
   <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-right-label-bkg.svg')" />
   <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 18px), calc(-50% - 18px)) rotate(45deg); color: white;">{{ $page.frontmatter.text.instructions }}</div>
+</div>
+:::
+xt.instructions }}</div>
 </div>
 :::
  }}</div>
