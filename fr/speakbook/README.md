@@ -1008,6 +1008,8 @@ grid_pages:
                 text_key: CAR
                 inlinecss:
                   margin-left: 43mm
+                text_inlinecss:
+                  font-size: 24pt
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -1069,6 +1071,8 @@ grid_pages:
             rows:
               - image: shape-heart-1x-img
                 text_key: im_too_hot
+                text_inlinecss:
+                  font-size: 26pt                
               - image: shape-circle-1x-img
                 text_key: im_too_cold
               - image: shape-triangle-1x-img
@@ -1170,6 +1174,8 @@ grid_pages:
                 text_key: CAR
                 inlinecss:
                   margin-right: 43mm
+                text_inlinecss:
+                 font-size: 10pt
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -1235,6 +1241,8 @@ grid_pages:
             rows:
               - image: shape-heart-1x-img
                 text_key: im_too_hot
+                text_inlinecss:
+                  font-size: 26pt  
               - image: shape-circle-1x-img
                 text_key: im_too_cold
               - image: shape-triangle-1x-img
