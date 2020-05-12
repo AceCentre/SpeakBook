@@ -1393,7 +1393,7 @@ grid_pages:
 <div class="lheight-1_5x">
   <p class="text-center cover-footer-text">
     <span class="fsize-8 bold">non verbal communication system</span><br>
-    <span class="red-color fsize-8 bold">www.speakbook.org</span><br>
+    <span class="red-color fsize-8 bold">acecent.re/speakbook</span><br>
     <span class="fsize-4">Speakbook 4th edition © 2011 Patrick Joyce</span>
   </p>
 </div>
@@ -1415,7 +1415,7 @@ grid_pages:
 <div class="p-1 text-center">
   <SpeakBookTextFourColorBkg class="speakbook-title fsize-10 p-1 bold" :text="$page.frontmatter.text.SPEAKBOOK"></SpeakBookTextFourColorBkg>
 </div>
-<p>Speakbook is a non verbal communication tool for people who cannot speak and have difficulty using their hands or arms, but who retain the use of their eyes. This edition is for people who can read and spell. For versions for non-readers, foreign language versions, and the pocket edition, visit <b>www.speakbook.org</b></p>
+<p>Speakbook is a non verbal communication tool for people who cannot speak and have difficulty using their hands or arms, but who retain the use of their eyes. This edition is for people who can read and spell. For versions for non-readers, foreign language versions, and the pocket edition, visit <b>acecent.re/speakbook</b></p>
 <h2 class="fsize-6">Instructions for use.</h2>
 <p>To get started, you will need; the speakbook, a black, non-permanent whiteboard pen, a cloth to rub out, and a speaking partner.</p>
 <p>
