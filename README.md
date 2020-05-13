@@ -4,17 +4,50 @@ description: This is a repository to hold a mirror of [Patrick Joyce's SpeakBook
 ---
 <img src="https://i.imgur.com/FyH8YF2.png" :src="$withBase('/assets/logo.png')" alt="SpeakBook" style="width:100%">
 
-This is a project that builds a document and a PDF of the document is created. Its made using Vue.js. All documents are created in HTML/CSS and can be edited. We use a language strings which you can run a PO->Markdown script to convert PO strings to the document. 
+This is a repository to hold the working versions of [Patrick Joyce's SpeakBook project](https://web.archive.org/web/20170325172200/http://www.speakbook.org/). We aim to provide a platform for crowd-sourced version control of future PDF's here. 
 
-- [English SpeakBook](./speakbook/) (and [PDF](./speakbook/index.pdf))
-- [Swedish SpeakBook](./sv/speakbook/) (and [PDF](./sv/speakbook/index.pdf))
-- [Portuguese SpeakBook](./po/speakbook/) (and [PDF](./po/speakbook/index.pdf))
-- [Spanish SpeakBook](./es/speakbook/) (and [PDF](./es/speakbook/index.pdf))
-- [German SpeakBook](./de/speakbook/) (and [PDF](./de/speakbook/index.pdf))
-- [French SpeakBook](./fr/speakbook/) (and [PDF](./fr/speakbook/index.pdf))
+To help out with translation into new languages join to [POEditor project here](https://poeditor.com/join/project/wKsMtKRLIj)
 
+[Issues here](https://github.com/acecentre/SpeakBook/issues).  
 
-# Package scripts
+**Urgent needs**
+- German need proofing and more work
+- Portuguese has been a Google translation. Certainly isn't right. Needs help. 
+
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/) [![OpenAAC](https://img.shields.io/badge/OpenAAC-💬-red?style=plastic&logoWidth=40&link=https://www.openaac.org)](https://img.shields.io/badge/OpenAAC-💬-red?style=plastic&logoWidth=40&link=https://www.openaac.org)
+
+## Technical Background
+
+This is simply a Vue.js themed template with some scripts to generate a PDF of the document is created. Its designed for chrome as chrome does the PDF generation.  We use a language strings which you can run a PO->Markdown script to convert PO strings to the document. 
+
+### Layout
+
+    .vuepress/
+        build-pdf-plugin.js    <-  The pdf build plugin. 
+        config.js
+        dist/                  <- Where the final build is outputted
+        public/                <- Static assets like images sit here and in SpeakBook/
+        theme/  
+            layouts/
+                SpeakBook.vue  <- The main logic for SpeakBook
+            styles/
+            util/
+            fonts/
+            components/         
+
+    .scripts/
+        common.js
+        apply-po-to-md.js     <- Apply a PO Language file to Markdown file. 
+        getPOfiles.js         <- NOT WORKING - Grab files from POEditor
+        po-from-md.js         <- Make a master PO file from a markdown file.        
+
+    speakbook/
+        README.md             <- The English version of SpeakBook
+
+    lang/speakbook/
+        README.md             <- Other language versions
+
+### Package scripts
 
 ```
 # run a local server for development
@@ -25,7 +58,7 @@ $ yarn build
 $ yarn buildpdf
 ```
 
-# Language translation scripts
+### Language translation scripts
 
 1. Export your PO file from POEditor
 2. Convert your language file with the correct strings. e.g. 
@@ -36,7 +69,7 @@ If you need to make a new POEditor file of terms run
 ```node .scripts/po-from-md.js speakbook/README.md > res/master.po```
 
 
-## Script to update all files from POEditor
+### Script to update all files from POEditor
 
 ```
 node .scripts/apply-po-to-md.js res/lang/SpeakBook_Spanish.po es/speakbook/README.md > es/speakbook/README2.md && mv es/speakbook/README2.md es/speakbook/README.md 
