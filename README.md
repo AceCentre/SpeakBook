@@ -10,6 +10,13 @@ To help out with translation into new languages join to [POEditor project here](
 
 [Issues here](https://github.com/acecentre/SpeakBook/issues).  
 
+- [English SpeakBook](https://speakbook.netlify.app/speakbook/) (and [PDF](https://speakbook.netlify.app/speakbook/index.pdf))
+- [Swedish SpeakBook](https://speakbook.netlify.app/sv/speakbook/) (and [PDF](https://speakbook.netlify.app/sv/speakbook/index.pdf))
+- [Portuguese SpeakBook](https://speakbook.netlify.app/po/speakbook/) (and [PDF](https://speakbook.netlify.app/po/speakbook/index.pdf))
+- [Spanish SpeakBook](https://speakbook.netlify.app/es/speakbook/) (and [PDF](https://speakbook.netlify.app/es/speakbook/index.pdf))
+- [German SpeakBook](https://speakbook.netlify.app/de/speakbook/) (and [PDF](https://speakbook.netlify.app/de/speakbook/index.pdf))
+- [French SpeakBook](https://speakbook.netlify.app/fr/speakbook/) (and [PDF](https://speakbook.netlify.app/fr/speakbook/index.pdf))
+
 **Urgent needs**
 - German need proofing and more work
 - Portuguese has been a Google translation. Certainly isn't right. Needs help. 
