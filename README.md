@@ -1,10 +1,10 @@
 ---
 title: SpeakBook Index Page
-description: This is a repository to hold a mirror of [Patrick Joyce's SpeakBook project](https://web.archive.org/web/20170325172200/http://www.speakbook.org/) which is sadly no longer accessible on the web. More to follow soon
+description: This is a project to build a toolchain for multi-lingual PDF's. Initial document is SpeakBook; a low-tech communication chart and book.
 ---
 <img src="https://i.imgur.com/FyH8YF2.png" :src="$withBase('/assets/logo.png')" alt="SpeakBook" style="width:100%">
 
-This is a repository to hold the working versions of [Patrick Joyce's SpeakBook project](https://web.archive.org/web/20170325172200/http://www.speakbook.org/). We aim to provide a platform for crowd-sourced version control of future PDF's here. 
+This is a repository to hold the working versions of [Patrick Joyce's SpeakBook project](https://web.archive.org/web/20170325172200/http://www.speakbook.org/). We aim to provide a platform for crowd-sourced version control of future PDF's here. More info can be found at the Ace Centre's project page [here](http://acecentre.org.uk/project/speakbook/).
 
 The current *in-progress* versions :
 
