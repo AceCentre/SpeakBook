@@ -6,9 +6,7 @@ description: This is a repository to hold a mirror of [Patrick Joyce's SpeakBook
 
 This is a repository to hold the working versions of [Patrick Joyce's SpeakBook project](https://web.archive.org/web/20170325172200/http://www.speakbook.org/). We aim to provide a platform for crowd-sourced version control of future PDF's here. 
 
-To help out with translation into new languages join to [POEditor project here](https://poeditor.com/join/project/wKsMtKRLIj)
-
-[Issues here](https://github.com/acecentre/SpeakBook/issues).  
+The current *in-progress* versions :
 
 - [English SpeakBook](https://speakbook.netlify.app/speakbook/) (and [PDF](https://speakbook.netlify.app/speakbook/index.pdf))
 - [Swedish SpeakBook](https://speakbook.netlify.app/sv/speakbook/) (and [PDF](https://speakbook.netlify.app/sv/speakbook/index.pdf))
@@ -16,6 +14,12 @@ To help out with translation into new languages join to [POEditor project here](
 - [Spanish SpeakBook](https://speakbook.netlify.app/es/speakbook/) (and [PDF](https://speakbook.netlify.app/es/speakbook/index.pdf))
 - [German SpeakBook](https://speakbook.netlify.app/de/speakbook/) (and [PDF](https://speakbook.netlify.app/de/speakbook/index.pdf))
 - [French SpeakBook](https://speakbook.netlify.app/fr/speakbook/) (and [PDF](https://speakbook.netlify.app/fr/speakbook/index.pdf))
+
+
+To help out with translation into new languages join to [POEditor project here](https://poeditor.com/join/project/wKsMtKRLIj)
+
+[Issues here](https://github.com/acecentre/SpeakBook/issues).  
+
 
 **Urgent needs**
 - German need proofing and more work
