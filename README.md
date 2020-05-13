@@ -16,7 +16,7 @@ The current *in-progress* versions :
 - [French SpeakBook](https://speakbook.netlify.app/fr/speakbook/) (and [PDF](https://speakbook.netlify.app/fr/speakbook/index.pdf))
 
 
-To help out with translation into new languages join to [POEditor project here](https://poeditor.com/join/project/wKsMtKRLIj)
+To help out with translation into new languages join the [POEditor project here](https://poeditor.com/join/project/wKsMtKRLIj)
 
 [Issues here](https://github.com/acecentre/SpeakBook/issues).  
 
@@ -29,7 +29,7 @@ To help out with translation into new languages join to [POEditor project here](
 
 ## Technical Background
 
-This is simply a Vue.js themed template with some scripts to generate a PDF of the document is created. Its designed for chrome as chrome does the PDF generation.  We use a language strings which you can run a PO->Markdown script to convert PO strings to the document. 
+This is simply a Vue.js themed template with some scripts to generate a PDF of the html document that is created. Its designed for chrome as chrome does the PDF generation.  We use [PO language strings](https://www.gnu.org/software/gettext/manual/html_node/PO-Files.html) in this project. On each markdown file we have a ``text:`` field where there is a list of strings available to the page. This means you can separate the design logic from the language information. We have some scripts to aid this process. A Markdown->PO script to create a PO file from a file - and then a PO->Markdown script that applies new language strings to a markdown file.  
 
 ### Layout
 
