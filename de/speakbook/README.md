@@ -1483,7 +1483,7 @@ Sie und ihr Gesprächspartner sitzen sich in einem Abstand von etwa 1 Meter gege
         <div class="block b3x green-bkg">{{ $page.frontmatter.text.YES }}</div>
         <div class="flex-h flex-wrap">
           <div class="block">{{ $page.frontmatter.text._GBP }}</div>
-          <div class="block">{{ $page.frontmatter.text._USD }}</div>
+          <div class="block">{{ $page.frontmatter.text._atsign }}</div>
           <div class="block">{{ $page.frontmatter.text._percent }}</div>
           <div class="block">{{ $page.frontmatter.text._plus }}</div>
           <div class="block">{{ $page.frontmatter.text._minus }}</div>
@@ -1545,7 +1545,7 @@ Sie und ihr Gesprächspartner sitzen sich in einem Abstand von etwa 1 Meter gege
       <div class="block cyan-bkg">{{ $page.frontmatter.text.J }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.K }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.L }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.Z }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.Y }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.X }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.C }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.V }}</div>
