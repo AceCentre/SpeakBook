@@ -32,6 +32,7 @@ text:
   Q: Q
   R: R
   S: S
+  S1: ß
   T: T
   U: U
   V: V
@@ -39,6 +40,9 @@ text:
   X: X
   Y: Y
   Z: Z
+  O1: Ö
+  A1: Ä
+  U1: Ü
   _zero: "0"
   _one: "1"
   _two: "2"
@@ -78,6 +82,7 @@ text:
   _atsign: "@"
   YES: JA
   NO: NEIN
+  CLEAR: KLAR
 slots_in_need_for_translation:
   - training-page-description
   - last-page-heading
@@ -1475,7 +1480,7 @@ Sie und ihr Gesprächspartner sitzen sich in einem Abstand von etwa 1 Meter gege
         <div class="block b3x"></div>
         <div class="block b3x"></div>
         <div class="block b3x"></div>
-        <div class="block b3x"></div>
+        <div class="block b3x green-bkg">{{ $page.frontmatter.text.YES }}</div>
         <div class="flex-h flex-wrap">
           <div class="block">{{ $page.frontmatter.text._GBP }}</div>
           <div class="block">{{ $page.frontmatter.text._USD }}</div>
@@ -1501,8 +1506,8 @@ Sie und ihr Gesprächspartner sitzen sich in einem Abstand von etwa 1 Meter gege
         <div class="block b3x"></div>
         <div class="block b3x"></div>
         <div class="block b3x"></div>
-        <div class="block b3x"></div>
-        <div class="block b3x"></div>
+        <div class="block b3x pink-bkg">{{ $page.frontmatter.text.NO }}</div>
+        <div class="block b3x">{{ $page.frontmatter.text.CLEAR }}</div>
         <div class="flex-h flex-wrap">
           <div class="block pink-bkg">{{ $page.frontmatter.text._one }}</div>
           <div class="block pink-bkg">{{ $page.frontmatter.text._two }}</div>
@@ -1532,6 +1537,7 @@ Sie und ihr Gesprächspartner sitzen sich in einem Abstand von etwa 1 Meter gege
       <div class="block cyan-bkg">{{ $page.frontmatter.text.P }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.A }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.S }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.S1 }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.D }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.F }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.G }}</div>
@@ -1539,16 +1545,16 @@ Sie und ihr Gesprächspartner sitzen sich in einem Abstand von etwa 1 Meter gege
       <div class="block cyan-bkg">{{ $page.frontmatter.text.J }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.K }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.L }}</div>
-      <div class="block cyan-bkg">Ö</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.Y }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.Z }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.X }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.C }}</div>
-      <div class="block b1_5x yellow-bkg">{{ $page.frontmatter.text.YES }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.V }}</div>
-      <div class="block b1_5x yellow-bkg">{{ $page.frontmatter.text.NO }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.B }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.N }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.M }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.O1 }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.A1 }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.U1 }}</div>
     </div>
   </div>
 </div>
