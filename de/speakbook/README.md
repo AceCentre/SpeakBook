@@ -1539,7 +1539,7 @@ Sie und ihr Gesprächspartner sitzen sich in einem Abstand von etwa 1 Meter gege
       <div class="block cyan-bkg">{{ $page.frontmatter.text.J }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.K }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.L }}</div>
-      <div class="block cyan-bkg">ö</div>
+      <div class="block cyan-bkg">Ö</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.Y }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.X }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.C }}</div>
