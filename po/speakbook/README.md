@@ -1077,12 +1077,20 @@ grid_pages:
             rows:
               - image: shape-heart-1x-img
                 text_key: im_too_hot
+                text_inlinecss:
+                  font-size: 20pt
               - image: shape-circle-1x-img
                 text_key: im_too_cold
+                text_inlinecss:
+                  font-size: 20pt                
               - image: shape-triangle-1x-img
                 text_key: cup_of_tea
+                text_inlinecss:
+                  font-size: 20pt
               - image: shape-square-1x-img
                 text_key: cup_of_coffee
+                text_inlinecss:
+                  font-size: 20pt                
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -1243,12 +1251,20 @@ grid_pages:
             rows:
               - image: shape-heart-1x-img
                 text_key: im_too_hot
+                text_inlinecss:
+                  font-size: 20pt
               - image: shape-circle-1x-img
                 text_key: im_too_cold
+                text_inlinecss:
+                  font-size: 20pt
               - image: shape-triangle-1x-img
                 text_key: cup_of_tea
+                text_inlinecss:
+                  font-size: 20pt
               - image: shape-square-1x-img
                 text_key: cup_of_coffee
+                text_inlinecss:
+                  font-size: 20pt
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
