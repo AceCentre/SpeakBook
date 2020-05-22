@@ -1,19 +1,19 @@
 ---
 layout: SpeakBook
 text:
-  ring_bind_edge: Anel de ligação ao longo desta borda
+  ring_bind_edge: Coloque as argolas ao longo desta margem
   cut_out_this_part: Recorte esta parte.
   SPEAKBOOK: SPEAKBOOK
-  edition_nth: 4º
+  edition_nth: 4ª
   EDITION: EDIÇÃO
-  color_blind: Daltônico
-  friendly: Amigáveis!
+  color_blind: Adaptado para
+  friendly: Daltónicos!
   instructions: instruções
   HOME_PAGE: PAGINA INICIAL
   SPELL: SOLETRAR
-  HOME: CASA
+  HOME: INÍCIO
   THANK_YOU: OBRIGADO
-  A: UMA
+  A: A
   B: B
   C: C
   D: D
@@ -21,10 +21,10 @@ text:
   F: F
   G: G
   H: H
-  I: Eu
+  I: I
   J: J
   K: K
-  L: eu
+  L: L
   M: M
   N: N
   O: O
@@ -33,7 +33,7 @@ text:
   R: R
   S: S
   T: T
-  U: você
+  U: U
   V: V
   W: W
   X: X
@@ -49,24 +49,24 @@ text:
   _seven: "7"
   _eight: "8"
   _nine: "9"
-  im_too_hot: Eu estou demasiado quente
-  im_too_cold: Estou com muito frio
-  cup_of_tea: Copo de chá!
-  cup_of_coffee: Xícara de café!
-  i_love_you: eu te amo
+  im_too_hot: Estou demasiado quente
+  im_too_cold: Estou com frio
+  cup_of_tea: Copo de água!
+  cup_of_coffee: Um café!
+  i_love_you: Amo-te
   yes: sim
   no: não
   CAR: CARRO
   BED: CAMA
-  CLOTHING: ROUPAS
+  CLOTHING: VESTUÁRIO
   BATHTIME: HORA DO BANHO
   MEALS: REFEIÇÕES
   COMFORT: CONFORTO
-  TOILET: BANHEIRO
+  TOILET: WC
   DRINKS: BEBIDAS
-  TRAINING_PAGE: PÁGINA DE FORMAÇÃO
-  training_page: página de negociação
-  _GBP: £
+  TRAINING_PAGE: PÁGINA DE TESTE
+  training_page: página de teste
+  _GBP: €
   _USD: $
   _percent: "%"
   _plus: +
@@ -1265,17 +1265,17 @@ grid_pages:
 <div class="float-left" style="width: 40mm; height: 37mm; shape-outside: polygon(0 0, 40mm 0, 10mm 100%, 0 100%);"></div>
 <h2 class="my-2">Página de ortografia dos dedos. </h2>
 <p class = "my-2">
-  Se você ainda usa as mãos, esta página é para você.
-  Ao apontar com o dedo, você pode soletrar palavras e frases para o seu parceiro.
-  Palavras usadas com frequência podem ser escritas nas caixas em branco.
-  Apontar para a palavra <strong class = "bold"> „CASA '* </strong> indica ao seu parceiro que você agora
+  Se retém funcionalidade nas suas mãos, esta página é para si.
+  Ao apontar com o dedo, pode soletrar palavras e frases para o seu parceiro.
+  Palavras usadas com mais frequência podem ser escritas nos espaços em branco.
+  Ao apontar para a palavra <strong class = "bold"> „ CASA "*</strong> indica ao seu parceiro que agora
   deseja se comunicar com seus olhos usando o livro principal.
 </p>
 :::
 ::: slot training-page-description
 <p class = "fsize-3">
-  Quando você aprendeu a técnica básica usando esta página de treinamento,
-  você pode escrever suas próprias páginas usando as páginas em branco deste livro.
+Quanto assimilar a técnica base através desta página de teste, poderá 
+escrever as suas próprias páginas usando as que estão em branco neste livro.
 </p>
 :::
 ::: slot table-overlay-01
@@ -1397,7 +1397,7 @@ grid_pages:
 <div class="lheight-1_5x">
   <p class="text-center cover-footer-text">
     <span class="fsize-8 bold">sistema de comunicação não verbal </span> <br>
-    <span class="red-color fsize-8 bold">acecent.re/speakbook</span> <br>
+    <span class="red-color fsize-8 bold">acecent.re/speakbook</span><br>
     <span class="fsize-4"> Speakbook 4ª edição © 2011 Patrick Joyce </span>
   </p>
 </div>
@@ -1409,8 +1409,8 @@ grid_pages:
   <div class="flex-v">
     <img class="m-1" style="width: 58.5mm; height: 79.7mm; box-sizing: border-box;" :src="$withBase('/speakbook/images/01.png')"  />
     <div class="m-1 p-1 flex-grow-1 flt-box" style="width: 57.5mm; min-height: 79.7mm; box-sizing: border-box;">
-      <h3 class="my-1 fsize-5">Como escrever no speakbook </h3>
-      <p class = "my-2 fsize-4_5"> Exatamente o que você escreve no speakbook dependerá de seus requisitos específicos, mas seja o que for que você escreva, é importante que cada lado de qualquer página dupla tenha o mesmo texto, e que eles são uma imagem espelhada um do outro - como no exemplo acima. Você e seu parceiro falam idiomas diferentes? Não tem problema - basta escrever um idioma diferente em ambos os lados. </p>
+      <h3 class="my-1 fsize-5">Como escrever no Speakbook </h3>
+      <p class = "my-2 fsize-4_5"> Aquilo que escreve no Speakbook irá depender das suas necessidades específicas, mas, independentemente do que escrever, deve sempre manter o mesmo texto nas páginas que formam um par, como que sendo o espelho uma da outra - tal como o exemplo acima. O seu parceiro de comunicação fala num idioma diferente do seu? Sem problema - escreva em diferentes idiomas em cada lado. </p>
     </div>
   </div>
 </div>
@@ -1418,18 +1418,19 @@ grid_pages:
 
 
 
+
 ::: slot inst-01-content
 <div class="p-1 text-center">
   <SpeakBookTextFourColorBkg class="speakbook-title fsize-10 p-1 bold" :text="$page.frontmatter.text.SPEAKBOOK"></SpeakBookTextFourColorBkg>
 </div>
-<p> O Speakbook é uma ferramenta de comunicação não verbal para pessoas que não conseguem falar e têm dificuldade em usar as mãos ou os braços, mas que mantêm o uso dos olhos. Esta edição é para pessoas que sabem ler e soletrar. Para versões para não leitores, versões em idiomas estrangeiros e a edição de bolso, visite <b>https://acecent.re/speakbook</b> </p>
+<p> Speakbook é uma ferramenta de comunicação para pessoas que não conseguem falar e têm dificuldades em usar os membros superiores, mas retêm função ocular. Esta edição destina-se a pessoas que conseguem ler e soletrar. Versões para pessoas que não conseguem ler, em outros idiomas, e edição livro de bolso disponíveis em <b>https://acecent.re/speakbook</b> </p>
 <h2 class = "fsize-6"> Instruções de uso. </h2>
-<p> Para começar, você precisará; o speakbook, uma caneta preta não permanente no quadro branco, um pano para esfregar e um parceiro que fala. </p>
+<p> Para começar, irá precisar de: Speakbook, um marcador de tinta preta não permanete e respetivo quadro, um pano para apagar, e um parceiro de comunicação. </p>
 <p>
-Você e seu parceiro de fala se sentam um em frente ao outro, a um metro de distância. Dependendo da sua visão, você pode achar útil diminuir ou aumentar essa distância. Abra o speakbook na página de treinamento na contracapa. Isso já foi preenchido para ajudá-lo a aprender a técnica básica. Quando você o domina, pode escrever suas próprias páginas, usando as páginas em branco fornecidas. Dobre o livro de volta e segure-o entre vocês, para que ambos fiquem de frente para uma 'página de treinamento' e possam ver os olhos um do outro pelo buraco no meio. Agora você olha as opções na página para decidir qual delas se comunicar. Quando você decide, indica ao seu parceiro que está pronto para começar
-- isso pode ser olhando para seu parceiro e piscando, ou balançando os olhos para cima e para baixo - o que mais lhe convier. Então olhe para a mensagem que você deseja, por um segundo ou mais, seguida pelo símbolo grande, igual ao pequeno ao lado da mensagem. Seu parceiro segue os movimentos dos olhos - por exemplo, ele pode ver que você olhou para o lado superior esquerdo do quadro, seguido pelo grande triângulo, para que ele saiba que você deve querer dizer 'xícara de chá!'. Ele então diz: "xícara de chá!" em voz alta, e você confirma isso com um piscar de olhos ou algum outro sinal pré-combinado
+Você e o seu parceiro de comunicação devem estar sentados de frente um para o outro, à distância de um metro. Dependendo da sua visão, talvez sinta que devem ajustar esta distância. Abra o Speakbook na página de teste, na contracapa. Esta página já se encontra preenchida, para o ajudar a aprender a técnica base de uso. Quando estiver confortável com esta técnica, poderá escrever a suas próprias páginas, usando os espaços em branco disponibilizados. Dobre o livro nesta página e segure-o entre vocês os dois, de forma que ambos estejam na mesma página, e consigam ver os olhos um do outro através da abertura central. Agora, olhe para as mensagens na página e escolha uma. Quando decidir, dê sinal ao seu parceiro que está preparado para começar – este sinal pode ser dado olhando para o seu parceiro e piscar os olhos, movendo as sobrancelhas, etc. – aquilo que melhor se adeque a si. A seguir, olhe para a mensagem que pretende comunicar, por aproximadamente um segundo, e depois para o símbolo grande que corresponde ao que está na mensagem que escolheu. O seu parceiro seguirá os movimentos dos seus olhos – exemplo: o seu parceiro verá que olhou para o canto superior esquerdo seguido do triângulo grande, e prevê que a palavra escolhida por si é „copo de água !”. Então ele diz, „copo de água !” em voz alta, e você confirma com o sinal previamente combinado.
 </p>
-<p> Esta é a técnica básica para usar o speakbook. Agora você precisa aprender como usar as outras páginas do livro, porque o verdadeiro gênio do livro de palestras reside na sua capacidade de fornecer acesso fácil a centenas de frases de sua escolha, frases que você pode alterar a qualquer momento, com apenas um pano úmido e o toque de uma caneta. </p>
+<p> Esta é a técnica base para usar o Speakbook. Agora, deverá aprender como utilizar as outras páginas do livro, pois a verdadeira essência do Speakbook reside no facto de lhe proporcionar fácil acesso a centenas de frases à sua escolha, que pode alterar sempre quiser, recorrendo apenas a um pano húmido e uma caneta. </p>
+:::
 :::
 ::
 :
@@ -1439,6 +1440,8 @@ Você e seu parceiro de fala se sentam um em frente ao outro, a um metro de dist
 <div class="pos-rel fill-height fill-width">
   <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-right-label-bkg.svg')" />
   <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 18px), calc(-50% - 18px)) rotate(45deg); color: white;">{{ $page.frontmatter.text.instructions }}</div>
+</div>
+:::
 </div>
 :::
 v>
@@ -1455,9 +1458,9 @@ v>
 </div>
 :::
 ::: slot inst-02-content
-<p> Cada página do speakbook possui 14 ou 15 seções em branco nas quais você pode escrever seu próprio texto. Para que o usuário possa se mover entre as diferentes páginas, criamos a página inicial. Ele encontra-se na parte frontal do livro e é marcado com uma guia preta "HOME" na borda da página. A idéia é que você escreva as 7 frases que você mais usa nesta página, pois é a página em que você sempre inicia. Além disso, em 8 das faixas em branco, você escreve links para as outras 8 páginas duplas em branco. Essas devem ser as partes da sua vida que exigem um conjunto mais profundo de frases; podem ser áreas como a hora do banho ou sair no carro. À esquerda, há um exemplo de um possível layout para a página "CASA". As 8 palavras em maiúscula em negrito são links para páginas duplas espalhadas em outras partes do livro. O que você faz é encontrar uma página em branco e escrever, por exemplo, 'CAMA' na aba da borda, e nas tiras você escreve as 14 frases mais relevantes para sua rotina de dormir. Em seguida, repita esse processo para os outros 7 links, até que o livro esteja cheio. Se você cometer um erro ou quiser alterar uma frase, limpe-a com um pano úmido e comece novamente. </p>
-<p> Para usar o speakbook, você indica ao seu parceiro que deseja se comunicar. Seu parceiro abre o livro de palestras na página "CASA" e você se comunica, por exemplo, "CAMA". Seu parceiro então se volta para a página "CAMA" e você pode se comunicar: "Eu quero ir para a cama" - ou o que for. Cada página tem 'HOME' e 'SPELL' pré-impressos. O "CASA" é para que você possa sempre voltar à página "CASA" (você pode querer uma "xícara de chá!" Para levar para a cama com você). A página 'ORÇAMENTO' permite que você soletre palavras e frases individuais que não aparecem em nenhum outro lugar do livro. Funciona de maneira semelhante às outras páginas, com uma diferença. Nesta página, existem 6 blocos coloridos, cada um com 6 letras ou números coloridos. O alfabeto inteiro está lá, além dos números de 1 a 9 (para zero, use a letra O). Você olha para a letra que deseja comunicar, por um segundo ou mais, seguida pelo bloco colorido da mesma cor da letra escolhida. Seu parceiro segue seus olhos, vê que você olhou, por exemplo, o bloco superior esquerdo, seguido pelo bloco superior direito (que é verde), e sabe que deseja 'C'. Seu parceiro diz "C" em voz alta para confirmar e você passa para a próxima carta. Seu parceiro adivinha o resto da palavra, quando possível, para acelerar o processo. </p>
-<p> O Speakbook tem espaço para 119 frases de sua escolha. Se isso não for suficiente, ou se você precisar de mais de 14 frases em uma seção específica, poderá dobrar sua capacidade escrevendo duas frases em cada linha, uma em caneta preta e outra em vermelho. Você escolhe uma frase preta da maneira normal, uma vermelha piscando quando olha para o símbolo grande. </p>
+<p>Cada página do Speakbook tem 14 ou 15 secções em branco, nas quais pode escrever o seu próprio conteúdo. Para que o utilizador possa navegar pelas diferentes páginas, criamos a „Página Inicial”. Esta encontra-se na frente do livro, e está marcada na margem da página com “INÍCIO” numa aba a negro. A ideia é escrever as 7 frases que mais usa nesta página, pois esta é a página onde irá sempre começar. Nos restantes 8 espaços em branco escreva as ligações que o direcionam para outras 8 folhas. Estas devem ser utilizadas para aspetos da sua vida que necessitem de frase mais específicas – tal como hora do banho, ou sair de carro. À esquerda está um exemplo de um formato para a página “INÍCIO”. As 8 letras maiúsculas a negrito são ligações para outras páginas espalhadas no livro. Por exemplo, numa página em branco escreva “CAMA” na aba da página, e preencha os espaços em branco com as 14 frases mais relevantes para a sua rotina de deitar. Repita este processo para as restantes 7 ligações da página inicial, até preencher o livro todo. Se se enganar, ou quiser mudar algo, simplesmente apague e comece de novo. </p>
+<p> Para usa o Speakbook, deve indicar ao seu parceiro de comunicação que pretende comunicar. O seu parceiro abre o Speakbook na página „INÍCIO” e você comunica, por exemplo, „CAMA”. O seu parceiro irá então folhear o livro para a página „CAMA” e você poderá comunicar, „Quero ir para a cama” – ou algo diferente. Cada página tem „INÍCIO” e „SOLETRAR” pré-impresso. „INÍCIO” serve para que possa sempre voltar à página „INÍCIO” (pode sempre querer levar um „Copo de água” para a cama). „SOLETRAR” permite-lhe soletrar alguma palavra que não esteja no livro. Esta funciona de forma semelhante às outras, com uma diferença. Esta página contém 6 blocos coloridos, cada um com 6 letras ou números coloridos. Está incluído o alfabeto completo, mais números de 1-9 (para zero use a letra O). Para selecionar deve olhar para a letra que quer comunicar, por aproximadamente um segundo, seguido do bloco que corresponde à cor da letra que escolheu. O seu parceiro segue os movimentos dos seus olhos, vê para onde olhou e descobre o que escolheu. Por exemplo, olha para o bloco no canto superior esquerdo seguido do bloco superior direito, e sabe que escolheu a letra „C”. O seu parceiro diz „C” em alta voz pra confirmar, e você continua para a próxima letra. Quando possível, o seu parceiro tenta adivinhar o resto da palavra, para acelerar o processo.  </p>
+<p> O Speakbook tem espaço para 119 frases à sua escolha. Se não for suficiente, ou se precisar de adicionar mais de 14 frases numa secção em específico, pode duplicar a sua capacidade escrevendo duas frases em cada linha, uma em preto e outra em vermelho.  Escolhe a frase preta pelo processo normal, e a vermelha piscando os olhos quando olha para o símbolo grande. </p>
 :::
 
 ::: slot last-page-content
