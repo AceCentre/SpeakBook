@@ -20,10 +20,10 @@ To help out with translation into new languages join the [POEditor project here]
 
 [Issues here](https://github.com/acecentre/SpeakBook/issues).  
 
-
 **Urgent needs**
 - German need proofing and more work
-- Portuguese has been a Google translation. Certainly isn't right. Needs help. 
+- Need translations for a [printed instructions sheet ](https://acecentre.org.uk/wp-content/uploads/2018/11/Printing-Instructions1.pdf)
+- More serious coding issues see the queue [ here](https://github.com/acecentre/SpeakBook/issues). 
 
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/) [![OpenAAC](https://img.shields.io/badge/OpenAAC-💬-red?style=plastic&logoWidth=40&link=https://www.openaac.org)](https://img.shields.io/badge/OpenAAC-💬-red?style=plastic&logoWidth=40&link=https://www.openaac.org) [![Netlify Status](https://api.netlify.com/api/v1/badges/e7e4b2ad-fd21-4239-8141-ea608482fea7/deploy-status)](https://app.netlify.com/sites/speakbook/deploys)
 
