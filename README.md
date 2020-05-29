@@ -20,6 +20,7 @@ To help out with translation into new languages join the [POEditor project here]
 
 [Issues here](https://github.com/acecentre/SpeakBook/issues).  
 
+
 **Urgent needs**
 - German need proofing and more work
 - Need translations for a [printed instructions sheet ](https://acecentre.org.uk/wp-content/uploads/2018/11/Printing-Instructions1.pdf)
@@ -92,5 +93,8 @@ node .scripts/apply-po-to-md.js res/lang/SpeakBook_Portuguese.po po/speakbook/RE
 node .scripts/apply-po-to-md.js res/lang/SpeakBook_Swedish.po sv/speakbook/README.md > sv/speakbook/README2.md && mv sv/speakbook/README2.md sv/speakbook/README.md 
 
 node .scripts/apply-po-to-md.js res/lang/SpeakBook_German.po de/speakbook/README.md > de/speakbook/README2.md && mv de/speakbook/README2.md de/speakbook/README.md 
+
+node .scripts/apply-po-to-md.js res/lang/SpeakBook_Afrikaans.po af/speakbook/README.md > af/speakbook/README2.md && mv af/speakbook/README2.md af/speakbook/README.md 
+
 ```
 
