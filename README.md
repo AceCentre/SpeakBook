@@ -14,6 +14,7 @@ The current *in-progress* versions :
 - [Spanish SpeakBook](https://speakbook.netlify.app/es/speakbook/) (and [PDF](https://speakbook.netlify.app/es/speakbook/index.pdf))
 - [German SpeakBook](https://speakbook.netlify.app/de/speakbook/) (and [PDF](https://speakbook.netlify.app/de/speakbook/index.pdf))
 - [French SpeakBook](https://speakbook.netlify.app/fr/speakbook/) (and [PDF](https://speakbook.netlify.app/fr/speakbook/index.pdf))
+- [Afrikaans SpeakBook](https://speakbook.netlify.app/af/speakbook/) (and [PDF](https://speakbook.netlify.app/af/speakbook/index.pdf))
 
 
 To help out with translation into new languages join the [POEditor project here](https://poeditor.com/join/project/wKsMtKRLIj)
