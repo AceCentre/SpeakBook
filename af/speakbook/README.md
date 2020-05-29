@@ -1417,19 +1417,21 @@ grid_pages:
 :::
 
 
+
 ::: slot inst-01-content
 <div class="p-1 text-center">
   <SpeakBookTextFourColorBkg class="speakbook-title fsize-10 p-1 bold" :text="$page.frontmatter.text.SPEAKBOOK"></SpeakBookTextFourColorBkg>
 </div>
-<p>Speakbook is 'n nie-verbale kommunikasiehulpmiddel vir mense wat nie kan praat en probleme ondervind om hul hande of arms te gebruik nie, maar wat die gebruik van hul oë behou. Hierdie uitgawe is vir mense wat kan lees en spel. Besoek <b>acecent.re/speakbook</b> </p> vir weergawes vir nie-lesers, weergawes in vreemde tale en die sakuitgawe.
+<p>Speakbook is 'n nie-verbale kommunikasiehulpmiddel vir mense wat nie kan praat en probleme ondervind om hul hande of arms te gebruik nie, maar wat die gebruik van hul oë behou. Hierdie uitgawe is vir mense wat kan lees en spel. Besoek <b>acecent.re/speakbook</b>vir weergawes vir nie-lesers, weergawes in vreemde tale en die sakuitgawe. </p> 
 <h2 class="fsize-6"> Gebruiksaanwysings. </h2>
-<p> Om te begin, benodig u; die praatboek, 'n swart, nie-permanente witbordpen, 'n lap om uit te vryf en 'n spreker.
+<p> Om te begin, benodig u; die praatboek, 'n swart, nie-permanente witbordpen, 'n lap om uit te vryf en 'n spreker.</p>
 <p>
 U en u spreekmaat sit ongeveer drie voet van mekaar teenoor mekaar. Afhangend van u sig, kan u nuttig vind om hierdie afstand te verminder of te verhoog. Maak die spreekboek oop op die oefenblad binne die agterblad. Dit is reeds ingevul om u te help om die basiese tegniek te leer. As u dit bemeester het, kan u u eie bladsye skryf met behulp van die leë bladsye. Vou die boek op homself terug en hou dit tussen u op, sodat u albei na 'n 'oefenbladsy' kyk, en mekaar se oë deur die gat in die middel kan sien. U kyk nou na die keuses op die bladsy om te besluit watter een moet kommunikeer. As u besluit het, gee u aan u maat aan dat u gereed is om te begin
 - dit kan wees deur na u maat te kyk en te knip, of deur u oë op en af te waai - wat u ook al pas. Kyk dan vir 'n sekonde na die boodskap wat u wil hê, gevolg deur die groot simbool dieselfde as die kleintjie langs die boodskap. Jou maat volg dan jou oogbewegings - hy sien byvoorbeeld dat jy aan die linkerkant van die boord gekyk het, gevolg deur die groot driehoek, sodat hy weet dat jy 'koppie tee' wil sê. Hy sê dan: 'koppie tee!' hardop, en u bevestig dit met 'n oogwink of met 'n ander vooraf gereelde sein
 </p>
 <p> Dit is die basiese tegniek vir die gebruik van die spreekboek. Nou moet u leer hoe om die ander bladsye in die boek te gebruik, want die ware genie van die spreekboek lê in die vermoë om u maklike toegang te gee tot honderde frases wat u self verkies, frases wat u enige tyd kan verander, met slegs 'n klam lap en die streel van 'n pen. </p>
 :::
+::
 :
 
 
@@ -1438,6 +1440,8 @@ U en u spreekmaat sit ongeveer drie voet van mekaar teenoor mekaar. Afhangend va
   <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-right-label-bkg.svg')"/>
   <div class="fsize-8 abs-at-center" style="transform:translate(calc(-50% + 18px), calc(-50% - 18px)) rotate(45deg); color: white;">{{ $page.frontmatter.text.instructions }}</div>
 </div>
+:::
+v>
 :::
 :::
 :

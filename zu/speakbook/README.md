@@ -1004,16 +1004,24 @@ grid_pages:
             rows:
               - image: shape-heart-1x-img
                 text_key: i_love_you
+                text_inlinecss:
+                  font-size: 20pt
               - image: shape-circle-1x-img
                 text_key: yes
+                text_inlinecss:
+                  font-size: 20pt
                 inlinecss:
                   margin-left: 14mm
               - image: shape-triangle-1x-img
                 text_key: no
+                text_inlinecss:
+                  font-size: 20pt
                 inlinecss:
                   margin-left: 30mm
               - image: shape-square-1x-img
                 text_key: CAR
+                text_inlinecss:
+                  font-size: 20pt
                 inlinecss:
                   margin-left: 43mm
             inlinecss:
@@ -1077,12 +1085,20 @@ grid_pages:
             rows:
               - image: shape-heart-1x-img
                 text_key: im_too_hot
+                text_inlinecss:
+                  font-size: 20pt
               - image: shape-circle-1x-img
                 text_key: im_too_cold
+                text_inlinecss:
+                  font-size: 20pt                
               - image: shape-triangle-1x-img
                 text_key: cup_of_tea
+                text_inlinecss:
+                  font-size: 20pt
               - image: shape-square-1x-img
                 text_key: cup_of_coffee
+                text_inlinecss:
+                  font-size: 20pt
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -1133,12 +1149,20 @@ grid_pages:
             rows:
               - image: shape-heart-1x-img
                 text_key: COMFORT
+                text_inlinecss:
+                  font-size: 20pt
               - image: shape-circle-1x-img
                 text_key: TOILET
+                text_inlinecss:
+                  font-size: 20pt
               - image: shape-triangle-1x-img
                 text_key: DRINKS
+                text_inlinecss:
+                  font-size: 20pt
               - image: shape-square-1x-img
                 text_key: SPELL
+                text_inlinecss:
+                  font-size: 20pt
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -1166,16 +1190,24 @@ grid_pages:
             rows:
               - image: shape-heart-1x-img
                 text_key: i_love_you
+                text_inlinecss:
+                  font-size: 20pt
               - image: shape-circle-1x-img
                 text_key: yes
+                text_inlinecss:
+                  font-size: 20pt
                 inlinecss:
                   margin-right: 14mm
               - image: shape-triangle-1x-img
                 text_key: no
+                text_inlinecss:
+                  font-size: 20pt
                 inlinecss:
                   margin-right: 30mm
               - image: shape-square-1x-img
                 text_key: CAR
+                text_inlinecss:
+                  font-size: 20pt                
                 inlinecss:
                   margin-right: 43mm
             inlinecss:
@@ -1243,12 +1275,20 @@ grid_pages:
             rows:
               - image: shape-heart-1x-img
                 text_key: im_too_hot
+                text_inlinecss:
+                  font-size: 20pt
               - image: shape-circle-1x-img
                 text_key: im_too_cold
+                text_inlinecss:
+                  font-size: 20pt
               - image: shape-triangle-1x-img
                 text_key: cup_of_tea
+                text_inlinecss:
+                  font-size: 20pt
               - image: shape-square-1x-img
                 text_key: cup_of_coffee
+                text_inlinecss:
+                  font-size: 20pt
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
