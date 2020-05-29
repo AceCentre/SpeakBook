@@ -25,6 +25,7 @@ To help out with translation into new languages join the [POEditor project here]
 
 **Urgent needs**
 - German need proofing and more work
+- Zulu and Afrikkans need a maintainer - and proofer (currently google translated)
 - Need translations for a [printed instructions sheet ](https://acecentre.org.uk/wp-content/uploads/2018/11/Printing-Instructions1.pdf)
 - More serious coding issues see the queue [ here](https://github.com/acecentre/SpeakBook/issues). 
 
