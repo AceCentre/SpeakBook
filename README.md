@@ -15,6 +15,7 @@ The current *in-progress* versions :
 - [German SpeakBook](https://speakbook.netlify.app/de/speakbook/) (and [PDF](https://speakbook.netlify.app/de/speakbook/index.pdf))
 - [French SpeakBook](https://speakbook.netlify.app/fr/speakbook/) (and [PDF](https://speakbook.netlify.app/fr/speakbook/index.pdf))
 - [Afrikaans SpeakBook](https://speakbook.netlify.app/af/speakbook/) (and [PDF](https://speakbook.netlify.app/af/speakbook/index.pdf))
+- [Zulu SpeakBook](https://speakbook.netlify.app/zu/speakbook/) (and [PDF](https://speakbook.netlify.app/zu/speakbook/index.pdf))
 
 
 To help out with translation into new languages join the [POEditor project here](https://poeditor.com/join/project/wKsMtKRLIj)
@@ -96,6 +97,8 @@ node .scripts/apply-po-to-md.js res/lang/SpeakBook_Swedish.po sv/speakbook/READM
 node .scripts/apply-po-to-md.js res/lang/SpeakBook_German.po de/speakbook/README.md > de/speakbook/README2.md && mv de/speakbook/README2.md de/speakbook/README.md 
 
 node .scripts/apply-po-to-md.js res/lang/SpeakBook_Afrikaans.po af/speakbook/README.md > af/speakbook/README2.md && mv af/speakbook/README2.md af/speakbook/README.md 
+
+node .scripts/apply-po-to-md.js res/lang/SpeakBook_Zulu.po zu/speakbook/README.md > zu/speakbook/README2.md && mv zu/speakbook/README2.md zu/speakbook/README.md 
 
 ```
 
