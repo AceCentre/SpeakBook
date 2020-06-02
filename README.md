@@ -4,9 +4,9 @@ description: This is a project to build a toolchain for multi-lingual PDF's. Ini
 ---
 <img src="https://i.imgur.com/FyH8YF2.png" :src="$withBase('/assets/logo.png')" alt="SpeakBook" style="width:100%">
 
-This is a repository to hold the working versions of [Patrick Joyce's SpeakBook project](https://web.archive.org/web/20170325172200/http://www.speakbook.org/). We aim to provide a platform for crowd-sourced version control of future PDF's here. More info can be found at the Ace Centre's project page [here](http://acecentre.org.uk/project/speakbook/).
+This is a repository to hold the working versions of [Patrick Joyce's SpeakBook project](https://web.archive.org/web/20170325172200/http://www.speakbook.org/). We aim to provide a platform for crowd-sourced version control of future PDF's here. More info (*and the current final releases*) can be found at the Ace Centre's project page [here](http://acecentre.org.uk/project/speakbook/).
 
-The current *in-progress* versions :
+The current *in-progress* versions (Note: will only look as intended in Chrome. We recommend looking at the PDF builds):
 
 - [English SpeakBook](https://speakbook.netlify.app/speakbook/) (and [PDF](https://speakbook.netlify.app/speakbook/index.pdf))
 - [Swedish SpeakBook](https://speakbook.netlify.app/sv/speakbook/) (and [PDF](https://speakbook.netlify.app/sv/speakbook/index.pdf))
