@@ -1401,12 +1401,14 @@ escrever as suas próprias páginas usando as que estão em branco neste livro.
 </CutOutSideGuide>
 :::
 ::: slot cover-footer
-<div class="lheight-1_5x">
-  <p class="text-center cover-footer-text">
-    <span class="fsize-8 bold">sistema de comunicação não verbal </span> <br>
-    <span class="red-color fsize-8 bold">acecent.re/speakbook</span><br>
-    <span class="fsize-4"> Speakbook 4ª edição © 2011 Patrick Joyce </span>
-  </p>
+<div class="flex-h items-align-center lheight-1_5x" style="width: calc(var(--page-width) - 60mm);">
+  <p class="cover-footer-text">
+    <span class="fsize-8 bold">sistema de comunicação não verbal</span><br>
+    <span class="red-color fsize-8 bold">acecent.re/speakbook</span><br>
+    <span class="fsize-4">Speakbook 4ª edição © 2011 Patrick Joyce</span>
+  </p>
+  <div class="flex-grow-1"></div>
+  <img style="width: 30mm;height: 30mm;" :src="$withBase('/speakbook/images/PublishedByAce.svg')" />
 </div>
 :::
 

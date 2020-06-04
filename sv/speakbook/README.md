@@ -1361,63 +1361,65 @@ kan du göra dina egna sidor på de tomma bladen
 :::
 ::: slot cut-out-right-side-guide-04
 <CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-top: 30mm; box-sizing: border-box;">
-  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-04.svg')" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-04-red.svg')" />
   <div class="red-color wmode-vertical-lr rotate-180 fsize-8 bold flex-v items-align-center justify-content-center" style="position: absolute; top: 30.5mm; left: 0mm; width: 10mm; height: 28mm;">{{ $page.frontmatter.text.SPELL }}</div>
 </CutOutSideGuide>
 :::
 ::: slot cut-out-right-side-guide-05
 <CutOutSideGuide textlen="1" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-top: 90mm; box-sizing: border-box;">
-  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-05.svg')" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-05-red.svg')" />
 </CutOutSideGuide>
 :::
 ::: slot cut-out-right-side-guide-06
 <CutOutSideGuide textlen="1" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-top: 90mm; box-sizing: border-box;">
-  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-06.svg')" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-06-red.svg')" />
 </CutOutSideGuide>
 :::
 ::: slot cut-out-right-side-guide-07
 <CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part">
-  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-07.svg')" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-07-red.svg')" />
 </CutOutSideGuide>
 :::
 ::: slot cut-out-right-side-guide-08
 <CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-top: 10mm; box-sizing: border-box;">
-  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-08.svg')" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-08-red.svg')" />
 </CutOutSideGuide>
 :::
 ::: slot cut-out-right-side-guide-09
 <CutOutSideGuide textlen="1" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-bottom: 80mm; box-sizing: border-box;">
-  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-09.svg')" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-09-red.svg')" />
 </CutOutSideGuide>
 :::
 ::: slot cut-out-right-side-guide-10
 <CutOutSideGuide textlen="1" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-bottom: 90mm; box-sizing: border-box;">
-  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-10.svg')" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-10-red.svg')" />
 </CutOutSideGuide>
 :::
 ::: slot cut-out-right-side-guide-11
 <CutOutSideGuide textlen="1" :text="$page.frontmatter.text.cut_out_this_part">
-  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-11.svg')" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-11-red.svg')" />
 </CutOutSideGuide>
 :::
 ::: slot cut-out-right-side-guide-12
 <CutOutSideGuide textlen="1" :text="$page.frontmatter.text.cut_out_this_part">
-  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-12.svg')" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-12-red.svg')" />
 </CutOutSideGuide>
 :::
 ::: slot cut-out-right-side-guide-13
 <CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part">
-  <img class="abs-at-bottom-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-13.svg')" />
+  <img class="abs-at-bottom-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-13-red.svg')" />
 </CutOutSideGuide>
 :::
 ::: slot cover-footer
-<div class="lheight-1_5x">
-  <p class="text-center cover-footer-text">
+<div class="flex-h items-align-center lheight-1_5x" style="width: calc(var(--page-width) - 60mm);">
+  <p class="cover-footer-text">
     <span class="fsize-8 bold">system för icke-verbal kommunikation</span><br>
     <span class="red-color fsize-8 bold">acecent.re/speakbook</span><br>
-    <span class="fsize-4">Speakbook 4th edition © 2011 Patrick Joyce</span><br>
- <span class="fsize-4">Anpassning för svenska av DART 2012</span>
+    <span class="fsize-4">Speakbook 4th edition © 2011 Patrick Joyce</span>
+    <span class="fsize-4">Anpassning för svenska av DART 2012</span>
   </p>
+  <div class="flex-grow-1"></div>
+  <img style="width: 30mm;height: 30mm;" :src="$withBase('/speakbook/images/PublishedByAce.svg')" />
 </div>
 :::
 
