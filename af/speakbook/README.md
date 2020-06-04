@@ -1016,6 +1016,8 @@ grid_pages:
                 text_key: CAR
                 inlinecss:
                   margin-left: 43mm
+                text_inlinecss:
+                  font-size: 17pt
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -1178,6 +1180,8 @@ grid_pages:
                 text_key: CAR
                 inlinecss:
                   margin-right: 43mm
+                text_inlinecss:
+                  font-size: 17pt
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -1279,7 +1283,10 @@ grid_pages:
 </p>
 :::
 ::: slot table-overlay-01
-<img class="abs-at-top-left" style="top: 0.5mm; left: 0.5mm; width: 44mm; height: 44mm;" :src="$withBase('/speakbook/shapes/table-overlay-01.svg')" />
+<div class="abs-at-top-left" style="top: 0.5mm; left: 0.5mm; width: 44mm; height: 44mm;">
+  <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/table-overlay-01.svg')" />
+  <div class="abs-at-center bold" style="transform: translate(calc(-50% - 8mm), calc(-50% - 8mm)) rotate(-45deg); color: white;text-align: center;font-size: 18pt;width: 35mm;line-height: 1;">{{ $page.frontmatter.text.training_page }}</div>
+</div>
 :::
 
 ::: slot table-overlay-02
@@ -1438,7 +1445,7 @@ U en u spreekmaat sit ongeveer drie voet van mekaar teenoor mekaar. Afhangend va
 ::: slot inst-02-flt-right-label
 <div class="pos-rel fill-height fill-width">
   <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-right-label-bkg.svg')"/>
-  <div class="fsize-8 abs-at-center" style="transform:translate(calc(-50% + 18px), calc(-50% - 18px)) rotate(45deg); color: white;">{{ $page.frontmatter.text.instructions }}</div>
+  <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 5mm), calc(-50% - 5mm)) rotate(45deg); color: white;width: 42mm;text-align: center;">{{ $page.frontmatter.text.instructions }}</div>
 </div>
 :::
 v>

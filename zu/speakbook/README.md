@@ -1004,24 +1004,16 @@ grid_pages:
             rows:
               - image: shape-heart-1x-img
                 text_key: i_love_you
-                text_inlinecss:
-                  font-size: 20pt
               - image: shape-circle-1x-img
                 text_key: yes
-                text_inlinecss:
-                  font-size: 20pt
                 inlinecss:
                   margin-left: 14mm
               - image: shape-triangle-1x-img
                 text_key: no
-                text_inlinecss:
-                  font-size: 20pt
                 inlinecss:
                   margin-left: 30mm
               - image: shape-square-1x-img
                 text_key: CAR
-                text_inlinecss:
-                  font-size: 20pt
                 inlinecss:
                   margin-left: 43mm
             inlinecss:
@@ -1085,20 +1077,12 @@ grid_pages:
             rows:
               - image: shape-heart-1x-img
                 text_key: im_too_hot
-                text_inlinecss:
-                  font-size: 20pt
               - image: shape-circle-1x-img
                 text_key: im_too_cold
-                text_inlinecss:
-                  font-size: 20pt                
               - image: shape-triangle-1x-img
                 text_key: cup_of_tea
-                text_inlinecss:
-                  font-size: 20pt
               - image: shape-square-1x-img
                 text_key: cup_of_coffee
-                text_inlinecss:
-                  font-size: 20pt
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -1149,20 +1133,12 @@ grid_pages:
             rows:
               - image: shape-heart-1x-img
                 text_key: COMFORT
-                text_inlinecss:
-                  font-size: 20pt
               - image: shape-circle-1x-img
                 text_key: TOILET
-                text_inlinecss:
-                  font-size: 20pt
               - image: shape-triangle-1x-img
                 text_key: DRINKS
-                text_inlinecss:
-                  font-size: 20pt
               - image: shape-square-1x-img
                 text_key: SPELL
-                text_inlinecss:
-                  font-size: 20pt
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -1190,24 +1166,16 @@ grid_pages:
             rows:
               - image: shape-heart-1x-img
                 text_key: i_love_you
-                text_inlinecss:
-                  font-size: 20pt
               - image: shape-circle-1x-img
                 text_key: yes
-                text_inlinecss:
-                  font-size: 20pt
                 inlinecss:
                   margin-right: 14mm
               - image: shape-triangle-1x-img
                 text_key: no
-                text_inlinecss:
-                  font-size: 20pt
                 inlinecss:
                   margin-right: 30mm
               - image: shape-square-1x-img
                 text_key: CAR
-                text_inlinecss:
-                  font-size: 20pt                
                 inlinecss:
                   margin-right: 43mm
             inlinecss:
@@ -1275,20 +1243,12 @@ grid_pages:
             rows:
               - image: shape-heart-1x-img
                 text_key: im_too_hot
-                text_inlinecss:
-                  font-size: 20pt
               - image: shape-circle-1x-img
                 text_key: im_too_cold
-                text_inlinecss:
-                  font-size: 20pt
               - image: shape-triangle-1x-img
                 text_key: cup_of_tea
-                text_inlinecss:
-                  font-size: 20pt
               - image: shape-square-1x-img
                 text_key: cup_of_coffee
-                text_inlinecss:
-                  font-size: 20pt
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -1319,7 +1279,10 @@ grid_pages:
 </p>
 :::
 ::: slot table-overlay-01
-<img class="abs-at-top-left" style="top: 0.5mm; left: 0.5mm; width: 44mm; height: 44mm;" :src="$withBase('/speakbook/shapes/table-overlay-01.svg')" />
+<div class="abs-at-top-left" style="top: 0.5mm; left: 0.5mm; width: 44mm; height: 44mm;">
+  <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/table-overlay-01.svg')" />
+  <div class="abs-at-center bold" style="transform: translate(calc(-50% - 8mm), calc(-50% - 8mm)) rotate(-45deg); color: white;text-align: center;font-size: 15pt;width: 35mm;line-height: 1;">{{ $page.frontmatter.text.training_page }}</div>
+</div>
 :::
 
 ::: slot table-overlay-02
@@ -1480,15 +1443,10 @@ I-<p> Le ndlela eyisisekelo yokusebenzisa i-speakbook. Manje udinga ukufunda uku
 ::: slot inst-02-flt-right-label
 <div class="pos-rel fill-height fill-width">
   <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-right-label-bkg.svg')" />
-  <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 18px), calc(-50% - 18px)) rotate(45deg); color: white;">{{ $page.frontmatter.text.instructions }}</div>
+  <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 5mm), calc(-50% - 5mm)) rotate(45deg); color: white;width: 42mm;text-align: center;">{{ $page.frontmatter.text.instructions }}</div>
 </div>
 :::
-</div>
-:::
-v>
-:::
-:::
-:
+
 ::: slot inst-02-flt-left-content
 <div class="flex-h" style="padding: 3mm;">
   <div class="flex-grow-1 flex-v">
