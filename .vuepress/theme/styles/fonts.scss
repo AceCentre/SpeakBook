@@ -2,5 +2,9 @@
 
 @font-face{ 
 	font-family: 'Neris-Bold';
-	src: url('../fonts/Neris-Black-webfont.woff') format('woff');
+  src: url('../fonts/Neris-Black-webfont.eot');
+  src: url('../fonts/Neris-Black-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Neris-Black-webfont.woff') format('woff'),
+       url('../fonts/Neris-Black-webfont.ttf') format('truetype'),
+       url('../fonts/Neris-Black-webfont.svg#nerisblack') format('svg');
 }

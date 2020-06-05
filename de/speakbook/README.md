@@ -1082,20 +1082,12 @@ grid_pages:
             rows:
               - image: shape-heart-1x-img
                 text_key: im_too_hot
-                text_inlinecss:
-                  font-size: 22pt
               - image: shape-circle-1x-img
                 text_key: im_too_cold
-                text_inlinecss:
-                  font-size: 22pt
               - image: shape-triangle-1x-img
                 text_key: cup_of_tea
-                text_inlinecss:
-                  font-size: 22pt
               - image: shape-square-1x-img
                 text_key: cup_of_coffee
-                text_inlinecss:
-                  font-size: 22pt
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -1256,20 +1248,12 @@ grid_pages:
             rows:
               - image: shape-heart-1x-img
                 text_key: im_too_hot
-                text_inlinecss:
-                  font-size: 22pt
               - image: shape-circle-1x-img
                 text_key: im_too_cold
-                text_inlinecss:
-                  font-size: 22pt
               - image: shape-triangle-1x-img
                 text_key: cup_of_tea
-                text_inlinecss:
-                  font-size: 22pt                
               - image: shape-square-1x-img
                 text_key: cup_of_coffee
-                text_inlinecss:
-                  font-size: 22pt
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -1295,7 +1279,10 @@ Wenn Sie die mithilfe dieser Trainingsseite die prinzipielle Vorgehensweise vers
 </p>
 :::
 ::: slot table-overlay-01
-<img class="abs-at-top-left" style="top: 0.5mm; left: 0.5mm; width: 44mm; height: 44mm;" :src="$withBase('/speakbook/shapes/table-overlay-01.svg')" />
+<div class="abs-at-top-left" style="top: 0.5mm; left: 0.5mm; width: 44mm; height: 44mm;">
+  <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/table-overlay-01.svg')" />
+  <div class="abs-at-center bold" style="transform: translate(calc(-50% - 8mm), calc(-50% - 8mm)) rotate(-45deg); color: white;text-align: center;font-size: 14pt;width: 35mm;line-height: 1;">{{ $page.frontmatter.text.training_page }}</div>
+</div>
 :::
 
 ::: slot table-overlay-02
@@ -1410,12 +1397,14 @@ Wenn Sie die mithilfe dieser Trainingsseite die prinzipielle Vorgehensweise vers
 </CutOutSideGuide>
 :::
 ::: slot cover-footer
-<div class="lheight-1_5x">
-  <p class="text-center cover-footer-text">
+<div class="flex-h items-align-center lheight-1_5x" style="width: calc(var(--page-width) - 60mm);">
+  <p class="cover-footer-text">
     <span class="fsize-8 bold">nicht-verbales Kommunikationssystem</span><br>
     <span class="red-color fsize-8 bold">acecent.re/speakbook</span><br>
     <span class="fsize-4">SpeakBook 4. Auflage © 2011 Patrick Joyce</span>
   </p>
+  <div class="flex-grow-1"></div>
+  <img style="width: 30mm;height: 30mm;" :src="$withBase('/speakbook/images/PublishedByAce.svg')" />
 </div>
 :::
 
@@ -1449,7 +1438,7 @@ Sie und ihr Gesprächspartner sitzen sich in einem Abstand von etwa 1 Meter gege
 ::: slot inst-02-flt-right-label
 <div class="pos-rel fill-height fill-width">
   <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-right-label-bkg.svg')" />
-  <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 18px), calc(-50% - 18px)) rotate(45deg); color: white;">{{ $page.frontmatter.text.instructions }}</div>
+  <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 5mm), calc(-50% - 5mm)) rotate(45deg); color: white;width: 42mm;text-align: center;">{{ $page.frontmatter.text.instructions }}</div>
 </div>
 :::
 :

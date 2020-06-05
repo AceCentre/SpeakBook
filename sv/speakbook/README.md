@@ -1020,24 +1020,16 @@ grid_pages:
             rows:
               - image: shape-heart-1x-img
                 text_key: i_love_you
-                text_inlinecss:
-                  font-size: 20pt
               - image: shape-circle-1x-img
                 text_key: yes
-                text_inlinecss:
-                  font-size: 20pt
                 inlinecss:
                   margin-left: 14mm
               - image: shape-triangle-1x-img
                 text_key: no
-                text_inlinecss:
-                  font-size: 20pt
                 inlinecss:
                   margin-left: 30mm
               - image: shape-square-1x-img
                 text_key: CAR
-                text_inlinecss:
-                  font-size: 20pt
                 inlinecss:
                   margin-left: 43mm
             inlinecss:
@@ -1101,20 +1093,12 @@ grid_pages:
             rows:
               - image: shape-heart-1x-img
                 text_key: im_too_hot
-                text_inlinecss:
-                  font-size: 20pt
               - image: shape-circle-1x-img
                 text_key: im_too_cold
-                text_inlinecss:
-                  font-size: 20pt
               - image: shape-triangle-1x-img
                 text_key: cup_of_tea
-                text_inlinecss:
-                  font-size: 20pt
               - image: shape-square-1x-img
                 text_key: cup_of_coffee
-                text_inlinecss:
-                  font-size: 20pt
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -1198,24 +1182,16 @@ grid_pages:
             rows:
               - image: shape-heart-1x-img
                 text_key: i_love_you
-                text_inlinecss:
-                  font-size: 20pt
               - image: shape-circle-1x-img
                 text_key: yes
-                text_inlinecss:
-                  font-size: 20pt
                 inlinecss:
                   margin-right: 14mm
               - image: shape-triangle-1x-img
                 text_key: no
-                text_inlinecss:
-                  font-size: 20pt
                 inlinecss:
                   margin-right: 30mm
               - image: shape-square-1x-img
                 text_key: CAR
-                text_inlinecss:
-                  font-size: 20pt
                 inlinecss:
                   margin-right: 43mm
             inlinecss:
@@ -1283,20 +1259,12 @@ grid_pages:
             rows:
               - image: shape-heart-1x-img
                 text_key: im_too_hot
-                text_inlinecss:
-                  font-size: 20pt
               - image: shape-circle-1x-img
                 text_key: im_too_cold
-                text_inlinecss:
-                  font-size: 20pt
               - image: shape-triangle-1x-img
                 text_key: cup_of_tea
-                text_inlinecss:
-                  font-size: 20pt
               - image: shape-square-1x-img
                 text_key: cup_of_coffee
-                text_inlinecss:
-                  font-size: 20pt
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -1325,7 +1293,10 @@ kan du göra dina egna sidor på de tomma bladen
 </p>
 :::
 ::: slot table-overlay-01
-<img class="abs-at-top-left" style="top: 0.5mm; left: 0.5mm; width: 44mm; height: 44mm;" :src="$withBase('/speakbook/shapes/table-overlay-01.svg')" />
+<div class="abs-at-top-left" style="top: 0.5mm; left: 0.5mm; width: 44mm; height: 44mm;">
+  <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/table-overlay-01.svg')" />
+  <div class="abs-at-center bold" style="transform: translate(calc(-50% - 8mm), calc(-50% - 8mm)) rotate(-45deg); color: white;text-align: center;font-size: 18pt;width: 35mm;line-height: 1;">{{ $page.frontmatter.text.training_page }}</div>
+</div>
 :::
 
 ::: slot table-overlay-02
@@ -1390,63 +1361,65 @@ kan du göra dina egna sidor på de tomma bladen
 :::
 ::: slot cut-out-right-side-guide-04
 <CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-top: 30mm; box-sizing: border-box;">
-  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-04.svg')" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-04-red.svg')" />
   <div class="red-color wmode-vertical-lr rotate-180 fsize-8 bold flex-v items-align-center justify-content-center" style="position: absolute; top: 30.5mm; left: 0mm; width: 10mm; height: 28mm;">{{ $page.frontmatter.text.SPELL }}</div>
 </CutOutSideGuide>
 :::
 ::: slot cut-out-right-side-guide-05
 <CutOutSideGuide textlen="1" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-top: 90mm; box-sizing: border-box;">
-  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-05.svg')" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-05-red.svg')" />
 </CutOutSideGuide>
 :::
 ::: slot cut-out-right-side-guide-06
 <CutOutSideGuide textlen="1" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-top: 90mm; box-sizing: border-box;">
-  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-06.svg')" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-06-red.svg')" />
 </CutOutSideGuide>
 :::
 ::: slot cut-out-right-side-guide-07
 <CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part">
-  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-07.svg')" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-07-red.svg')" />
 </CutOutSideGuide>
 :::
 ::: slot cut-out-right-side-guide-08
 <CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-top: 10mm; box-sizing: border-box;">
-  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-08.svg')" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-08-red.svg')" />
 </CutOutSideGuide>
 :::
 ::: slot cut-out-right-side-guide-09
 <CutOutSideGuide textlen="1" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-bottom: 80mm; box-sizing: border-box;">
-  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-09.svg')" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-09-red.svg')" />
 </CutOutSideGuide>
 :::
 ::: slot cut-out-right-side-guide-10
 <CutOutSideGuide textlen="1" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-bottom: 90mm; box-sizing: border-box;">
-  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-10.svg')" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-10-red.svg')" />
 </CutOutSideGuide>
 :::
 ::: slot cut-out-right-side-guide-11
 <CutOutSideGuide textlen="1" :text="$page.frontmatter.text.cut_out_this_part">
-  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-11.svg')" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-11-red.svg')" />
 </CutOutSideGuide>
 :::
 ::: slot cut-out-right-side-guide-12
 <CutOutSideGuide textlen="1" :text="$page.frontmatter.text.cut_out_this_part">
-  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-12.svg')" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-12-red.svg')" />
 </CutOutSideGuide>
 :::
 ::: slot cut-out-right-side-guide-13
 <CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part">
-  <img class="abs-at-bottom-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-13.svg')" />
+  <img class="abs-at-bottom-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-13-red.svg')" />
 </CutOutSideGuide>
 :::
 ::: slot cover-footer
-<div class="lheight-1_5x">
-  <p class="text-center cover-footer-text">
+<div class="flex-h items-align-center lheight-1_5x" style="width: calc(var(--page-width) - 60mm);">
+  <p class="cover-footer-text">
     <span class="fsize-8 bold">system för icke-verbal kommunikation</span><br>
     <span class="red-color fsize-8 bold">acecent.re/speakbook</span><br>
-    <span class="fsize-4">Speakbook 4th edition © 2011 Patrick Joyce</span><br>
- <span class="fsize-4">Anpassning för svenska av DART 2012</span>
+    <span class="fsize-4">Speakbook 4th edition © 2011 Patrick Joyce</span>
+    <span class="fsize-4">Anpassning för svenska av DART 2012</span>
   </p>
+  <div class="flex-grow-1"></div>
+  <img style="width: 30mm;height: 30mm;" :src="$withBase('/speakbook/images/PublishedByAce.svg')" />
 </div>
 :::
 
@@ -1484,7 +1457,7 @@ Du och din samtalspartner sitter mittemot varandra, med ungefär en meters mella
 ::: slot inst-02-flt-right-label
 <div class="pos-rel fill-height fill-width">
   <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-right-label-bkg.svg')" />
-  <div class="fsize-6 abs-at-center" style="transform: translate(calc(-50% + 18px), calc(-50% - 18px)) rotate(45deg); color: white;">{{ $page.frontmatter.text.instructions }}</div>
+  <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 5mm), calc(-50% - 5mm)) rotate(45deg); color: white;width: 42mm;text-align: center;">{{ $page.frontmatter.text.instructions }}</div>
 </div>
 :::
 v>

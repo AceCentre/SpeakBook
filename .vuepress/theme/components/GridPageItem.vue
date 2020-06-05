@@ -5,9 +5,9 @@
         <tbody>
           <tr v-for="row in item.rows">
             <td>
-              <div class="pos-rel flex-h items-align-center overflow-hidden" :style="Object.assign({'height':item.rowheight,'flex-direction':item.reverserow?'row-reverse':'row'},row.inlinecss)">
-                <Content v-if="row.image" class="img-wrp ml-1 p-1" :style="row.image_inlinecss" :slot-key="row.image" />
-                <div v-if="row.text_key" class="abs-fill-parent text-center fsize-12 line-height-1 bold" :style="row.text_inlinecss">{{ $page.frontmatter.text[row.text_key] }}</div>
+              <div class="pos-rel flex-h items-align-center overflow-hidden" :style="Object.assign({'height':item.rowheight,'flex-direction':item.reverserow?'row-reverse':'row'}, item.row_inlinecss, row.inlinecss)">
+                <Content v-if="row.image" class="img-wrp ml-1 p-1" :style="Object.assign({}, item.image_inlinecss, row.image_inlinecss)" :slot-key="row.image" />
+                <div v-if="row.text_key" class="abs-fill-parent text-center fsize-12 line-height-1 bold" :style="Object.assign({}, item.text_inlinecss, row.text_inlinecss)">{{ $page.frontmatter.text[row.text_key] }}</div>
               </div>
             </td>
           </tr>
@@ -34,9 +34,9 @@
         <tbody>
           <tr v-for="row in item.rows">
             <td>
-              <div class="pos-rel flex-h items-align-center overflow-hidden" :style="Object.assign({'height':item.rowheight,'flex-direction':item.reverserow?'row-reverse':'row'},row.inlinecss)">
-                <Content v-if="row.image" class="img-wrp ml-1 p-1" :style="row.image_inlinecss" :slot-key="row.image" />
-                <div v-if="row.text_key" class="mx-2 fsize-12 line-height-1 bold" :style="row.text_inlinecss">{{ $page.frontmatter.text[row.text_key] }}</div>
+              <div class="pos-rel flex-h items-align-center overflow-hidden" :style="Object.assign({'height':item.rowheight,'flex-direction':item.reverserow?'row-reverse':'row'}, item.row_inlinecss, row.inlinecss)">
+                <Content v-if="row.image" class="img-wrp ml-1 p-1" :style="Object.assign({}, item.image_inlinecss, row.image_inlinecss)" :slot-key="row.image" />
+                <div v-if="row.text_key" class="mx-2 fsize-9 line-height-1 bold" :style="Object.assign({}, item.text_inlinecss, row.text_inlinecss)">{{ $page.frontmatter.text[row.text_key] }}</div>
               </div>
             </td>
           </tr>

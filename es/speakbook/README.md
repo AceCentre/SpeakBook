@@ -1265,7 +1265,10 @@ dice a su interlocutor que ahora quiere comunicarse con sus ojos con el libro pr
 <p class="fsize-3">Cuando aprenda la técnica básica con esta página, podrá escribir sus propias páginas utilizando las páginas en blanco. </p>
 :::
 ::: slot table-overlay-01
-<img class="abs-at-top-left" style="top: 0.5mm; left: 0.5mm; width: 44mm; height: 44mm;" :src="$withBase('/speakbook/shapes/table-overlay-01.svg')" />
+<div class="abs-at-top-left" style="top: 0.5mm; left: 0.5mm; width: 44mm; height: 44mm;">
+  <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/table-overlay-01.svg')" />
+  <div class="abs-at-center bold" style="transform: translate(calc(-50% - 8mm), calc(-50% - 8mm)) rotate(-45deg); color: white;text-align: center;font-size: 15pt;width: 35mm;line-height: 1;">{{ $page.frontmatter.text.training_page }}</div>
+</div>
 :::
 
 ::: slot table-overlay-02
@@ -1381,19 +1384,16 @@ dice a su interlocutor que ahora quiere comunicarse con sus ojos con el libro pr
 :::
 
 ::: slot cover-footer
-<div class="lheight-1_5x">
-  <p class="text-center cover-footer-text">
+<div class="flex-h items-align-center lheight-1_5x" style="width: calc(var(--page-width) - 60mm);">
+  <p class="cover-footer-text">
     <span class="fsize-8 bold">sistema de comunicación no oral</span><br>
     <span class="red-color fsize-8 bold">acecent.re/speakbook</span><br>
     <span class="fsize-4">Speakbook 4th edition © 2011 Patrick Joyce - Traducción al Español, 2012</span>
   </p>
+  <div class="flex-grow-1"></div>
+  <img style="width: 30mm;height: 30mm;" :src="$withBase('/speakbook/images/PublishedByAce.svg')" />
 </div>
-
 :::
-
-
-
-
 
 ::: slot inst-01-flt-right-content
 <div class="abs-fill-parent flex-h" style="align-items: flex-end;">
@@ -1410,11 +1410,6 @@ Lo que precisamente escriba en speakbook dependerá de sus necesidades concretas
 </div>
 :::
 
-:::
-:::
-::
-:
-
 ::: slot inst-01-content
 <div class="p-1 text-center">
   <SpeakBookTextFourColorBkg class="speakbook-title fsize-10 p-1 bold" :text="$page.frontmatter.text.SPEAKBOOK"></SpeakBookTextFourColorBkg>
@@ -1429,31 +1424,15 @@ Usted y su interlocutor se sientan uno frente al otro a una distancia aproximada
 <p>Cuando haya decidido, indíquele a su interlocutor que está preparado para comenzar mediante el gesto que más le convenga (por ejemplo, mirando a su interlocutor y parpadeando, o moviendo los ojos arriba y abajo). Después mire el mensaje que prefiera, durante un segundo más o menos, seguido por el símbolo grande cuya figura sea la misma que el símbolo pequeñito junto al mensaje elegido. Entonces su interlocutor sigue los movimientos del ojo, por ejemplo, ve que usted ha mirado a la parte superior izquierda del tablero seguido por el triángulo grande, por lo tanto sabe que usted quiere decir "¡Taza de té!". Luego en voz alta dice "¡Taza de té!" y usted se lo confirma con un parpadeo o con cualquier otra señal preestablecida.
 Esta es la técnica básica para utilizar speakbook. Ahora tiene que aprender a usar las otras páginas del libro porque la verdadera genialidad de speakbook reside en su capacidad para facilitar el acceso a cientos de frases de su propia elección, frases que se pueden cambiar en cualquier momento, con sólo un paño húmedo y un rotulador.</p>
 :::
-lador.</p>
-:::
-.</p>
-:::
->
-:::
-::
 
 
 ::: slot inst-02-flt-right-label
 <div class="pos-rel fill-height fill-width">
   <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-right-label-bkg.svg')" />
-  <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 18px), calc(-50% - 18px)) rotate(45deg); color: white;">{{ $page.frontmatter.text.instructions }}</div>
-</div>
-:::
-xt.instructions }}</div>
-</div>
-:::
- }}</div>
-</div>
-:::
+  <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 5mm), calc(-50% - 5mm)) rotate(45deg); color: white;width: 42mm;text-align: center;">{{ $page.frontmatter.text.instructions }}</div>
 </div>
 :::
 
-:::
 ::: slot inst-02-flt-left-content
 <div class="flex-h" style="padding: 3mm;">
   <div class="flex-grow-1 flex-v">
