@@ -218,13 +218,13 @@ body {
     width: calc(var(--block-width) * 1.5 + var(--block-margin) * 0.5);
   }
   &.b3x {
-    width: calc(var(--block-width) * 3 + var(--block-margin) * 3);
+    width: calc(3 * (var(--block-width) + var(--block-margin)));
   }
   &.b4x {
-    width: calc(var(--block-width) * 4 + var(--block-margin) * 4);
+    width: calc(4 * (var(--block-width) + var(--block-margin)));
   }
   &.b10x {
-    width: calc(var(--block-width) * 10 + var(--block-margin) * 10);
+    width: calc(10 * (var(--block-width) + var(--block-margin)));
   }
   .block {
     box-sizing: border-box;
