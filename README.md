@@ -8,15 +8,15 @@ This is a repository to hold the working versions of [Patrick Joyce's SpeakBook 
 
 The current *in-progress* versions (Note: will only look as intended in Chrome. We recommend looking at the PDF builds):
 
-- [English SpeakBook](/speakbook/), [Printing Instructions](/speakbook/printing-instructions.html) (and [PDF](/speakbook/index.pdf), [PDF - Printing Instructions](/speakbook/printing-instructions.pdf))
-- [Swedish SpeakBook](/sv/speakbook/) (and [PDF](/sv/speakbook/index.pdf))
-- [Portuguese SpeakBook](/po/speakbook/) (and [PDF](/po/speakbook/index.pdf))
-- [Spanish SpeakBook](/es/speakbook/) (and [PDF](/es/speakbook/index.pdf))
-- [German SpeakBook](/de/speakbook/) (and [PDF](/de/speakbook/index.pdf))
-- [French SpeakBook](/fr/speakbook/) (and [PDF](/fr/speakbook/index.pdf))
-- [Afrikaans SpeakBook](/af/speakbook/) (and [PDF](/af/speakbook/index.pdf))
-- [Zulu SpeakBook](/zu/speakbook/) (and [PDF](/zu/speakbook/index.pdf))
-
+- 🇬🇧[English SpeakBook](/speakbook/), [Printing Instructions](/speakbook/printing-instructions.html) (and [PDF](/speakbook/index.pdf), [PDF - Printing Instructions](/speakbook/printing-instructions.pdf))
+- 🇸🇪[Swedish SpeakBook](/sv/speakbook/) (and [PDF](/sv/speakbook/index.pdf))
+- 🇵🇹[Portuguese SpeakBook](/po/speakbook/) (and [PDF](/po/speakbook/index.pdf))
+- 🇪🇸[Spanish SpeakBook](/es/speakbook/) (and [PDF](/es/speakbook/index.pdf))
+- 🇩🇪[German SpeakBook](/de/speakbook/) (and [PDF](/de/speakbook/index.pdf))
+- 🇫🇷[French SpeakBook](/fr/speakbook/) (and [PDF](/fr/speakbook/index.pdf))
+- 🇿🇦[Afrikaans SpeakBook](/af/speakbook/) (and [PDF](/af/speakbook/index.pdf))
+- 🇿🇦[Zulu SpeakBook](/zu/speakbook/) (and [PDF](/zu/speakbook/index.pdf))
+- 🇹🇷[Turkish Speakbook](/tr/speakbook/), [Printing Instructions](/tr/speakbook/printing-instructions.html) (and [PDF](/tr/speakbook/index.pdf), [PDF - Printing Instructions](/tr/speakbook/printing-instructions.pdf))
 
 To help out with translation into new languages join the [POEditor project here](https://poeditor.com/join/project/wKsMtKRLIj)
 
@@ -100,6 +100,8 @@ node .scripts/apply-po-to-md.js res/lang/SpeakBook_German.po de/speakbook/README
 node .scripts/apply-po-to-md.js res/lang/SpeakBook_Afrikaans.po af/speakbook/README.md > af/speakbook/README2.md && mv af/speakbook/README2.md af/speakbook/README.md 
 
 node .scripts/apply-po-to-md.js res/lang/SpeakBook_Zulu.po zu/speakbook/README.md > zu/speakbook/README2.md && mv zu/speakbook/README2.md zu/speakbook/README.md 
+
+node .scripts/apply-po-to-md.js res/lang/SpeakBook_Turkish.po tr/speakbook/README.md > tr/speakbook/README2.md && mv tr/speakbook/README2.md tr/speakbook/README.md 
 
 ```
 
