@@ -1349,7 +1349,7 @@ Eğitim sayfasındaki basit teknikleri öğrendikten sonra, bu kitapta bulunan b
 ::: slot cut-out-right-side-guide-03
 <CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part">
   <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-03.svg')" />
-  <div class="white-color wmode-vertical-lr rotate-180 fsize-8 bold flex-v items-align-center justify-content-center" style="position: absolute; top: 2mm; left: 0mm; width: 10mm; height: 28mm;">{{ $page.frontmatter.text.HOME }}</div>
+  <div class="white-color wmode-vertical-lr rotate-180 fsize-8 bold flex-v items-align-center justify-content-center" style="position: absolute; top: 2mm; left: 0mm; width: 10mm; height: 28mm; font-size: 10pt">{{ $page.frontmatter.text.HOME }}</div>
 </CutOutSideGuide>
 :::
 ::: slot cut-out-right-side-guide-04
