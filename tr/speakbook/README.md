@@ -15,28 +15,34 @@ text:
   THANK_YOU: Teşekkür ederim
   A: A
   B: B
-  C: Ç
+  C: C
+  Ç: Ç
   D: D
   E: E
   F: F
   G: G
+  Ğ: Ğ
   H: H
-  I: İ
+  I: I
+  İ: İ
   J: J
   K: K
   L: L
   M: M
   N: N
   O: O
+  Ö: Ö
   P: P
   Q: Q
   R: R
   S: S
+  Ş: Ş
   T: T
   U: U
+  Ü: Ü
   V: V
-  W: Ğ
-  X: Ş
+  W: W
+  X: X
   Y: Y
   Z: Z
   _zero: "0"
@@ -357,22 +363,22 @@ grid_pages:
               height: var(--grid-item-height)
               background-color: var(--color-yellow)
             entries:
-              - text_key: S
+              - text_key: Ö
                 inlinecss:
                   color: var(--color-purple)
-              - text_key: T
+              - text_key: P
                 inlinecss:
                   color: var(--color-white)
-              - text_key: U
+              - text_key: R
                 inlinecss:
                   color: var(--color-green)
-              - text_key: V
+              - text_key: S
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: W
+              - text_key: Ş
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: X
+              - text_key: T
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -386,22 +392,22 @@ grid_pages:
               height: var(--grid-item-height)
               background-color: var(--color-orange)
             entries:
-              - text_key: Y
+              - text_key: U
                 inlinecss:
                   color: var(--color-purple)
-              - text_key: Z
+              - text_key: Ü
                 inlinecss:
                   color: var(--color-white)
-              - text_key: _one
+              - text_key: V
                 inlinecss:
                   color: var(--color-green)
-              - text_key: _two
+              - text_key: Y
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: _three
+              - text_key: Z
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: _four
+              - text_key: _one
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -415,19 +421,19 @@ grid_pages:
               height: var(--grid-item-height)
               background-color: var(--color-cyan)
             entries:
-              - text_key: _five
+              - text_key: _two
                 inlinecss:
                   color: var(--color-purple)
-              - text_key: _six
+              - text_key: _three
                 inlinecss:
                   color: var(--color-white)
-              - text_key: _seven
+              - text_key: _four
                 inlinecss:
                   color: var(--color-green)
-              - text_key: _eight
+              - text_key: _five
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: _nine
+              - text_key: _six
                 inlinecss:
                   color: var(--color-orange)
               - text_key: HOME
@@ -458,13 +464,13 @@ grid_pages:
               - text_key: C
                 inlinecss:
                   color: var(--color-green)
-              - text_key: D
+              - text_key: Ç
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: E
+              - text_key: D
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: F
+              - text_key: E
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -479,22 +485,22 @@ grid_pages:
               background-color: var(--color-white)
               border: 1px solid var(--color-black)
             entries:
-              - text_key: G
+              - text_key: F
                 inlinecss:
                   color: var(--color-purple)
-              - text_key: H
+              - text_key: G
                 inlinecss:
                   color: var(--color-white)
-              - text_key: I
+              - text_key: Ğ
                 inlinecss:
                   color: var(--color-green)
-              - text_key: J
+              - text_key: H
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: K
+              - text_key: I
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: L
+              - text_key: İ
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -508,22 +514,22 @@ grid_pages:
               height: var(--grid-item-height)
               background-color: var(--color-green)
             entries:
-              - text_key: M
+              - text_key: J
                 inlinecss:
                   color: var(--color-purple)
-              - text_key: N
+              - text_key: K
                 inlinecss:
                   color: var(--color-white)
-              - text_key: O
+              - text_key: L
                 inlinecss:
                   color: var(--color-green)
-              - text_key: P
+              - text_key: M
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: Q
+              - text_key: N
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: R
+              - text_key: O
                 inlinecss:
                   color: var(--color-cyan)
   - name: page07
@@ -545,22 +551,22 @@ grid_pages:
               height: var(--grid-item-height)
               background-color: var(--color-yellow)
             entries:
-              - text_key: S
+              - text_key: Ö
                 inlinecss:
                   color: var(--color-purple)
-              - text_key: T
+              - text_key: P
                 inlinecss:
                   color: var(--color-white)
-              - text_key: U
+              - text_key: R
                 inlinecss:
                   color: var(--color-green)
-              - text_key: V
+              - text_key: S
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: W
+              - text_key: Ş
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: X
+              - text_key: T
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -574,22 +580,22 @@ grid_pages:
               height: var(--grid-item-height)
               background-color: var(--color-orange)
             entries:
-              - text_key: Y
+              - text_key: U
                 inlinecss:
                   color: var(--color-purple)
-              - text_key: Z
+              - text_key: Ü
                 inlinecss:
                   color: var(--color-white)
-              - text_key: _one
+              - text_key: V
                 inlinecss:
                   color: var(--color-green)
-              - text_key: _two
+              - text_key: Y
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: _three
+              - text_key: Z
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: _four
+              - text_key: _one
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -603,19 +609,19 @@ grid_pages:
               height: var(--grid-item-height)
               background-color: var(--color-cyan)
             entries:
-              - text_key: _five
+              - text_key: _two
                 inlinecss:
                   color: var(--color-purple)
-              - text_key: _six
+              - text_key: _three
                 inlinecss:
                   color: var(--color-white)
-              - text_key: _seven
+              - text_key: _four
                 inlinecss:
                   color: var(--color-green)
-              - text_key: _eight
+              - text_key: _five
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: _nine
+              - text_key: _six
                 inlinecss:
                   color: var(--color-orange)
               - text_key: HOME
@@ -653,13 +659,13 @@ grid_pages:
               - text_key: C
                 inlinecss:
                   color: var(--color-green)
-              - text_key: D
+              - text_key: Ç
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: E
+              - text_key: D
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: F
+              - text_key: E
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -674,22 +680,22 @@ grid_pages:
               background-color: var(--color-white)
               border: 1px solid var(--color-black)
             entries:
-              - text_key: G
+              - text_key: F
                 inlinecss:
                   color: var(--color-purple)
-              - text_key: H
+              - text_key: G
                 inlinecss:
                   color: var(--color-white)
-              - text_key: I
+              - text_key: Ğ
                 inlinecss:
                   color: var(--color-green)
-              - text_key: J
+              - text_key: H
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: K
+              - text_key: I
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: L
+              - text_key: İ
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -703,22 +709,22 @@ grid_pages:
               height: var(--grid-item-height)
               background-color: var(--color-green)
             entries:
-              - text_key: M
+              - text_key: J
                 inlinecss:
                   color: var(--color-purple)
-              - text_key: N
+              - text_key: K
                 inlinecss:
                   color: var(--color-white)
-              - text_key: O
+              - text_key: L
                 inlinecss:
                   color: var(--color-green)
-              - text_key: P
+              - text_key: M
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: Q
+              - text_key: N
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: R
+              - text_key: O
                 inlinecss:
                   color: var(--color-cyan)
   - name: page08
@@ -1349,7 +1355,7 @@ Eğitim sayfasındaki basit teknikleri öğrendikten sonra, bu kitapta bulunan b
 ::: slot cut-out-right-side-guide-04
 <CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-top: 30mm; box-sizing: border-box;">
   <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-04.svg')" />
-  <div class="red-color wmode-vertical-lr rotate-180 fsize-8 bold flex-v items-align-center justify-content-center" style="position: absolute; top: 30.5mm; left: 0mm; width: 10mm; height: 28mm;">{{ $page.frontmatter.text.SPELL }}</div>
+  <div class="red-color wmode-vertical-lr rotate-180 fsize-8 bold flex-v items-align-center justify-content-center" style="position: absolute; top: 30.5mm; left: 0mm; width: 10mm; height: 28mm; font-size: 10pt">{{ $page.frontmatter.text.SPELL }}</div>
 </CutOutSideGuide>
 :::
 ::: slot cut-out-right-side-guide-05
@@ -1480,7 +1486,7 @@ Ayrıca, boş olan sekiz şeritin birinde diğer 8 boş çift sayfaya bağlantı
           <div class="block">{{ $page.frontmatter.text._equal }}</div>
           <div class="block">{{ $page.frontmatter.text._question_mark }}</div>
         </div>
-        <div class="block b3x white-color black-bkg">{{ $page.frontmatter.text.HOME }}</div>
+        <div class="block b3x white-color black-bkg" style="font-size: 18pt;">{{ $page.frontmatter.text.HOME }}</div>
         <div class="block b3x yellow-bkg" style="font-size: 18pt;">{{ $page.frontmatter.text.THANK_YOU }}</div>
       </div>
       <div class="flex-v block-holder b4x">
@@ -1536,9 +1542,9 @@ Ayrıca, boş olan sekiz şeritin birinde diğer 8 boş çift sayfaya bağlantı
       <div class="block cyan-bkg">{{ $page.frontmatter.text.Z }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.X }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.C }}</div>
-      <div class="block b1_5x yellow-bkg">{{ $page.frontmatter.text.YES }}</div>
+      <div class="block b1_5x yellow-bkg" style="font-size: 18pt">{{ $page.frontmatter.text.YES }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.V }}</div>
-      <div class="block b1_5x yellow-bkg">{{ $page.frontmatter.text.NO }}</div>
+      <div class="block b1_5x yellow-bkg" style="font-size: 18pt">{{ $page.frontmatter.text.NO }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.B }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.N }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.M }}</div>
