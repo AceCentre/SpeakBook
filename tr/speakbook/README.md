@@ -6,7 +6,7 @@ text:
   SPEAKBOOK: KONUŞMAKİTABI
   edition_nth: "4.cü "
   EDITION: BASKI
-  color_blind: Renk körü
+  color_blind: Renk körlüğü olanlar için de uygundur
   friendly: Samimi
   instructions: Kullanma talimatları
   HOME_PAGE: ANA SAYFA
