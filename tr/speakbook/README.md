@@ -1404,7 +1404,7 @@ Eğitim sayfasındaki basit teknikleri öğrendikten sonra, bu kitapta bulunan b
 </CutOutSideGuide>
 :::
 ::: slot cover-footer
-div class="lheight-1_5x">
+<div class="lheight-1_5x">
   <p class="text-center cover-footer-text">
     <span class="fsize-8 bold"> sözel olmayan iletişim sistemi </span><br>
     <span class="red-color fsize-8 bold">acecent.re/speakbook</span><br>
