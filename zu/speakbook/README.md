@@ -1082,6 +1082,8 @@ grid_pages:
                 text_key: im_too_hot
               - image: shape-circle-1x-img
                 text_key: im_too_cold
+                text_inlinecss:
+                  font-size: 18pt
               - image: shape-triangle-1x-img
                 text_key: cup_of_tea
               - image: shape-square-1x-img
@@ -1111,6 +1113,8 @@ grid_pages:
                 text_key: BED
               - image: shape-circle-1x-img
                 text_key: CLOTHING
+                text_inlinecss:
+                  font-size: 18pt
               - image: shape-triangle-1x-img
                 text_key: BATHTIME
               - image: shape-square-1x-img
@@ -1218,6 +1222,8 @@ grid_pages:
                 text_key: BED
               - image: shape-circle-1x-img
                 text_key: CLOTHING
+                text_inlinecss:
+                  font-size: 18pt
               - image: shape-triangle-1x-img
                 text_key: BATHTIME
               - image: shape-square-1x-img
@@ -1248,6 +1254,8 @@ grid_pages:
                 text_key: im_too_hot
               - image: shape-circle-1x-img
                 text_key: im_too_cold
+                text_inlinecss:
+                  font-size: 18pt
               - image: shape-triangle-1x-img
                 text_key: cup_of_tea
               - image: shape-square-1x-img
@@ -1534,7 +1542,7 @@ div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.T }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.Y }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.U }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.I }}</div>
+      <div class="block cyan-bkg" style="font-size: 12pt">{{ $page.frontmatter.text.I }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.O }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.P }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.A }}</div>
