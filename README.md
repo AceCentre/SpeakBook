@@ -27,6 +27,16 @@ To help out with translation into new languages join the [POEditor project here]
 
 [Issues here](https://github.com/acecentre/SpeakBook/issues).  
 
+## How do I create a new version for my language - or improve a language translation
+
+Firstly - *Great!* Here are the steps: 
+
+1. Go to <https://poeditor.com/join/project/wKsMtKRLIj> and join up. Pick a current language to help edit - or create a new one. 
+2. What happens is you end up with a table. In one column is English snippets of text. And in the other you write that languages translation. Have a look at the [English](https://speakbook.netlify.app/speakbook/index.pdf) version where the strings are from. It should make sense what things mean.  There are some strange bits - some bits later on have html embedded in them. Don’t worry - just do what you can. You can’t break anything! 
+3.  Once you have done what you can - send [me an email](mailto:wwade@acecentre.org.uk) and I’ll run a little script that converts it. It really takes me no more than about 10 minutes to do. Once done you can see the changes on our [development page](http://speakbook.netlify.app) 
+4.  There’s usually tweaks to be made around how we do the e-Tran frame and finger spelling page. At that stage we just have a email chat about the best way forward. Some languages don’t bother to use all their letters - or we ignore the numbers. Lots of things we can do. And feel free to change things like the static words like “I feel hot” to something more regional. 
+5.  *Lastly** - we translate the printing instructions page. That’s just a text or word file you can [send me](mailto:wwade@acecentre.org.uk).  Example [here](https://speakbook.netlify.app/speakbook/printing-instructions.pdf) 
+
 
 **Urgent needs**
 - Need translations for a [printed instructions sheet ](https://acecentre.org.uk/wp-content/uploads/2018/11/Printing-Instructions1.pdf)
