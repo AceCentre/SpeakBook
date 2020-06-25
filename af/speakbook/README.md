@@ -3,7 +3,7 @@ layout: SpeakBook
 text:
   ring_bind_edge: Ringbind hierdie rand.
   cut_out_this_part: Knip hierdie deel uit.
-  SPEAKBOOK: SPEAKBOOK
+  SPEAKBOOK: PRAATBOEK
   edition_nth: 4de
   EDITION: UITGAWE
   color_blind: Kleurblind
@@ -1421,6 +1421,7 @@ grid_pages:
 
 
 
+
 ::: slot inst-01-content
 <div class="p-1 text-center">
   <SpeakBookTextFourColorBkg class="speakbook-title fsize-10 p-1 bold" :text="$page.frontmatter.text.SPEAKBOOK"></SpeakBookTextFourColorBkg>
@@ -1433,6 +1434,8 @@ U en u  maat sit teenoor mekaar ongeveer 90cm apart . Afhangend van u sig, kan u
 </p>
 <p> Dit is die basiese tegniek vir die gebruik van die praatboek. Nou moet u leer hoe om die ander bladsye in die boek te gebruik, want die waarde van die praatboek lê in die vermoë om u maklike toegang te gee tot honderde frases wat u self kiesen enige tyd kan verander, met net 'n klam lap en 'n pen. </p>
 :::
+
+:::
 :::
 ::
 :
@@ -1442,6 +1445,9 @@ U en u  maat sit teenoor mekaar ongeveer 90cm apart . Afhangend van u sig, kan u
 <div class="pos-rel fill-height fill-width">
   <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-right-label-bkg.svg')"/>
   <div class="fsize-8 abs-at-center" style="transform:translate(calc(-50% + 18px), calc(-50% - 18px)) rotate(45deg); color: white;">{{ $page.frontmatter.text.instructions }}</div>
+</div>
+:::
+div>
 </div>
 :::
 </div>
