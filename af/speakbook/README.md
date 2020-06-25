@@ -10,7 +10,7 @@ text:
   friendly: Vriendelik!
   instructions: instruksies
   HOME_PAGE: TUISBLAD
-  SPELL: SPELL
+  SPELL: SPEL
   HOME: TUIS
   THANK_YOU: DANKIE
   A: A
