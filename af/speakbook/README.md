@@ -3,7 +3,7 @@ layout: SpeakBook
 text:
   ring_bind_edge: Ringbind hierdie rand.
   cut_out_this_part: Knip hierdie deel uit.
-  SPEAKBOOK: PRAATBOEK
+  SPEAKBOOK: SPEAKBOOK
   edition_nth: 4de
   EDITION: UITGAWE
   color_blind: Kleurblind
@@ -65,8 +65,8 @@ text:
   TOILET: TOILET
   DRINKS: DRANKIES
   TRAINING_PAGE: OPLEIDINGSBLAD
-  training_page: opleidings bladsy
-  _GBP: £
+  training_page: opleidingsblad
+  _GBP: R
   _USD: $
   _percent: "%"
   _plus: +
@@ -1400,7 +1400,7 @@ grid_pages:
   <p class="text-center cover-footer-text">
     <span class="fsize-8 bold">nie-verbale kommunikasiestelsel</span> <br>
     <span class="red-color fsize-8 bold">acecent.re/speakbook</span> <br>
-    <span class="fsize-4"> Spreekboek 4de uitgawe © 2011 Patrick Joyce </span>
+    <span class="fsize-4"> Speakbook 4de uitgawe © 2011 Patrick Joyce </span>
   </p>
 </div>
 :::
@@ -1412,7 +1412,7 @@ grid_pages:
     <img class="m-1" style="width: 58.5mm; height: 79.7mm; box-sizing: border-box;" :src="$withBase('/speakbook/images/01.png')"  />
     <div class="m-1 p-1 flex-grow-1 flt-box" style="width: 57.5mm; min-height: 79.7mm; box-sizing: border-box;">
       <h3 class="my-1 fsize-5">Hoe om op die praatboek te skryf</h3>
-      <p class="my-2 fsize-4_5">Presies wat u in die praatboek skryf, sal afhang van u spesifieke vereistes, maar wat ook al u skryf, is dit belangrik dat elke kant van elke dubbele bladsy dieselfde teks daarop het, en dat hulle 'n spieëlbeeld van mekaar is - soos in die voorbeeld hierbo. Praat u en u maat verskillende tale? Geen probleem nie - skryf net 'n ander taal aan weerskante. </p>
+      <p class="my-2 fsize-4_5">Presies wat u in die speakbook skryf, sal afhang van u spesifieke vereistes, maar wat ook al u skryf, is dit belangrik dat elke kant van elke dubbele bladsy dieselfde teks daarop het, en dat hulle 'n spieëlbeeld van mekaar is - soos in die voorbeeld hierbo. Praat u en u maat verskillende tale? Geen probleem nie - skryf net 'n ander taal aan weerskante. </p>
     </div>
   </div>
 </div>
@@ -1422,17 +1422,20 @@ grid_pages:
 
 
 
+
 ::: slot inst-01-content
 <div class="p-1 text-center">
   <SpeakBookTextFourColorBkg class="speakbook-title fsize-10 p-1 bold" :text="$page.frontmatter.text.SPEAKBOOK"></SpeakBookTextFourColorBkg>
 </div>
-<p>Praatboek is 'n nie-verbale kommunikasie hulpmiddel vir mense wat nie kan praat nie en probleme ondervind om hul hande of arms te gebruik,  maar wat die gebruik van hul oë behou. Hierdie uitgawe is vir mense wat kan lees en spel. Besoek <b>acecent.re/speakbook</b>vir weergawes vir nie-lesers, weergawes in ander tale en die sak uitgawe. </p> 
+<p>Speakbook is 'n nie-verbale kommunikasie hulpmiddel vir mense wat nie kan praat nie en probleme ondervind om hul hande of arms te gebruik,  maar wat die gebruik van hul oë behou. Hierdie uitgawe is vir mense wat kan lees en spel. Besoek <b>acecent.re/speakbook</b>vir weergawes vir nie-lesers, weergawes in ander tale en die sak uitgawe. </p> 
 <h2 class="fsize-6"> Gebruiksaanwysings. </h2>
-<p> Om te begin, benodig u; die praatboek, 'n swart, nie-permanente witbordpen, 'n lap om uit te vee en 'n sprekende maat.</p>
+<p> Om te begin, benodig u; die speakbook, 'n swart, nie-permanente witbordpen, 'n lap om uit te vee en 'n maat wat praat.</p>
 <p>
-U en u  maat sit teenoor mekaar ongeveer 90cm apart . Afhangend van u sig, kan u hierdie afstand verminder of verhoog. Maak die praatboek oop op die oefenblad binne die agterblad. Dit is reeds ingevul om u te help om die basiese tegniek te leer. As u dit bemeester het, kan u u eie bladsye skryf met behulp van die leë bladsye. Vou die boek op homself terug en hou dit tussen u op, sodat u albei na 'n 'oefenbladsy' kyk, en mekaar se oë deur die gat in die middel kan sien. U kyk nou na die keuses op die bladsy om te besluit watter een u wil kommunikeer. As u besluit het, dui u aan u maat aan dat u gereed is om te begin - dit kan wees deur na u maat te kyk en u oë te knip, of deur u oë op en af te beweeg- wat u ook al pas. Kyk dan vir 'n sekonde na die boodskap wat u wil hê, gevolg deur die groot simbool dieselfde as die kleintjie langs die boodskap. Jou maat volg dan jou oogbewegings - hy sien byvoorbeeld dat jy aan die linkerkant van die bord gekyk het, gevolg deur die groot driehoek, sodat hy weet dat jy 'koppie tee' wil sê. Hy sê dan: 'koppie tee!' hardop, en u bevestig dit met 'n oogwink of met 'n ander vooraf ooreengekomde sein
+U en u  maat sit teenoor mekaar ongeveer 90cm uitmekaar. Afhangend van u sig, kan u hierdie afstand verminder of verhoog. Maak die speakbook oop op die oefenblad binne die agterblad. Dit is reeds ingevul om u te help om die basiese tegniek te leer. As u dit bemeester het, kan u u eie bladsye skryf met behulp van die leë bladsye. Vou die boek op homself terug en hou dit tussen u op, sodat u albei na 'n 'oefenbladsy' kyk, en mekaar se oë deur die gat in die middel kan sien. U kyk nou na die keuses op die bladsy om te besluit watter een u wil kommunikeer. As u besluit het, dui u aan u maat aan dat u gereed is om te begin - dit kan wees deur na u maat te kyk en u oë te knip, of deur u oë op en af te beweeg- wat u ook al pas. Kyk dan vir 'n sekonde na die boodskap wat u wil hê, gevolg deur die groot simbool dieselfde as die kleintjie langs die boodskap. Jou maat volg dan jou oogbewegings - hy sien byvoorbeeld dat jy aan die linkerkant van die bord gekyk het, gevolg deur die groot driehoek, sodat hy weet dat jy 'koppie tee' wil sê. Hy sê dan: 'koppie tee!' hardop, en u bevestig dit met 'n oogwink of met 'n ander vooraf ooreengekomde sein
 </p>
-<p> Dit is die basiese tegniek vir die gebruik van die praatboek. Nou moet u leer hoe om die ander bladsye in die boek te gebruik, want die waarde van die praatboek lê in die vermoë om u maklike toegang te gee tot honderde frases wat u self kiesen enige tyd kan verander, met net 'n klam lap en 'n pen. </p>
+<p> Dit is die basiese tegniek vir die gebruik van die praatboek. Nou moet u leer hoe om die ander bladsye in die boek te gebruik, want die waarde van die speakbook lê in die vermoë om u maklike toegang te gee tot honderde frases wat u self kiesen enige tyd kan verander, met net 'n klam lap en 'n pen. </p>
+:::
+>
 :::
 
 :::
@@ -1445,6 +1448,9 @@ U en u  maat sit teenoor mekaar ongeveer 90cm apart . Afhangend van u sig, kan u
 <div class="pos-rel fill-height fill-width">
   <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-right-label-bkg.svg')"/>
   <div class="fsize-8 abs-at-center" style="transform:translate(calc(-50% + 18px), calc(-50% - 18px)) rotate(45deg); color: white;">{{ $page.frontmatter.text.instructions }}</div>
+</div>
+:::
+s }}</div>
 </div>
 :::
 div>
@@ -1466,8 +1472,8 @@ v>
 </div>
 :::
 ::: slot inst-02-content
-<p> Elke bladsy van die praatboek bevat 14 of 15 leë gedeeltes waarop u u eie teks kan skryf. Om die gebruiker tussen die verskillende bladsye te laat beweeg, het ons die 'tuisblad' geskep. Dit word aan die voorkant van die boek aangetref en is gemerk met 'n swart 'TUIS'-oortjie aan die rand van die bladsy. Die idee is dat u die 7 frases wat u die meeste gebruik op hierdie bladsy skryf, aangesien dit die bladsy is waarop u altyd begin. Op 8 van die leë stroke skryf u ook skakels na die ander agt leë dubbele bladsye. Dit moet die dele van u lewe wees wat meer gedetailleerde frases benodig, dit kan areas soos badtyd wees of met die kar uitgaan. Links is 'n voorbeeld van 'n moontlike uitleg vir die 'TUIS'-bladsy. Die agt woorde in vetdruk met hoofletters is skakels na dubbelsydige bladsye elders in die boek. Vind 'n leë bladsy en skryf byvoorbeeld 'BED' op die oortjie. Skryf nou die 14 belangrikste frases wat verband hou met u bedtydroetine. Herhaal die proses vir die ander 7 skakels totdat u boek vol is. As u 'n fout maak of 'n frase wil verander, vee dit uit met 'n klam lap en begin weer. </p>
-<p> Om die praatboek te gebruik, dui u aan u maat dat u wil kommunikeer. U maat open die spreekboek op die 'TUIS'-bladsy en u kies byvoorbeeld' BED '. U maat blaai dan na die 'BED'-bladsy en u kan dan aandui:' Ek wil gaan slaap '- of wat ook al. Elke bladsy het 'TUIS' en 'SPEL' wat vooraf gedruk is. Die 'TUIS' is so dat u altyd weer op die 'TUIS'-bladsy kan terugkom (u wil dalk hê dat 'n' koppie tee' saam met u bed toe moet gaan). Op die 'SPEL'-bladsy kan u individuele woorde en frases uitspel wat nie elders in die boek voorkom nie. Dit werk op 'n soortgelyke manier as die ander bladsye, met een verskil. Op hierdie bladsy is daar 6 gekleurde blokke, elk met 6 gekleurde letters of syfers daarop. Die hele alfabet is daar, plus getalle 1-9 (gebruik die letter O vir nul). U kyk na die letter wat u wil gebruik, vir ongeveer 'n sekonde, gevolg deur die gekleurde blokkie van dieselfde kleur as u gekose letter. Jou maat volg jou oë, sien dat jy byvoorbeeld na die boonste linkerblok gekyk het, gevolg deur die boonste regterkantste blok (wat groen is), en weet dat jy 'C' wil hê. Jou maat sê 'C' hardop om te bevestig, en jy gaan voort na die volgende letter. U maat raai die res van die woord, indien moontlik, om die proses te bespoedig. </p>
+<p> Elke bladsy van die speakbook bevat 14 of 15 leë gedeeltes waarop u u eie teks kan skryf. Om die gebruiker tussen die verskillende bladsye te laat beweeg, het ons die 'tuisblad' geskep. Dit word aan die voorkant van die boek aangetref en is gemerk met 'n swart 'TUIS'-oortjie aan die rand van die bladsy. Die idee is dat u die 7 frases wat u die meeste gebruik op hierdie bladsy skryf, aangesien dit die bladsy is waarop u altyd begin. Op 8 van die leë stroke skryf u ook skakels na die ander agt leë dubbele bladsye. Dit moet die dele van u lewe wees wat meer gedetailleerde frases benodig, dit kan areas soos badtyd wees of met die kar uitgaan. Links is 'n voorbeeld van 'n moontlike uitleg vir die 'TUIS'-bladsy. Die agt woorde in vetdruk met hoofletters is skakels na dubbelsydige bladsye elders in die boek. Vind 'n leë bladsy en skryf byvoorbeeld 'BED' op die oortjie. Skryf nou die 14 belangrikste frases wat verband hou met u bedtydroetine. Herhaal die proses vir die ander 7 skakels totdat u boek vol is. As u 'n fout maak of 'n frase wil verander, vee dit uit met 'n klam lap en begin weer. </p>
+<p> Om die speakbook te gebruik, dui u aan u maat dat u wil kommunikeer. U maat open die speakbook op die 'TUIS'-bladsy en u kies byvoorbeeld' BED '. U maat blaai dan na die 'BED'-bladsy en u kan dan aandui:' Ek wil gaan slaap '- of wat ook al. Elke bladsy het 'TUIS' en 'SPEL' wat vooraf gedruk is. Die 'TUIS' is so dat u altyd weer op die 'TUIS'-bladsy kan terugkom (u wil dalk hê dat 'n' koppie tee' saam met u bed toe moet gaan). Op die 'SPEL'-bladsy kan u individuele woorde en frases uitspel wat nie elders in die boek voorkom nie. Dit werk op 'n soortgelyke manier as die ander bladsye, met een verskil. Op hierdie bladsy is daar 6 gekleurde blokke, elk met 6 gekleurde letters of syfers daarop. Die hele alfabet is daar, plus getalle 1-9 (gebruik die letter O vir nul). U kyk na die letter wat u wil gebruik, vir ongeveer 'n sekonde, gevolg deur die gekleurde blokkie van dieselfde kleur as u gekose letter. Jou maat volg jou oë, sien dat jy byvoorbeeld na die boonste linkerblok gekyk het, gevolg deur die boonste regterkantste blok (wat groen is), en weet dat jy 'C' wil hê. Jou maat sê 'C' hardop om te bevestig, en jy gaan voort na die volgende letter. U maat raai die res van die woord, indien moontlik, om die proses te bespoedig. </p>
 <p> Praatbook het plek vir 119 frases wat u kies. As dit nie voldoende is nie, of as u meer as 14 frases in een spesifieke afdeling benodig, kan u die kapasiteit verdubbel deur twee frases op elke reël te skryf, een in swart pen, een in rooi. U kies 'n swart frase op die normale manier, 'n rooi deur te knip wanneer u na die groot simbool kyk. </p>
 :::
 
