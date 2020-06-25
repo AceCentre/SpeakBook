@@ -3,14 +3,14 @@ layout: SpeakBook
 text:
   ring_bind_edge: Bopha izindandatho kulolu onqenqemeni
   cut_out_this_part: Sika le ngxenye.
-  SPEAKBOOK: ISIKHULULO
+  SPEAKBOOK: Incwadi yokukhuluma
   edition_nth: 4th
   EDITION: ISIHLOKO
-  color_blind: Umbala Ompumputhe
+  color_blind: Ukungahlukanisi umbala
   friendly: Mngani!
   instructions: imiyalo
-  HOME_PAGE: IKHASI EKHAYA
-  SPELL: I-Spell
+  HOME_PAGE: IKHASI LASEKHAYA
+  SPELL: ISIPELE
   HOME: IKHAYA
   THANK_YOU: NGIYABONGA
   A: A
@@ -49,22 +49,23 @@ text:
   _seven: "7"
   _eight: "8"
   _nine: "9"
-  im_too_hot: Ngishise kakhulu
-  im_too_cold: Ngibanda kakhulu
-  cup_of_tea: Indebe yetiye!
-  cup_of_coffee: Indebe yekhofi!
+  im_too_hot: |
+    Ngiyasha kakhulu
+  im_too_cold: Ngiyagodola Kakhulu
+  cup_of_tea: Inkomishi yetiye!
+  cup_of_coffee: Inkomishi yekhofi!
   i_love_you: Ngiyakuthanda
   yes: yebo
   no: cha
-  CAR: I-CAR
-  BED: BED
-  CLOTHING: UKUGCINA
-  BATHTIME: NGESONTO
-  MEALS: IZIMPI
-  COMFORT: IZIMALI
-  TOILET: TOILET
-  DRINKS: IZIMPAWU
-  TRAINING_PAGE: UKUQEQESHA IKHASI
+  CAR: Imoto
+  BED: umbhede
+  CLOTHING: Izingubo Zokugqoka
+  BATHTIME: Isikhathi Sokugeza
+  MEALS: Ukudla
+  COMFORT: Induduzo
+  TOILET: Indlu yangasese
+  DRINKS: Iziphuzo
+  TRAINING_PAGE: Ikhasi lokuqeqeshwa
   training_page: ikhasi lokuqeqeshwa
   _GBP: £
   _USD: $
@@ -433,7 +434,7 @@ grid_pages:
               - text_key: HOME
                 inlinecss:
                   color: var(--color-cyan)
-                  font-size: 18pt
+                  font-size: 12pt
       - comment: Center
         inlinecss:
           width: 76mm
@@ -488,6 +489,7 @@ grid_pages:
               - text_key: I
                 inlinecss:
                   color: var(--color-green)
+                  font-size: 15pt
               - text_key: J
                 inlinecss:
                   color: var(--color-yellow)
@@ -621,7 +623,7 @@ grid_pages:
               - text_key: HOME
                 inlinecss:
                   color: var(--color-cyan)
-                  font-size: 18pt
+                  font-size: 12pt
       - comment: Center
         inlinecss:
           width: 76mm
@@ -683,6 +685,7 @@ grid_pages:
               - text_key: I
                 inlinecss:
                   color: var(--color-green)
+                  font-size: 15pt
               - text_key: J
                 inlinecss:
                   color: var(--color-yellow)
@@ -1262,10 +1265,10 @@ grid_pages:
 <img style="width: var(--img-width); height: var(--img-width);" :src="$withBase('/speakbook/shapes/smileyface.svg')" />
 :::
 ::: slot last-page-heading
-<div class="float-left" style="width: 40mm; height: 37mm; shape-outside: polygon(0 0, 40mm 0, 10mm 100%, 0 100%);"></div>
-<h2 class="my-2">Ikhasi esipelingi ngeminwe. </h2>
+<div class="Ukuntanta - kwesokunxele" uhlobo="ububanzi: 40mm; ubude: 37mm; Isimo-sangaphandle: polygon(0 0, 40mm 0, 10mm 100%, 0 100%);"></div>
+<h2 class="my-2">Ikhasi lesipelingi ngomunwe. </h2>
 <p class="my-2">
-  Uma usenokusebenzisa izandla zakho, leli khasi elingelakho.
+  Uma usenokusebenzisa izandla zakho, leli khasi ngelakho.
   Ngokukhomba ngomunwe ungapela amagama nemishwana kumlingani wakho.
   Amagama asetshenziswa kaningi angabhalwa emabhokisini angenalutho.
   Kukhomba igama elithi <strong class="bold"> „HOME‟ * </strong> kukhombisa kumlingani wakho ukuthi manje
@@ -1274,7 +1277,7 @@ grid_pages:
 :::
 ::: slot training-page-description
 <p class="fsize-3">
-  Lapho usufunde inqubo eyisisekelo usebenzisa leli khasi lokuqeqesha,
+  Lapho usufunde amasu eyisisekelo usebenzisa leli khasi lokuqeqeshwa,
   ungabhala amakhasi akho usebenzisa okungekho kule ncwadi.
 </p>
 :::
@@ -1397,14 +1400,12 @@ grid_pages:
 </CutOutSideGuide>
 :::
 ::: slot cover-footer
-<div class="flex-h items-align-center lheight-1_5x" style="width: calc(var(--page-width) - 60mm);">
-  <p class="cover-footer-text">
-    <span class="fsize-8 bold">uhlelo lokuxhumana olungasebenzisi ngamazwi</span><br>
-    <span class="red-color fsize-8 bold">acecent.re/speakbook</span><br>
-    <span class="fsize-4">I-Talkbook 4th edition © 2011 Patrick Joyce</span>
-  </p>
-  <div class="flex-grow-1"></div>
-  <img style="width: 30mm;height: 30mm;" :src="$withBase('/speakbook/images/PublishedByAce.svg')" />
+<div class="lheight-1_5x">
+  <p class="text-center cover-footer-text">
+    <span class="fsize-8 bold"uhlelo lokuxhumana olungasebenzisi ngamazwi </span> <br>
+    <span class = "red-fsize-8 bold">acecent.re/speakbook </span> <br>
+    <span class="fsize-4"> I-Talkbook 4th edition © 2011 Patrick Joyce </span>
+  </p>
 </div>
 :::
 
@@ -1424,18 +1425,21 @@ grid_pages:
 
 
 
+
 ::: slot inst-01-content
 <div class="p-1 text-center">
   <SpeakBookTextFourColorBkg class="speakbook-title fsize-10 p-1 bold" :text="$page.frontmatter.text.SPEAKBOOK"></SpeakBookTextFourColorBkg>
 </div>
-<p> I-speakerbook iyithuluzi lokuxhumana elingelona elomlomo kubantu abangakwazi ukukhuluma futhi banobunzima bokusebenzisa izandla noma izingalo, kepha abagcina ukusetshenziswa kwamehlo abo. Lolu hlobo lwenzelwe abantu abakwazi ukufunda nokupela. Okwezinhlobo zabantu abangafundanga, izinhlobo zolimi lwakwamanye amazwe, kanye nohlobo lwephakethe, vakashela <b>acecent.re/speakbook</b> </p>
-<h2 class = "fsize-6"> Imiyalo esetshenzisiwe. </h2>
-<p> Ukuze uqalise, uzodinga; incwadi yokukhuluma, ipeni elimhlophe, elingapheli unomphelo, indwangu yokuphuma, kanye nomlingani okhuluma
+<p> I-speakerbook iyithuluzi lokuxhumana elingelona elomlomo kubantu abangakwazi ukukhuluma futhi banobunzima bokusebenzisa izandla noma izingalo, kepha abaakwazi ukusebenzisa amehlo abo. Lolu hlobo lwenzelwe abantu abakwazi ukufunda nokupela. Okwezinhlobo zabantu abangafundanga, izinhlobo zolimi lwakwamanye amazwe, kanye nohlobo lwephakethe, vakashela <b>acecent.re/speakbook</b> </p>
+<h2 class = "fsize-6"> Imiyalo yokusebenzisa. </h2>
+<p> Ukuze uqalise, uzodinga; incwadi yokukhuluma, ipeni elimnyama lebhodi, indwangu yokuhlikihla, kanye nomlingani okhuluma naye.
 <p>
-Wena nomuntu enikhuluma naye nihlala maqondana omunye nomunye cishe ngamamitha amathathu. Ngokuya ngamehlo akho, ungakuthola kusiza ukwehla noma ukwandisa leli banga. Vula incwadi yokukhuluma ekhasini lokuqeqeshwa ngaphakathi kwekhava engemuva. Lokhu kugcwele ukukusiza ufunde inqubo eyisisekelo. Lapho usuwazi kahle, ungabhala amakhasi akho, usebenzisa okungenalutho okunikezwe. Songa le ncwadi ngokwayo futhi uyibambe phakathi kwakho, ngakho-ke nobabili nibheke ekhasini ‟lokuziqeqesha‟, futhi nikwazi ukubona ngamehlo omunye nomunye umgodi ophakathi. Manje ubheka izinqumo ezisekhasini ukunquma ukuthi iyiphi okufanele uyixoxe. Lapho usuthathe isinqumo, ukhombisa umlingani wakho ukuthi usukulungele ukuqala
-- lokhu kungaba ngokubheka umlingani wakho nokufiphala, noma ngokugoba amehlo akho phezulu naphansi - noma yini ekufanele. Bese ubheka umlayezo owufunayo, umzuzwana noma ngaphezudlwana kwawo, olandelwa luphawu olukhulu olucishe lufane nalo oluseceleni komyalezo. Umlingani wakho ulandela ukunyakaza kwamehlo akho - ngokwesibonelo angabona ukuthi ubheke ngakwesokunxele phezulu kwebhodi elandelwa unxantathu omkhulu, ngakho uyazi ukuthi kufanele ufune ukusho „inkomishi yetiye!‟. Ube esethi, “inkomishi yetiye!” ngezwi elikhulu, futhi uqinisekisa lokhu nge-blink, noma esinye isiginali ehlelwe ngaphambili
-</p>
-I-<p> Le ndlela eyisisekelo yokusebenzisa i-speakbook. Manje udinga ukufunda ukuthi ungawasebenzisa kanjani amanye amakhasi asencwadini, ngoba ubuhlakani beqiniso be-speakerbook bulele emandleni ayo okukunikeza ukufinyelela okulula emabintana amabinzana owakhethayo, amabinzana ongawashintsha nganoma yisiphi isikhathi, yindwangu emanzi kuphela nokushaywa kwepeni. </p>
+Wena nomuntu enikhuluma nonke nihlala maqondana komunye nomunye lehlukane cishe ngamamitha amathathu. Ngokuya ngamehlo akho, ungehlisa noma wengeze leli banga. Vula incwadi yokukhuluma ekhasini lokuqeqeshwa ngaphakathi kwekhava engemuva. Lokhu kugcwaliswe ukukusiza ufunde isisekelo samasu. Lapho usuwazi kahle, ungabhala amakhasi akho, usebenzisa 
+ amakhasi  owanikezwe angenalutho. Goqa le ncwadi ngendlela okumele ime ngayo futhi uyibambe phakathi naphakathi kwenu nobabili nibheke nonke ekhasini ‟lokuziqeqesha‟, futhi nikwazi ukubonana ngamehlo omunye nomunye ngesikhala kumbe imbobo ephakathi. Manje bheka izinqumo ezisekhasini ukhethe ukuthi yiphi okufanele uyixoxe. Lapho usuthathe isinqumo, khombisa umlingani wakho ukuthi usukulungele ukuqala
+- lokhu kungaba yikukubheka umlingani wakho noma ukucwayiza, noma ngokugoba amehlo akho phezulu naphansi - noma yini ekufanele. Bese ubheka umlayezo owufunayo, umzuzwana noma ngaphezudlwana kwawo, olandelwa luphawu olukhulu olucishe lufane nalo oluseceleni komyalezo. Umlingani wakho ulandela ukunyakaza kwamehlo akho - ngokwesibonelo angabona ukuthi ubheke ngakwesokunxele phezulu kwebhodi elandelwa unxantathu omkhulu, ngakho uyazi ukuthi kufanele  asho athi „inkomishi yetiye!‟. Ube esethi, “inkomishi yetiye!” ngezwi elikhulu, futhi uqinisekisa lokhu ngokucwayiza, noma enye indlela ehlelwe ngaphambili
+</p><p> Le yindlela elula yokusebenzisa i-speakbook. Manje udinga ukufunda ukuthi ungawasebenzisa kanjani amanye amakhasi asencwadini, ngoba ubuhlakani be-speakbook  bukunikeza imitsho engadlula amakhulu ongazikhethela yona njalo ukwazi 1lokuyintshintsha nganoma yisiphi isikhathi ngokuhlikihla ngendwangu emanzi noma ukukhansela ngepeni. </p>
+:::
+
 :::
 :::
 ::
@@ -1445,7 +1449,10 @@ I-<p> Le ndlela eyisisekelo yokusebenzisa i-speakbook. Manje udinga ukufunda uku
 ::: slot inst-02-flt-right-label
 <div class="pos-rel fill-height fill-width">
   <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-right-label-bkg.svg')" />
-  <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 5mm), calc(-50% - 5mm)) rotate(45deg); color: white;width: 42mm;text-align: center;">{{ $page.frontmatter.text.instructions }}</div>
+  <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 18px), calc(-50% - 18px)) rotate(45deg); color: white;">{{ $page.frontmatter.text.instructions }}</div>
+</div>
+:::
+div>
 </div>
 :::
 
@@ -1460,8 +1467,7 @@ I-<p> Le ndlela eyisisekelo yokusebenzisa i-speakbook. Manje udinga ukufunda uku
 :::
 ::: slot inst-02-content
 <p> Ikhasi ngalinye lencwadi yokukhuluma linezigaba eziyi-14 noma eziyi-15 ezingenalutho ongabhala ngazo umbhalo wakho. Ukuze umsebenzisi akwazi ukuhamba phakathi kwamakhasi ahlukile, sidale ikhasi le- „home‟. Lokhu kutholakala ngaphambili kwencwadi, futhi kumakwe ngethebhu emnyama „IKHAYA‟ ekugcineni kwekhasi. Umqondo uwukuthi ubhale imishwana eyi-7 oyisebenzisa kakhulu kuleli khasi, ngoba liyikhasi oqala ngalo njalo. Futhi, kumakhasi ayisishiyagalombili angenalutho ubhala izixhumanisi kwamanye amakhasi ayi-8 angenalutho. Lezi kufanele kube yizingxenye zempilo yakho ezidinga imishwana esezingeni elijulile, lezi zingaba yizindawo ezinjengokugeza, noma ukuphuma emotweni. Ngakwesobunxele yisibonelo sesakhiwo esingenzeka sekhasi le- „IKHAYA‟. Amagama ayi-8 ngezinhlamvu eziyinhlanganisela ezinesibindi azixhumanisi zokusakazwa kwamakhasi okuphindwe kabili kwenye indawo encwadini. Lokho okwenzayo nje, uthola ikhasi elingenalutho bese ubhala, ngokwesibonelo, ED BED ‟ekhasini lesiphelo, bese emapheshana ubhala imishwana eyi-14 efaneleke kakhulu kunqubo yakho yokulala. Ngemuva kwalokho uphinda le nqubo kwezinye izixhumanisi eziyi-7, kuze kufike lapho incwadi yakho igcwele. Uma wenza iphutha, noma ufuna ukushintsha ibinzana, mane ulisule ngendwangu emanzi bese uqala futhi. </p>
-<p> Ukuze usebenzise i-speakbook, ukhombisa umlingani wakho ukuthi ufuna ukuxhumana. Umlingani wakho uvula incwadi yokukhuluma ekhasini le-„IKHAYA and futhi uyaxhumana, isibonelo,„ BED ‟. Umlingani wakho ube esephendukela ekhasini le-„BED‟ bese ukwazi ukuxhumana, „Ngifuna ukulala‟ - noma yini. Ikhasi ngalinye line- „IKHAYA‟ ne-„Spell‟ ephrintiwe kulo. I- "IKHAYA‟ "ukuze njalo ukwazi ukubuyela ekhasini le-„ IKHAYA ‟(ungahle uthande„ Indebe yetiye! Take ukulala nawe). Ikhasi ‟le-SPELL‟ likuvumela ukuba upele amagama namabinzana angaveli kwenye incwadi. Isebenza ngendlela efanayo namanye amakhasi, ngomehluko owodwa. Kuleli khasi kunamabhlokhethi anemibala ayi-6, ngalinye linonobumba eziyisithupha ezinemibala noma izinombolo kulo. Alfabhethi lonke likhona, nezinombolo 1-9 (ezokusebenzisa u-zero u-O). Ubheka incwadi ofuna ukuyihumusha, okwesibili noma kunjalo, kulandelwe yibhlokhi enemibala yombala ofanayo nencwadi yakho oyikhethile. Umlingani wakho ulandela iso lakho, ubona ukuthi ubuke, ngokwesibonelo, ibhulokhi eliphezulu kwesobunxele elandelwa ibhulokhi ephezulu (okuyinto eluhlaza), futhi uyazi ukuthi ufuna want C ‟. Umlingani wakho uthi „C‟ ngokuzwakalayo ukuze uqinisekise, bese udlulela kunhlamvu olulandelayo. Umlingani wakho uqagela lonke igama lapho kungenzeka, ukusheshisa inqubo. </p>
-I <p> I-speakerbook inendawo yemishwana engu-119 oyikhethile. Uma lokhu akwanele, noma uma udinga imishwana engaphezu kuka-14 esigabeni esithile, ungasiphinda kabili isibalo saso ngokubhala imishwana emibili kulayini ngamunye, munye epeni elimnyama, munye ngokubomvu. Ukhetha ibinzana elimnyama ngendlela ejwayelekile, ebomvu ngokunqena lapho ubuka uphawu olukhulu. </p>
+<p> Ukuze usebenzise i-speakbook, ukhombisa umlingani wakho ukuthi ufuna ukuxhumana. Umlingani wakho uvula incwadi yokukhuluma ekhasini le-„IKHAYA and futhi uyaxhumana, isibonelo,„ BED ‟. Umlingani wakho ube esephendukela ekhasini le-„BED‟ bese ukwazi ukuxhumana, „Ngifuna ukulala‟ - noma yini. Ikhasi ngalinye line- „IKHAYA‟ ne-„Spell‟ ephrintiwe kulo. I- "IKHAYA‟ "ukuze njalo ukwazi ukubuyela ekhasini le-„ IKHAYA ‟(ungahle uthande„ Indebe yetiye! Take ukulala nawe). Ikhasi ‟le-SPELL‟ likuvumela ukuba upele amagama namabinzana angaveli kwenye incwadi. Isebenza ngendlela efanayo namanye amakhasi, ngomehluko owodwa. Kuleli khasi kunamabhlokhethi anemibala ayi-6, ngalinye linonobumba eziyisithupha ezinemibala noma izinombolo kulo. Alfabhethi lonke likhona, nezinombolo 1-9 (ezokusebenzisa u-zero u-O). Ubheka incwadi ofuna ukuyihumusha, okwesibili noma kunjalo, kulandelwe yibhlokhi enemibala yombala ofanayo nencwadi yakho oyikhethile. Umlingani wakho ulandela iso lakho, ubona ukuthi ubuke, ngokwesibonelo, ibhulokhi eliphezulu kwesobunxele elandelwa ibhulokhi ephezulu (okuyinto eluhlaza), futhi uyazi ukuthi ufuna want C ‟. Umlingani wakho uthi „C‟ ngokuzwakalayo ukuze uqinisekise, bese udlulela kunhlamvu olulandelayo. Umlingani wakho uqagela lonke igama lapho kungenzeka, ukusheshisa inqubo. </p><p> I-speakerbook inendawo yemishwana engu-119 oyikhethile. Uma lokhu akwanele, noma uma udinga imishwana engaphezu kuka-14 esigabeni esithile, ungasiphinda kabili isibalo saso ngokubhala imishwana emibili kulayini ngamunye, munye epeni elimnyama, munye ngokubomvu. Ukhetha ibinzana elimnyama ngendlela ejwayelekile, ebomvu ngokunqena lapho ubuka uphawu olukhulu. </p>
 :::
 
 ::: slot last-page-content

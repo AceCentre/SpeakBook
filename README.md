@@ -14,7 +14,7 @@ The current *in-progress* versions (Note: will only look as intended in Chrome. 
 - 🇪🇸[Spanish SpeakBook](/es/speakbook/) (and [PDF](/es/speakbook/index.pdf))
 - 🇩🇪[German SpeakBook](/de/speakbook/) (and [PDF](/de/speakbook/index.pdf))
 - 🇫🇷[French SpeakBook](/fr/speakbook/) (and [PDF](/fr/speakbook/index.pdf))
-- 🇿🇦[Afrikaans SpeakBook](/af/speakbook/) (and [PDF](/af/speakbook/index.pdf))
+- 🇿🇦[Afrikaans SpeakBook](/af/speakbook/), [Printing Instructions](/af/speakbook/printing-instructions.html) (and [PDF](/af/speakbook/index.pdf), [PDF - Printing Instructions](/af/speakbook/printing-instructions.pdf))
 - 🇿🇦[Zulu SpeakBook](/zu/speakbook/) (and [PDF](/zu/speakbook/index.pdf))
 - 🇹🇷[Turkish Speakbook](/tr/speakbook/), [Printing Instructions](/tr/speakbook/printing-instructions.html) (and [PDF](/tr/speakbook/index.pdf), [PDF - Printing Instructions](/tr/speakbook/printing-instructions.pdf))
 
