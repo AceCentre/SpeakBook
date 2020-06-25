@@ -8,15 +8,20 @@ This is a repository to hold the working versions of [Patrick Joyce's SpeakBook 
 
 The current *in-progress* versions (Note: will only look as intended in Chrome. We recommend looking at the PDF builds):
 
+## Complete Translatons
+
 - 🇬🇧[English SpeakBook](/speakbook/), [Printing Instructions](/speakbook/printing-instructions.html) (and [PDF](/speakbook/index.pdf), [PDF - Printing Instructions](/speakbook/printing-instructions.pdf))
+- 🇹🇷[Turkish Speakbook](/tr/speakbook/), [Printing Instructions](/tr/speakbook/printing-instructions.html) (and [PDF](/tr/speakbook/index.pdf), [PDF - Printing Instructions](/tr/speakbook/printing-instructions.pdf))
+- 🇿🇦[Afrikaans SpeakBook](/af/speakbook/), [Printing Instructions](/af/speakbook/printing-instructions.html) (and [PDF](/af/speakbook/index.pdf), [PDF - Printing Instructions](/af/speakbook/printing-instructions.pdf))
+
+## Needing "Printing Instructions" (but complete otherwise)
+
 - 🇸🇪[Swedish SpeakBook](/sv/speakbook/) (and [PDF](/sv/speakbook/index.pdf))
 - 🇵🇹[Portuguese SpeakBook](/po/speakbook/) (and [PDF](/po/speakbook/index.pdf))
 - 🇪🇸[Spanish SpeakBook](/es/speakbook/) (and [PDF](/es/speakbook/index.pdf))
 - 🇩🇪[German SpeakBook](/de/speakbook/) (and [PDF](/de/speakbook/index.pdf))
 - 🇫🇷[French SpeakBook](/fr/speakbook/) (and [PDF](/fr/speakbook/index.pdf))
-- 🇿🇦[Afrikaans SpeakBook](/af/speakbook/), [Printing Instructions](/af/speakbook/printing-instructions.html) (and [PDF](/af/speakbook/index.pdf), [PDF - Printing Instructions](/af/speakbook/printing-instructions.pdf))
 - 🇿🇦[Zulu SpeakBook](/zu/speakbook/) (and [PDF](/zu/speakbook/index.pdf))
-- 🇹🇷[Turkish Speakbook](/tr/speakbook/), [Printing Instructions](/tr/speakbook/printing-instructions.html) (and [PDF](/tr/speakbook/index.pdf), [PDF - Printing Instructions](/tr/speakbook/printing-instructions.pdf))
 
 To help out with translation into new languages join the [POEditor project here](https://poeditor.com/join/project/wKsMtKRLIj)
 
@@ -24,7 +29,6 @@ To help out with translation into new languages join the [POEditor project here]
 
 
 **Urgent needs**
-- German need proofing and more work
 - Need translations for a [printed instructions sheet ](https://acecentre.org.uk/wp-content/uploads/2018/11/Printing-Instructions1.pdf)
 - More serious coding issues see the queue [ here](https://github.com/acecentre/SpeakBook/issues). 
 
