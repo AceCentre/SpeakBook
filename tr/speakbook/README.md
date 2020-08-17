@@ -1,39 +1,45 @@
 ---
 layout: SpeakBook
 text:
-  ring_bind_edge: Bopha izindandatho kulolu onqenqemeni
-  cut_out_this_part: Sika le ngxenye.
-  SPEAKBOOK: Incwadi yokukhuluma
-  edition_nth: 4th
-  EDITION: ISIHLOKO
-  color_blind: Ukungahlukanisi umbala
-  friendly: Mngani!
-  instructions: imiyalo
-  HOME_PAGE: IKHASI LASEKHAYA
-  SPELL: ISIPELE
-  HOME: IKHAYA
-  THANK_YOU: NGIYABONGA
+  ring_bind_edge: Bu kenar boyunca halkayı bağlayın
+  cut_out_this_part: Bu kısmı kesin
+  SPEAKBOOK: KONUŞMAKİTABI
+  edition_nth: "4.cü "
+  EDITION: BASKI
+  color_blind: Renk körlüğü olanlar için de uygundur
+  friendly: Samimi
+  instructions: Kullanma talimatları
+  HOME_PAGE: ANA SAYFA
+  SPELL: HECELEME
+  HOME: ANA SAYFA
+  THANK_YOU: Teşekkür ederim
   A: A
   B: B
   C: C
+  Ç: Ç
   D: D
   E: E
   F: F
   G: G
+  Ğ: Ğ
   H: H
-  I: Mina
+  I: I
+  İ: İ
   J: J
   K: K
   L: L
   M: M
   N: N
   O: O
+  Ö: Ö
   P: P
   Q: Q
   R: R
   S: S
+  Ş: Ş
   T: T
   U: U
+  Ü: Ü
   V: V
   W: W
   X: X
@@ -49,24 +55,23 @@ text:
   _seven: "7"
   _eight: "8"
   _nine: "9"
-  im_too_hot: |
-    Ngiyasha kakhulu
-  im_too_cold: Ngiyagodola Kakhulu
-  cup_of_tea: Inkomishi yetiye!
-  cup_of_coffee: Inkomishi yekhofi!
-  i_love_you: Ngiyakuthanda
-  yes: yebo
-  no: cha
-  CAR: Imoto
-  BED: umbhede
-  CLOTHING: Izingubo Zokugqoka
-  BATHTIME: Isikhathi Sokugeza
-  MEALS: Ukudla
-  COMFORT: Induduzo
-  TOILET: Indlu yangasese
-  DRINKS: Iziphuzo
-  TRAINING_PAGE: Ikhasi lokuqeqeshwa
-  training_page: ikhasi lokuqeqeshwa
+  im_too_hot: çok sıcak
+  im_too_cold: çok soğuk / üşüyorum
+  cup_of_tea: Bir bardak çay
+  cup_of_coffee: Bir bardak kahve
+  i_love_you: Seni seviyorum
+  yes: Evet
+  no: Hayır
+  CAR: ARABA
+  BED: YATAK
+  CLOTHING: KIYAFET
+  BATHTIME: YIKANMA ZAMANI
+  MEALS: YİYECEKLER
+  COMFORT: RAHATLIK
+  TOILET: TUVALET
+  DRINKS: İÇECEKLER
+  TRAINING_PAGE: EĞİTİM SAYFASI
+  training_page: eğitim sayfası
   _GBP: £
   _USD: $
   _percent: "%"
@@ -77,8 +82,8 @@ text:
   _equal: =
   _question_mark: "?"
   _atsign: "@"
-  YES: YEBO
-  NO: CHA
+  YES: EVET
+  NO: HAYIR
 slots_in_need_for_translation:
   - training-page-description
   - last-page-heading
@@ -358,22 +363,22 @@ grid_pages:
               height: var(--grid-item-height)
               background-color: var(--color-yellow)
             entries:
-              - text_key: S
+              - text_key: Ö
                 inlinecss:
                   color: var(--color-purple)
-              - text_key: T
+              - text_key: P
                 inlinecss:
                   color: var(--color-white)
-              - text_key: U
+              - text_key: R
                 inlinecss:
                   color: var(--color-green)
-              - text_key: V
+              - text_key: S
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: W
+              - text_key: Ş
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: X
+              - text_key: T
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -387,22 +392,22 @@ grid_pages:
               height: var(--grid-item-height)
               background-color: var(--color-orange)
             entries:
-              - text_key: Y
+              - text_key: U
                 inlinecss:
                   color: var(--color-purple)
-              - text_key: Z
+              - text_key: Ü
                 inlinecss:
                   color: var(--color-white)
-              - text_key: _one
+              - text_key: V
                 inlinecss:
                   color: var(--color-green)
-              - text_key: _two
+              - text_key: Y
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: _three
+              - text_key: Z
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: _four
+              - text_key: _one
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -416,25 +421,25 @@ grid_pages:
               height: var(--grid-item-height)
               background-color: var(--color-cyan)
             entries:
-              - text_key: _five
+              - text_key: _two
                 inlinecss:
                   color: var(--color-purple)
-              - text_key: _six
+              - text_key: _three
                 inlinecss:
                   color: var(--color-white)
-              - text_key: _seven
+              - text_key: _four
                 inlinecss:
                   color: var(--color-green)
-              - text_key: _eight
+              - text_key: _five
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: _nine
+              - text_key: _six
                 inlinecss:
                   color: var(--color-orange)
               - text_key: HOME
                 inlinecss:
                   color: var(--color-cyan)
-                  font-size: 12pt
+                  font-size: 18pt
       - comment: Center
         inlinecss:
           width: 76mm
@@ -459,13 +464,13 @@ grid_pages:
               - text_key: C
                 inlinecss:
                   color: var(--color-green)
-              - text_key: D
+              - text_key: Ç
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: E
+              - text_key: D
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: F
+              - text_key: E
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -480,23 +485,22 @@ grid_pages:
               background-color: var(--color-white)
               border: 1px solid var(--color-black)
             entries:
-              - text_key: G
+              - text_key: F
                 inlinecss:
                   color: var(--color-purple)
-              - text_key: H
+              - text_key: G
                 inlinecss:
                   color: var(--color-white)
-              - text_key: I
+              - text_key: Ğ
                 inlinecss:
                   color: var(--color-green)
-                  font-size: 15pt
-              - text_key: J
+              - text_key: H
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: K
+              - text_key: I
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: L
+              - text_key: İ
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -510,22 +514,22 @@ grid_pages:
               height: var(--grid-item-height)
               background-color: var(--color-green)
             entries:
-              - text_key: M
+              - text_key: J
                 inlinecss:
                   color: var(--color-purple)
-              - text_key: N
+              - text_key: K
                 inlinecss:
                   color: var(--color-white)
-              - text_key: O
+              - text_key: L
                 inlinecss:
                   color: var(--color-green)
-              - text_key: P
+              - text_key: M
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: Q
+              - text_key: N
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: R
+              - text_key: O
                 inlinecss:
                   color: var(--color-cyan)
   - name: page07
@@ -547,22 +551,22 @@ grid_pages:
               height: var(--grid-item-height)
               background-color: var(--color-yellow)
             entries:
-              - text_key: S
+              - text_key: Ö
                 inlinecss:
                   color: var(--color-purple)
-              - text_key: T
+              - text_key: P
                 inlinecss:
                   color: var(--color-white)
-              - text_key: U
+              - text_key: R
                 inlinecss:
                   color: var(--color-green)
-              - text_key: V
+              - text_key: S
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: W
+              - text_key: Ş
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: X
+              - text_key: T
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -576,22 +580,22 @@ grid_pages:
               height: var(--grid-item-height)
               background-color: var(--color-orange)
             entries:
-              - text_key: Y
+              - text_key: U
                 inlinecss:
                   color: var(--color-purple)
-              - text_key: Z
+              - text_key: Ü
                 inlinecss:
                   color: var(--color-white)
-              - text_key: _one
+              - text_key: V
                 inlinecss:
                   color: var(--color-green)
-              - text_key: _two
+              - text_key: Y
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: _three
+              - text_key: Z
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: _four
+              - text_key: _one
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -605,25 +609,25 @@ grid_pages:
               height: var(--grid-item-height)
               background-color: var(--color-cyan)
             entries:
-              - text_key: _five
+              - text_key: _two
                 inlinecss:
                   color: var(--color-purple)
-              - text_key: _six
+              - text_key: _three
                 inlinecss:
                   color: var(--color-white)
-              - text_key: _seven
+              - text_key: _four
                 inlinecss:
                   color: var(--color-green)
-              - text_key: _eight
+              - text_key: _five
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: _nine
+              - text_key: _six
                 inlinecss:
                   color: var(--color-orange)
               - text_key: HOME
                 inlinecss:
                   color: var(--color-cyan)
-                  font-size: 12pt
+                  font-size: 18pt
       - comment: Center
         inlinecss:
           width: 76mm
@@ -655,13 +659,13 @@ grid_pages:
               - text_key: C
                 inlinecss:
                   color: var(--color-green)
-              - text_key: D
+              - text_key: Ç
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: E
+              - text_key: D
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: F
+              - text_key: E
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -676,23 +680,22 @@ grid_pages:
               background-color: var(--color-white)
               border: 1px solid var(--color-black)
             entries:
-              - text_key: G
+              - text_key: F
                 inlinecss:
                   color: var(--color-purple)
-              - text_key: H
+              - text_key: G
                 inlinecss:
                   color: var(--color-white)
-              - text_key: I
+              - text_key: Ğ
                 inlinecss:
                   color: var(--color-green)
-                  font-size: 15pt
-              - text_key: J
+              - text_key: H
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: K
+              - text_key: I
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: L
+              - text_key: İ
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -706,22 +709,22 @@ grid_pages:
               height: var(--grid-item-height)
               background-color: var(--color-green)
             entries:
-              - text_key: M
+              - text_key: J
                 inlinecss:
                   color: var(--color-purple)
-              - text_key: N
+              - text_key: K
                 inlinecss:
                   color: var(--color-white)
-              - text_key: O
+              - text_key: L
                 inlinecss:
                   color: var(--color-green)
-              - text_key: P
+              - text_key: M
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: Q
+              - text_key: N
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: R
+              - text_key: O
                 inlinecss:
                   color: var(--color-cyan)
   - name: page08
@@ -1113,8 +1116,6 @@ grid_pages:
                 text_key: BED
               - image: shape-circle-1x-img
                 text_key: CLOTHING
-                text_inlinecss:
-                  font-size: 18pt
               - image: shape-triangle-1x-img
                 text_key: BATHTIME
               - image: shape-square-1x-img
@@ -1222,8 +1223,6 @@ grid_pages:
                 text_key: BED
               - image: shape-circle-1x-img
                 text_key: CLOTHING
-                text_inlinecss:
-                  font-size: 18pt
               - image: shape-triangle-1x-img
                 text_key: BATHTIME
               - image: shape-square-1x-img
@@ -1273,26 +1272,23 @@ grid_pages:
 <img style="width: var(--img-width); height: var(--img-width);" :src="$withBase('/speakbook/shapes/smileyface.svg')" />
 :::
 ::: slot last-page-heading
-<div class="Ukuntanta - kwesokunxele" uhlobo="ububanzi: 40mm; ubude: 37mm; Isimo-sangaphandle: polygon(0 0, 40mm 0, 10mm 100%, 0 100%);"></div>
-<h2 class="my-2">Ikhasi lesipelingi ngomunwe. </h2>
+<div class="float-left" style="width: 40mm; height: 37mm; shape-outside: polygon(0 0, 40mm 0, 10mm 100%, 0 100%);"></div>
+<h2 class="my-2"> Parmaklarla heceleme sayfası </h2>
 <p class="my-2">
-  Uma usenokusebenzisa izandla zakho, leli khasi ngelakho.
-  Ngokukhomba ngomunwe ungapela amagama nemishwana kumlingani wakho.
-  Amagama asetshenziswa kaningi angabhalwa emabhokisini angenalutho.
-  Kukhomba igama elithi <strong class="bold"> „HOME‟ * </strong> kukhombisa kumlingani wakho ukuthi manje
-  ufuna ukuxhumana ngamehlo akho usebenzisa incwadi esemqoka.
-</p>
+Eğer ellerinizi kullanabiliyorsanız, bu sayfa sizin için. 
+Parmağınızla harfleri teker teker göstererek kelimeleri veya sözcük gruplarını heceleyebilirsiniz. 
+Sıklıkla kullanılan kelimeler boş kutuların içerisine yazılabilir. 
+ANA SAYFA kelimesine işaret ederek, konuşma partnerinize ana kitabı kullanarak ve gözlerinizle iletişime geçmek istediğinizi belirtebilirsiniz. </p>
 :::
 ::: slot training-page-description
 <p class="fsize-3">
-  Lapho usufunde amasu eyisisekelo usebenzisa leli khasi lokuqeqeshwa,
-  ungabhala amakhasi akho usebenzisa okungekho kule ncwadi.
+Eğitim sayfasındaki basit teknikleri öğrendikten sonra, bu kitapta bulunan boş sayfaları kullanarak kendi sayfalarınızı yaratabilirsiniz. 
 </p>
 :::
 ::: slot table-overlay-01
 <div class="abs-at-top-left" style="top: 0.5mm; left: 0.5mm; width: 44mm; height: 44mm;">
   <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/table-overlay-01.svg')" />
-  <div class="abs-at-center bold" style="transform: translate(calc(-50% - 8mm), calc(-50% - 8mm)) rotate(-45deg); color: white;text-align: center;font-size: 15pt;width: 35mm;line-height: 1;">{{ $page.frontmatter.text.training_page }}</div>
+  <div class="abs-at-center bold" style="transform: translate(calc(-50% - 8mm), calc(-50% - 8mm)) rotate(-45deg); color: white;text-align: center;font-size: 18pt;width: 35mm;line-height: 1;">{{ $page.frontmatter.text.training_page }}</div>
 </div>
 :::
 
@@ -1353,13 +1349,13 @@ grid_pages:
 ::: slot cut-out-right-side-guide-03
 <CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part">
   <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-03.svg')" />
-  <div class="white-color wmode-vertical-lr rotate-180 fsize-8 bold flex-v items-align-center justify-content-center" style="position: absolute; top: 2mm; left: 0mm; width: 10mm; height: 28mm; font-size: 13pt">{{ $page.frontmatter.text.HOME }}</div>
+  <div class="white-color wmode-vertical-lr rotate-180 fsize-8 bold flex-v items-align-center justify-content-center" style="position: absolute; top: 2mm; left: 0mm; width: 10mm; height: 28mm; font-size: 10pt">{{ $page.frontmatter.text.HOME }}</div>
 </CutOutSideGuide>
 :::
 ::: slot cut-out-right-side-guide-04
 <CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-top: 30mm; box-sizing: border-box;">
   <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-04.svg')" />
-  <div class="red-color wmode-vertical-lr rotate-180 fsize-8 bold flex-v items-align-center justify-content-center" style="position: absolute; top: 30.5mm; left: 0mm; width: 10mm; height: 28mm; font-size: 15pt">{{ $page.frontmatter.text.SPELL }}</div>
+  <div class="red-color wmode-vertical-lr rotate-180 fsize-8 bold flex-v items-align-center justify-content-center" style="position: absolute; top: 30.5mm; left: 0mm; width: 10mm; height: 28mm; font-size: 10pt">{{ $page.frontmatter.text.SPELL }}</div>
 </CutOutSideGuide>
 :::
 ::: slot cut-out-right-side-guide-05
@@ -1410,10 +1406,10 @@ grid_pages:
 ::: slot cover-footer
 <div class="lheight-1_5x">
   <p class="text-center cover-footer-text">
-    <span class="fsize-8 bold"uhlelo lokuxhumana olungasebenzisi ngamazwi </span> <br>
-    <span class = "red-fsize-8 bold">acecent.re/speakbook </span> <br>
-    <span class="fsize-4"> I-Talkbook 4th edition © 2011 Patrick Joyce </span>
-  </p>
+    <span class="fsize-8 bold"> sözel olmayan iletişim sistemi </span><br>
+    <span class="red-color fsize-8 bold">acecent.re/speakbook</span><br>
+    <span class="fsize-4"> Konuşmakitabı 4. baskı © 2011 Patrick Joyce </span>
+  </p>
 </div>
 :::
 
@@ -1423,35 +1419,24 @@ grid_pages:
   <div class="flex-v">
     <img class="m-1" style="width: 58.5mm; height: 79.7mm; box-sizing: border-box;" :src="$withBase('/speakbook/images/01.png')"  />
     <div class="m-1 p-1 flex-grow-1 flt-box" style="width: 57.5mm; min-height: 79.7mm; box-sizing: border-box;">
-      <h3 class="my-1 fsize-5">Ungabhala kanjani kwi-speakbook </h3>
-      <p class="my-2 fsize-4_5"> Ukuthi ngqo okubhalile encwadini yokukhuluma kuzoncika kuzidingo zakho ezithile, kepha noma ngabe yini oyibhalayo, kubalulekile ukuthi uhlangothi ngalunye lwaleli khasi eli-2 elisakazwayo linombhalo ofanayo kulo, nokuthi bangumfanekiso wesibuko womunye nomunye - njengasekuqaleni kwesibonelo ngenhla. Ngabe wena nomuntu wakho nikhuluma izilimi ezahlukahlukene? Akunankinga - vele ubhale ulimi oluhlukile ngasohlangothini zombili. </p>
-    </div>
-  </div>
+      <h3 class="my-1 fsize-5">Konuşmakitabı üzerine nasıl yazılır? </h3>
+      <p class="my-2 fsize-4_5">
+Konuşma kitabına yazdıklarınız kişisel ihtiyaçlarınıza bağlı olacaktır, ancak ne yazarsanız yazın, herhangi bir çift sayfa yayılımının her bir yüzünün üzerinde aynı metnin olması ve bunların birbirinin ayna görüntüsü olması önemlidir- yukarıdaki örnekteki gibi. Siz ve eşiniz farklı bir dilde mi konuşuyorsunuz? Sorun değil - her iki tarafa da farklı bir dil yazın.</p>
+    </div>
+  </div>
 </div>
 :::
-
-
-
-
 
 ::: slot inst-01-content
-<div class="p-1 text-center">
-  <SpeakBookTextFourColorBkg class="speakbook-title fsize-10 p-1 bold" :text="$page.frontmatter.text.SPEAKBOOK"></SpeakBookTextFourColorBkg>
-</div>
-<p> I-speakerbook iyithuluzi lokuxhumana elingelona elomlomo kubantu abangakwazi ukukhuluma futhi banobunzima bokusebenzisa izandla noma izingalo, kepha abaakwazi ukusebenzisa amehlo abo. Lolu hlobo lwenzelwe abantu abakwazi ukufunda nokupela. Okwezinhlobo zabantu abangafundanga, izinhlobo zolimi lwakwamanye amazwe, kanye nohlobo lwephakethe, vakashela <b>acecent.re/speakbook</b> </p>
-<h2 class = "fsize-6"> Imiyalo yokusebenzisa. </h2>
-<p> Ukuze uqalise, uzodinga; incwadi yokukhuluma, ipeni elimnyama lebhodi, indwangu yokuhlikihla, kanye nomlingani okhuluma naye.
+Konuşmakitabı, konuşamayan ve ellerini veya kollarını kullanmada zorluk çeken, ancak gözlerinin kullanımını koruyan insanlar için sözel olmayan bir iletişim aracıdır. Bu basım, okuma ve yazma bilen kişiler içindir. Okuma-yazma bilmeyen kişiler için,  yabancı dil baskıları ve cep sürümü için, şu adresi ziyaret edin:
+<b>acecent.re/speakbook</b></p>
+<h2 class="fsize-6">Kullanma talimatları</h2>
+<p> Başlamak için ihtiyacınız olan şeyler, konuşma kitabı; siyah, kalıcı olmayan bir kalem, silme bezi ve konuşma partneri.</p>
 <p>
-Wena nomuntu enikhuluma nonke nihlala maqondana komunye nomunye lehlukane cishe ngamamitha amathathu. Ngokuya ngamehlo akho, ungehlisa noma wengeze leli banga. Vula incwadi yokukhuluma ekhasini lokuqeqeshwa ngaphakathi kwekhava engemuva. Lokhu kugcwaliswe ukukusiza ufunde isisekelo samasu. Lapho usuwazi kahle, ungabhala amakhasi akho, usebenzisa 
- amakhasi  owanikezwe angenalutho. Goqa le ncwadi ngendlela okumele ime ngayo futhi uyibambe phakathi naphakathi kwenu nobabili nibheke nonke ekhasini ‟lokuziqeqesha‟, futhi nikwazi ukubonana ngamehlo omunye nomunye ngesikhala kumbe imbobo ephakathi. Manje bheka izinqumo ezisekhasini ukhethe ukuthi yiphi okufanele uyixoxe. Lapho usuthathe isinqumo, khombisa umlingani wakho ukuthi usukulungele ukuqala
-- lokhu kungaba yikukubheka umlingani wakho noma ukucwayiza, noma ngokugoba amehlo akho phezulu naphansi - noma yini ekufanele. Bese ubheka umlayezo owufunayo, umzuzwana noma ngaphezudlwana kwawo, olandelwa luphawu olukhulu olucishe lufane nalo oluseceleni komyalezo. Umlingani wakho ulandela ukunyakaza kwamehlo akho - ngokwesibonelo angabona ukuthi ubheke ngakwesokunxele phezulu kwebhodi elandelwa unxantathu omkhulu, ngakho uyazi ukuthi kufanele  asho athi „inkomishi yetiye!‟. Ube esethi, “inkomishi yetiye!” ngezwi elikhulu, futhi uqinisekisa lokhu ngokucwayiza, noma enye indlela ehlelwe ngaphambili
-</p><p> Le yindlela elula yokusebenzisa i-speakbook. Manje udinga ukufunda ukuthi ungawasebenzisa kanjani amanye amakhasi asencwadini, ngoba ubuhlakani be-speakbook  bukunikeza imitsho engadlula amakhulu ongazikhethela yona njalo ukwazi 1lokuyintshintsha nganoma yisiphi isikhathi ngokuhlikihla ngendwangu emanzi noma ukukhansela ngepeni. </p>
+Siz ve konuşma partneriniz birbinizden yaklaşık 1 metre uzak olacak şekilde karşılıklı oturun. Görme yetinize bağlı olarak, bu mesafeyi azaltmayı veya artırmayı yararlı bulabilirsiniz. Kitabın arka kapağının içindeki eğitim sayfasını açın. Bu, temel tekniği öğrenmenize yardımcı olmak için zaten doldurulmuştur. Uzmanlaştığınızda, sağlanan boş sayfaları kullanarak kendi sayfalarınızı yazabilirsiniz. Kitabı kendi üzerine katlayın ve aranızda tutun, böylece ikiniz de bir 'eğitim sayfasına' bakıyor olacaksınız ve birbirinizin gözlerini ortadaki boş alandan görebileceksiniz. Sonra sayfada bulunan ihtimallerden hangisi hakkında iletişime geçmek istediğinize karar verin. Karar verdiğinizde, partnerinize başlamaya hazır olduğunuzu belirtin. Bunu konuşma partnerinize bakıp göz kırparak, gözlerini açıp kapatarak belirtebilirsiniz ya da kendinizin belirlediği başka bir ifade ile belirtebilisiniz. Daha sonra istediğiniz mesaja bir saniye kadar bakın, ardından mesajın yanındaki küçük sembolle aynı büyük simgeye bakın. Konuşma partneriniz daha sonra göz hareketlerinizi takip ederek ne demek istediğiniz öğrenir - örneğin tahtanın sol üst tarafına ve ardından büyük üçgene baktığınızı görebilir, bu yüzden “bir fincan çay!” demek istemeniz gerektiğini bilir. Seçim yaptıktan sonra konuşma partneriniz bu seçimi sözel olarak yüksek ses söyle ve siz de bunu göz kırparak veya daha önceden ayarladığınız bir ifade ile onaylarınız. 
+</ P>
+<p> Bu konuşma kitabını kullanmak için temel tekniktir. Şimdi kitaptaki diğer sayfaları nasıl kullanacağınızı öğrenmelisiniz, çünkü konuşma kitabının gerçek dehası, kendi seçtiğiniz yüzlerce cümleye, istediğiniz zaman değiştirebileceğiniz ifadelere kolayca erişebilmenizde yatmaktadır. Tek ihtiyacınız olan sadece nemli bir bez ve kaleminiz. </p>
 :::
-
-:::
-:::
-::
-:
 
 
 ::: slot inst-02-flt-right-label
@@ -1460,10 +1445,7 @@ Wena nomuntu enikhuluma nonke nihlala maqondana komunye nomunye lehlukane cishe 
   <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 18px), calc(-50% - 18px)) rotate(45deg); color: white;">{{ $page.frontmatter.text.instructions }}</div>
 </div>
 :::
-div>
-</div>
-:::
-
+:
 ::: slot inst-02-flt-left-content
 <div class="flex-h" style="padding: 3mm;">
   <div class="flex-grow-1 flex-v">
@@ -1474,8 +1456,10 @@ div>
 </div>
 :::
 ::: slot inst-02-content
-<p> Ikhasi ngalinye lencwadi yokukhuluma linezigaba eziyi-14 noma eziyi-15 ezingenalutho ongabhala ngazo umbhalo wakho. Ukuze umsebenzisi akwazi ukuhamba phakathi kwamakhasi ahlukile, sidale ikhasi le- „home‟. Lokhu kutholakala ngaphambili kwencwadi, futhi kumakwe ngethebhu emnyama „IKHAYA‟ ekugcineni kwekhasi. Umqondo uwukuthi ubhale imishwana eyi-7 oyisebenzisa kakhulu kuleli khasi, ngoba liyikhasi oqala ngalo njalo. Futhi, kumakhasi ayisishiyagalombili angenalutho ubhala izixhumanisi kwamanye amakhasi ayi-8 angenalutho. Lezi kufanele kube yizingxenye zempilo yakho ezidinga imishwana esezingeni elijulile, lezi zingaba yizindawo ezinjengokugeza, noma ukuphuma emotweni. Ngakwesobunxele yisibonelo sesakhiwo esingenzeka sekhasi le- „IKHAYA‟. Amagama ayi-8 ngezinhlamvu eziyinhlanganisela ezinesibindi azixhumanisi zokusakazwa kwamakhasi okuphindwe kabili kwenye indawo encwadini. Lokho okwenzayo nje, uthola ikhasi elingenalutho bese ubhala, ngokwesibonelo, ED BED ‟ekhasini lesiphelo, bese emapheshana ubhala imishwana eyi-14 efaneleke kakhulu kunqubo yakho yokulala. Ngemuva kwalokho uphinda le nqubo kwezinye izixhumanisi eziyi-7, kuze kufike lapho incwadi yakho igcwele. Uma wenza iphutha, noma ufuna ukushintsha ibinzana, mane ulisule ngendwangu emanzi bese uqala futhi. </p>
-<p> Ukuze usebenzise i-speakbook, ukhombisa umlingani wakho ukuthi ufuna ukuxhumana. Umlingani wakho uvula incwadi yokukhuluma ekhasini le-„IKHAYA and futhi uyaxhumana, isibonelo,„ BED ‟. Umlingani wakho ube esephendukela ekhasini le-„BED‟ bese ukwazi ukuxhumana, „Ngifuna ukulala‟ - noma yini. Ikhasi ngalinye line- „IKHAYA‟ ne-„Spell‟ ephrintiwe kulo. I- "IKHAYA‟ "ukuze njalo ukwazi ukubuyela ekhasini le-„ IKHAYA ‟(ungahle uthande„ Indebe yetiye! Take ukulala nawe). Ikhasi ‟le-SPELL‟ likuvumela ukuba upele amagama namabinzana angaveli kwenye incwadi. Isebenza ngendlela efanayo namanye amakhasi, ngomehluko owodwa. Kuleli khasi kunamabhlokhethi anemibala ayi-6, ngalinye linonobumba eziyisithupha ezinemibala noma izinombolo kulo. Alfabhethi lonke likhona, nezinombolo 1-9 (ezokusebenzisa u-zero u-O). Ubheka incwadi ofuna ukuyihumusha, okwesibili noma kunjalo, kulandelwe yibhlokhi enemibala yombala ofanayo nencwadi yakho oyikhethile. Umlingani wakho ulandela iso lakho, ubona ukuthi ubuke, ngokwesibonelo, ibhulokhi eliphezulu kwesobunxele elandelwa ibhulokhi ephezulu (okuyinto eluhlaza), futhi uyazi ukuthi ufuna want C ‟. Umlingani wakho uthi „C‟ ngokuzwakalayo ukuze uqinisekise, bese udlulela kunhlamvu olulandelayo. Umlingani wakho uqagela lonke igama lapho kungenzeka, ukusheshisa inqubo. </p><p> I-speakerbook inendawo yemishwana engu-119 oyikhethile. Uma lokhu akwanele, noma uma udinga imishwana engaphezu kuka-14 esigabeni esithile, ungasiphinda kabili isibalo saso ngokubhala imishwana emibili kulayini ngamunye, munye epeni elimnyama, munye ngokubomvu. Ukhetha ibinzana elimnyama ngendlela ejwayelekile, ebomvu ngokunqena lapho ubuka uphawu olukhulu. </p>
+<p> Konuşma kitabının her sayfasında kendi metninizi yazabileceğiniz 14 veya 15 boş bölüm bulunur. Kullanıcının farklı sayfalar arasında hareket edebilmesi için, "ana sayfa" sayfasını oluşturduk. Bu kitabın ön tarafında bulunur ve sayfanın kenarında siyah bir “ANA SAYFA” sekmesi ile işaretlenmiştir. Buradaki amaç, kitabın en başında bulunan bu sayfada en çok kullandığınız 7 ifadeyi yazmanız ve böylelikle kolaylıkla bu ifadelere istediğiniz anda ulaşabilmeniz. 
+Ayrıca, boş olan sekiz şeritin birinde diğer 8 boş çift sayfaya bağlantı kurabilirsiniz. Bunlar hayatınızın daha derinlemesine ifadeler gerektiren parçaları olmalı, örneğin banyo veya araba ile dışarı çıkmak gibi.  Sol tarafta “ANA SAYFA” sayfası için olası bir örnek bulabilirsiniz. Kalın harflerle yazılan 8 kelime, kitabın başka yerlerindeki çift sayfalara olan bağlantıları ifade eder. Yapmanız gereken boş bir sayfa bulmak ve örneğin kenar sekmesine “YATAK” yazmak, daha sonra varolan şeritlere uyumadan önce rutininizle en çok alakalı 14 ifadeyi yazmanızdır. Ardından kitabınız dolana kadar diğer 7 bağlantı için bu işlemi tekrarlayın. Bir hata yaparsanız veya bir cümleyi değiştirmek isterseniz, nemli bir bezle silin ve tekrar başlayın. </p>
+<p> Konuşma kitabını kullanmak için partnerinize iletişim kurmak istediğinizi belirtirsiniz. Konuşma partneriniz konuşma kitabının “ANA SAYFA” sayfasına açar ve örneğin siz “YATAK” kelimesini ifade edersiniz. Konuşma partneriniz daha sonra “YATAK” sayfasına geçer ve siz bu sayfadaki kelime ve sözcük grupları ile iletişime geçebilirsiniz ör: yatağa gitmek istiyorum gibi. Her sayfada “ANA SAYFA” ve “HECELEME” ifadeleri bulunmaktadır. “ANA SAYFA” sekmesi her zaman “ANA SAYFA” sayfasına geri dönebilmeniz içindir. “HECELEME” sayfası, kitabın başka bir yerinde görünmeyen kelime ve sözcük gruplarını heceleyerek iafde etmenize olanak tanır. Bir farkla diğer sayfalara benzer şekilde çalışır. Bu sayfada, üzerinde 6 renkli harf veya rakam bulunan 6 renkli blok vardır. Bu sayfada harfler ve 1'den 9'a kadar sayılar bulunmaktadır. (sıfır için O harfini kullanabilirsiniz). İletişim kurmak istediğiniz harfe bir saniye kadar bakın, ardından seçtiğiniz harfle aynı renkteki renkli bloğa bakın. Konuşma partneriniz gözlerinizi takip edip; örneğin sol üst bloğa ve ardından sağ üst bloğa (yeşil olan) baktığınızı görür ve “C” harfiniz ifade ettiğinizi anlar. Konuşma partneriniz onaylamak için yüksek sesle “C” der ve siz de bunu daha önce belirlediğiniz onaylama sinyal ile onayladıktan sonra bir sonraki harfe geçebilirsiniz. Konuşma partneriniz, mümkün olduğunda süreci hızlandırmak için kelimenin geri kalanını tahmin eder. </ P>
+<p> Konuşmakitabı içerisinde seçtiğiniz 119 cümle için yer var. Bu yeterli değilse veya belirli bir bölümde 14'ten fazla ifadeye ihtiyacınız varsa, her satıra bir tane siyah kalem, biri kırmızı olmak üzere iki kelime öbeği yazarak kapasitesini iki katına çıkarabilirsiniz. Normal bir şekilde siyah olarak yazılmış cümleyi gözlerinizle ifade ederek, büyük sembole bakıp kırmızı olana gözlerinizi kırparak aynı kutudaki kırmızı cümleyi ifade etmek istediğinizi belirtebilirsiniz </p>
 :::
 
 ::: slot last-page-content
@@ -1502,7 +1486,7 @@ div>
           <div class="block">{{ $page.frontmatter.text._equal }}</div>
           <div class="block">{{ $page.frontmatter.text._question_mark }}</div>
         </div>
-        <div class="block b3x white-color black-bkg">{{ $page.frontmatter.text.HOME }}</div>
+        <div class="block b3x white-color black-bkg" style="font-size: 18pt;">{{ $page.frontmatter.text.HOME }}</div>
         <div class="block b3x yellow-bkg" style="font-size: 18pt;">{{ $page.frontmatter.text.THANK_YOU }}</div>
       </div>
       <div class="flex-v block-holder b4x">
@@ -1542,7 +1526,7 @@ div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.T }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.Y }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.U }}</div>
-      <div class="block cyan-bkg" style="font-size: 12pt">{{ $page.frontmatter.text.I }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.I }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.O }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.P }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.A }}</div>
@@ -1558,9 +1542,9 @@ div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.Z }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.X }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.C }}</div>
-      <div class="block b1_5x yellow-bkg">{{ $page.frontmatter.text.YES }}</div>
+      <div class="block b1_5x yellow-bkg" style="font-size: 18pt">{{ $page.frontmatter.text.YES }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.V }}</div>
-      <div class="block b1_5x yellow-bkg">{{ $page.frontmatter.text.NO }}</div>
+      <div class="block b1_5x yellow-bkg" style="font-size: 18pt">{{ $page.frontmatter.text.NO }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.B }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.N }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.M }}</div>

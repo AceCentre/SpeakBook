@@ -1,18 +1,18 @@
 ---
 layout: SpeakBook
 text:
-  ring_bind_edge: Bopha izindandatho kulolu onqenqemeni
-  cut_out_this_part: Sika le ngxenye.
-  SPEAKBOOK: Incwadi yokukhuluma
+  ring_bind_edge: Ring bind along this edge
+  cut_out_this_part: Cut out this part.
+  SPEAKBOOK: SPEAKBOOK
   edition_nth: 4th
-  EDITION: ISIHLOKO
-  color_blind: Ukungahlukanisi umbala
-  friendly: Mngani!
-  instructions: imiyalo
-  HOME_PAGE: IKHASI LASEKHAYA
-  SPELL: ISIPELE
-  HOME: IKHAYA
-  THANK_YOU: NGIYABONGA
+  EDITION: EDITION
+  color_blind: Colour Blind
+  friendly: Friendly!
+  instructions: instructions
+  HOME_PAGE: HOME PAGE
+  SPELL: SPELL
+  HOME: HOME
+  THANK_YOU: THANK YOU
   A: A
   B: B
   C: C
@@ -21,7 +21,7 @@ text:
   F: F
   G: G
   H: H
-  I: Mina
+  I: I
   J: J
   K: K
   L: L
@@ -39,46 +39,45 @@ text:
   X: X
   Y: Y
   Z: Z
-  _zero: "0"
-  _one: "1"
-  _two: "2"
-  _three: "3"
-  _four: "4"
-  _five: "5"
-  _six: "6"
-  _seven: "7"
-  _eight: "8"
-  _nine: "9"
-  im_too_hot: |
-    Ngiyasha kakhulu
-  im_too_cold: Ngiyagodola Kakhulu
-  cup_of_tea: Inkomishi yetiye!
-  cup_of_coffee: Inkomishi yekhofi!
-  i_love_you: Ngiyakuthanda
-  yes: yebo
-  no: cha
-  CAR: Imoto
-  BED: umbhede
-  CLOTHING: Izingubo Zokugqoka
-  BATHTIME: Isikhathi Sokugeza
-  MEALS: Ukudla
-  COMFORT: Induduzo
-  TOILET: Indlu yangasese
-  DRINKS: Iziphuzo
-  TRAINING_PAGE: Ikhasi lokuqeqeshwa
-  training_page: ikhasi lokuqeqeshwa
-  _GBP: £
-  _USD: $
-  _percent: "%"
-  _plus: +
-  _minus: "-"
-  _slash: /
+  _zero: 0
+  _one: 1
+  _two: 2
+  _three: 3
+  _four: 4
+  _five: 5
+  _six: 6
+  _seven: 7
+  _eight: 8
+  _nine: 9
+  im_too_hot: I'm too hot
+  im_too_cold: I'm too cold
+  cup_of_tea: Cup of tea!
+  cup_of_coffee: Cup of coffee!
+  i_love_you: I love you
+  yes: yes
+  no: no
+  CAR: CAR
+  BED: BED
+  CLOTHING: CLOTHING
+  BATHTIME: BATHTIME
+  MEALS: MEALS
+  COMFORT: COMFORT
+  TOILET: TOILET
+  DRINKS: DRINKS
+  TRAINING_PAGE: TRAINING PAGE
+  training_page: trading page
+  _GBP: '£'
+  _USD: '$'
+  _percent: '%'
+  _plus: '+'
+  _minus: '-'
+  _slash: '/'
   _X: X
-  _equal: =
-  _question_mark: "?"
-  _atsign: "@"
-  YES: YEBO
-  NO: CHA
+  _equal: '='
+  _question_mark: '?'
+  _atsign: '@'
+  YES: YES
+  NO: NO
 slots_in_need_for_translation:
   - training-page-description
   - last-page-heading
@@ -103,10 +102,7 @@ instruction_pages:
           --max-left-spacing: 40mm
           width: var(--max-left-spacing)
           height: var(--page-height)
-          shape-outside: polygon(0 var(--spacing-offset-top), var(--max-left-spacing)
-            var(--spacing-offset-top), var(--left-spacing)
-            calc(var(--spacing-offset-top) + 20mm), var(--left-spacing)
-            var(--page-height), 0 var(--page-height))
+          shape-outside: polygon(0 var(--spacing-offset-top), var(--max-left-spacing) var(--spacing-offset-top), var(--left-spacing) calc(var(--spacing-offset-top) + 20mm), var(--left-spacing) var(--page-height), 0 var(--page-height))
       - comment: floating content at center right
         dir: right
         mode: fixed
@@ -434,7 +430,7 @@ grid_pages:
               - text_key: HOME
                 inlinecss:
                   color: var(--color-cyan)
-                  font-size: 12pt
+                  font-size: 18pt
       - comment: Center
         inlinecss:
           width: 76mm
@@ -489,7 +485,6 @@ grid_pages:
               - text_key: I
                 inlinecss:
                   color: var(--color-green)
-                  font-size: 15pt
               - text_key: J
                 inlinecss:
                   color: var(--color-yellow)
@@ -623,7 +618,7 @@ grid_pages:
               - text_key: HOME
                 inlinecss:
                   color: var(--color-cyan)
-                  font-size: 12pt
+                  font-size: 18pt
       - comment: Center
         inlinecss:
           width: 76mm
@@ -685,7 +680,6 @@ grid_pages:
               - text_key: I
                 inlinecss:
                   color: var(--color-green)
-                  font-size: 15pt
               - text_key: J
                 inlinecss:
                   color: var(--color-yellow)
@@ -1082,8 +1076,6 @@ grid_pages:
                 text_key: im_too_hot
               - image: shape-circle-1x-img
                 text_key: im_too_cold
-                text_inlinecss:
-                  font-size: 18pt
               - image: shape-triangle-1x-img
                 text_key: cup_of_tea
               - image: shape-square-1x-img
@@ -1113,8 +1105,6 @@ grid_pages:
                 text_key: BED
               - image: shape-circle-1x-img
                 text_key: CLOTHING
-                text_inlinecss:
-                  font-size: 18pt
               - image: shape-triangle-1x-img
                 text_key: BATHTIME
               - image: shape-square-1x-img
@@ -1222,8 +1212,6 @@ grid_pages:
                 text_key: BED
               - image: shape-circle-1x-img
                 text_key: CLOTHING
-                text_inlinecss:
-                  font-size: 18pt
               - image: shape-triangle-1x-img
                 text_key: BATHTIME
               - image: shape-square-1x-img
@@ -1254,8 +1242,6 @@ grid_pages:
                 text_key: im_too_hot
               - image: shape-circle-1x-img
                 text_key: im_too_cold
-                text_inlinecss:
-                  font-size: 18pt
               - image: shape-triangle-1x-img
                 text_key: cup_of_tea
               - image: shape-square-1x-img
@@ -1264,7 +1250,6 @@ grid_pages:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
               height: var(--grid-item-height)
-
 ---
 ::: slot redheart-img
 <img style="width: var(--img-width); height: var(--img-width);" :src="$withBase('/speakbook/shapes/redheart.svg')" />
@@ -1273,26 +1258,26 @@ grid_pages:
 <img style="width: var(--img-width); height: var(--img-width);" :src="$withBase('/speakbook/shapes/smileyface.svg')" />
 :::
 ::: slot last-page-heading
-<div class="Ukuntanta - kwesokunxele" uhlobo="ububanzi: 40mm; ubude: 37mm; Isimo-sangaphandle: polygon(0 0, 40mm 0, 10mm 100%, 0 100%);"></div>
-<h2 class="my-2">Ikhasi lesipelingi ngomunwe. </h2>
+<div class="float-left" style="width: 40mm; height: 37mm; shape-outside: polygon(0 0, 40mm 0, 10mm 100%, 0 100%);"></div>
+<h2 class="my-2">Finger spelling page.</h2>
 <p class="my-2">
-  Uma usenokusebenzisa izandla zakho, leli khasi ngelakho.
-  Ngokukhomba ngomunwe ungapela amagama nemishwana kumlingani wakho.
-  Amagama asetshenziswa kaningi angabhalwa emabhokisini angenalutho.
-  Kukhomba igama elithi <strong class="bold"> „HOME‟ * </strong> kukhombisa kumlingani wakho ukuthi manje
-  ufuna ukuxhumana ngamehlo akho usebenzisa incwadi esemqoka.
+  If you still have the use of your hands, then this page is for you.
+  By pointing with a finger you can spell out words and phrases to your partner.
+  Frequently used words can be written in the blank boxes.
+  Pointing to the word <strong class="bold">„ HOME ‟*</strong> indicates to your partner that you now
+  want to communicate with your eyes using the main book.
 </p>
 :::
 ::: slot training-page-description
 <p class="fsize-3">
-  Lapho usufunde amasu eyisisekelo usebenzisa leli khasi lokuqeqeshwa,
-  ungabhala amakhasi akho usebenzisa okungekho kule ncwadi.
+  When you've learnt the basic technique using this training page,
+  you can write your own pages using the blank ones in this book.
 </p>
 :::
 ::: slot table-overlay-01
 <div class="abs-at-top-left" style="top: 0.5mm; left: 0.5mm; width: 44mm; height: 44mm;">
   <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/table-overlay-01.svg')" />
-  <div class="abs-at-center bold" style="transform: translate(calc(-50% - 8mm), calc(-50% - 8mm)) rotate(-45deg); color: white;text-align: center;font-size: 15pt;width: 35mm;line-height: 1;">{{ $page.frontmatter.text.training_page }}</div>
+  <div class="abs-at-center bold" style="transform: translate(calc(-50% - 8mm), calc(-50% - 8mm)) rotate(-45deg); color: white;text-align: center;font-size: 18pt;width: 35mm;line-height: 1;">{{ $page.frontmatter.text.training_page }}</div>
 </div>
 :::
 
@@ -1353,13 +1338,13 @@ grid_pages:
 ::: slot cut-out-right-side-guide-03
 <CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part">
   <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-03.svg')" />
-  <div class="white-color wmode-vertical-lr rotate-180 fsize-8 bold flex-v items-align-center justify-content-center" style="position: absolute; top: 2mm; left: 0mm; width: 10mm; height: 28mm; font-size: 13pt">{{ $page.frontmatter.text.HOME }}</div>
+  <div class="white-color wmode-vertical-lr rotate-180 fsize-8 bold flex-v items-align-center justify-content-center" style="position: absolute; top: 2mm; left: 0mm; width: 10mm; height: 28mm;">{{ $page.frontmatter.text.HOME }}</div>
 </CutOutSideGuide>
 :::
 ::: slot cut-out-right-side-guide-04
 <CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-top: 30mm; box-sizing: border-box;">
   <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-04.svg')" />
-  <div class="red-color wmode-vertical-lr rotate-180 fsize-8 bold flex-v items-align-center justify-content-center" style="position: absolute; top: 30.5mm; left: 0mm; width: 10mm; height: 28mm; font-size: 15pt">{{ $page.frontmatter.text.SPELL }}</div>
+  <div class="red-color wmode-vertical-lr rotate-180 fsize-8 bold flex-v items-align-center justify-content-center" style="position: absolute; top: 30.5mm; left: 0mm; width: 10mm; height: 28mm;">{{ $page.frontmatter.text.SPELL }}</div>
 </CutOutSideGuide>
 :::
 ::: slot cut-out-right-side-guide-05
@@ -1408,12 +1393,14 @@ grid_pages:
 </CutOutSideGuide>
 :::
 ::: slot cover-footer
-<div class="lheight-1_5x">
-  <p class="text-center cover-footer-text">
-    <span class="fsize-8 bold"uhlelo lokuxhumana olungasebenzisi ngamazwi </span> <br>
-    <span class = "red-fsize-8 bold">acecent.re/speakbook </span> <br>
-    <span class="fsize-4"> I-Talkbook 4th edition © 2011 Patrick Joyce </span>
-  </p>
+<div class="flex-h items-align-center lheight-1_5x" style="width: calc(var(--page-width) - 60mm);">
+  <p class="cover-footer-text">
+    <span class="fsize-8 bold">non verbal communication system</span><br>
+    <span class="red-color fsize-8 bold">acecent.re/speakbook</span><br>
+    <span class="fsize-4">Speakbook 4th edition © 2011 Patrick Joyce</span>
+  </p>
+  <div class="flex-grow-1"></div>
+  <img style="width: 30mm;height: 30mm;" :src="$withBase('/speakbook/images/PublishedByAce.svg')" />
 </div>
 :::
 
@@ -1423,47 +1410,32 @@ grid_pages:
   <div class="flex-v">
     <img class="m-1" style="width: 58.5mm; height: 79.7mm; box-sizing: border-box;" :src="$withBase('/speakbook/images/01.png')"  />
     <div class="m-1 p-1 flex-grow-1 flt-box" style="width: 57.5mm; min-height: 79.7mm; box-sizing: border-box;">
-      <h3 class="my-1 fsize-5">Ungabhala kanjani kwi-speakbook </h3>
-      <p class="my-2 fsize-4_5"> Ukuthi ngqo okubhalile encwadini yokukhuluma kuzoncika kuzidingo zakho ezithile, kepha noma ngabe yini oyibhalayo, kubalulekile ukuthi uhlangothi ngalunye lwaleli khasi eli-2 elisakazwayo linombhalo ofanayo kulo, nokuthi bangumfanekiso wesibuko womunye nomunye - njengasekuqaleni kwesibonelo ngenhla. Ngabe wena nomuntu wakho nikhuluma izilimi ezahlukahlukene? Akunankinga - vele ubhale ulimi oluhlukile ngasohlangothini zombili. </p>
-    </div>
-  </div>
+      <h3 class="my-1 fsize-5">How to write on the speakbook</h3>
+      <p class="my-2 fsize-4_5">Exactly what you write on the speakbook will depend on your particular requirements, but whatever you write, it is important that each side of any double page spread has the same text on it, and that they are a mirror image of each other - as in the example above. Do you and your partner speak different languages? No problem - just write a different language on either side.</p>
+    </div>
+  </div>
 </div>
 :::
-
-
-
-
-
 ::: slot inst-01-content
 <div class="p-1 text-center">
   <SpeakBookTextFourColorBkg class="speakbook-title fsize-10 p-1 bold" :text="$page.frontmatter.text.SPEAKBOOK"></SpeakBookTextFourColorBkg>
 </div>
-<p> I-speakerbook iyithuluzi lokuxhumana elingelona elomlomo kubantu abangakwazi ukukhuluma futhi banobunzima bokusebenzisa izandla noma izingalo, kepha abaakwazi ukusebenzisa amehlo abo. Lolu hlobo lwenzelwe abantu abakwazi ukufunda nokupela. Okwezinhlobo zabantu abangafundanga, izinhlobo zolimi lwakwamanye amazwe, kanye nohlobo lwephakethe, vakashela <b>acecent.re/speakbook</b> </p>
-<h2 class = "fsize-6"> Imiyalo yokusebenzisa. </h2>
-<p> Ukuze uqalise, uzodinga; incwadi yokukhuluma, ipeni elimnyama lebhodi, indwangu yokuhlikihla, kanye nomlingani okhuluma naye.
+<p>Speakbook is a non verbal communication tool for people who cannot speak and have difficulty using their hands or arms, but who retain the use of their eyes. This edition is for people who can read and spell. For versions for non-readers, foreign language versions, and the pocket edition, visit <b>acecent.re/speakbook</b></p>
+<h2 class="fsize-6">Instructions for use.</h2>
+<p>To get started, you will need; the speakbook, a black, non-permanent whiteboard pen, a cloth to rub out, and a speaking partner.</p>
 <p>
-Wena nomuntu enikhuluma nonke nihlala maqondana komunye nomunye lehlukane cishe ngamamitha amathathu. Ngokuya ngamehlo akho, ungehlisa noma wengeze leli banga. Vula incwadi yokukhuluma ekhasini lokuqeqeshwa ngaphakathi kwekhava engemuva. Lokhu kugcwaliswe ukukusiza ufunde isisekelo samasu. Lapho usuwazi kahle, ungabhala amakhasi akho, usebenzisa 
- amakhasi  owanikezwe angenalutho. Goqa le ncwadi ngendlela okumele ime ngayo futhi uyibambe phakathi naphakathi kwenu nobabili nibheke nonke ekhasini ‟lokuziqeqesha‟, futhi nikwazi ukubonana ngamehlo omunye nomunye ngesikhala kumbe imbobo ephakathi. Manje bheka izinqumo ezisekhasini ukhethe ukuthi yiphi okufanele uyixoxe. Lapho usuthathe isinqumo, khombisa umlingani wakho ukuthi usukulungele ukuqala
-- lokhu kungaba yikukubheka umlingani wakho noma ukucwayiza, noma ngokugoba amehlo akho phezulu naphansi - noma yini ekufanele. Bese ubheka umlayezo owufunayo, umzuzwana noma ngaphezudlwana kwawo, olandelwa luphawu olukhulu olucishe lufane nalo oluseceleni komyalezo. Umlingani wakho ulandela ukunyakaza kwamehlo akho - ngokwesibonelo angabona ukuthi ubheke ngakwesokunxele phezulu kwebhodi elandelwa unxantathu omkhulu, ngakho uyazi ukuthi kufanele  asho athi „inkomishi yetiye!‟. Ube esethi, “inkomishi yetiye!” ngezwi elikhulu, futhi uqinisekisa lokhu ngokucwayiza, noma enye indlela ehlelwe ngaphambili
-</p><p> Le yindlela elula yokusebenzisa i-speakbook. Manje udinga ukufunda ukuthi ungawasebenzisa kanjani amanye amakhasi asencwadini, ngoba ubuhlakani be-speakbook  bukunikeza imitsho engadlula amakhulu ongazikhethela yona njalo ukwazi 1lokuyintshintsha nganoma yisiphi isikhathi ngokuhlikihla ngendwangu emanzi noma ukukhansela ngepeni. </p>
+You and your speaking partner sit opposite each other about three feet apart. Depending on your eyesight, you may find it helpful to decrease or increase this distance. Open the speakbook to the training page inside the back cover. This is filled in already to help you learn the basic technique. When you‟ve mastered it, you can write your own pages, using the blank ones provided. Fold the book back on itself and hold it up between you, so you are both facing a ‟training page‟, and you can see each others eyes through the hole in the middle. You now look at the choices on the page to decide which one to communicate. When you‟ve decided, you indicate to your partner that you are ready to start
+- this could be by looking at your partner and blinking, or by waggling your eyes up and down - whatever suits you. Then look at the message you want, for a second or so, followed by the large symbol the same as the little one by the side of the message. Your partner then follows your eye movements - for instance he might see that you have looked at the top left hand side of the board followed by the big triangle, so he knows that you must want to say „cup of tea !‟. He then says, “cup of tea !” out loud, and you confirm this with a blink, or some other pre-arranged signal
+</p>
+<p>This is the basic technique for using the speakbook. Now you need to learn how to use the other pages in the book, because the true genius of the speakbook lies in its ability to give you easy access to hundreds of phrases of your own choosing, phrases that you can change at any time, with only a damp cloth and the stroke of a pen.</p>
 :::
-
-:::
-:::
-::
-:
-
 
 ::: slot inst-02-flt-right-label
 <div class="pos-rel fill-height fill-width">
   <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-right-label-bkg.svg')" />
-  <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 18px), calc(-50% - 18px)) rotate(45deg); color: white;">{{ $page.frontmatter.text.instructions }}</div>
+  <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 5mm), calc(-50% - 5mm)) rotate(45deg); color: white;width: 42mm;text-align: center;">{{ $page.frontmatter.text.instructions }}</div>
 </div>
 :::
-div>
-</div>
-:::
-
 ::: slot inst-02-flt-left-content
 <div class="flex-h" style="padding: 3mm;">
   <div class="flex-grow-1 flex-v">
@@ -1474,8 +1446,9 @@ div>
 </div>
 :::
 ::: slot inst-02-content
-<p> Ikhasi ngalinye lencwadi yokukhuluma linezigaba eziyi-14 noma eziyi-15 ezingenalutho ongabhala ngazo umbhalo wakho. Ukuze umsebenzisi akwazi ukuhamba phakathi kwamakhasi ahlukile, sidale ikhasi le- „home‟. Lokhu kutholakala ngaphambili kwencwadi, futhi kumakwe ngethebhu emnyama „IKHAYA‟ ekugcineni kwekhasi. Umqondo uwukuthi ubhale imishwana eyi-7 oyisebenzisa kakhulu kuleli khasi, ngoba liyikhasi oqala ngalo njalo. Futhi, kumakhasi ayisishiyagalombili angenalutho ubhala izixhumanisi kwamanye amakhasi ayi-8 angenalutho. Lezi kufanele kube yizingxenye zempilo yakho ezidinga imishwana esezingeni elijulile, lezi zingaba yizindawo ezinjengokugeza, noma ukuphuma emotweni. Ngakwesobunxele yisibonelo sesakhiwo esingenzeka sekhasi le- „IKHAYA‟. Amagama ayi-8 ngezinhlamvu eziyinhlanganisela ezinesibindi azixhumanisi zokusakazwa kwamakhasi okuphindwe kabili kwenye indawo encwadini. Lokho okwenzayo nje, uthola ikhasi elingenalutho bese ubhala, ngokwesibonelo, ED BED ‟ekhasini lesiphelo, bese emapheshana ubhala imishwana eyi-14 efaneleke kakhulu kunqubo yakho yokulala. Ngemuva kwalokho uphinda le nqubo kwezinye izixhumanisi eziyi-7, kuze kufike lapho incwadi yakho igcwele. Uma wenza iphutha, noma ufuna ukushintsha ibinzana, mane ulisule ngendwangu emanzi bese uqala futhi. </p>
-<p> Ukuze usebenzise i-speakbook, ukhombisa umlingani wakho ukuthi ufuna ukuxhumana. Umlingani wakho uvula incwadi yokukhuluma ekhasini le-„IKHAYA and futhi uyaxhumana, isibonelo,„ BED ‟. Umlingani wakho ube esephendukela ekhasini le-„BED‟ bese ukwazi ukuxhumana, „Ngifuna ukulala‟ - noma yini. Ikhasi ngalinye line- „IKHAYA‟ ne-„Spell‟ ephrintiwe kulo. I- "IKHAYA‟ "ukuze njalo ukwazi ukubuyela ekhasini le-„ IKHAYA ‟(ungahle uthande„ Indebe yetiye! Take ukulala nawe). Ikhasi ‟le-SPELL‟ likuvumela ukuba upele amagama namabinzana angaveli kwenye incwadi. Isebenza ngendlela efanayo namanye amakhasi, ngomehluko owodwa. Kuleli khasi kunamabhlokhethi anemibala ayi-6, ngalinye linonobumba eziyisithupha ezinemibala noma izinombolo kulo. Alfabhethi lonke likhona, nezinombolo 1-9 (ezokusebenzisa u-zero u-O). Ubheka incwadi ofuna ukuyihumusha, okwesibili noma kunjalo, kulandelwe yibhlokhi enemibala yombala ofanayo nencwadi yakho oyikhethile. Umlingani wakho ulandela iso lakho, ubona ukuthi ubuke, ngokwesibonelo, ibhulokhi eliphezulu kwesobunxele elandelwa ibhulokhi ephezulu (okuyinto eluhlaza), futhi uyazi ukuthi ufuna want C ‟. Umlingani wakho uthi „C‟ ngokuzwakalayo ukuze uqinisekise, bese udlulela kunhlamvu olulandelayo. Umlingani wakho uqagela lonke igama lapho kungenzeka, ukusheshisa inqubo. </p><p> I-speakerbook inendawo yemishwana engu-119 oyikhethile. Uma lokhu akwanele, noma uma udinga imishwana engaphezu kuka-14 esigabeni esithile, ungasiphinda kabili isibalo saso ngokubhala imishwana emibili kulayini ngamunye, munye epeni elimnyama, munye ngokubomvu. Ukhetha ibinzana elimnyama ngendlela ejwayelekile, ebomvu ngokunqena lapho ubuka uphawu olukhulu. </p>
+<p>Each page of the speakbook has 14 or 15 blank sections on which you can write your own text. In order that the user can move between the different pages, we have created the „home‟ page. This is found at the front of the book, and is marked with a black „HOME‟ tab at the edge of the page. The idea is that you write the 7 phrases you use the most on this page, as it is the page you always start on. Also, on 8 of the blank strips you write links to the other 8 blank double pages. These should be the parts of your life that require a more in depth set of phrases, these might be areas like bathtime, or going out in the car. On the left is an example of a possible layout for the „HOME‟ page. The 8 words in bold capital letters are links to double page spreads elsewhere in the book. What you do is, you find a blank page and write, for instance, „BED‟ on the edge tab, then on the strips you write the 14 phrases most relevant to your bedtime routine. Then you repeat this process for the other 7 links, until your book is full. If you make a mistake, or want to change a phrase, then just wipe it off with a damp cloth and start again.</p>
+<p>To use the speakbook, you indicate to your partner that you want to communicate. Your partner opens the speakbook to the „HOME‟ page and you communicate, for example, „BED‟. Your partner then turns to the „BED‟ page and you can then communicate, „I want to go to bed‟ - or whatever. Each page has „HOME‟ and „SPELL‟ pre-printed on it. The „HOME‟ is so that you can can always get back to the „HOME‟ page (you might want a „Cup of tea !‟ to take to bed with you). The ‟SPELL‟ page allows you to spell out individual words and phrases that don‟t appear elsewhere in the book. It works in a similar way as the other pages, with one difference. On this page there are 6 coloured blocks, each with 6 coloured letters or numbers on it. The whole alphabet is there, plus numbers 1-9 (for zero use the letter O). You look at the letter you want to communicate, for a second or so, followed by the coloured block of the same colour as your chosen letter. Your partner follows your eyes, sees that you have looked at, for instance, the top left block followed by the top right block (which is green), and knows you want „C‟. Your partner says „C‟ out loud to confirm, and you move on to the next letter. Your partner guesses the rest of the word when possible, to speed the process up.</p>
+<p>Speakbook has room for 119 phrases of your choosing. If this is not enough, or if you need more than 14 phrases in one particular section, then you can double its capacity by writing two phrases on each line, one in black pen, one in red. You choose a black phrase in the normal way, a red one by blinking when you look at the large symbol.</p>
 :::
 
 ::: slot last-page-content
@@ -1542,7 +1515,7 @@ div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.T }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.Y }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.U }}</div>
-      <div class="block cyan-bkg" style="font-size: 12pt">{{ $page.frontmatter.text.I }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.I }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.O }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.P }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.A }}</div>

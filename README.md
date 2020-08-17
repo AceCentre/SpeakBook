@@ -8,24 +8,37 @@ This is a repository to hold the working versions of [Patrick Joyce's SpeakBook 
 
 The current *in-progress* versions (Note: will only look as intended in Chrome. We recommend looking at the PDF builds):
 
-- [English SpeakBook](https://speakbook.netlify.app/speakbook/) (and [PDF](https://speakbook.netlify.app/speakbook/index.pdf))
-- [Swedish SpeakBook](https://speakbook.netlify.app/sv/speakbook/) (and [PDF](https://speakbook.netlify.app/sv/speakbook/index.pdf))
-- [Portuguese SpeakBook](https://speakbook.netlify.app/po/speakbook/) (and [PDF](https://speakbook.netlify.app/po/speakbook/index.pdf))
-- [Spanish SpeakBook](https://speakbook.netlify.app/es/speakbook/) (and [PDF](https://speakbook.netlify.app/es/speakbook/index.pdf))
-- [German SpeakBook](https://speakbook.netlify.app/de/speakbook/) (and [PDF](https://speakbook.netlify.app/de/speakbook/index.pdf))
-- [French SpeakBook](https://speakbook.netlify.app/fr/speakbook/) (and [PDF](https://speakbook.netlify.app/fr/speakbook/index.pdf))
-- [Afrikaans SpeakBook](https://speakbook.netlify.app/af/speakbook/) (and [PDF](https://speakbook.netlify.app/af/speakbook/index.pdf))
-- [Zulu SpeakBook](https://speakbook.netlify.app/zu/speakbook/) (and [PDF](https://speakbook.netlify.app/zu/speakbook/index.pdf))
+## Complete Translatons
 
+- 🇬🇧[English SpeakBook](/speakbook/), [Printing Instructions](/speakbook/printing-instructions.html) (and [PDF](/speakbook/index.pdf), [PDF - Printing Instructions](/speakbook/printing-instructions.pdf))
+- 🇹🇷[Turkish Speakbook](/tr/speakbook/), [Printing Instructions](/tr/speakbook/printing-instructions.html) (and [PDF](/tr/speakbook/index.pdf), [PDF - Printing Instructions](/tr/speakbook/printing-instructions.pdf))
+- 🇿🇦[Afrikaans SpeakBook](/af/speakbook/), [Printing Instructions](/af/speakbook/printing-instructions.html) (and [PDF](/af/speakbook/index.pdf), [PDF - Printing Instructions](/af/speakbook/printing-instructions.pdf))
+
+## Needing "Printing Instructions" (but complete otherwise)
+
+- 🇸🇪[Swedish SpeakBook](/sv/speakbook/) (and [PDF](/sv/speakbook/index.pdf))
+- 🇵🇹[Portuguese SpeakBook](/po/speakbook/) (and [PDF](/po/speakbook/index.pdf))
+- 🇪🇸[Spanish SpeakBook](/es/speakbook/) (and [PDF](/es/speakbook/index.pdf))
+- 🇩🇪[German SpeakBook](/de/speakbook/) (and [PDF](/de/speakbook/index.pdf))
+- 🇫🇷[French SpeakBook](/fr/speakbook/) (and [PDF](/fr/speakbook/index.pdf))
+- 🇿🇦[Zulu SpeakBook](/zu/speakbook/) (and [PDF](/zu/speakbook/index.pdf))
 
 To help out with translation into new languages join the [POEditor project here](https://poeditor.com/join/project/wKsMtKRLIj)
 
 [Issues here](https://github.com/acecentre/SpeakBook/issues).  
 
+## How do I create a new version for my language - or improve a language translation
+
+Firstly - *Great!* Here are the steps: 
+
+1. Go to <https://poeditor.com/join/project/wKsMtKRLIj> and join up. Pick a current language to help edit - or create a new one. 
+2. What happens is you end up with a table. In one column is English snippets of text. And in the other you write that languages translation. Have a look at the [English](https://speakbook.netlify.app/speakbook/index.pdf) version where the strings are from. It should make sense what things mean.  There are some strange bits - some bits later on have html embedded in them. Don’t worry - just do what you can. You can’t break anything! 
+3.  Once you have done what you can - send [me an email](mailto:wwade@acecentre.org.uk) and I’ll run a little script that converts it. It really takes me no more than about 10 minutes to do. Once done you can see the changes on our [development page](http://speakbook.netlify.app) 
+4.  There’s usually tweaks to be made around how we do the e-Tran frame and finger spelling page. At that stage we just have a email chat about the best way forward. Some languages don’t bother to use all their letters - or we ignore the numbers. Lots of things we can do. And feel free to change things like the static words like “I feel hot” to something more regional. 
+5.  *Lastly** - we translate the printing instructions page. That’s just a text or word file you can [send me](mailto:wwade@acecentre.org.uk).  Example [here](https://speakbook.netlify.app/speakbook/printing-instructions.pdf) 
+
 
 **Urgent needs**
-- German need proofing and more work
-- Zulu and Afrikkans need a maintainer - and proofer (currently google translated)
 - Need translations for a [printed instructions sheet ](https://acecentre.org.uk/wp-content/uploads/2018/11/Printing-Instructions1.pdf)
 - More serious coding issues see the queue [ here](https://github.com/acecentre/SpeakBook/issues). 
 
@@ -100,6 +113,8 @@ node .scripts/apply-po-to-md.js res/lang/SpeakBook_German.po de/speakbook/README
 node .scripts/apply-po-to-md.js res/lang/SpeakBook_Afrikaans.po af/speakbook/README.md > af/speakbook/README2.md && mv af/speakbook/README2.md af/speakbook/README.md 
 
 node .scripts/apply-po-to-md.js res/lang/SpeakBook_Zulu.po zu/speakbook/README.md > zu/speakbook/README2.md && mv zu/speakbook/README2.md zu/speakbook/README.md 
+
+node .scripts/apply-po-to-md.js res/lang/SpeakBook_Turkish.po tr/speakbook/README.md > tr/speakbook/README2.md && mv tr/speakbook/README2.md tr/speakbook/README.md 
 
 ```
 
