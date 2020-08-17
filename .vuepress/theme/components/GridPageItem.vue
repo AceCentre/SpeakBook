@@ -1,7 +1,7 @@
 <template>
   <div :class="'pos-rel grid-page-item item-type-' + (item.type||'none')">
     <div v-if="item.type == 'table'" class="abs-fill-parent overflow-hidden">
-      <table class="table rotate-90">
+      <table :class="'table rotate-90 ' + item.table_extra_classes">
         <tbody>
           <tr v-for="row in item.rows">
             <td>
@@ -30,7 +30,7 @@
     </div>
 
     <div v-if="item.type == 'table02'" class="abs-fill-parent overflow-hidden">
-      <table class="table rotate-90">
+      <table :class="'table rotate-90 ' + item.table_extra_classes">
         <tbody>
           <tr v-for="row in item.rows">
             <td>

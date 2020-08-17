@@ -16,11 +16,15 @@
           <SpeakBookTextFourColorBkg class="speakbook-title fsize-13 p-2 bold" :text="$page.frontmatter.text.SPEAKBOOK"></SpeakBookTextFourColorBkg>
           <div class="edition">
             <Content slot-key="star-16p-bkg" class="abs-fill-parent" />
-            <div class="text abs-fill-parent flex-v items-align-center">
+            <div v-if="!$page.frontmatter.classic_edition" class="text abs-fill-parent flex-v items-align-center">
               <span class="nth">{{ $page.frontmatter.text.edition_nth }}</span>
               <SpeakBookTextFourColorBkg class="edition-label" :text="$page.frontmatter.text.EDITION"></SpeakBookTextFourColorBkg>
               <span class="small-text">{{ $page.frontmatter.text.color_blind }}</span>
               <span class="small-text">{{ $page.frontmatter.text.friendly }}</span>
+            </div>
+            <div v-if="$page.frontmatter.classic_edition" class="text abs-fill-parent flex-v items-align-center classic-edition">
+              <span>{{ $page.frontmatter.text.classic }}</span>
+              <SpeakBookTextFourColorBkg class="edition-label" :text="$page.frontmatter.text.EDITION"></SpeakBookTextFourColorBkg>
             </div>
           </div>
         </div>
@@ -158,6 +162,12 @@ export default {
       .speakbook-text-four-color-bkg {
         border: 0.5mm solid var(--color-dark-stroke);
         font-size: 6pt;
+      }
+    }
+    > .text.classic-edition {
+      font-size: 12pt;
+      .speakbook-text-four-color-bkg {
+        font-size: 8pt;
       }
     }
   }

@@ -5,22 +5,15 @@
 <script>
 export default {
   name: 'Page',
-
   components: {},
-
   data () {
     return {
       isSidebarOpen: false
     }
   },
-
-  computed: {
-
-  },
-
+  computed: {},
   mounted () {
   },
-
   methods: {
   }
 }
