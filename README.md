@@ -116,5 +116,7 @@ node .scripts/apply-po-to-md.js res/lang/SpeakBook_Zulu.po zu/speakbook/README.m
 
 node .scripts/apply-po-to-md.js res/lang/SpeakBook_Turkish.po tr/speakbook/README.md > tr/speakbook/README2.md && mv tr/speakbook/README2.md tr/speakbook/README.md 
 
+node .scripts/apply-po-to-md.js res/lang/SpeakBook_Maltese.po mt/speakbook/README.md > mt/speakbook/README2.md && mv mt/speakbook/README2.md mt/speakbook/README.md 
+
 ```
 
