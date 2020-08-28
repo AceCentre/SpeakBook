@@ -6,12 +6,12 @@ text:
   SPEAKBOOK: SPEAKBOOK
   edition_nth: ir-raba'
   EDITION: edizzjoni
-  color_blind: Colour Blind
-  friendly: Friendly!
-  instructions: instructions
+  color_blind: Kulur Għomja
+  friendly: Ħbiberija
+  instructions: istruzzjonijiet
   HOME_PAGE: HOME PAGE
-  SPELL: SPELL
-  HOME: HOME
+  SPELL: TAGĦLIF
+  HOME: DAR
   THANK_YOU: GRAZZI
   A: A
   B: B
@@ -1265,15 +1265,12 @@ grid_pages:
 <div class="float-left" style="width: 40mm; height: 37mm; shape-outside: polygon(0 0, 40mm 0, 10mm 100%, 0 100%);"></div>
 <h2 class="my-2">Finger spelling page.</h2>
 <p class="my-2">
-  If you still have the use of your hands, then this page is for you.
-  By pointing with a finger you can spell out words and phrases to your partner.
-  Frequently used words can be written in the blank boxes.
-  Pointing to the word <strong class="bold">„ HOME ‟*</strong> indicates to your partner that you now
-  want to communicate with your eyes using the main book.
+  Jek għadek tista' tuża' idejk, mela din il-paġna hi għalik. Tista' tispelli kliem u frażijiet lill-persuna li qed tikommunika magħha billi tipponta.
 </p>
 :::
 ::: slot training-page-description
-Meta tkun tgħallimt kif tuża din il-paġna ta' prattika, 
+<p class="fsize-3">
+Meta tkun tgħallimt it-teknika bażika permezz ta' din il-paġna ta' prattika, tista' tikteb il-paġni tiegħek, billi tuża il paġni vojta f'dan il-ktieb. </p>
 :::
 ::: slot table-overlay-01
 <div class="abs-at-top-left" style="top: 0.5mm; left: 0.5mm; width: 44mm; height: 44mm;">
@@ -1397,12 +1394,13 @@ Meta tkun tgħallimt kif tuża din il-paġna ta' prattika,
 ::: slot cover-footer
 <div class="lheight-1_5x">
   <p class="text-center cover-footer-text">
-    <span class="fsize-8 bold">non verbal communication system</span><br>
+    <span class="fsize-8 bold">Sistema ta' kommunikazzjoni ghal nies li ma jitkelmux</span><br>
     <span class="red-color fsize-8 bold">acecent.re/speakbook</span><br>
-    <span class="fsize-4">Speakbook 4th edition © 2011 Patrick Joyce</span>
+    <span class="fsize-4">Speakbook ir-raba' edizzjoni © 2011 Patrick Joyce</span>
   </p>
 </div>
 :::
+
 
 
 
@@ -1415,11 +1413,13 @@ Meta tkun tgħallimt kif tuża din il-paġna ta' prattika,
   <div class="flex-v">
     <img class="m-1" style="width: 58.5mm; height: 79.7mm; box-sizing: border-box;" :src="$withBase('/speakbook/images/01.png')"  />
     <div class="m-1 p-1 flex-grow-1 flt-box" style="width: 57.5mm; min-height: 79.7mm; box-sizing: border-box;">
-      <h3 class="my-1 fsize-5">How to write on the speakbook</h3>
-      <p class="my-2 fsize-4_5">Exactly what you write on the speakbook will depend on your particular requirements, but whatever you write, it is important that each side of any double page spread has the same text on it, and that they are a mirror image of each other - as in the example above. Do you and your partner speak different languages? No problem - just write a different language on either side.</p>
+      <h3 class="my-1 fsize-5">Kif tikteb fuq il-talkbook</h3>
+      <p class="my-2 fsize-4_5">Eżattament dak li tikteb fuq il-speakbook jiddependi fuq il-ħtiġijiet partikolari tiegħek, imma tkun xi tkun tikteb, huwa importanti li kull naħa ta 'kull paġna mifruxa doppja jkollha l-istess test fuqu, u li huma xbieha mera ta' xulxin - bħal f ' l-eżempju hawn fuq. Int u sieħbek jitkellmu lingwi differenti? Ebda problema - ikteb lingwa differenti fuq kull naħa.</p>
     </div>
   </div>
 </div>
+:::
+v>
 :::
 >
 :::
@@ -1429,14 +1429,16 @@ Meta tkun tgħallimt kif tuża din il-paġna ta' prattika,
 <div class="p-1 text-center">
   <SpeakBookTextFourColorBkg class="speakbook-title fsize-10 p-1 bold" :text="$page.frontmatter.text.SPEAKBOOK"></SpeakBookTextFourColorBkg>
 </div>
-<p>Speakbook is a non verbal communication tool for people who cannot speak and have difficulty using their hands or arms, but who retain the use of their eyes. This edition is for people who can read and spell. For versions for non-readers, foreign language versions, and the pocket edition, visit <b>acecent.re/speakbook</b></p>
-<h2 class="fsize-6">Instructions for use.</h2>
-<p>To get started, you will need; the speakbook, a black, non-permanent whiteboard pen, a cloth to rub out, and a speaking partner.</p>
+<p>Speakbook huwa għodda ta ’komunikazzjoni mhux verbali għal persuni li ma jistgħux jitkellmu u jkollhom diffikultà jużaw l-idejn jew l-armi tagħhom, iżda li jżommu l-użu ta’ għajnejhom. Din l-edizzjoni hija għal nies li jistgħu jaqraw u jispeċifikaw. Għal verżjonijiet għal dawk li ma jaqrawx, verżjonijiet b’lingwa barranija, u l-edizzjoni tal-but, żur <b>acecent.re/speakbook</b></p>
+<h2 class="fsize-6">Istruzzjonijiet għall-użu.</h2>
+<p>Biex tibda, ser ikollok bżonn; il-talkbook, pinna whiteboard sewda u mhux permanenti, drapp biex togħrok, u sieħeb li jitkellem.</p>
 <p>
-You and your speaking partner sit opposite each other about three feet apart. Depending on your eyesight, you may find it helpful to decrease or increase this distance. Open the speakbook to the training page inside the back cover. This is filled in already to help you learn the basic technique. When you‟ve mastered it, you can write your own pages, using the blank ones provided. Fold the book back on itself and hold it up between you, so you are both facing a ‟training page‟, and you can see each others eyes through the hole in the middle. You now look at the choices on the page to decide which one to communicate. When you‟ve decided, you indicate to your partner that you are ready to start
-- this could be by looking at your partner and blinking, or by waggling your eyes up and down - whatever suits you. Then look at the message you want, for a second or so, followed by the large symbol the same as the little one by the side of the message. Your partner then follows your eye movements - for instance he might see that you have looked at the top left hand side of the board followed by the big triangle, so he knows that you must want to say „cup of tea !‟. He then says, “cup of tea !” out loud, and you confirm this with a blink, or some other pre-arranged signal
+Int u s-sieħeb li titkellem joqogħdu faċċata ta 'xulxin madwar tliet piedi' l bogħod minn xulxin. Jiddependi fuq il-vista tiegħek, tista 'ssibha utli li tnaqqas jew iżżid din id-distanza. Iftaħ il-talkbook għall-paġna tat-taħriġ ġewwa l-qoxra ta 'wara. Dan huwa mimli diġà biex jgħinek titgħallem it-teknika bażika. Meta tkun ikkontrollajtha, tista 'tikteb il-paġni tiegħek stess, billi tuża dawk vojta pprovduti. Itwi l-ktieb lura fuqu nnifsu u żommu 'l fuq bejnek, sabiex intom it-tnejn tiffaċċjaw' paġna ta 'taħriġ', u taraw lil xulxin għajnejn mit-toqba fin-nofs. Issa tħares lejn l-għażliet fuq il-paġna biex tiddeċiedi liema waħda tikkomunika. Meta tkun iddeċidejt, tindika lis-sieħeb tiegħek li int lest biex tibda
+- dan jista 'jkun billi tħares lejn is-sieħeb tiegħek u tteptep, jew billi waggling l-għajnejn tiegħek' il fuq u 'l isfel - kulma jaqbel għalik. Imbagħad ħares lejn il-messaġġ li trid, għal sekonda jew hekk, segwit mis-simbolu l-kbir l-istess bħaċ-ċkejken fil-ġenb tal-messaġġ. Is-sieħeb tiegħek isegwi l-movimenti ta 'l-għajnejn tiegħek - pereżempju huwa jista' jara li rajt il-parti ta 'fuq tax-xellug tal-bord segwit mit-trijanglu kbir, u għalhekk jaf li trid tgħid "tazza ta' te!". Huwa mbagħad jgħid, "tazza ta 'tè!" b'leħen għoli, u tikkonferma dan bi teptip, jew b'xi sinjal ieħor irranġat minn qabel
 </p>
-<p>This is the basic technique for using the speakbook. Now you need to learn how to use the other pages in the book, because the true genius of the speakbook lies in its ability to give you easy access to hundreds of phrases of your own choosing, phrases that you can change at any time, with only a damp cloth and the stroke of a pen.</p>
+<p>Din hija t-teknika bażika għall-użu tal-speakbook. Issa trid titgħallem kif tuża l-paġni l-oħra fil-ktieb, għax il-ġenju veru tal-speakbook jinsab fil-kapaċità tiegħu li jagħtik aċċess faċli għal mijiet ta 'frażijiet li tagħżel int stess, frażijiet li tista' tbiddel fi kwalunkwe ħin, bi drapp niedja biss u l-kolp ta 'pinna.</p>
+:::
+of a pen.</p>
 :::
 o.</p>
 :::
@@ -1446,6 +1448,9 @@ o.</p>
 <div class="pos-rel fill-height fill-width">
   <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-right-label-bkg.svg')" />
   <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 18px), calc(-50% - 18px)) rotate(45deg); color: white;">{{ $page.frontmatter.text.instructions }}</div>
+</div>
+:::
+structions }}</div>
 </div>
 :::
 >
@@ -1462,9 +1467,9 @@ o.</p>
 </div>
 :::
 ::: slot inst-02-content
-<p>Each page of the speakbook has 14 or 15 blank sections on which you can write your own text. In order that the user can move between the different pages, we have created the „home‟ page. This is found at the front of the book, and is marked with a black „HOME‟ tab at the edge of the page. The idea is that you write the 7 phrases you use the most on this page, as it is the page you always start on. Also, on 8 of the blank strips you write links to the other 8 blank double pages. These should be the parts of your life that require a more in depth set of phrases, these might be areas like bathtime, or going out in the car. On the left is an example of a possible layout for the „HOME‟ page. The 8 words in bold capital letters are links to double page spreads elsewhere in the book. What you do is, you find a blank page and write, for instance, „BED‟ on the edge tab, then on the strips you write the 14 phrases most relevant to your bedtime routine. Then you repeat this process for the other 7 links, until your book is full. If you make a mistake, or want to change a phrase, then just wipe it off with a damp cloth and start again.</p>
-<p>To use the speakbook, you indicate to your partner that you want to communicate. Your partner opens the speakbook to the „HOME‟ page and you communicate, for example, „BED‟. Your partner then turns to the „BED‟ page and you can then communicate, „I want to go to bed‟ - or whatever. Each page has „HOME‟ and „SPELL‟ pre-printed on it. The „HOME‟ is so that you can can always get back to the „HOME‟ page (you might want a „Cup of tea !‟ to take to bed with you). The ‟SPELL‟ page allows you to spell out individual words and phrases that don‟t appear elsewhere in the book. It works in a similar way as the other pages, with one difference. On this page there are 6 coloured blocks, each with 6 coloured letters or numbers on it. The whole alphabet is there, plus numbers 1-9 (for zero use the letter O). You look at the letter you want to communicate, for a second or so, followed by the coloured block of the same colour as your chosen letter. Your partner follows your eyes, sees that you have looked at, for instance, the top left block followed by the top right block (which is green), and knows you want „C‟. Your partner says „C‟ out loud to confirm, and you move on to the next letter. Your partner guesses the rest of the word when possible, to speed the process up.</p>
-<p>Speakbook has room for 119 phrases of your choosing. If this is not enough, or if you need more than 14 phrases in one particular section, then you can double its capacity by writing two phrases on each line, one in black pen, one in red. You choose a black phrase in the normal way, a red one by blinking when you look at the large symbol.</p>
+<p>Kull paġna tal-speakbook għandha 14 jew 15-il sezzjoni vojta li fuqhom tista 'tikteb it-test tiegħek stess. Sabiex l-utent ikun jista 'jiċċaqlaq bejn il-paġni differenti, ħloqna l-paġna "home". Dan jinsab fil-faċċata tal-ktieb, u huwa mmarkat bit-tab iswed "HOME" fit-tarf tal-paġna. L-idea hi li tikteb is-7 frażijiet li tuża l-iktar f'din il-paġna, peress li hija l-paġna li dejjem tibda fuqha. Ukoll, fit-8 ta 'l-istrixxi vojta tikteb links għall-oħra 8 paġni doppji vojta. Dawn għandhom ikunu l-partijiet ta 'ħajtek li jeħtieġu sett aktar fil-fond ta' frażijiet, dawn jistgħu jkunu oqsma bħall-għawm, jew joħorġu fil-karozza. Fuq ix-xellug hemm eżempju ta 'tqassim possibbli għall-paġna "HOME". It-8 kelmiet b'ittri kbar u grassi huma links għal spreads tal-paġna doppja x'imkien ieħor fil-ktieb. Dak li tagħmel hu, issib paġna vojta u tikteb, pereżempju, "BED" fuq it-tab tat-tarf, imbagħad fuq l-istrixxi li tikteb l-14-il frażi l-iktar relevanti għar-rutina tiegħek qabel l-irqad. Imbagħad irrepeti dan il-proċess għas-7 links l-oħra, sakemm il-ktieb tiegħek ikun mimli. Jekk tagħmel żball, jew trid tibdel frażi, imbagħad ħassarha b'ċarruta niedja u ibda mill-ġdid.</p>
+<p>Biex tuża l-talkbook, int tindika lis-sieħeb tiegħek li trid tikkomunika. Is-sieħeb tiegħek jiftaħ il-ktieb fuq il-paġna "HOME" u tikkomunika, pereżempju, "BED". Is-sieħeb tiegħek imbagħad idur fuq il-paġna ta '"BED" u mbagħad tista' tikkomunika, "Irrid immur torqod" - jew kwalunkwe ħaġa oħra. Kull paġna għandha "HOME" u "SPELL" stampati minn qabel fuqha. Il- "HOME" huwa hekk li tista 'dejjem terġa' lura għall-paġna "HOME" (tista 'tkun trid "Tazza ta' tè!" Biex teħodha miegħek). Il-paġna “SPELL” tippermettilek li tispjega kliem u frażijiet individwali li ma jidhrux x'imkien ieħor fil-ktieb. Jaħdem b'mod simili bħall-paġni l-oħra, b'differenza waħda. Fuq din il-paġna hemm 6 blokki kkuluriti, kull wieħed b'6 ittri kkuluriti jew numri fuqha. L-alfabett sħiħ qiegħed hemm, flimkien man-numri 1-9 (għal żero uża l-ittra O). Tħares lejn l-ittra li trid tikkomunika, għal sekonda jew hekk, segwita mill-blokka kkulurita tal-istess kulur bħall-ittra magħżula tiegħek. Is-sieħeb tiegħek isegwi għajnejk, jara li rajt, pereżempju, il-blokka ta 'fuq tax-xellug segwita mill-blokka ta' fuq tal-lemin (li hija ħadra), u jaf li trid "C". Is-sieħeb tiegħek jgħid “C” b’leħen għoli biex tikkonferma, u tgħaddi għall-ittra li jmiss. Is-sieħeb tiegħek jassumi l-bqija tal-kelma meta jkun possibbli, biex iħaffef il-proċess. </p>
+<p> Speakbook għandu spazju għal 119 frażi tal-għażla tiegħek. Jekk dan mhux biżżejjed, jew jekk għandek bżonn aktar minn 14-il frażi f’sezzjoni waħda partikolari, allura tista ’tirdoppja l-kapaċità tagħha billi tikteb żewġ frażijiet fuq kull linja, waħda bil-pinna sewda, waħda bl-aħmar. Inti tagħżel frażi sewda bil-mod normali, waħda ħamra billi tpetpet meta tħares lejn is-simbolu l-kbir.</p>
 :::
 
 ::: slot last-page-content

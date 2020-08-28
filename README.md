@@ -22,7 +22,8 @@ The current *in-progress* versions (Note: will only look as intended in Chrome. 
 - 🇩🇪[German SpeakBook](/de/speakbook/) (and [PDF](/de/speakbook/index.pdf))
 - 🇫🇷[French SpeakBook](/fr/speakbook/) (and [PDF](/fr/speakbook/index.pdf))
 - 🇿🇦[Zulu SpeakBook](/zu/speakbook/) (and [PDF](/zu/speakbook/index.pdf))
-
+- 🇲🇹[Maltese SpeakBook](/mt/speakbook/) (and [PDF](/mt/speakbook/index.pdf))
+- 
 To help out with translation into new languages join the [POEditor project here](https://poeditor.com/join/project/wKsMtKRLIj)
 
 [Issues here](https://github.com/acecentre/SpeakBook/issues).  
