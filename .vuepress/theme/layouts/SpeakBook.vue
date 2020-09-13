@@ -1,5 +1,5 @@
 <template>
-  <div :style="$page.frontmatter.inlinecss">
+  <div :class="($page.frontmatter.rtl ? 'rtl' : '')" :style="$page.frontmatter.inlinecss">
     <div class="page speakbook-cover-page">
       <div class="float-left">
         <div class="flex-v height-100ph fsize-3 grey-color v-oneline-fsize-3">
@@ -9,7 +9,7 @@
         </div>
       </div>
       <div class="float-right">
-        <Content slot-key="cut-out-right-side-guide-01" />
+        <Content :slot-key="'cut-out-'+($page.frontmatter.rtl?'left':'right')+'-side-guide-01'" />
       </div>
       <div class="abs-fill-parent flex-v items-align-center">
         <div class="speakbook-logo">
@@ -130,6 +130,19 @@ export default {
 </script>
 <style lang="scss">
 @import "@styles/index.scss";
+
+.rtl {
+  .speakbook-logo {
+    .edition {
+      left: auto;
+      right: 0.8cm;
+      transform: translate(100%, -100%);
+      > .text {
+        transform: rotate(30deg);
+      }
+    }
+  }
+}
 
 .speakbook-logo {
   position: relative;

@@ -1,7 +1,7 @@
 const fs = require('fs')
 const gettextparser = require("gettext-parser");
 const YAML = require('yaml')
-const { split_frontmatter_pttrn, slot_pttrn } = require('./common.js')
+const { split_frontmatter_pttrn, slot_pttrn, parse_mdslots_list } = require('./common.js')
 
 if (process.argv.length != 4) {
   console.log('usage: apply-po-to-md.js <po_file> <md_file>')
@@ -40,6 +40,17 @@ for (let key in podata.translations['']) {
 Object.assign(newfm.text, newtext)
 // update mddata frontmatter
 mddata = fmmatch[1] + YAML.stringify(newfm) + fmmatch[4]
+
+mdtxt = parse_mdslots_list(mdtxt)
+  .map((a) => {
+    if (a.type == 'slot' && a.slotname in newslots) {
+      return a.slot_match.slice(1, 4).join('') + newslots[a.slotname] + a.slot_match[6]
+    } else {
+      return a.value
+    }
+  })
+  .join('')
+/*
 // update slots
 let idx = 0
 let match
@@ -53,6 +64,7 @@ while ((match = mdtxt.slice(idx).match(slot_pttrn)) != null) {
     idx += match.index + match[0].length
   }
 }
+*/
 mddata = mddata + mdtxt
 
 process.stdout.write(mddata)

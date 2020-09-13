@@ -32,17 +32,17 @@ body {
 .wmode-vertical-lr { writing-mode: vertical-lr; }
 .float-left { float: left; }
 .float-right { float: right; }
-.fsize-3 { font-size: 8pt; }
-.fsize-4 { font-size: 10pt; }
-.fsize-4_5 { font-size: 11pt; }
-.fsize-5 { font-size: 12pt; }
-.fsize-6 { font-size: 16pt; }
-.fsize-8 { font-size: 18pt; }
-.fsize-9 { font-size: 22pt; }
-.fsize-10 { font-size: 25pt; }
-.fsize-11 { font-size: 28pt; }
-.fsize-12 { font-size: 32pt; }
-.fsize-13 { font-size: 40pt; }
+.fsize-3 { font-size: var(--fsize-3); }
+.fsize-4 { font-size: var(--fsize-4); }
+.fsize-4_5 { font-size: var(--fsize-4_5); }
+.fsize-5 { font-size: var(--fsize-5); }
+.fsize-6 { font-size: var(--fsize-6); }
+.fsize-8 { font-size: var(--fsize-8); }
+.fsize-9 { font-size: var(--fsize-9); }
+.fsize-10 { font-size: var(--fsize-10); }
+.fsize-11 { font-size: var(--fsize-11); }
+.fsize-12 { font-size: var(--fsize-12); }
+.fsize-13 { font-size: var(--fsize-13); }
 .rotate-180 { transform: rotate(180deg); }
 .rotate-90 { transform: rotate(90deg); }
 .height-100pw { height: var(--page-width-content); }
@@ -259,5 +259,21 @@ body {
     &.b10x {
       width: calc(var(--block-width) * 10 + var(--block-margin) * 9);
     }
+  }
+}
+
+.rtl {
+  direction: rtl;
+  .float-left {
+    float: right;
+  }
+  .float-right {
+    float: left;
+  }
+  .abs-at-bottom-left,
+  .abs-at-center-left,
+  .abs-at-top-left {
+    left: auto;
+    right: 0;
   }
 }

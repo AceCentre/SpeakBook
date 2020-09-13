@@ -1,7 +1,7 @@
 <template>
   <div :class="'pos-rel grid-page-item item-type-' + (item.type||'none')">
     <div v-if="item.type == 'table'" class="abs-fill-parent overflow-hidden">
-      <table :class="'table rotate-90 ' + item.table_extra_classes">
+      <table :class="'table rotate-90 ' + (item.table_extra_classes||'')">
         <tbody>
           <tr v-for="row in item.rows">
             <td>
@@ -30,7 +30,7 @@
     </div>
 
     <div v-if="item.type == 'table02'" class="abs-fill-parent overflow-hidden">
-      <table :class="'table rotate-90 ' + item.table_extra_classes">
+      <table :class="'table rotate-90 ' + (item.table_extra_classes||'')">
         <tbody>
           <tr v-for="row in item.rows">
             <td>
@@ -108,6 +108,29 @@ export default {
     .entry {
       width: 33%;
       text-align: center;
+    }
+  }
+}
+.rtl {
+  .letters-grid {
+    &.rotate-90 {
+      transform: translate(calc(var(--grid-item-height) - var(--grid-item-width)), calc(var(--grid-item-height))) rotate(-90deg);
+    }
+  }
+  .fig {
+    &.rotate-90 { transform: rotate(-90deg); }
+  }
+  .fixed-fig {
+    &.rotate-90 {
+      transform: translate(calc(var(--grid-item-height) - var(--grid-item-width) - 0.5mm), calc(var(--grid-item-height) - 0.5mm)) rotate(-90deg);
+    }
+  }
+  .grid-page-item {
+    .table {
+      &.rotate-90 {
+        transform-origin: 0 0;
+        transform: translate(100%, 0) rotate(90deg) translate(0.5mm, 0.5mm);
+      }
     }
   }
 }
