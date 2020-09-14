@@ -147,36 +147,25 @@ grid_pages:
           width: 57mm
         rows:
           - comment: At top left
-            type: table
+            type: coloured-table
             rowheight: 12mm
-            rows:
-              - image: shape-heart-1x-img
-              - image: shape-circle-1x-img
-              - image: shape-triangle-1x-img
-              - image: shape-square-1x-img
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
               height: var(--grid-item-height)
-          - comment: spacing
-            inlinecss:
-              flex-grow: 1
           - comment: At center left
-            type: fig
-            image: shape-square-2x-img
-            text_key: HOME_PAGE
-          - comment: spacing
+            type: coloured-circle
+            colour: yellow
             inlinecss:
               flex-grow: 1
           - comment: At bottom left
-            type: table
+            type: coloured-table
             rowheight: 12mm
             rows:
-              - image: shape-heart-1x-img
-              - image: shape-circle-1x-img
-              - image: shape-triangle-1x-img
-              - image: shape-square-1x-img
-                text_key: SPELL
+              - comment: empty
+              - comment: empty
+              - comment: empty
+              - text_key: SPELL
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -185,51 +174,37 @@ grid_pages:
           width: 72mm
         rows:
           - comment: At top center
-            type: fig
-            image: shape-triangle-2x-img
+            type: coloured-circle
+            colour: cyan
             inlinecss:
-              padding-top: 10mm
-              padding-bottom: 10mm
-          - inlinecss:
               flex-grow: 1
-          - comment: At bottom center
-            type: fig
-            image: shape-circle-2x-img
+          - comment: space in middle
             inlinecss:
-              padding-top: 10mm
-              padding-bottom: 10mm
+              width: var(--cut-out-center-guide-width)
+              height: var(--cut-out-center-guide-height)
+          - comment: At bottom center
+            type: coloured-circle
+            colour: green
+            inlinecss:
+              flex-grow: 1
       - inlinecss:
           width: 57mm
         rows:
           - comment: At top right
-            type: table
+            type: coloured-table
             rowheight: 12mm
-            rows:
-              - image: shape-heart-1x-img
-              - image: shape-circle-1x-img
-              - image: shape-triangle-1x-img
-              - image: shape-square-1x-img
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
               height: var(--grid-item-height)
-          - comment: spacing
-            inlinecss:
-              flex-grow: 1
           - comment: At center right
-            type: fig
-            image: shape-heart-2x-img
-          - comment: spacing
+            type: coloured-circle
+            colour: purple
             inlinecss:
               flex-grow: 1
           - comment: At bottom right
-            type: table
+            type: coloured-table
             rowheight: 12mm
-            rows:
-              - image: shape-heart-1x-img
-              - image: shape-circle-1x-img
-              - image: shape-triangle-1x-img
-              - image: shape-square-1x-img
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -244,39 +219,26 @@ grid_pages:
       - inlinecss:
           width: 57mm
         rows:
-          - comment: At bottom right
-            type: table
+          - comment: At top left
+            type: coloured-table
             rowheight: 12mm
-            reverserow: true
-            rows:
-              - image: shape-heart-1x-img
-              - image: shape-circle-1x-img
-              - image: shape-triangle-1x-img
-              - image: shape-square-1x-img
-                text_key: SPELL
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
               height: var(--grid-item-height)
-          - comment: spacing
+          - comment: At center left
+            type: coloured-circle
+            colour: yellow
             inlinecss:
               flex-grow: 1
-          - comment: At center right
-            type: fig
-            image: shape-square-2x-img
-            text_key: HOME_PAGE
-          - comment: spacing
-            inlinecss:
-              flex-grow: 1
-          - comment: At top right
-            type: table
+          - comment: At bottom left
+            type: coloured-table
             rowheight: 12mm
-            reverserow: true
             rows:
-              - image: shape-heart-1x-img
-              - image: shape-circle-1x-img
-              - image: shape-triangle-1x-img
-              - image: shape-square-1x-img
+              - comment: empty
+              - comment: empty
+              - comment: empty
+              - text_key: SPELL
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -284,58 +246,40 @@ grid_pages:
       - inlinecss:
           width: 72mm
         rows:
-          - comment: At bottom center
-            type: fig
-            image: shape-triangle-2x-img
+          - comment: At top center
+            type: coloured-circle
+            colour: cyan
             inlinecss:
-              padding-top: 10mm
-              padding-bottom: 10mm
+              flex-grow: 1
           - comment: Guide at center
             type: custom
             slotname: cut-out-center-guide
             inlinecss:
               flex-grow: 1
               transform: rotate(180deg)
-          - comment: At top center
-            type: fig
-            image: shape-circle-2x-img
+          - comment: At bottom center
+            type: coloured-circle
+            colour: green
             inlinecss:
-              padding-top: 10mm
-              padding-bottom: 10mm
+              flex-grow: 1
       - inlinecss:
           width: 57mm
         rows:
-          - comment: At left bottom
-            type: table
+          - comment: At top right
+            type: coloured-table
             rowheight: 12mm
-            reverserow: true
-            rows:
-              - image: shape-heart-1x-img
-              - image: shape-circle-1x-img
-              - image: shape-triangle-1x-img
-              - image: shape-square-1x-img
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
               height: var(--grid-item-height)
-          - comment: spacing
+          - comment: At center right
+            type: coloured-circle
+            colour: purple
             inlinecss:
               flex-grow: 1
-          - comment: At center left
-            type: fig
-            image: shape-heart-2x-img
-          - comment: spacing
-            inlinecss:
-              flex-grow: 1
-          - comment: At top center
-            type: table
+          - comment: At bottom right
+            type: coloured-table
             rowheight: 12mm
-            reverserow: true
-            rows:
-              - image: shape-heart-1x-img
-              - image: shape-circle-1x-img
-              - image: shape-triangle-1x-img
-              - image: shape-square-1x-img
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -726,36 +670,30 @@ grid_pages:
           width: 57mm
         rows:
           - comment: At top left
-            type: table
+            type: coloured-table
             rowheight: 12mm
             rows:
-              - image: shape-heart-1x-img
-              - image: shape-circle-1x-img
-              - image: shape-triangle-1x-img
-              - image: shape-square-1x-img
-                text_key: HOME
+              - comment: empty
+              - comment: empty
+              - comment: empty
+              - text_key: HOME
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
               height: var(--grid-item-height)
-          - comment: spacing
-            inlinecss:
-              flex-grow: 1
           - comment: At center left
-            type: fig
-            image: shape-square-2x-img
-          - comment: spacing
+            type: coloured-circle
+            colour: yellow
             inlinecss:
               flex-grow: 1
           - comment: At bottom left
-            type: table
+            type: coloured-table
             rowheight: 12mm
             rows:
-              - image: shape-heart-1x-img
-              - image: shape-circle-1x-img
-              - image: shape-triangle-1x-img
-              - image: shape-square-1x-img
-                text_key: SPELL
+              - comment: empty
+              - comment: empty
+              - comment: empty
+              - text_key: SPELL
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -764,51 +702,37 @@ grid_pages:
           width: 72mm
         rows:
           - comment: At top center
-            type: fig
-            image: shape-triangle-2x-img
+            type: coloured-circle
+            colour: cyan
             inlinecss:
-              padding-top: 10mm
-              padding-bottom: 10mm
-          - inlinecss:
               flex-grow: 1
-          - comment: At bottom center
-            type: fig
-            image: shape-circle-2x-img
+          - comment: space in middle
             inlinecss:
-              padding-top: 10mm
-              padding-bottom: 10mm
+              width: var(--cut-out-center-guide-width)
+              height: var(--cut-out-center-guide-height)
+          - comment: At bottom center
+            type: coloured-circle
+            colour: green
+            inlinecss:
+              flex-grow: 1
       - inlinecss:
           width: 57mm
         rows:
           - comment: At top right
-            type: table
+            type: coloured-table
             rowheight: 12mm
-            rows:
-              - image: shape-heart-1x-img
-              - image: shape-circle-1x-img
-              - image: shape-triangle-1x-img
-              - image: shape-square-1x-img
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
               height: var(--grid-item-height)
-          - comment: spacing
-            inlinecss:
-              flex-grow: 1
           - comment: At center right
-            type: fig
-            image: shape-heart-2x-img
-          - comment: spacing
+            type: coloured-circle
+            colour: purple
             inlinecss:
               flex-grow: 1
           - comment: At bottom right
-            type: table
+            type: coloured-table
             rowheight: 12mm
-            rows:
-              - image: shape-heart-1x-img
-              - image: shape-circle-1x-img
-              - image: shape-triangle-1x-img
-              - image: shape-square-1x-img
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -823,39 +747,31 @@ grid_pages:
       - inlinecss:
           width: 57mm
         rows:
-          - comment: At bottom right
-            type: table
+          - comment: At top left
+            type: coloured-table
             rowheight: 12mm
-            reverserow: true
             rows:
-              - image: shape-heart-1x-img
-              - image: shape-circle-1x-img
-              - image: shape-triangle-1x-img
-              - image: shape-square-1x-img
-                text_key: SPELL
+              - comment: empty
+              - comment: empty
+              - comment: empty
+              - text_key: HOME
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
               height: var(--grid-item-height)
-          - comment: spacing
+          - comment: At center left
+            type: coloured-circle
+            colour: yellow
             inlinecss:
               flex-grow: 1
-          - comment: At center right
-            type: fig
-            image: shape-square-2x-img
-          - comment: spacing
-            inlinecss:
-              flex-grow: 1
-          - comment: At top right
-            type: table
+          - comment: At bottom left
+            type: coloured-table
             rowheight: 12mm
-            reverserow: true
             rows:
-              - image: shape-heart-1x-img
-              - image: shape-circle-1x-img
-              - image: shape-triangle-1x-img
-              - image: shape-square-1x-img
-                text_key: HOME
+              - comment: empty
+              - comment: empty
+              - comment: empty
+              - text_key: SPELL
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -863,58 +779,40 @@ grid_pages:
       - inlinecss:
           width: 72mm
         rows:
-          - comment: At bottom center
-            type: fig
-            image: shape-triangle-2x-img
+          - comment: At top center
+            type: coloured-circle
+            colour: cyan
             inlinecss:
-              padding-top: 10mm
-              padding-bottom: 10mm
+              flex-grow: 1
           - comment: Guide at center
             type: custom
             slotname: cut-out-center-guide
             inlinecss:
               flex-grow: 1
               transform: rotate(180deg)
-          - comment: At top center
-            type: fig
-            image: shape-circle-2x-img
+          - comment: At bottom center
+            type: coloured-circle
+            colour: green
             inlinecss:
-              padding-top: 10mm
-              padding-bottom: 10mm
+              flex-grow: 1
       - inlinecss:
           width: 57mm
         rows:
-          - comment: At left bottom
-            type: table
+          - comment: At top right
+            type: coloured-table
             rowheight: 12mm
-            reverserow: true
-            rows:
-              - image: shape-heart-1x-img
-              - image: shape-circle-1x-img
-              - image: shape-triangle-1x-img
-              - image: shape-square-1x-img
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
               height: var(--grid-item-height)
-          - comment: spacing
+          - comment: At center right
+            type: coloured-circle
+            colour: purple
             inlinecss:
               flex-grow: 1
-          - comment: At center left
-            type: fig
-            image: shape-heart-2x-img
-          - comment: spacing
-            inlinecss:
-              flex-grow: 1
-          - comment: At top center
-            type: table
+          - comment: At bottom right
+            type: coloured-table
             rowheight: 12mm
-            reverserow: true
-            rows:
-              - image: shape-heart-1x-img
-              - image: shape-circle-1x-img
-              - image: shape-triangle-1x-img
-              - image: shape-square-1x-img
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -925,70 +823,42 @@ grid_pages:
   - name: page11
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-06
-    start_spacing_inlinecss:
-      transform: rotate(180deg)
-    inlinecss:
-      transform: rotate(180deg)
   - name: page12
     comment: no cut out
     copyof: page08
   - name: page13
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-07
-    start_spacing_inlinecss:
-      transform: rotate(180deg)
-    inlinecss:
-      transform: rotate(180deg)
   - name: page14
     comment: no cut out
     copyof: page08
   - name: page15
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-08
-    start_spacing_inlinecss:
-      transform: rotate(180deg)
-    inlinecss:
-      transform: rotate(180deg)
   - name: page16
     comment: no cut out
     copyof: page08
   - name: page17
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-09
-    start_spacing_inlinecss:
-      transform: rotate(180deg)
-    inlinecss:
-      transform: rotate(180deg)
   - name: page18
     comment: no cut out
     copyof: page08
   - name: page19
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-10
-    start_spacing_inlinecss:
-      transform: rotate(180deg)
-    inlinecss:
-      transform: rotate(180deg)
   - name: page20
     comment: no cut out
     copyof: page08
   - name: page21
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-11
-    start_spacing_inlinecss:
-      transform: rotate(180deg)
-    inlinecss:
-      transform: rotate(180deg)
   - name: page22
     comment: no cut out
     copyof: page08
   - name: page23
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-12
-    start_spacing_inlinecss:
-      transform: rotate(180deg)
-    inlinecss:
-      transform: rotate(180deg)
   - name: page24
     comment: no cut out
     columns:
@@ -996,22 +866,18 @@ grid_pages:
           width: 57mm
         rows:
           - comment: At top left
-            type: table02
+            type: coloured-table02
             rowheight: 12mm
             overlay_slotname: table-overlay-01
             rows:
-              - image: shape-heart-1x-img
-                text_key: i_love_you
-              - image: shape-circle-1x-img
-                text_key: yes
+              - text_key: i_love_you
+              - text_key: yes
                 inlinecss:
                   margin-left: 14mm
-              - image: shape-triangle-1x-img
-                text_key: no
+              - text_key: no
                 inlinecss:
                   margin-left: 30mm
-              - image: shape-square-1x-img
-                text_key: CAR
+              - text_key: CAR
                 inlinecss:
                   margin-left: 43mm
             inlinecss:
@@ -1022,9 +888,9 @@ grid_pages:
             inlinecss:
               flex-grow: 1
           - comment: At center left
-            type: fig
+            type: text-with-coloured-circle
             fixed: true
-            image: shape-square-2x-img
+            colour: yellow
             text_slotname: training-page-description
             inlinecss:
               --grid-item-width: 57mm
@@ -1034,17 +900,13 @@ grid_pages:
             inlinecss:
               flex-grow: 1
           - comment: At bottom left
-            type: table02
+            type: coloured-table02
             rowheight: 12mm
             rows:
-              - image: shape-heart-1x-img
-                text_key: COMFORT
-              - image: shape-circle-1x-img
-                text_key: TOILET
-              - image: shape-triangle-1x-img
-                text_key: DRINKS
-              - image: shape-square-1x-img
-                text_key: SPELL
+              - text_key: COMFORT
+              - text_key: TOILET
+              - text_key: DRINKS
+              - text_key: SPELL
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -1053,34 +915,30 @@ grid_pages:
           width: 72mm
         rows:
           - comment: At top center
-            type: fig
-            image: shape-triangle-2x-img
+            type: coloured-circle
+            colour: cyan
             inlinecss:
-              padding-top: 10mm
-              padding-bottom: 10mm
-          - inlinecss:
               flex-grow: 1
-          - comment: At bottom center
-            type: fig
-            image: shape-circle-2x-img
+          - comment: space in middle
             inlinecss:
-              padding-top: 10mm
-              padding-bottom: 10mm
+              width: var(--cut-out-center-guide-width)
+              height: var(--cut-out-center-guide-height)
+          - comment: At bottom center
+            type: coloured-circle
+            colour: green
+            inlinecss:
+              flex-grow: 1
       - inlinecss:
           width: 57mm
         rows:
           - comment: At top right
-            type: table02
+            type: coloured-table02
             rowheight: 12mm
             rows:
-              - image: shape-heart-1x-img
-                text_key: im_too_hot
-              - image: shape-circle-1x-img
-                text_key: im_too_cold
-              - image: shape-triangle-1x-img
-                text_key: cup_of_tea
-              - image: shape-square-1x-img
-                text_key: cup_of_coffee
+              - text_key: im_too_hot
+              - text_key: im_too_cold
+              - text_key: cup_of_tea
+              - text_key: cup_of_coffee
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -1089,8 +947,8 @@ grid_pages:
             inlinecss:
               flex-grow: 1
           - comment: At center right
-            type: fig
-            image: shape-heart-2x-img
+            type: text-with-coloured-circle
+            colour: purple
             text_key: TRAINING_PAGE
             text_inlinecss:
               font-size: 18pt
@@ -1099,17 +957,13 @@ grid_pages:
             inlinecss:
               flex-grow: 1
           - comment: At bottom right
-            type: table02
+            type: coloured-table02
             rowheight: 12mm
             rows:
-              - image: shape-heart-1x-img
-                text_key: BED
-              - image: shape-circle-1x-img
-                text_key: CLOTHING
-              - image: shape-triangle-1x-img
-                text_key: BATHTIME
-              - image: shape-square-1x-img
-                text_key: MEALS
+              - text_key: BED
+              - text_key: CLOTHING
+              - text_key: BATHTIME
+              - text_key: MEALS
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -1125,18 +979,13 @@ grid_pages:
           width: 57mm
         rows:
           - comment: At bottom right
-            type: table02
+            type: coloured-table02
             rowheight: 12mm
-            reverserow: true
             rows:
-              - image: shape-heart-1x-img
-                text_key: COMFORT
-              - image: shape-circle-1x-img
-                text_key: TOILET
-              - image: shape-triangle-1x-img
-                text_key: DRINKS
-              - image: shape-square-1x-img
-                text_key: SPELL
+              - text_key: COMFORT
+              - text_key: TOILET
+              - text_key: DRINKS
+              - text_key: SPELL
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -1145,9 +994,9 @@ grid_pages:
             inlinecss:
               flex-grow: 1
           - comment: At center right
-            type: fig
+            type: text-with-coloured-circle
             fixed: true
-            image: shape-square-2x-img
+            colour: yellow
             text_slotname: training-page-description
             inlinecss:
               --grid-item-width: 57mm
@@ -1157,23 +1006,18 @@ grid_pages:
             inlinecss:
               flex-grow: 1
           - comment: At top right
+            type: coloured-table02
             overlay_slotname: table-overlay-02
-            type: table02
             rowheight: 12mm
-            reverserow: true
             rows:
-              - image: shape-heart-1x-img
-                text_key: i_love_you
-              - image: shape-circle-1x-img
-                text_key: yes
+              - text_key: i_love_you
+              - text_key: yes
                 inlinecss:
                   margin-right: 14mm
-              - image: shape-triangle-1x-img
-                text_key: no
+              - text_key: no
                 inlinecss:
                   margin-right: 30mm
-              - image: shape-square-1x-img
-                text_key: CAR
+              - text_key: CAR
                 inlinecss:
                   margin-right: 43mm
             inlinecss:
@@ -1184,11 +1028,10 @@ grid_pages:
           width: 72mm
         rows:
           - comment: At bottom center
-            type: fig
-            image: shape-triangle-2x-img
+            type: coloured-circle
+            colour: cyan
             inlinecss:
-              padding-top: 10mm
-              padding-bottom: 10mm
+              flex-grow: 1
           - comment: Guide at center
             type: custom
             slotname: cut-out-center-guide
@@ -1196,27 +1039,21 @@ grid_pages:
               flex-grow: 1
               transform: rotate(180deg)
           - comment: At top center
-            type: fig
-            image: shape-circle-2x-img
+            type: coloured-circle
+            colour: green
             inlinecss:
-              padding-top: 10mm
-              padding-bottom: 10mm
+              flex-grow: 1
       - inlinecss:
           width: 57mm
         rows:
           - comment: At left bottom
-            type: table02
+            type: coloured-table02
             rowheight: 12mm
-            reverserow: true
             rows:
-              - image: shape-heart-1x-img
-                text_key: BED
-              - image: shape-circle-1x-img
-                text_key: CLOTHING
-              - image: shape-triangle-1x-img
-                text_key: BATHTIME
-              - image: shape-square-1x-img
-                text_key: MEALS
+              - text_key: BED
+              - text_key: CLOTHING
+              - text_key: BATHTIME
+              - text_key: MEALS
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -1225,8 +1062,8 @@ grid_pages:
             inlinecss:
               flex-grow: 1
           - comment: At center left
-            type: fig
-            image: shape-heart-2x-img
+            type: text-with-coloured-circle
+            colour: purple
             text_key: TRAINING_PAGE
             text_inlinecss:
               font-size: 18pt
@@ -1234,19 +1071,14 @@ grid_pages:
           - comment: spacing
             inlinecss:
               flex-grow: 1
-          - comment: At top center
-            type: table02
+          - comment: At top left
+            type: coloured-table02
             rowheight: 12mm
-            reverserow: true
             rows:
-              - image: shape-heart-1x-img
-                text_key: im_too_hot
-              - image: shape-circle-1x-img
-                text_key: im_too_cold
-              - image: shape-triangle-1x-img
-                text_key: cup_of_tea
-              - image: shape-square-1x-img
-                text_key: cup_of_coffee
+              - text_key: im_too_hot
+              - text_key: im_too_cold
+              - text_key: cup_of_tea
+              - text_key: cup_of_coffee
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm

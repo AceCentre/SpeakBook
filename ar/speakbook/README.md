@@ -1014,16 +1014,10 @@ grid_pages:
                 text_key: i_love_you
               - image: shape-circle-1x-img
                 text_key: yes
-                inlinecss:
-                  margin-left: 14mm
               - image: shape-triangle-1x-img
                 text_key: no
-                inlinecss:
-                  margin-left: 30mm
               - image: shape-square-1x-img
                 text_key: CAR
-                inlinecss:
-                  margin-left: 43mm
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -1176,16 +1170,10 @@ grid_pages:
                 text_key: i_love_you
               - image: shape-circle-1x-img
                 text_key: yes
-                inlinecss:
-                  margin-right: 14mm
               - image: shape-triangle-1x-img
                 text_key: no
-                inlinecss:
-                  margin-right: 30mm
               - image: shape-square-1x-img
                 text_key: CAR
-                inlinecss:
-                  margin-right: 43mm
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm

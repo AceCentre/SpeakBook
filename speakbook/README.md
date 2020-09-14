@@ -924,70 +924,42 @@ grid_pages:
   - name: page11
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-06
-    start_spacing_inlinecss:
-      transform: rotate(180deg)
-    inlinecss:
-      transform: rotate(180deg)
   - name: page12
     comment: no cut out
     copyof: page08
   - name: page13
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-07
-    start_spacing_inlinecss:
-      transform: rotate(180deg)
-    inlinecss:
-      transform: rotate(180deg)
   - name: page14
     comment: no cut out
     copyof: page08
   - name: page15
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-08
-    start_spacing_inlinecss:
-      transform: rotate(180deg)
-    inlinecss:
-      transform: rotate(180deg)
   - name: page16
     comment: no cut out
     copyof: page08
   - name: page17
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-09
-    start_spacing_inlinecss:
-      transform: rotate(180deg)
-    inlinecss:
-      transform: rotate(180deg)
   - name: page18
     comment: no cut out
     copyof: page08
   - name: page19
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-10
-    start_spacing_inlinecss:
-      transform: rotate(180deg)
-    inlinecss:
-      transform: rotate(180deg)
   - name: page20
     comment: no cut out
     copyof: page08
   - name: page21
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-11
-    start_spacing_inlinecss:
-      transform: rotate(180deg)
-    inlinecss:
-      transform: rotate(180deg)
   - name: page22
     comment: no cut out
     copyof: page08
   - name: page23
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-12
-    start_spacing_inlinecss:
-      transform: rotate(180deg)
-    inlinecss:
-      transform: rotate(180deg)
   - name: page24
     comment: no cut out
     columns:
