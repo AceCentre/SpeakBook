@@ -16,16 +16,19 @@ let tolang = process.argv[5]
 
 ;(async () => {
 
-  let data = gettextParser.po.parse(await fs.promises.readFile(inpfn))
+  let data = gettextParser.po.parse(await fs.promises.readFile(inpfn), 'utf8')
+  data.charset = 'utf8'
 
   for (let item of Object.values(data.translations[''])) {
     if (item['msgid'] && item['msgstr']) {
       for (let i = 0; i < item['msgstr'].length; i++) {
         if(item['msgstr'][i]) {
-          console.log('translate: ', item['msgstr'][i])
+          let msgstr = item['msgstr'][i]
           item['msgstr'][i] = await rewrite_html_text(item['msgstr'][i], async (itext) => {
+            console.log('translate: ', itext)
             return (await translate(itext, { from: fromlang, to: tolang })).text
           })
+          
         }
       }
     }
