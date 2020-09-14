@@ -3,6 +3,7 @@
 const fs = require('fs')
 const { exec } = require("child_process");
 const mkdirp = require('mkdirp')
+var archiver = require('archiver');
 
 var langs = ["af", "ar", "de", "es", "fr", "mt", "po", "sv", "tr", "zu"];
 
