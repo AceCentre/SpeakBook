@@ -1,117 +1,86 @@
-//This is a shocking bit of code. I apologise to anyone who reads it. 
-
 const fs = require('fs')
 const { exec } = require("child_process");
 const mkdirp = require('mkdirp')
-var archiver = require('archiver');
+const path = require('path')
+const archiver = require('archiver');
 
-var langs = ["af", "ar", "de", "es", "fr", "mt", "po", "sv", "tr", "zu"];
+let langs_info = ["en", "af", "ar", "de", "es", "fr", "mt", "po", "sv", "tr", "zu"].map((name) => ({ name, indir: name == 'en' ? '' : name, outdir: name }))
+let default_lang_info = langs_info[0]
+let INPUT_DIR = path.resolve(__dirname, '../.vuepress/dist')
+let DEST_DIR = path.resolve(__dirname, '../.vuepress/dist-final')
+let MODULES_BIN_DIR = path.resolve(__dirname, '../node_modules/.bin')
 
-langs.forEach(createDirs);
-//English - we dont add to array as it will make a mess of the zipping.. Im just tired. I dont know the right 
-mkdirp('.vuepress/dist-final/en/').then(made =>
-  console.log(`made directories, starting with ${made}`));
-
-
-exec("PAGE_SIZE=A4 yarn buildpdf", (error, stdout, stderr) => {
-  if (error) {
-      console.log(`error: ${error.message}`);
-      return;
+;(async () => { // main
+  // create dirs
+  for (let lang_info of langs_info) {
+    await mkdirp(path.join(DEST_DIR, lang_info.outdir))
   }
-  if (stderr) {
-      console.log(`stderr: ${stderr}`);
-      return;
+  // build the pages
+  await asyncExec(`${MODULES_BIN_DIR}/vuepress build`)
+  // buildpdf for each page size
+  let page_size_list = [ 'A4', 'Letter' ]
+  for (let page_size of page_size_list) {
+    await asyncExec(`PAGE_SIZE=${page_size} ${MODULES_BIN_DIR}/vuepress buildpdf`)
+    for (let lang_info of langs_info) {
+      await copyLangFilesForSize(lang_info, page_size)
+    }
   }
-  console.log(`stdout: ${stdout}`);
-});
-zipEnglishForSize('A4');
+  // build the zip file
+  await zipFolder(langs_info)
+})()
 
-langs.forEach(zipForSizeA4);
-exec("PAGE_SIZE=Letter yarn buildpdf", (error, stdout, stderr) => {
-  if (error) {
-      console.log(`error: ${error.message}`);
-      return;
-  }
-  if (stderr) {
-      console.log(`stderr: ${stderr}`);
-      return;
-  }
-  console.log(`stdout: ${stdout}`);
-});
-langs.forEach(zipForSizeLetter);
-zipEnglishForSize('Letter');
-
-//Now finally zip it..
-langs.push("en");
-langs.forEach(zipFolder);
-// Lastly lets move the whole final-dist to dist/zips
-fs.rename('.vuepress/dist-final', '.vuepress/dist/zips', function (err) {
-  if (err) throw err
-  console.log('Successfully renamed - AKA moved!')
-})
-
-
-function createDirs(dir){
-  mkdirp('.vuepress/dist-final/'+dir).then(made =>
-    console.log(`made directories, starting with ${made}`));
-} 
-
-function zipEnglishForSize(size) {
-
-  fs.copyFile('.vuepress/dist/speakbook/index.pdf', '.vuepress/dist-final/en/'+size+'-color-blind.pdf' , (err) => {
-    if(err.code === 'ENOENT'){  }
-  });
-  fs.copyFile('.vuepress/dist/speakbook/classic.pdf', '.vuepress/dist-final/en/'+size+'-color.pdf', (err) => {
-    if(err.code === 'ENOENT'){  }
-  });
-  fs.copyFile('.vuepress/dist/speakbook/printing-instructions.pdf', '.vuepress/dist-final/en/'+size+'-printing-instructions.pdf', (err) => {
-    if(err.code === 'ENOENT'){  }
-  });
+function asyncExec (...args) {
+  return new Promise((resolve, reject) => {
+    exec(...args, (error, stdout, stderr) => {
+      if (error) {
+        reject(error)
+      } else {
+        resolve()
+      }
+    })
+  })
 }
 
-function zipForSizeA4(lang) {
-  size = "A4";
-
-  fs.copyFile('.vuepress/dist/'+lang+'/speakbook/index.pdf', '.vuepress/dist-final/'+lang+'/'+size+'-color-blind.pdf' , (err) => {
-    if(err.code === 'ENOENT'){  }
-  });
-  fs.copyFile('.vuepress/dist/'+lang+'/speakbook/classic.pdf', '.vuepress/dist-final/'+lang+'/'+size+'-color.pdf', (err) => {
-    if(err.code === 'ENOENT'){  }
-  });
-  fs.copyFile('.vuepress/dist/'+lang+'/speakbook/printing-instructions.pdf', '.vuepress/dist-final/'+lang+'/'+size+'-printing-instructions.pdf', (err) => {
-    if(err.code === 'ENOENT'){  }
-  });
+async function copyLangFilesForSize (lang_info, size) {
+  let copylist = [
+    [ 'speakbook/index.pdf', size + '-color-blind.pdf', ],
+    [ 'speakbook/classic.pdf', size + '-color.pdf', ],
+    [ 'speakbook/printing-instructions.pdf', size + '-printing-instructions.pdf' ],
+  ]
+  for (let copyentry of copylist) {
+    try {
+      let src = path.join(INPUT_DIR, lang_info.indir, copyentry[0])
+      let dest = path.join(DEST_DIR, lang_info.outdir, copyentry[1])
+      await fs.promises.copyFile(src, dest)
+    } catch (err) {
+      if (err.code == 'ENOENT') {
+        // file not found, the pdf is not generated for the lang
+        console.warn('Warn: file not found, ' + path.join(lang_info.indir, copyentry[0]) + ', using default lang: ' + default_lang_info.name)
+        // use the default lang when the file does not exists
+        let src = path.join(INPUT_DIR, default_lang_info.indir, copyentry[0])
+        let dest = path.join(DEST_DIR, lang_info.outdir, copyentry[1])
+        await fs.promises.copyFile(src, dest)
+      } else {
+        throw err
+      }
+    }
+  }
 }
 
-function zipForSizeLetter(lang) {
-  size = "Letter";
-
-  fs.copyFile('.vuepress/dist/'+lang+'/speakbook/index.pdf', '.vuepress/dist-final/'+lang+'/'+size+'-color-blind.pdf' , (err) => {
-    if(err.code === 'ENOENT'){  }
-  });
-  fs.copyFile('.vuepress/dist/'+lang+'/speakbook/classic.pdf', '.vuepress/dist-final/'+lang+'/'+size+'-color.pdf', (err) => {
-    if(err.code === 'ENOENT'){  }
-  });
-  fs.copyFile('.vuepress/dist/'+lang+'/speakbook/printing-instructions.pdf', '.vuepress/dist-final/'+lang+'/'+size+'-printing-instructions.pdf', (err) => {
-    if(err.code === 'ENOENT'){  }
-  });
-}
-
-function zipFolder(lang){
-  var output = fs.createWriteStream('.vuepress/dist-final/speakbook-'+lang+'.zip');
-  var archive = archiver('zip');
-  output.on('close', function () {
-      console.log(archive.pointer() + ' total bytes');
-      console.log('archiver has been finalized and the output file descriptor has closed.');
-  });
-  
-  archive.on('error', function(err){
-      throw err;
-  });
-  
-  archive.pipe(output);
-  
-  // append files from a sub-directory and naming it `new-subdir` within the archive (see docs for more options):
-  archive.directory('.vuepress/dist-final/'+lang, false);
-  archive.finalize();
+function zipFolder (langs_info) {
+  return new Promise((resolve, reject) => {
+    var output = fs.createWriteStream(path.join(DEST_DIR, 'speakbook-final.zip'))
+    var archive = archiver('zip')
+    output.on('close', function () {
+      resolve()
+    })
+    archive.on('error', function(err){
+      reject(err)
+    })
+    archive.pipe(output)
+    for (let lang_info of langs_info) {
+      archive.directory(path.join(DEST_DIR, lang_info.outdir), lang_info.outdir)     
+    }
+    archive.finalize()
+  })
 }

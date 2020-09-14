@@ -13,7 +13,9 @@
   "devDependencies": {
     "@vitalets/google-translate-api": "^3.0.0",
     "@vuepress/plugin-register-components": "^1.4.1",
+    "archiver": "^5.0.2",
     "gettext-parser": "^4.0.3",
+    "mkdirp": "^1.0.4",
     "node-sass": "^4.13.1",
     "parse5": "^6.0.1",
     "parse5-serializer-stream": "^6.0.1",
