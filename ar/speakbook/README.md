@@ -1,18 +1,18 @@
 ---
 layout: SpeakBook
 text:
-  ring_bind_edge: Ringbind hierdie rand.
-  cut_out_this_part: Knip hierdie deel uit.
+  ring_bind_edge: ربط عصابة على طول هذه الحافة
+  cut_out_this_part: قطع هذا الجزء.
   SPEAKBOOK: SPEAKBOOK
-  edition_nth: 4de
-  EDITION: UITGAWE
-  color_blind: Kleurblind
-  friendly: Vriendelik!
-  instructions: instruksies
-  HOME_PAGE: TUISBLAD
-  SPELL: SPEL
-  HOME: TUIS
-  THANK_YOU: DANKIE
+  edition_nth: "4"
+  EDITION: الإصدار
+  color_blind: عمى الالوان
+  friendly: ودود!
+  instructions: تعليمات
+  HOME_PAGE: الصفحة الرئيسية
+  SPELL: تهجئه
+  HOME: الصفحة الرئيسية
+  THANK_YOU: شكرا
   A: A
   B: B
   C: C
@@ -49,24 +49,24 @@ text:
   _seven: "7"
   _eight: "8"
   _nine: "9"
-  im_too_hot: Ek kry warm
-  im_too_cold: Ek kry koud
-  cup_of_tea: Koppie tee!
-  cup_of_coffee: Koppie koffie!
-  i_love_you: Ek is lief vir jou
-  yes: ja
-  no: nee
-  CAR: KAR
-  BED: BED
-  CLOTHING: KLERE
-  BATHTIME: BADTYD
-  MEALS: ETES
-  COMFORT: GEMAK
-  TOILET: TOILET
-  DRINKS: DRANKIES
-  TRAINING_PAGE: OPLEIDINGSBLAD
-  training_page: opleidingsblad
-  _GBP: R
+  im_too_hot: انا حار جدا
+  im_too_cold: أنا بارد جدا
+  cup_of_tea: كوب من الشاي!
+  cup_of_coffee: كوب من القهوة!
+  i_love_you: أحبك
+  yes: نعم
+  no: لا
+  CAR: سيارة
+  BED: السرير
+  CLOTHING: ملابس
+  BATHTIME: وقت الاستحمام
+  MEALS: وجبات
+  COMFORT: راحة
+  TOILET: الحمام
+  DRINKS: مشروبات
+  TRAINING_PAGE: TRAINING PAGE
+  training_page: صفحة التداول
+  _GBP: £
   _USD: $
   _percent: "%"
   _plus: +
@@ -76,19 +76,21 @@ text:
   _equal: =
   _question_mark: "?"
   _atsign: "@"
-  YES: JA
-  NO: NEE
+  YES: نعم
+  NO: لا
 slots_in_need_for_translation:
   - training-page-description
   - last-page-heading
   - cover-footer
   - inst-01-flt-right-content
   - inst-01-content
-  - inst-02-flt-right-label
+  - inst-02-flt-left-label
   - inst-02-content
+rtl: true
+comment_for_pagesize: page size is a little smaller that A4 due to an unknown issue with pdf renderer
 inlinecss:
-  --page-width: 210mm
-  --page-height: 297mm
+  --page-width: 209.5mm
+  --page-height: 296.5mm
   --cut-out-center-guide-width: 68mm
   --cut-out-center-guide-height: 162mm
   --fsize-9: 21pt
@@ -99,7 +101,7 @@ inlinecss:
 instruction_pages:
   - content_slotname: inst-01-content
     floating_elements:
-      - comment: left spacing
+      - comment: left spacing (right side for rtl)
         dir: left
         inlinecss:
           --spacing-offset-top: 17mm
@@ -107,10 +109,11 @@ instruction_pages:
           --max-left-spacing: 40mm
           width: var(--max-left-spacing)
           height: var(--page-height)
-          shape-outside: polygon(0 var(--spacing-offset-top), var(--max-left-spacing)
-            var(--spacing-offset-top), var(--left-spacing)
-            calc(var(--spacing-offset-top) + 20mm), var(--left-spacing)
-            var(--page-height), 0 var(--page-height))
+          shape-outside: polygon(var(--max-left-spacing) var(--spacing-offset-top),
+            0 var(--spacing-offset-top),
+            calc(var(--max-left-spacing) - var(--left-spacing)) calc(var(--spacing-offset-top) + 20mm),
+            calc(var(--max-left-spacing) - var(--left-spacing)) var(--page-height),
+            var(--max-left-spacing) var(--page-height))
       - comment: floating content at center right
         dir: right
         mode: fixed
@@ -126,7 +129,7 @@ instruction_pages:
     floating_elements:
       - comment: right side cut out guide
         dir: right
-        slotname: cut-out-right-side-guide-02
+        slotname: cut-out-left-side-guide-02
         inlinecss:
           width: 10mm
       - comment: right side label
@@ -137,8 +140,8 @@ instruction_pages:
           --flt-height: 44mm
           --flt-shape-width: var(--flt-width)
           --flt-shape-height: var(--flt-height)
-          shape-outside: polygon(0 0, 100% 100%, 100% 0)
-        slotname: inst-02-flt-right-label
+          shape-outside: polygon(0 0, 100% 0, 0 100%)
+        slotname: inst-02-flt-left-label
       - dir: left
         mode: center-fixed
         inlinecss:
@@ -242,7 +245,7 @@ grid_pages:
               --grid-item-height: 94mm
               height: var(--grid-item-height)
   - name: page05
-    start_spacing_slotname: cut-out-right-side-guide-03
+    start_spacing_slotname: cut-out-left-side-guide-03
     start_spacing_inlinecss:
       transform: rotate(180deg)
     inlinecss:
@@ -532,7 +535,7 @@ grid_pages:
                 inlinecss:
                   color: var(--color-cyan)
   - name: page07
-    start_spacing_slotname: cut-out-right-side-guide-04
+    start_spacing_slotname: cut-out-left-side-guide-04
     start_spacing_inlinecss:
       transform: rotate(180deg)
     inlinecss:
@@ -821,7 +824,7 @@ grid_pages:
               --grid-item-height: 94mm
               height: var(--grid-item-height)
   - name: page09
-    start_spacing_slotname: cut-out-right-side-guide-05
+    start_spacing_slotname: cut-out-left-side-guide-05
     start_spacing_inlinecss:
       transform: rotate(180deg)
     inlinecss:
@@ -931,7 +934,7 @@ grid_pages:
     copyof: page08
   - name: page11
     copyof: page09
-    start_spacing_slotname: cut-out-right-side-guide-06
+    start_spacing_slotname: cut-out-left-side-guide-06
     start_spacing_inlinecss:
       transform: rotate(180deg)
     inlinecss:
@@ -941,7 +944,7 @@ grid_pages:
     copyof: page08
   - name: page13
     copyof: page09
-    start_spacing_slotname: cut-out-right-side-guide-07
+    start_spacing_slotname: cut-out-left-side-guide-07
     start_spacing_inlinecss:
       transform: rotate(180deg)
     inlinecss:
@@ -951,7 +954,7 @@ grid_pages:
     copyof: page08
   - name: page15
     copyof: page09
-    start_spacing_slotname: cut-out-right-side-guide-08
+    start_spacing_slotname: cut-out-left-side-guide-08
     start_spacing_inlinecss:
       transform: rotate(180deg)
     inlinecss:
@@ -961,7 +964,7 @@ grid_pages:
     copyof: page08
   - name: page17
     copyof: page09
-    start_spacing_slotname: cut-out-right-side-guide-09
+    start_spacing_slotname: cut-out-left-side-guide-09
     start_spacing_inlinecss:
       transform: rotate(180deg)
     inlinecss:
@@ -971,7 +974,7 @@ grid_pages:
     copyof: page08
   - name: page19
     copyof: page09
-    start_spacing_slotname: cut-out-right-side-guide-10
+    start_spacing_slotname: cut-out-left-side-guide-10
     start_spacing_inlinecss:
       transform: rotate(180deg)
     inlinecss:
@@ -981,7 +984,7 @@ grid_pages:
     copyof: page08
   - name: page21
     copyof: page09
-    start_spacing_slotname: cut-out-right-side-guide-11
+    start_spacing_slotname: cut-out-left-side-guide-11
     start_spacing_inlinecss:
       transform: rotate(180deg)
     inlinecss:
@@ -991,7 +994,7 @@ grid_pages:
     copyof: page08
   - name: page23
     copyof: page09
-    start_spacing_slotname: cut-out-right-side-guide-12
+    start_spacing_slotname: cut-out-left-side-guide-12
     start_spacing_inlinecss:
       transform: rotate(180deg)
     inlinecss:
@@ -1011,18 +1014,10 @@ grid_pages:
                 text_key: i_love_you
               - image: shape-circle-1x-img
                 text_key: yes
-                inlinecss:
-                  margin-left: 14mm
               - image: shape-triangle-1x-img
                 text_key: no
-                inlinecss:
-                  margin-left: 30mm
               - image: shape-square-1x-img
                 text_key: CAR
-                inlinecss:
-                  margin-left: 43mm
-                text_inlinecss:
-                  font-size: 17pt
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -1124,7 +1119,7 @@ grid_pages:
               --grid-item-height: 94mm
               height: var(--grid-item-height)
   - name: page25
-    start_spacing_slotname: cut-out-right-side-guide-13
+    start_spacing_slotname: cut-out-left-side-guide-13
     start_spacing_inlinecss:
       transform: rotate(180deg)
     inlinecss:
@@ -1175,18 +1170,10 @@ grid_pages:
                 text_key: i_love_you
               - image: shape-circle-1x-img
                 text_key: yes
-                inlinecss:
-                  margin-right: 14mm
               - image: shape-triangle-1x-img
                 text_key: no
-                inlinecss:
-                  margin-right: 30mm
               - image: shape-square-1x-img
                 text_key: CAR
-                inlinecss:
-                  margin-right: 43mm
-                text_inlinecss:
-                  font-size: 17pt
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -1271,26 +1258,27 @@ grid_pages:
 <img style="width: var(--img-width); height: var(--img-width);" :src="$withBase('/speakbook/shapes/smileyface.svg')" />
 :::
 ::: slot last-page-heading
-<div class="float-left" style="width: 40mm; height: 37mm; shape-outside: polygon(0 0, 40mm 0, 10mm 100%, 0 100%);"></div>
-<h2 class="my-2">Vinger spel bladsy.</h2>
-<p class="my-2">As u nog steeds die gebruik van u hande het, is hierdie bladsy vir u. Spel woorde en frases uit aan u maat deur met 'n vinger te wys. Woorde wat gereeld gebruik word, kan in die leë blokkies geskryf word. As u na die woord <strong class="bold"> "TUIS" * </strong> wys, dui dit aan u maat dat u nou met u oë wil kommunikeer met behulp van die hoofboek.
-</p>
+<div class="float-left" style="width: 40mm; height: 40mm; shape-outside: polygon(0px 0px, 100% 0px, 100% 100%, 30mm 100%);"></div>
+<h2 class="my-2">إصبع الصفحة الإملائي.</h2>
+<p class="my-2">إذا كنت لا تزال لديها استخدام يديك، ثم هذه الصفحة هي لك.
+  من خلال الإشارة بإصبع يمكنك توضيح الكلمات والعبارات لشريك حياتك.
+  في كثير من الأحيان الكلمات المستخدمة يمكن أن تكون مكتوبة في مربعات فارغة.
+  مشيرا إلى الكلمة<strong class="bold">" الصفحة الرئيسية "*</strong>يشير لشريك حياتك أنك الآن
+  يريدون التواصل مع عينيك باستخدام الكتاب الرئيسي.</p>
 :::
 ::: slot training-page-description
-<p class="fsize-3">
-  As u die basiese tegniek geleer het deur hierdie opleidingsblad,
-  kan u u eie bladsye skryf met behulp van die leë bladsye in die boek.
-</p>
+<p class="fsize-3">عندما كنت قد تعلمت هذه التقنية الأساسية باستخدام هذه الصفحة التدريب،
+  يمكنك كتابة الصفحات الخاصة بك باستخدام تلك فارغة في هذا الكتاب.</p>
 :::
 ::: slot table-overlay-01
-<div class="abs-at-top-left" style="top: 0.5mm; left: 0.5mm; width: 44mm; height: 44mm;">
-  <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/table-overlay-01.svg')" />
-  <div class="abs-at-center bold" style="transform: translate(calc(-50% - 8mm), calc(-50% - 8mm)) rotate(-45deg); color: white;text-align: center;font-size: 18pt;width: 35mm;line-height: 1;">{{ $page.frontmatter.text.training_page }}</div>
+<div class="abs-at-top-left" style="top: 0.5mm; right: 0.5mm; width: 44mm; height: 44mm;">
+  <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/table-overlay-01-flipped.svg')" />
+  <div class="abs-at-center bold" style="transform: translate(calc(-50% + 8mm), calc(-50% - 8mm)) rotate(45deg); color: white;text-align: center;font-size: 18pt;width: 35mm;line-height: 1;">{{ $page.frontmatter.text.training_page }}</div>
 </div>
 :::
 
 ::: slot table-overlay-02
-<img class="abs-at-bottom-left rotate-180" style="bottom: 0.5mm; left: 0.5mm; width: 44mm; height: 44mm;" :src="$withBase('/speakbook/shapes/table-overlay-02.svg')" />
+<img class="abs-at-bottom-left rotate-180" style="width: 44mm; height: 44mm;" :src="$withBase('/speakbook/shapes/table-overlay-02-flipped.svg')" />
 :::
 
 ::: slot shape-square-2x-img
@@ -1328,9 +1316,9 @@ grid_pages:
   </div>
 </div>
 :::
-::: slot cut-out-right-side-guide-01
+::: slot cut-out-left-side-guide-01
 <div class="flex-h height-100ph grey-color">
-  <img style="width: 44.5mm; height: 287.2mm;" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide.svg')" />
+  <img style="width: 44.5mm; height: 287.2mm;" :src="$withBase('/speakbook/shapes/cut-out-left-side-guide.svg')" />
   <div class="flex-v mx-auto fsize-8 v-oneline-fsize-8 bold">
     <div v-for="i in 2" class="wmode-vertical-lr rotate-180 flex-grow-1 text-center">
       {{ $page.frontmatter.text.cut_out_this_part }}
@@ -1338,75 +1326,77 @@ grid_pages:
   </div>
 </div>
 :::
-::: slot cut-out-right-side-guide-02
+::: slot cut-out-left-side-guide-02
 <CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part">
-  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-02.svg')" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-left-side-guide-02.svg')" />
 </CutOutSideGuide>
 :::
-::: slot cut-out-right-side-guide-03
+::: slot cut-out-left-side-guide-03
 <CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part">
-  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-03.svg')" />
-  <div class="white-color wmode-vertical-lr rotate-180 fsize-8 bold flex-v items-align-center justify-content-center" style="position: absolute; top: 2mm; left: 0mm; width: 10mm; height: 28mm;">{{ $page.frontmatter.text.HOME }}</div>
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-left-side-guide-03.svg')" />
+  <div class="white-color wmode-vertical-lr rotate-180 fsize-8 bold flex-v items-align-center justify-content-center" style="position: absolute; top: 2mm; left: 0mm; width: 10mm; height: 28mm; font-size: 10pt;">{{ $page.frontmatter.text.HOME }}</div>
 </CutOutSideGuide>
 :::
-::: slot cut-out-right-side-guide-04
+::: slot cut-out-left-side-guide-04
 <CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-top: 30mm; box-sizing: border-box;">
-  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-04.svg')" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-left-side-guide-04.svg')" />
   <div class="red-color wmode-vertical-lr rotate-180 fsize-8 bold flex-v items-align-center justify-content-center" style="position: absolute; top: 30.5mm; left: 0mm; width: 10mm; height: 28mm;">{{ $page.frontmatter.text.SPELL }}</div>
 </CutOutSideGuide>
 :::
-::: slot cut-out-right-side-guide-05
+::: slot cut-out-left-side-guide-05
 <CutOutSideGuide textlen="1" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-top: 90mm; box-sizing: border-box;">
-  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-05.svg')" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-left-side-guide-05.svg')" />
 </CutOutSideGuide>
 :::
-::: slot cut-out-right-side-guide-06
+::: slot cut-out-left-side-guide-06
 <CutOutSideGuide textlen="1" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-top: 90mm; box-sizing: border-box;">
-  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-06.svg')" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-left-side-guide-06.svg')" />
 </CutOutSideGuide>
 :::
-::: slot cut-out-right-side-guide-07
+::: slot cut-out-left-side-guide-07
 <CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part">
-  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-07.svg')" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-left-side-guide-07.svg')" />
 </CutOutSideGuide>
 :::
-::: slot cut-out-right-side-guide-08
+::: slot cut-out-left-side-guide-08
 <CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-top: 10mm; box-sizing: border-box;">
-  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-08.svg')" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-left-side-guide-08.svg')" />
 </CutOutSideGuide>
 :::
-::: slot cut-out-right-side-guide-09
+::: slot cut-out-left-side-guide-09
 <CutOutSideGuide textlen="1" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-bottom: 80mm; box-sizing: border-box;">
-  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-09.svg')" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-left-side-guide-09.svg')" />
 </CutOutSideGuide>
 :::
-::: slot cut-out-right-side-guide-10
+::: slot cut-out-left-side-guide-10
 <CutOutSideGuide textlen="1" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-bottom: 90mm; box-sizing: border-box;">
-  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-10.svg')" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-left-side-guide-10.svg')" />
 </CutOutSideGuide>
 :::
-::: slot cut-out-right-side-guide-11
+::: slot cut-out-left-side-guide-11
 <CutOutSideGuide textlen="1" :text="$page.frontmatter.text.cut_out_this_part">
-  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-11.svg')" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-left-side-guide-11.svg')" />
 </CutOutSideGuide>
 :::
-::: slot cut-out-right-side-guide-12
+::: slot cut-out-left-side-guide-12
 <CutOutSideGuide textlen="1" :text="$page.frontmatter.text.cut_out_this_part">
-  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-12.svg')" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-left-side-guide-12.svg')" />
 </CutOutSideGuide>
 :::
-::: slot cut-out-right-side-guide-13
+::: slot cut-out-left-side-guide-13
 <CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part">
   <img class="abs-at-bottom-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-13.svg')" />
 </CutOutSideGuide>
 :::
 ::: slot cover-footer
-<div class="lheight-1_5x">
-  <p class="text-center cover-footer-text">
-    <span class="fsize-8 bold">nie-verbale kommunikasiestelsel</span> <br>
-    <span class="red-color fsize-8 bold">acecent.re/speakbook</span> <br>
-    <span class="fsize-4"> Speakbook 4de uitgawe © 2011 Patrick Joyce </span>
-  </p>
+<div class="flex-h items-align-center lheight-1_5x" style="width: calc(var(--page-width) - 60mm);">
+  <p class="cover-footer-text">
+    <span class="fsize-8 bold">غير النظام لفظية</span><br>
+    <span class="red-color fsize-8 bold">acecent.re/speakbook</span><br>
+    <span class="fsize-4">Speakbook 4th الطبعة © 2011 باتريك جويس</span>
+  </p>
+  <div class="flex-grow-1"></div>
+  <img style="width: 30mm;height: 30mm;" :src="$withBase('/speakbook/images/PublishedByAce.svg')">
 </div>
 :::
 
@@ -1414,59 +1404,32 @@ grid_pages:
 <div class="abs-fill-parent flex-h" style="align-items: flex-end;">
   <div class="flex-grow-1"></div>
   <div class="flex-v">
-    <img class="m-1" style="width: 58.5mm; height: 79.7mm; box-sizing: border-box;" :src="$withBase('/speakbook/images/01.png')"  />
+    <img class="m-1" style="width: 58.5mm; height: 79.7mm; box-sizing: border-box;" :src="$withBase('/speakbook/images/01.png')">
     <div class="m-1 p-1 flex-grow-1 flt-box" style="width: 57.5mm; min-height: 79.7mm; box-sizing: border-box;">
-      <h3 class="my-1 fsize-5">Hoe om op die praatboek te skryf</h3>
-      <p class="my-2 fsize-4_5">Presies wat u in die speakbook skryf, sal afhang van u spesifieke vereistes, maar wat ook al u skryf, is dit belangrik dat elke kant van elke dubbele bladsy dieselfde teks daarop het, en dat hulle 'n spieëlbeeld van mekaar is - soos in die voorbeeld hierbo. Praat u en u maat verskillende tale? Geen probleem nie - skryf net 'n ander taal aan weerskante. </p>
-    </div>
-  </div>
+      <h3 class="my-1 fsize-5">كيفية الكتابة على speakbook</h3>
+      <p class="my-2 fsize-4_5">بالضبط ما تكتبه على speakbook سيعتمد على المتطلبات الخاصة بك، ولكن كل ما يكتب، فمن المهم أن كل جانب من أي انتشار الصفحة مزدوج له نفس النص على ذلك، وأنها صورة طبق الأصل من بعضها البعض - كما هو الحال في في المثال أعلاه. هل أنت وشريك حياتك يتكلمون لغات مختلفة؟ لا مشكلة - مجرد كتابة لغة مختلفة على جانبي.</p>
+    </div>
+  </div>
 </div>
 :::
-
-
-
-
-
-
 ::: slot inst-01-content
 <div class="p-1 text-center">
   <SpeakBookTextFourColorBkg class="speakbook-title fsize-10 p-1 bold" :text="$page.frontmatter.text.SPEAKBOOK"></SpeakBookTextFourColorBkg>
 </div>
-<p>Speakbook is 'n nie-verbale kommunikasie hulpmiddel vir mense wat nie kan praat nie en probleme ondervind om hul hande of arms te gebruik,  maar wat die gebruik van hul oë behou. Hierdie uitgawe is vir mense wat kan lees en spel. Besoek <b>acecent.re/speakbook</b>vir weergawes vir nie-lesers, weergawes in ander tale en die sak uitgawe. </p> 
-<h2 class="fsize-5"> Gebruiksaanwysings. </h2>
-<p> Om te begin, benodig u; die speakbook, 'n swart, nie-permanente witbordpen, 'n lap om uit te vee en 'n maat wat praat.</p>
-<p>
-U en u  maat sit teenoor mekaar ongeveer 90cm uitmekaar. Afhangend van u sig, kan u hierdie afstand verminder of verhoog. Maak die speakbook oop op die oefenblad binne die agterblad. Dit is reeds ingevul om u te help om die basiese tegniek te leer. As u dit bemeester het, kan u u eie bladsye skryf met behulp van die leë bladsye. Vou die boek op homself terug en hou dit tussen u op, sodat u albei na 'n 'oefenbladsy' kyk, en mekaar se oë deur die gat in die middel kan sien. U kyk nou na die keuses op die bladsy om te besluit watter een u wil kommunikeer. As u besluit het, dui u aan u maat aan dat u gereed is om te begin - dit kan wees deur na u maat te kyk en u oë te knip, of deur u oë op en af te beweeg- wat u ook al pas. Kyk dan vir 'n sekonde na die boodskap wat u wil hê, gevolg deur die groot simbool dieselfde as die kleintjie langs die boodskap. Jou maat volg dan jou oogbewegings - hy sien byvoorbeeld dat jy aan die linkerkant van die bord gekyk het, gevolg deur die groot driehoek, sodat hy weet dat jy 'koppie tee' wil sê. Hy sê dan: 'koppie tee!' hardop, en u bevestig dit met 'n oogwink of met 'n ander vooraf ooreengekomde sein
-</p>
-<p> Dit is die basiese tegniek vir die gebruik van die praatboek. Nou moet u leer hoe om die ander bladsye in die boek te gebruik, want die waarde van die speakbook lê in die vermoë om u maklike toegang te gee tot honderde frases wat u self kiesen enige tyd kan verander, met net 'n klam lap en 'n pen. </p>
-:::
->
+<p>Speakbook هو أداة الاتصال اللفظي غير بالنسبة للأشخاص الذين لا يستطيعون الكلام ويجدون صعوبة في استخدام أيديهم أو أذرعهم، ولكن الذين يحتفظون استخدام أعينهم. هذه الطبعة هي للأشخاص الذين يستطيعون القراءة والتهجئة. للحصول على إصدارات لغير القراء، اللغات الأجنبية، وطبعة الجيب، وزيارة<b>acecent.re/speakbook</b></p>
+<h2 class="fsize-6">تعليمات الاستخدام.</h2>
+<p>لتبدأ، ستحتاج. وspeakbook، أسود، قلم السبورة غير الدائمين، قطعة قماش لفرك بها، وشريك التحدث.</p>
+<p>أنت وشريك يتحدث بك الجلوس عكس بعضها البعض نحو ثلاثة أقدام بعيدا. اعتمادا على البصر، قد تجد أنه من المفيد لخفض أو زيادة هذه المسافة. فتح speakbook إلى صفحة التدريب داخل الغطاء الخلفي. يتم تعبئة هذا في سبق لمساعدتك على تعلم هذه التقنية الأساسية. عند "لقد أتقن ذلك، يمكنك إرسال صفحاتك الخاصة، وذلك باستخدام تلك فارغة المقدمة. طي ظهر كتاب عن نفسها وعقد ليصل بينك، لذلك كنت على حد سواء تواجه "صفحة التدريب"، ويمكنك ان ترى كل عيون الآخرين من خلال ثقب في الوسط. أنت الآن ننظر في الخيارات على الصفحة لاتخاذ قرار واحد للاتصال. عند "لقد قررت، كنت تشير إلى شريك حياتك أن تكون مستعدا لبدء
+- وهذا يمكن أن يكون من خلال النظر في شريك حياتك وامض، أو عن طريق الهز عينيك صعودا وهبوطا - أيا كان يناسبك. بعد ذلك ننظر في الرسالة التي تريدها، لثانية أو نحو ذلك، يليه رمز كبير نفس واحدة صغيرة على جانب الرسالة. شريك حياتك ثم يتبع حركات العين الخاص بك - على سبيل المثال انه قد نرى ان كنت قد نظرت في أعلى الجانب الأيسر من لوحة تليها مثلث كبير، لذلك فهو يعرف أنه يجب أن أقول "كوب من الشاي!". ثم يقول: "كوب من الشاي!" بصوت عال، ويجب تأكيد هذا مع طرفة، أو بعض أخرى إشارة رتبت مسبقا</p>
+<p>هذا هو الأسلوب الأساسي لاستخدام speakbook. والآن أنت بحاجة لمعرفة كيفية استخدام صفحات أخرى في الكتاب، لأن العبقرية الحقيقية من الأكاذيب speakbook في قدرته على إعطاء لك سهولة الوصول إلى مئات من العبارات التي تختارها الخاصة، العبارات التي يمكن أن تتغير في أي وقت، مع فقط قطعة قماش مبللة وبجرة قلم.</p>
 :::
 
-:::
-:::
-::
-:
-
-
-::: slot inst-02-flt-right-label
+::: slot inst-02-flt-left-label
 <div class="pos-rel fill-height fill-width">
-  <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-right-label-bkg.svg')"/>
-  <div class="fsize-8 abs-at-center" style="transform:translate(calc(-50% + 18px), calc(-50% - 18px)) rotate(45deg); color: white;">{{ $page.frontmatter.text.instructions }}</div>
+  <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-left-label-bkg.svg')">
+  <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% - 5mm), calc(-50% - 5mm)) rotate(-45deg); color: white;width: 42mm;text-align: center;">{{ $page.frontmatter.text.instructions }}</div>
 </div>
 :::
-s }}</div>
-</div>
-:::
-div>
-</div>
-:::
-</div>
-:::
-v>
-:::
-:::
-:
 ::: slot inst-02-flt-left-content
 <div class="flex-h" style="padding: 3mm;">
   <div class="flex-grow-1 flex-v">
@@ -1477,9 +1440,9 @@ v>
 </div>
 :::
 ::: slot inst-02-content
-<p> Elke bladsy van die speakbook bevat 14 of 15 leë gedeeltes waarop u u eie teks kan skryf. Om die gebruiker tussen die verskillende bladsye te laat beweeg, het ons die 'tuisblad' geskep. Dit word aan die voorkant van die boek aangetref en is gemerk met 'n swart 'TUIS'-oortjie aan die rand van die bladsy. Die idee is dat u die 7 frases wat u die meeste gebruik op hierdie bladsy skryf, aangesien dit die bladsy is waarop u altyd begin. Op 8 van die leë stroke skryf u ook skakels na die ander agt leë dubbele bladsye. Dit moet die dele van u lewe wees wat meer gedetailleerde frases benodig, dit kan areas soos badtyd wees of met die kar uitgaan. Links is 'n voorbeeld van 'n moontlike uitleg vir die 'TUIS'-bladsy. Die agt woorde in vetdruk met hoofletters is skakels na dubbelsydige bladsye elders in die boek. Vind 'n leë bladsy en skryf byvoorbeeld 'BED' op die oortjie. Skryf nou die 14 belangrikste frases wat verband hou met u bedtydroetine. Herhaal die proses vir die ander 7 skakels totdat u boek vol is. As u 'n fout maak of 'n frase wil verander, vee dit uit met 'n klam lap en begin weer. </p>
-<p> Om die speakbook te gebruik, dui u aan u maat dat u wil kommunikeer. U maat open die speakbook op die 'TUIS'-bladsy en u kies byvoorbeeld' BED '. U maat blaai dan na die 'BED'-bladsy en u kan dan aandui:' Ek wil gaan slaap '- of wat ook al. Elke bladsy het 'TUIS' en 'SPEL' wat vooraf gedruk is. Die 'TUIS' is so dat u altyd weer op die 'TUIS'-bladsy kan terugkom (u wil dalk hê dat 'n' koppie tee' saam met u bed toe moet gaan). Op die 'SPEL'-bladsy kan u individuele woorde en frases uitspel wat nie elders in die boek voorkom nie. Dit werk op 'n soortgelyke manier as die ander bladsye, met een verskil. Op hierdie bladsy is daar 6 gekleurde blokke, elk met 6 gekleurde letters of syfers daarop. Die hele alfabet is daar, plus getalle 1-9 (gebruik die letter O vir nul). U kyk na die letter wat u wil gebruik, vir ongeveer 'n sekonde, gevolg deur die gekleurde blokkie van dieselfde kleur as u gekose letter. Jou maat volg jou oë, sien dat jy byvoorbeeld na die boonste linkerblok gekyk het, gevolg deur die boonste regterkantste blok (wat groen is), en weet dat jy 'C' wil hê. Jou maat sê 'C' hardop om te bevestig, en jy gaan voort na die volgende letter. U maat raai die res van die woord, indien moontlik, om die proses te bespoedig. </p>
-<p> Praatbook het plek vir 119 frases wat u kies. As dit nie voldoende is nie, of as u meer as 14 frases in een spesifieke afdeling benodig, kan u die kapasiteit verdubbel deur twee frases op elke reël te skryf, een in swart pen, een in rooi. U kies 'n swart frase op die normale manier, 'n rooi deur te knip wanneer u na die groot simbool kyk. </p>
+<p>كل صفحة من speakbook ديها 14 أو 15 أقسام فارغة حيث يمكنك كتابة النص الخاص بك. من أجل أن يمكن للمستخدم التنقل بين الصفحات المختلفة، أنشأنا "الوطن" صفحة. تم العثور على هذا في مقدمة الكتاب، ويظهر على هيئة أسود "الوطن" التبويب في حافة الصفحة. والفكرة هي أن تكتب 7 العبارات التي تستخدم أكثر من غيرها في هذه الصفحة، كما هو الصفحة التي تبدأ على الدوام. أيضا، في 8 من شرائط فارغة تكتب روابط لغيرها من 8 صفحات مزدوجة فارغة. يجب أن تكون هذه الأجزاء من حياتك التي تتطلب أكثر في عمق مجموعة من العبارات، قد تكون هذه المناطق مثل bathtime، أو الخروج في السيارة. على اليسار هو مثال على تخطيط الممكن لل"الوطن" صفحة. الكلمات 8 بحروف عريضة وصلات إلى هوامش الصفحة مزدوج في مكان آخر في الكتاب. ما عليك فعله هو، تجد صفحة فارغة والكتابة، على سبيل المثال، "BED" في علامة التبويب الحافة، ثم على شرائط تكتب ال 14 العبارات الأكثر ملاءمة لروتين وقت النوم الخاصة بك. ثم يمكنك تكرار هذه العملية لأخرى 7 وصلات، حتى كتابك ممتلئ. إذا قمت بخطأ ما، أو ترغب في تغيير العبارة، ثم امسح فقط تشغيله بقطعة قماش مبللة والبدء من جديد.</p>
+<p>استخدام speakbook، كنت تشير إلى شريكك الذي تريد التواصل. شريك حياتك يفتح speakbook إلى "الوطن" صفحة ويمكنك التواصل، على سبيل المثال، "BED". ثم يتحول شريك حياتك إلى "BED" صفحة ويمكنك بعد ذلك التواصل، "أريد أن أذهب إلى السرير" - أو أيا كان. كل صفحة لها "الوطن" و "موجة" مطبوعة مسبقا على ذلك. "الوطن" هو بحيث يمكنك أن تحصل دائما العودة إلى "الوطن" صفحة (قد ترغب في "كأس من الشاي!" على النزول الى السرير معك). و"موجة" الصفحة تسمح لك لتوضيح الكلمات والعبارات الفردية التي دون "تي تظهر في أي مكان آخر في الكتاب. وهو يعمل بطريقة مماثلة لصفحات أخرى، مع فارق واحد. في هذه الصفحة هناك 6 القطع الملونة، ولكل منها 6 حروف أو أرقام ملونة على ذلك. الأبجدية كلها هناك، بالإضافة إلى أرقام 1-9 (صفر استخدام الحرف O). نظرتم الى الرسالة التي ترغب في التواصل، لثانية واحدة أو نحو ذلك، تليها كتلة اللون من نفس لون الرسالة التي اخترتها. شريك حياتك يتبع عينيك، ويرى أن كنت قد نظرت، على سبيل المثال، أعلى كتلة اليسار يليه أعلى كتلة اليمين (والذي هو الأخضر)، ويعلم أنك تريد "C". يقول شريك حياتك "C" بصوت عال إلى تأكيد، ويمكنك الانتقال إلى الحرف التالي. شريك حياتك التخمينات بقية كلمة عندما يكون ذلك ممكنا، لتسريع عملية حتى.</p>
+<p>Speakbook يتسع ل 119 جمل من اختيارك. إذا كان هذا لا يكفي، أو إذا كنت تحتاج إلى أكثر من 14 العبارات في مقطع واحد معين، ثم يمكنك مضاعفة قدرتها من خلال كتابة جملتين في كل سطر، واحدة في قلم أسود، واحدة باللون الأحمر. اخترت عبارة السوداء بالطريقة العادية، واحدة حمراء وامض من قبل عندما نظرتم الى رمز كبير.</p>
 :::
 
 ::: slot last-page-content
@@ -1489,7 +1452,7 @@ v>
   <div class="flex-v mt-2"> <!-- split between letters keys and others -->
     <div class="flex-h">
       <div class="flex-v block-holder b3x">
-        <div class="block b0x flex-grow-1" style="margin-left: 8mm;"></div>
+        <div class="block b0x flex-grow-1" style="margin-right: 8mm;"></div>
         <div class="block b3x"></div>
         <div class="block b3x"></div>
         <div class="block b3x"></div>
@@ -1506,7 +1469,7 @@ v>
           <div class="block">{{ $page.frontmatter.text._equal }}</div>
           <div class="block">{{ $page.frontmatter.text._question_mark }}</div>
         </div>
-        <div class="block b3x white-color black-bkg">{{ $page.frontmatter.text.HOME }}</div>
+        <div class="block b3x white-color black-bkg" style="font-size: 18pt;">{{ $page.frontmatter.text.HOME }}</div>
         <div class="block b3x yellow-bkg" style="font-size: 18pt;">{{ $page.frontmatter.text.THANK_YOU }}</div>
       </div>
       <div class="flex-v block-holder b4x">

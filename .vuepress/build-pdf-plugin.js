@@ -3,8 +3,22 @@ const fs = require('fs')
 const path = require('path')
 const vuepress = require('vuepress')
 
+let format_info_list = [
+  { name: 'A4', width: 210, height: 297 },
+  { name: 'Letter', width: 215.9, height: 279.4 },
+]
+let format = process.env.PAGE_SIZE || 'A4'
+let format_info = format_info_list.find((a) => a.name.toLowerCase() == format.toLowerCase())
+if (format_info == null) {
+  throw new Error('unknown format: ' + format)
+}
+format = format_info.name
+let scale = 1
+if (format != 'A4') {
+  scale = Math.max(0.1, Math.min(format_info.width / 210, format_info.height / 297)) - 0.005
+}
 let options = {
-  format: 'A4',
+  format, scale,
   margin: { top: 0, right: 0, bottom: 0, left: 0 },
   printBackground: true,
 }
@@ -41,4 +55,3 @@ module.exports = {
       })
   }
 }
-

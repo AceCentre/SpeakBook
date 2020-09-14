@@ -1,5 +1,5 @@
 <template>
-  <div :style="$page.frontmatter.inlinecss">
+  <div :class="($page.frontmatter.rtl ? 'rtl' : '')" :style="$page.frontmatter.inlinecss">
     <div class="page speakbook-cover-page">
       <div class="float-left">
         <div class="flex-v height-100ph fsize-3 grey-color v-oneline-fsize-3">
@@ -9,18 +9,22 @@
         </div>
       </div>
       <div class="float-right">
-        <Content slot-key="cut-out-right-side-guide-01" />
+        <Content :slot-key="'cut-out-'+($page.frontmatter.rtl?'left':'right')+'-side-guide-01'" />
       </div>
       <div class="abs-fill-parent flex-v items-align-center">
         <div class="speakbook-logo">
           <SpeakBookTextFourColorBkg class="speakbook-title fsize-13 p-2 bold" :text="$page.frontmatter.text.SPEAKBOOK"></SpeakBookTextFourColorBkg>
           <div class="edition">
             <Content slot-key="star-16p-bkg" class="abs-fill-parent" />
-            <div class="text abs-fill-parent flex-v items-align-center">
+            <div v-if="!$page.frontmatter.classic_edition" class="text abs-fill-parent flex-v items-align-center">
               <span class="nth">{{ $page.frontmatter.text.edition_nth }}</span>
               <SpeakBookTextFourColorBkg class="edition-label" :text="$page.frontmatter.text.EDITION"></SpeakBookTextFourColorBkg>
               <span class="small-text">{{ $page.frontmatter.text.color_blind }}</span>
               <span class="small-text">{{ $page.frontmatter.text.friendly }}</span>
+            </div>
+            <div v-if="$page.frontmatter.classic_edition" class="text abs-fill-parent flex-v items-align-center classic-edition">
+              <span>{{ $page.frontmatter.text.classic }}</span>
+              <SpeakBookTextFourColorBkg class="edition-label" :text="$page.frontmatter.text.EDITION"></SpeakBookTextFourColorBkg>
             </div>
           </div>
         </div>
@@ -127,6 +131,19 @@ export default {
 <style lang="scss">
 @import "@styles/index.scss";
 
+.rtl {
+  .speakbook-logo {
+    .edition {
+      left: auto;
+      right: 0.8cm;
+      transform: translate(100%, -100%);
+      > .text {
+        transform: rotate(30deg);
+      }
+    }
+  }
+}
+
 .speakbook-logo {
   position: relative;
   display: inline-block;
@@ -158,6 +175,12 @@ export default {
       .speakbook-text-four-color-bkg {
         border: 0.5mm solid var(--color-dark-stroke);
         font-size: 6pt;
+      }
+    }
+    > .text.classic-edition {
+      font-size: 12pt;
+      .speakbook-text-four-color-bkg {
+        font-size: 8pt;
       }
     }
   }

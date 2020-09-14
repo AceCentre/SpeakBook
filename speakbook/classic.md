@@ -1,18 +1,19 @@
 ---
 layout: SpeakBook
+classic_edition: true
 text:
-  ring_bind_edge: Ringbind hierdie rand.
-  cut_out_this_part: Knip hierdie deel uit.
+  ring_bind_edge: Ring bind along this edge
+  cut_out_this_part: Cut out this part.
   SPEAKBOOK: SPEAKBOOK
-  edition_nth: 4de
-  EDITION: UITGAWE
-  color_blind: Kleurblind
-  friendly: Vriendelik!
-  instructions: instruksies
-  HOME_PAGE: TUISBLAD
-  SPELL: SPEL
-  HOME: TUIS
-  THANK_YOU: DANKIE
+  classic: classic
+  EDITION: EDITION
+  color_blind: Colour Blind
+  friendly: Friendly!
+  instructions: instructions
+  HOME_PAGE: HOME PAGE
+  SPELL: SPELL
+  HOME: HOME
+  THANK_YOU: THANK YOU
   A: A
   B: B
   C: C
@@ -39,45 +40,45 @@ text:
   X: X
   Y: Y
   Z: Z
-  _zero: "0"
-  _one: "1"
-  _two: "2"
-  _three: "3"
-  _four: "4"
-  _five: "5"
-  _six: "6"
-  _seven: "7"
-  _eight: "8"
-  _nine: "9"
-  im_too_hot: Ek kry warm
-  im_too_cold: Ek kry koud
-  cup_of_tea: Koppie tee!
-  cup_of_coffee: Koppie koffie!
-  i_love_you: Ek is lief vir jou
-  yes: ja
-  no: nee
-  CAR: KAR
+  _zero: 0
+  _one: 1
+  _two: 2
+  _three: 3
+  _four: 4
+  _five: 5
+  _six: 6
+  _seven: 7
+  _eight: 8
+  _nine: 9
+  im_too_hot: I'm too hot
+  im_too_cold: I'm too cold
+  cup_of_tea: Cup of tea!
+  cup_of_coffee: Cup of coffee!
+  i_love_you: I love you
+  yes: yes
+  no: no
+  CAR: CAR
   BED: BED
-  CLOTHING: KLERE
-  BATHTIME: BADTYD
-  MEALS: ETES
-  COMFORT: GEMAK
+  CLOTHING: CLOTHING
+  BATHTIME: BATHTIME
+  MEALS: MEALS
+  COMFORT: COMFORT
   TOILET: TOILET
-  DRINKS: DRANKIES
-  TRAINING_PAGE: OPLEIDINGSBLAD
-  training_page: opleidingsblad
-  _GBP: R
-  _USD: $
-  _percent: "%"
-  _plus: +
-  _minus: "-"
-  _slash: /
+  DRINKS: DRINKS
+  TRAINING_PAGE: TRAINING PAGE
+  training_page: trading page
+  _GBP: '£'
+  _USD: '$'
+  _percent: '%'
+  _plus: '+'
+  _minus: '-'
+  _slash: '/'
   _X: X
-  _equal: =
-  _question_mark: "?"
-  _atsign: "@"
-  YES: JA
-  NO: NEE
+  _equal: '='
+  _question_mark: '?'
+  _atsign: '@'
+  YES: YES
+  NO: NO
 slots_in_need_for_translation:
   - training-page-description
   - last-page-heading
@@ -91,11 +92,6 @@ inlinecss:
   --page-height: 297mm
   --cut-out-center-guide-width: 68mm
   --cut-out-center-guide-height: 162mm
-  --fsize-9: 21pt
-  --fsize-10: 24pt
-  --fsize-11: 27pt
-  --fsize-12: 29pt
-  --fsize-13: 38pt
 instruction_pages:
   - content_slotname: inst-01-content
     floating_elements:
@@ -107,10 +103,7 @@ instruction_pages:
           --max-left-spacing: 40mm
           width: var(--max-left-spacing)
           height: var(--page-height)
-          shape-outside: polygon(0 var(--spacing-offset-top), var(--max-left-spacing)
-            var(--spacing-offset-top), var(--left-spacing)
-            calc(var(--spacing-offset-top) + 20mm), var(--left-spacing)
-            var(--page-height), 0 var(--page-height))
+          shape-outside: polygon(0 var(--spacing-offset-top), var(--max-left-spacing) var(--spacing-offset-top), var(--left-spacing) calc(var(--spacing-offset-top) + 20mm), var(--left-spacing) var(--page-height), 0 var(--page-height))
       - comment: floating content at center right
         dir: right
         mode: fixed
@@ -154,36 +147,25 @@ grid_pages:
           width: 57mm
         rows:
           - comment: At top left
-            type: table
+            type: coloured-table
             rowheight: 12mm
-            rows:
-              - image: shape-heart-1x-img
-              - image: shape-circle-1x-img
-              - image: shape-triangle-1x-img
-              - image: shape-square-1x-img
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
               height: var(--grid-item-height)
-          - comment: spacing
-            inlinecss:
-              flex-grow: 1
           - comment: At center left
-            type: fig
-            image: shape-square-2x-img
-            text_key: HOME_PAGE
-          - comment: spacing
+            type: coloured-circle
+            colour: yellow
             inlinecss:
               flex-grow: 1
           - comment: At bottom left
-            type: table
+            type: coloured-table
             rowheight: 12mm
             rows:
-              - image: shape-heart-1x-img
-              - image: shape-circle-1x-img
-              - image: shape-triangle-1x-img
-              - image: shape-square-1x-img
-                text_key: SPELL
+              - comment: empty
+              - comment: empty
+              - comment: empty
+              - text_key: SPELL
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -192,51 +174,37 @@ grid_pages:
           width: 72mm
         rows:
           - comment: At top center
-            type: fig
-            image: shape-triangle-2x-img
+            type: coloured-circle
+            colour: cyan
             inlinecss:
-              padding-top: 10mm
-              padding-bottom: 10mm
-          - inlinecss:
               flex-grow: 1
-          - comment: At bottom center
-            type: fig
-            image: shape-circle-2x-img
+          - comment: space in middle
             inlinecss:
-              padding-top: 10mm
-              padding-bottom: 10mm
+              width: var(--cut-out-center-guide-width)
+              height: var(--cut-out-center-guide-height)
+          - comment: At bottom center
+            type: coloured-circle
+            colour: green
+            inlinecss:
+              flex-grow: 1
       - inlinecss:
           width: 57mm
         rows:
           - comment: At top right
-            type: table
+            type: coloured-table
             rowheight: 12mm
-            rows:
-              - image: shape-heart-1x-img
-              - image: shape-circle-1x-img
-              - image: shape-triangle-1x-img
-              - image: shape-square-1x-img
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
               height: var(--grid-item-height)
-          - comment: spacing
-            inlinecss:
-              flex-grow: 1
           - comment: At center right
-            type: fig
-            image: shape-heart-2x-img
-          - comment: spacing
+            type: coloured-circle
+            colour: purple
             inlinecss:
               flex-grow: 1
           - comment: At bottom right
-            type: table
+            type: coloured-table
             rowheight: 12mm
-            rows:
-              - image: shape-heart-1x-img
-              - image: shape-circle-1x-img
-              - image: shape-triangle-1x-img
-              - image: shape-square-1x-img
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -251,39 +219,26 @@ grid_pages:
       - inlinecss:
           width: 57mm
         rows:
-          - comment: At bottom right
-            type: table
+          - comment: At top left
+            type: coloured-table
             rowheight: 12mm
-            reverserow: true
-            rows:
-              - image: shape-heart-1x-img
-              - image: shape-circle-1x-img
-              - image: shape-triangle-1x-img
-              - image: shape-square-1x-img
-                text_key: SPELL
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
               height: var(--grid-item-height)
-          - comment: spacing
+          - comment: At center left
+            type: coloured-circle
+            colour: yellow
             inlinecss:
               flex-grow: 1
-          - comment: At center right
-            type: fig
-            image: shape-square-2x-img
-            text_key: HOME_PAGE
-          - comment: spacing
-            inlinecss:
-              flex-grow: 1
-          - comment: At top right
-            type: table
+          - comment: At bottom left
+            type: coloured-table
             rowheight: 12mm
-            reverserow: true
             rows:
-              - image: shape-heart-1x-img
-              - image: shape-circle-1x-img
-              - image: shape-triangle-1x-img
-              - image: shape-square-1x-img
+              - comment: empty
+              - comment: empty
+              - comment: empty
+              - text_key: SPELL
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -291,58 +246,40 @@ grid_pages:
       - inlinecss:
           width: 72mm
         rows:
-          - comment: At bottom center
-            type: fig
-            image: shape-triangle-2x-img
+          - comment: At top center
+            type: coloured-circle
+            colour: cyan
             inlinecss:
-              padding-top: 10mm
-              padding-bottom: 10mm
+              flex-grow: 1
           - comment: Guide at center
             type: custom
             slotname: cut-out-center-guide
             inlinecss:
               flex-grow: 1
               transform: rotate(180deg)
-          - comment: At top center
-            type: fig
-            image: shape-circle-2x-img
+          - comment: At bottom center
+            type: coloured-circle
+            colour: green
             inlinecss:
-              padding-top: 10mm
-              padding-bottom: 10mm
+              flex-grow: 1
       - inlinecss:
           width: 57mm
         rows:
-          - comment: At left bottom
-            type: table
+          - comment: At top right
+            type: coloured-table
             rowheight: 12mm
-            reverserow: true
-            rows:
-              - image: shape-heart-1x-img
-              - image: shape-circle-1x-img
-              - image: shape-triangle-1x-img
-              - image: shape-square-1x-img
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
               height: var(--grid-item-height)
-          - comment: spacing
+          - comment: At center right
+            type: coloured-circle
+            colour: purple
             inlinecss:
               flex-grow: 1
-          - comment: At center left
-            type: fig
-            image: shape-heart-2x-img
-          - comment: spacing
-            inlinecss:
-              flex-grow: 1
-          - comment: At top center
-            type: table
+          - comment: At bottom right
+            type: coloured-table
             rowheight: 12mm
-            reverserow: true
-            rows:
-              - image: shape-heart-1x-img
-              - image: shape-circle-1x-img
-              - image: shape-triangle-1x-img
-              - image: shape-square-1x-img
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -733,36 +670,30 @@ grid_pages:
           width: 57mm
         rows:
           - comment: At top left
-            type: table
+            type: coloured-table
             rowheight: 12mm
             rows:
-              - image: shape-heart-1x-img
-              - image: shape-circle-1x-img
-              - image: shape-triangle-1x-img
-              - image: shape-square-1x-img
-                text_key: HOME
+              - comment: empty
+              - comment: empty
+              - comment: empty
+              - text_key: HOME
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
               height: var(--grid-item-height)
-          - comment: spacing
-            inlinecss:
-              flex-grow: 1
           - comment: At center left
-            type: fig
-            image: shape-square-2x-img
-          - comment: spacing
+            type: coloured-circle
+            colour: yellow
             inlinecss:
               flex-grow: 1
           - comment: At bottom left
-            type: table
+            type: coloured-table
             rowheight: 12mm
             rows:
-              - image: shape-heart-1x-img
-              - image: shape-circle-1x-img
-              - image: shape-triangle-1x-img
-              - image: shape-square-1x-img
-                text_key: SPELL
+              - comment: empty
+              - comment: empty
+              - comment: empty
+              - text_key: SPELL
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -771,51 +702,37 @@ grid_pages:
           width: 72mm
         rows:
           - comment: At top center
-            type: fig
-            image: shape-triangle-2x-img
+            type: coloured-circle
+            colour: cyan
             inlinecss:
-              padding-top: 10mm
-              padding-bottom: 10mm
-          - inlinecss:
               flex-grow: 1
-          - comment: At bottom center
-            type: fig
-            image: shape-circle-2x-img
+          - comment: space in middle
             inlinecss:
-              padding-top: 10mm
-              padding-bottom: 10mm
+              width: var(--cut-out-center-guide-width)
+              height: var(--cut-out-center-guide-height)
+          - comment: At bottom center
+            type: coloured-circle
+            colour: green
+            inlinecss:
+              flex-grow: 1
       - inlinecss:
           width: 57mm
         rows:
           - comment: At top right
-            type: table
+            type: coloured-table
             rowheight: 12mm
-            rows:
-              - image: shape-heart-1x-img
-              - image: shape-circle-1x-img
-              - image: shape-triangle-1x-img
-              - image: shape-square-1x-img
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
               height: var(--grid-item-height)
-          - comment: spacing
-            inlinecss:
-              flex-grow: 1
           - comment: At center right
-            type: fig
-            image: shape-heart-2x-img
-          - comment: spacing
+            type: coloured-circle
+            colour: purple
             inlinecss:
               flex-grow: 1
           - comment: At bottom right
-            type: table
+            type: coloured-table
             rowheight: 12mm
-            rows:
-              - image: shape-heart-1x-img
-              - image: shape-circle-1x-img
-              - image: shape-triangle-1x-img
-              - image: shape-square-1x-img
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -830,39 +747,31 @@ grid_pages:
       - inlinecss:
           width: 57mm
         rows:
-          - comment: At bottom right
-            type: table
+          - comment: At top left
+            type: coloured-table
             rowheight: 12mm
-            reverserow: true
             rows:
-              - image: shape-heart-1x-img
-              - image: shape-circle-1x-img
-              - image: shape-triangle-1x-img
-              - image: shape-square-1x-img
-                text_key: SPELL
+              - comment: empty
+              - comment: empty
+              - comment: empty
+              - text_key: HOME
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
               height: var(--grid-item-height)
-          - comment: spacing
+          - comment: At center left
+            type: coloured-circle
+            colour: yellow
             inlinecss:
               flex-grow: 1
-          - comment: At center right
-            type: fig
-            image: shape-square-2x-img
-          - comment: spacing
-            inlinecss:
-              flex-grow: 1
-          - comment: At top right
-            type: table
+          - comment: At bottom left
+            type: coloured-table
             rowheight: 12mm
-            reverserow: true
             rows:
-              - image: shape-heart-1x-img
-              - image: shape-circle-1x-img
-              - image: shape-triangle-1x-img
-              - image: shape-square-1x-img
-                text_key: HOME
+              - comment: empty
+              - comment: empty
+              - comment: empty
+              - text_key: SPELL
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -870,58 +779,40 @@ grid_pages:
       - inlinecss:
           width: 72mm
         rows:
-          - comment: At bottom center
-            type: fig
-            image: shape-triangle-2x-img
+          - comment: At top center
+            type: coloured-circle
+            colour: cyan
             inlinecss:
-              padding-top: 10mm
-              padding-bottom: 10mm
+              flex-grow: 1
           - comment: Guide at center
             type: custom
             slotname: cut-out-center-guide
             inlinecss:
               flex-grow: 1
               transform: rotate(180deg)
-          - comment: At top center
-            type: fig
-            image: shape-circle-2x-img
+          - comment: At bottom center
+            type: coloured-circle
+            colour: green
             inlinecss:
-              padding-top: 10mm
-              padding-bottom: 10mm
+              flex-grow: 1
       - inlinecss:
           width: 57mm
         rows:
-          - comment: At left bottom
-            type: table
+          - comment: At top right
+            type: coloured-table
             rowheight: 12mm
-            reverserow: true
-            rows:
-              - image: shape-heart-1x-img
-              - image: shape-circle-1x-img
-              - image: shape-triangle-1x-img
-              - image: shape-square-1x-img
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
               height: var(--grid-item-height)
-          - comment: spacing
+          - comment: At center right
+            type: coloured-circle
+            colour: purple
             inlinecss:
               flex-grow: 1
-          - comment: At center left
-            type: fig
-            image: shape-heart-2x-img
-          - comment: spacing
-            inlinecss:
-              flex-grow: 1
-          - comment: At top center
-            type: table
+          - comment: At bottom right
+            type: coloured-table
             rowheight: 12mm
-            reverserow: true
-            rows:
-              - image: shape-heart-1x-img
-              - image: shape-circle-1x-img
-              - image: shape-triangle-1x-img
-              - image: shape-square-1x-img
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -932,70 +823,42 @@ grid_pages:
   - name: page11
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-06
-    start_spacing_inlinecss:
-      transform: rotate(180deg)
-    inlinecss:
-      transform: rotate(180deg)
   - name: page12
     comment: no cut out
     copyof: page08
   - name: page13
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-07
-    start_spacing_inlinecss:
-      transform: rotate(180deg)
-    inlinecss:
-      transform: rotate(180deg)
   - name: page14
     comment: no cut out
     copyof: page08
   - name: page15
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-08
-    start_spacing_inlinecss:
-      transform: rotate(180deg)
-    inlinecss:
-      transform: rotate(180deg)
   - name: page16
     comment: no cut out
     copyof: page08
   - name: page17
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-09
-    start_spacing_inlinecss:
-      transform: rotate(180deg)
-    inlinecss:
-      transform: rotate(180deg)
   - name: page18
     comment: no cut out
     copyof: page08
   - name: page19
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-10
-    start_spacing_inlinecss:
-      transform: rotate(180deg)
-    inlinecss:
-      transform: rotate(180deg)
   - name: page20
     comment: no cut out
     copyof: page08
   - name: page21
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-11
-    start_spacing_inlinecss:
-      transform: rotate(180deg)
-    inlinecss:
-      transform: rotate(180deg)
   - name: page22
     comment: no cut out
     copyof: page08
   - name: page23
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-12
-    start_spacing_inlinecss:
-      transform: rotate(180deg)
-    inlinecss:
-      transform: rotate(180deg)
   - name: page24
     comment: no cut out
     columns:
@@ -1003,26 +866,20 @@ grid_pages:
           width: 57mm
         rows:
           - comment: At top left
-            type: table02
+            type: coloured-table02
             rowheight: 12mm
             overlay_slotname: table-overlay-01
             rows:
-              - image: shape-heart-1x-img
-                text_key: i_love_you
-              - image: shape-circle-1x-img
-                text_key: yes
+              - text_key: i_love_you
+              - text_key: yes
                 inlinecss:
                   margin-left: 14mm
-              - image: shape-triangle-1x-img
-                text_key: no
+              - text_key: no
                 inlinecss:
                   margin-left: 30mm
-              - image: shape-square-1x-img
-                text_key: CAR
+              - text_key: CAR
                 inlinecss:
                   margin-left: 43mm
-                text_inlinecss:
-                  font-size: 17pt
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -1031,9 +888,9 @@ grid_pages:
             inlinecss:
               flex-grow: 1
           - comment: At center left
-            type: fig
+            type: text-with-coloured-circle
             fixed: true
-            image: shape-square-2x-img
+            colour: yellow
             text_slotname: training-page-description
             inlinecss:
               --grid-item-width: 57mm
@@ -1043,17 +900,13 @@ grid_pages:
             inlinecss:
               flex-grow: 1
           - comment: At bottom left
-            type: table02
+            type: coloured-table02
             rowheight: 12mm
             rows:
-              - image: shape-heart-1x-img
-                text_key: COMFORT
-              - image: shape-circle-1x-img
-                text_key: TOILET
-              - image: shape-triangle-1x-img
-                text_key: DRINKS
-              - image: shape-square-1x-img
-                text_key: SPELL
+              - text_key: COMFORT
+              - text_key: TOILET
+              - text_key: DRINKS
+              - text_key: SPELL
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -1062,34 +915,30 @@ grid_pages:
           width: 72mm
         rows:
           - comment: At top center
-            type: fig
-            image: shape-triangle-2x-img
+            type: coloured-circle
+            colour: cyan
             inlinecss:
-              padding-top: 10mm
-              padding-bottom: 10mm
-          - inlinecss:
               flex-grow: 1
-          - comment: At bottom center
-            type: fig
-            image: shape-circle-2x-img
+          - comment: space in middle
             inlinecss:
-              padding-top: 10mm
-              padding-bottom: 10mm
+              width: var(--cut-out-center-guide-width)
+              height: var(--cut-out-center-guide-height)
+          - comment: At bottom center
+            type: coloured-circle
+            colour: green
+            inlinecss:
+              flex-grow: 1
       - inlinecss:
           width: 57mm
         rows:
           - comment: At top right
-            type: table02
+            type: coloured-table02
             rowheight: 12mm
             rows:
-              - image: shape-heart-1x-img
-                text_key: im_too_hot
-              - image: shape-circle-1x-img
-                text_key: im_too_cold
-              - image: shape-triangle-1x-img
-                text_key: cup_of_tea
-              - image: shape-square-1x-img
-                text_key: cup_of_coffee
+              - text_key: im_too_hot
+              - text_key: im_too_cold
+              - text_key: cup_of_tea
+              - text_key: cup_of_coffee
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -1098,8 +947,8 @@ grid_pages:
             inlinecss:
               flex-grow: 1
           - comment: At center right
-            type: fig
-            image: shape-heart-2x-img
+            type: text-with-coloured-circle
+            colour: purple
             text_key: TRAINING_PAGE
             text_inlinecss:
               font-size: 18pt
@@ -1108,17 +957,13 @@ grid_pages:
             inlinecss:
               flex-grow: 1
           - comment: At bottom right
-            type: table02
+            type: coloured-table02
             rowheight: 12mm
             rows:
-              - image: shape-heart-1x-img
-                text_key: BED
-              - image: shape-circle-1x-img
-                text_key: CLOTHING
-              - image: shape-triangle-1x-img
-                text_key: BATHTIME
-              - image: shape-square-1x-img
-                text_key: MEALS
+              - text_key: BED
+              - text_key: CLOTHING
+              - text_key: BATHTIME
+              - text_key: MEALS
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -1134,18 +979,13 @@ grid_pages:
           width: 57mm
         rows:
           - comment: At bottom right
-            type: table02
+            type: coloured-table02
             rowheight: 12mm
-            reverserow: true
             rows:
-              - image: shape-heart-1x-img
-                text_key: COMFORT
-              - image: shape-circle-1x-img
-                text_key: TOILET
-              - image: shape-triangle-1x-img
-                text_key: DRINKS
-              - image: shape-square-1x-img
-                text_key: SPELL
+              - text_key: COMFORT
+              - text_key: TOILET
+              - text_key: DRINKS
+              - text_key: SPELL
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -1154,9 +994,9 @@ grid_pages:
             inlinecss:
               flex-grow: 1
           - comment: At center right
-            type: fig
+            type: text-with-coloured-circle
             fixed: true
-            image: shape-square-2x-img
+            colour: yellow
             text_slotname: training-page-description
             inlinecss:
               --grid-item-width: 57mm
@@ -1166,27 +1006,20 @@ grid_pages:
             inlinecss:
               flex-grow: 1
           - comment: At top right
+            type: coloured-table02
             overlay_slotname: table-overlay-02
-            type: table02
             rowheight: 12mm
-            reverserow: true
             rows:
-              - image: shape-heart-1x-img
-                text_key: i_love_you
-              - image: shape-circle-1x-img
-                text_key: yes
+              - text_key: i_love_you
+              - text_key: yes
                 inlinecss:
                   margin-right: 14mm
-              - image: shape-triangle-1x-img
-                text_key: no
+              - text_key: no
                 inlinecss:
                   margin-right: 30mm
-              - image: shape-square-1x-img
-                text_key: CAR
+              - text_key: CAR
                 inlinecss:
                   margin-right: 43mm
-                text_inlinecss:
-                  font-size: 17pt
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -1195,11 +1028,10 @@ grid_pages:
           width: 72mm
         rows:
           - comment: At bottom center
-            type: fig
-            image: shape-triangle-2x-img
+            type: coloured-circle
+            colour: cyan
             inlinecss:
-              padding-top: 10mm
-              padding-bottom: 10mm
+              flex-grow: 1
           - comment: Guide at center
             type: custom
             slotname: cut-out-center-guide
@@ -1207,27 +1039,21 @@ grid_pages:
               flex-grow: 1
               transform: rotate(180deg)
           - comment: At top center
-            type: fig
-            image: shape-circle-2x-img
+            type: coloured-circle
+            colour: green
             inlinecss:
-              padding-top: 10mm
-              padding-bottom: 10mm
+              flex-grow: 1
       - inlinecss:
           width: 57mm
         rows:
           - comment: At left bottom
-            type: table02
+            type: coloured-table02
             rowheight: 12mm
-            reverserow: true
             rows:
-              - image: shape-heart-1x-img
-                text_key: BED
-              - image: shape-circle-1x-img
-                text_key: CLOTHING
-              - image: shape-triangle-1x-img
-                text_key: BATHTIME
-              - image: shape-square-1x-img
-                text_key: MEALS
+              - text_key: BED
+              - text_key: CLOTHING
+              - text_key: BATHTIME
+              - text_key: MEALS
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -1236,8 +1062,8 @@ grid_pages:
             inlinecss:
               flex-grow: 1
           - comment: At center left
-            type: fig
-            image: shape-heart-2x-img
+            type: text-with-coloured-circle
+            colour: purple
             text_key: TRAINING_PAGE
             text_inlinecss:
               font-size: 18pt
@@ -1245,24 +1071,18 @@ grid_pages:
           - comment: spacing
             inlinecss:
               flex-grow: 1
-          - comment: At top center
-            type: table02
+          - comment: At top left
+            type: coloured-table02
             rowheight: 12mm
-            reverserow: true
             rows:
-              - image: shape-heart-1x-img
-                text_key: im_too_hot
-              - image: shape-circle-1x-img
-                text_key: im_too_cold
-              - image: shape-triangle-1x-img
-                text_key: cup_of_tea
-              - image: shape-square-1x-img
-                text_key: cup_of_coffee
+              - text_key: im_too_hot
+              - text_key: im_too_cold
+              - text_key: cup_of_tea
+              - text_key: cup_of_coffee
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
               height: var(--grid-item-height)
-
 ---
 ::: slot redheart-img
 <img style="width: var(--img-width); height: var(--img-width);" :src="$withBase('/speakbook/shapes/redheart.svg')" />
@@ -1272,14 +1092,19 @@ grid_pages:
 :::
 ::: slot last-page-heading
 <div class="float-left" style="width: 40mm; height: 37mm; shape-outside: polygon(0 0, 40mm 0, 10mm 100%, 0 100%);"></div>
-<h2 class="my-2">Vinger spel bladsy.</h2>
-<p class="my-2">As u nog steeds die gebruik van u hande het, is hierdie bladsy vir u. Spel woorde en frases uit aan u maat deur met 'n vinger te wys. Woorde wat gereeld gebruik word, kan in die leë blokkies geskryf word. As u na die woord <strong class="bold"> "TUIS" * </strong> wys, dui dit aan u maat dat u nou met u oë wil kommunikeer met behulp van die hoofboek.
+<h2 class="my-2">Finger spelling page.</h2>
+<p class="my-2">
+  If you still have the use of your hands, then this page is for you.
+  By pointing with a finger you can spell out words and phrases to your partner.
+  Frequently used words can be written in the blank boxes.
+  Pointing to the word <strong class="bold">„ HOME ‟*</strong> indicates to your partner that you now
+  want to communicate with your eyes using the main book.
 </p>
 :::
 ::: slot training-page-description
 <p class="fsize-3">
-  As u die basiese tegniek geleer het deur hierdie opleidingsblad,
-  kan u u eie bladsye skryf met behulp van die leë bladsye in die boek.
+  When you've learnt the basic technique using this training page,
+  you can write your own pages using the blank ones in this book.
 </p>
 :::
 ::: slot table-overlay-01
@@ -1401,12 +1226,14 @@ grid_pages:
 </CutOutSideGuide>
 :::
 ::: slot cover-footer
-<div class="lheight-1_5x">
-  <p class="text-center cover-footer-text">
-    <span class="fsize-8 bold">nie-verbale kommunikasiestelsel</span> <br>
-    <span class="red-color fsize-8 bold">acecent.re/speakbook</span> <br>
-    <span class="fsize-4"> Speakbook 4de uitgawe © 2011 Patrick Joyce </span>
-  </p>
+<div class="flex-h items-align-center lheight-1_5x" style="width: calc(var(--page-width) - 60mm);">
+  <p class="cover-footer-text">
+    <span class="fsize-8 bold">non verbal communication system</span><br>
+    <span class="red-color fsize-8 bold">acecent.re/speakbook</span><br>
+    <span class="fsize-4">Speakbook 4th edition © 2011 Patrick Joyce</span>
+  </p>
+  <div class="flex-grow-1"></div>
+  <img style="width: 30mm;height: 30mm;" :src="$withBase('/speakbook/images/PublishedByAce.svg')" />
 </div>
 :::
 
@@ -1416,57 +1243,32 @@ grid_pages:
   <div class="flex-v">
     <img class="m-1" style="width: 58.5mm; height: 79.7mm; box-sizing: border-box;" :src="$withBase('/speakbook/images/01.png')"  />
     <div class="m-1 p-1 flex-grow-1 flt-box" style="width: 57.5mm; min-height: 79.7mm; box-sizing: border-box;">
-      <h3 class="my-1 fsize-5">Hoe om op die praatboek te skryf</h3>
-      <p class="my-2 fsize-4_5">Presies wat u in die speakbook skryf, sal afhang van u spesifieke vereistes, maar wat ook al u skryf, is dit belangrik dat elke kant van elke dubbele bladsy dieselfde teks daarop het, en dat hulle 'n spieëlbeeld van mekaar is - soos in die voorbeeld hierbo. Praat u en u maat verskillende tale? Geen probleem nie - skryf net 'n ander taal aan weerskante. </p>
-    </div>
-  </div>
+      <h3 class="my-1 fsize-5">How to write on the speakbook</h3>
+      <p class="my-2 fsize-4_5">Exactly what you write on the speakbook will depend on your particular requirements, but whatever you write, it is important that each side of any double page spread has the same text on it, and that they are a mirror image of each other - as in the example above. Do you and your partner speak different languages? No problem - just write a different language on either side.</p>
+    </div>
+  </div>
 </div>
 :::
-
-
-
-
-
-
 ::: slot inst-01-content
 <div class="p-1 text-center">
   <SpeakBookTextFourColorBkg class="speakbook-title fsize-10 p-1 bold" :text="$page.frontmatter.text.SPEAKBOOK"></SpeakBookTextFourColorBkg>
 </div>
-<p>Speakbook is 'n nie-verbale kommunikasie hulpmiddel vir mense wat nie kan praat nie en probleme ondervind om hul hande of arms te gebruik,  maar wat die gebruik van hul oë behou. Hierdie uitgawe is vir mense wat kan lees en spel. Besoek <b>acecent.re/speakbook</b>vir weergawes vir nie-lesers, weergawes in ander tale en die sak uitgawe. </p> 
-<h2 class="fsize-5"> Gebruiksaanwysings. </h2>
-<p> Om te begin, benodig u; die speakbook, 'n swart, nie-permanente witbordpen, 'n lap om uit te vee en 'n maat wat praat.</p>
+<p>Speakbook is a non verbal communication tool for people who cannot speak and have difficulty using their hands or arms, but who retain the use of their eyes. This edition is for people who can read and spell. For versions for non-readers, foreign language versions, and the pocket edition, visit <b>acecent.re/speakbook</b></p>
+<h2 class="fsize-6">Instructions for use.</h2>
+<p>To get started, you will need; the speakbook, a black, non-permanent whiteboard pen, a cloth to rub out, and a speaking partner.</p>
 <p>
-U en u  maat sit teenoor mekaar ongeveer 90cm uitmekaar. Afhangend van u sig, kan u hierdie afstand verminder of verhoog. Maak die speakbook oop op die oefenblad binne die agterblad. Dit is reeds ingevul om u te help om die basiese tegniek te leer. As u dit bemeester het, kan u u eie bladsye skryf met behulp van die leë bladsye. Vou die boek op homself terug en hou dit tussen u op, sodat u albei na 'n 'oefenbladsy' kyk, en mekaar se oë deur die gat in die middel kan sien. U kyk nou na die keuses op die bladsy om te besluit watter een u wil kommunikeer. As u besluit het, dui u aan u maat aan dat u gereed is om te begin - dit kan wees deur na u maat te kyk en u oë te knip, of deur u oë op en af te beweeg- wat u ook al pas. Kyk dan vir 'n sekonde na die boodskap wat u wil hê, gevolg deur die groot simbool dieselfde as die kleintjie langs die boodskap. Jou maat volg dan jou oogbewegings - hy sien byvoorbeeld dat jy aan die linkerkant van die bord gekyk het, gevolg deur die groot driehoek, sodat hy weet dat jy 'koppie tee' wil sê. Hy sê dan: 'koppie tee!' hardop, en u bevestig dit met 'n oogwink of met 'n ander vooraf ooreengekomde sein
+You and your speaking partner sit opposite each other about three feet apart. Depending on your eyesight, you may find it helpful to decrease or increase this distance. Open the speakbook to the training page inside the back cover. This is filled in already to help you learn the basic technique. When you‟ve mastered it, you can write your own pages, using the blank ones provided. Fold the book back on itself and hold it up between you, so you are both facing a ‟training page‟, and you can see each others eyes through the hole in the middle. You now look at the choices on the page to decide which one to communicate. When you‟ve decided, you indicate to your partner that you are ready to start
+- this could be by looking at your partner and blinking, or by waggling your eyes up and down - whatever suits you. Then look at the message you want, for a second or so, followed by the large symbol the same as the little one by the side of the message. Your partner then follows your eye movements - for instance he might see that you have looked at the top left hand side of the board followed by the big triangle, so he knows that you must want to say „cup of tea !‟. He then says, “cup of tea !” out loud, and you confirm this with a blink, or some other pre-arranged signal
 </p>
-<p> Dit is die basiese tegniek vir die gebruik van die praatboek. Nou moet u leer hoe om die ander bladsye in die boek te gebruik, want die waarde van die speakbook lê in die vermoë om u maklike toegang te gee tot honderde frases wat u self kiesen enige tyd kan verander, met net 'n klam lap en 'n pen. </p>
+<p>This is the basic technique for using the speakbook. Now you need to learn how to use the other pages in the book, because the true genius of the speakbook lies in its ability to give you easy access to hundreds of phrases of your own choosing, phrases that you can change at any time, with only a damp cloth and the stroke of a pen.</p>
 :::
->
-:::
-
-:::
-:::
-::
-:
-
 
 ::: slot inst-02-flt-right-label
 <div class="pos-rel fill-height fill-width">
-  <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-right-label-bkg.svg')"/>
-  <div class="fsize-8 abs-at-center" style="transform:translate(calc(-50% + 18px), calc(-50% - 18px)) rotate(45deg); color: white;">{{ $page.frontmatter.text.instructions }}</div>
+  <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-right-label-bkg.svg')" />
+  <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 5mm), calc(-50% - 5mm)) rotate(45deg); color: white;width: 42mm;text-align: center;">{{ $page.frontmatter.text.instructions }}</div>
 </div>
 :::
-s }}</div>
-</div>
-:::
-div>
-</div>
-:::
-</div>
-:::
-v>
-:::
-:::
-:
 ::: slot inst-02-flt-left-content
 <div class="flex-h" style="padding: 3mm;">
   <div class="flex-grow-1 flex-v">
@@ -1477,9 +1279,9 @@ v>
 </div>
 :::
 ::: slot inst-02-content
-<p> Elke bladsy van die speakbook bevat 14 of 15 leë gedeeltes waarop u u eie teks kan skryf. Om die gebruiker tussen die verskillende bladsye te laat beweeg, het ons die 'tuisblad' geskep. Dit word aan die voorkant van die boek aangetref en is gemerk met 'n swart 'TUIS'-oortjie aan die rand van die bladsy. Die idee is dat u die 7 frases wat u die meeste gebruik op hierdie bladsy skryf, aangesien dit die bladsy is waarop u altyd begin. Op 8 van die leë stroke skryf u ook skakels na die ander agt leë dubbele bladsye. Dit moet die dele van u lewe wees wat meer gedetailleerde frases benodig, dit kan areas soos badtyd wees of met die kar uitgaan. Links is 'n voorbeeld van 'n moontlike uitleg vir die 'TUIS'-bladsy. Die agt woorde in vetdruk met hoofletters is skakels na dubbelsydige bladsye elders in die boek. Vind 'n leë bladsy en skryf byvoorbeeld 'BED' op die oortjie. Skryf nou die 14 belangrikste frases wat verband hou met u bedtydroetine. Herhaal die proses vir die ander 7 skakels totdat u boek vol is. As u 'n fout maak of 'n frase wil verander, vee dit uit met 'n klam lap en begin weer. </p>
-<p> Om die speakbook te gebruik, dui u aan u maat dat u wil kommunikeer. U maat open die speakbook op die 'TUIS'-bladsy en u kies byvoorbeeld' BED '. U maat blaai dan na die 'BED'-bladsy en u kan dan aandui:' Ek wil gaan slaap '- of wat ook al. Elke bladsy het 'TUIS' en 'SPEL' wat vooraf gedruk is. Die 'TUIS' is so dat u altyd weer op die 'TUIS'-bladsy kan terugkom (u wil dalk hê dat 'n' koppie tee' saam met u bed toe moet gaan). Op die 'SPEL'-bladsy kan u individuele woorde en frases uitspel wat nie elders in die boek voorkom nie. Dit werk op 'n soortgelyke manier as die ander bladsye, met een verskil. Op hierdie bladsy is daar 6 gekleurde blokke, elk met 6 gekleurde letters of syfers daarop. Die hele alfabet is daar, plus getalle 1-9 (gebruik die letter O vir nul). U kyk na die letter wat u wil gebruik, vir ongeveer 'n sekonde, gevolg deur die gekleurde blokkie van dieselfde kleur as u gekose letter. Jou maat volg jou oë, sien dat jy byvoorbeeld na die boonste linkerblok gekyk het, gevolg deur die boonste regterkantste blok (wat groen is), en weet dat jy 'C' wil hê. Jou maat sê 'C' hardop om te bevestig, en jy gaan voort na die volgende letter. U maat raai die res van die woord, indien moontlik, om die proses te bespoedig. </p>
-<p> Praatbook het plek vir 119 frases wat u kies. As dit nie voldoende is nie, of as u meer as 14 frases in een spesifieke afdeling benodig, kan u die kapasiteit verdubbel deur twee frases op elke reël te skryf, een in swart pen, een in rooi. U kies 'n swart frase op die normale manier, 'n rooi deur te knip wanneer u na die groot simbool kyk. </p>
+<p>Each page of the speakbook has 14 or 15 blank sections on which you can write your own text. In order that the user can move between the different pages, we have created the „home‟ page. This is found at the front of the book, and is marked with a black „HOME‟ tab at the edge of the page. The idea is that you write the 7 phrases you use the most on this page, as it is the page you always start on. Also, on 8 of the blank strips you write links to the other 8 blank double pages. These should be the parts of your life that require a more in depth set of phrases, these might be areas like bathtime, or going out in the car. On the left is an example of a possible layout for the „HOME‟ page. The 8 words in bold capital letters are links to double page spreads elsewhere in the book. What you do is, you find a blank page and write, for instance, „BED‟ on the edge tab, then on the strips you write the 14 phrases most relevant to your bedtime routine. Then you repeat this process for the other 7 links, until your book is full. If you make a mistake, or want to change a phrase, then just wipe it off with a damp cloth and start again.</p>
+<p>To use the speakbook, you indicate to your partner that you want to communicate. Your partner opens the speakbook to the „HOME‟ page and you communicate, for example, „BED‟. Your partner then turns to the „BED‟ page and you can then communicate, „I want to go to bed‟ - or whatever. Each page has „HOME‟ and „SPELL‟ pre-printed on it. The „HOME‟ is so that you can can always get back to the „HOME‟ page (you might want a „Cup of tea !‟ to take to bed with you). The ‟SPELL‟ page allows you to spell out individual words and phrases that don‟t appear elsewhere in the book. It works in a similar way as the other pages, with one difference. On this page there are 6 coloured blocks, each with 6 coloured letters or numbers on it. The whole alphabet is there, plus numbers 1-9 (for zero use the letter O). You look at the letter you want to communicate, for a second or so, followed by the coloured block of the same colour as your chosen letter. Your partner follows your eyes, sees that you have looked at, for instance, the top left block followed by the top right block (which is green), and knows you want „C‟. Your partner says „C‟ out loud to confirm, and you move on to the next letter. Your partner guesses the rest of the word when possible, to speed the process up.</p>
+<p>Speakbook has room for 119 phrases of your choosing. If this is not enough, or if you need more than 14 phrases in one particular section, then you can double its capacity by writing two phrases on each line, one in black pen, one in red. You choose a black phrase in the normal way, a red one by blinking when you look at the large symbol.</p>
 :::
 
 ::: slot last-page-content
