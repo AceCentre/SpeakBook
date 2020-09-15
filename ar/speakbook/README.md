@@ -39,16 +39,16 @@ text:
   X: ه
   Y: د
   Z: ج
-  _zero: "0"
-  _one: "1"
-  _two: "2"
-  _three: "3"
-  _four: "4"
-  _five: "5"
-  _six: "6"
-  _seven: "7"
-  _eight: "8"
-  _nine: "9"
+  _zero: ٠
+  _one: ١
+  _two: ٢
+  _three: ٣
+  _four: ٤
+  _five: ٥
+  _six: ٦
+  _seven: ٧
+  _eight: ٨
+  _nine: ٩
   im_too_hot: انا حار جدا
   im_too_cold: أنا بارد جدا
   cup_of_tea: كوب من الشاي!
@@ -109,11 +109,11 @@ instruction_pages:
           --max-left-spacing: 40mm
           width: var(--max-left-spacing)
           height: var(--page-height)
-          shape-outside: polygon(var(--max-left-spacing) var(--spacing-offset-top),
-            0 var(--spacing-offset-top),
-            calc(var(--max-left-spacing) - var(--left-spacing)) calc(var(--spacing-offset-top) + 20mm),
-            calc(var(--max-left-spacing) - var(--left-spacing)) var(--page-height),
-            var(--max-left-spacing) var(--page-height))
+          shape-outside: polygon(var(--max-left-spacing) var(--spacing-offset-top), 0
+            var(--spacing-offset-top), calc(var(--max-left-spacing) -
+            var(--left-spacing)) calc(var(--spacing-offset-top) + 20mm),
+            calc(var(--max-left-spacing) - var(--left-spacing))
+            var(--page-height), var(--max-left-spacing) var(--page-height))
       - comment: floating content at center right
         dir: right
         mode: fixed

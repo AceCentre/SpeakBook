@@ -14,42 +14,42 @@ text:
   SPELL: تهجئه
   HOME: الصفحة الرئيسية
   THANK_YOU: شكرا
-  A: أ
-  B: ب
-  C: C
-  D: د
-  E: E
-  F: F
-  G: G
-  H: H
-  I: أنا
-  J: J
-  K: ك
-  L: L
-  M: M
-  N: ن
-  O: O
-  P: P
-  Q: Q
-  R: R
-  S: س
-  T: تي
-  U: U
-  V: الخامس
-  W: W
-  X: X
-  Y: Y
-  Z: Z
-  _zero: ""
-  _one: "1"
-  _two: "2"
-  _three: "3"
-  _four: "4"
-  _five: "5"
-  _six: "6"
-  _seven: "7"
-  _eight: "8"
-  _nine: "9"
+  A: غ
+  B: ظ
+  C: ض
+  D: ذ
+  E: خ
+  F: ث
+  G: ت
+  H: ش
+  I: ر
+  J: ق
+  K: ص
+  L: ف
+  M: ع
+  N: س
+  O: ن
+  P: م
+  Q: ل
+  R: ك
+  S: ي
+  T: ط
+  U: ح
+  V: ز
+  W: و
+  X: ه
+  Y: د
+  Z: ج
+  _zero: ٠
+  _one: ١
+  _two: ٢
+  _three: ٣
+  _four: ٤
+  _five: ٥
+  _six: ٦
+  _seven: ٧
+  _eight: ٨
+  _nine: ٩
   im_too_hot: انا حار جدا
   im_too_cold: أنا بارد جدا
   cup_of_tea: كوب من الشاي!
@@ -68,14 +68,14 @@ text:
   TRAINING_PAGE: TRAINING PAGE
   training_page: صفحة التداول
   _GBP: £
-  _USD: $
-  _percent: ٪
+  _USD: د.ع
+  _percent: "%"
   _plus: +
   _minus: "-"
   _slash: /
   _X: X
   _equal: =
-  _question_mark: ؟
+  _question_mark: "?"
   _atsign: "@"
   YES: نعم
   NO: لا
@@ -1096,7 +1096,7 @@ grid_pages:
 <img style="width: var(--img-width); height: var(--img-width);" :src="$withBase('/speakbook/shapes/smileyface.svg')" />
 :::
 ::: slot last-page-heading
-<div class="float-left" style="width: 40mm; height: 37mm; shape-outside: polygon(0 0, 40mm 0, 10mm 100%, 0 100%);"></div>
+<div class="float-left" style="width: 40mm; height: 40mm; shape-outside: polygon(0px 0px, 100% 0px, 100% 100%, 30mm 100%);"></div>
 <h2 class="my-2">إصبع الصفحة الإملائي.</h2>
 <p class="my-2">إذا كنت لا تزال لديها استخدام يديك، ثم هذه الصفحة هي لك.
   من خلال الإشارة بإصبع يمكنك توضيح الكلمات والعبارات لشريك حياتك.
@@ -1227,12 +1227,14 @@ grid_pages:
 </CutOutSideGuide>
 :::
 ::: slot cover-footer
-<div class="lheight-1_5x">
-  <p class="text-center cover-footer-text">
+<div class="flex-h items-align-center lheight-1_5x" style="width: calc(var(--page-width) - 60mm);">
+  <p class="cover-footer-text">
     <span class="fsize-8 bold">غير النظام لفظية</span><br>
-    <span class="red-color fsize-8 bold">www.speakbook.org</span><br>
+    <span class="red-color fsize-8 bold">acecent.re/speakbook</span><br>
     <span class="fsize-4">Speakbook 4th الطبعة © 2011 باتريك جويس</span>
   </p>
+  <div class="flex-grow-1"></div>
+  <img style="width: 30mm;height: 30mm;" :src="$withBase('/speakbook/images/PublishedByAce.svg')">
 </div>
 :::
 
@@ -1250,9 +1252,9 @@ grid_pages:
 :::
 ::: slot inst-01-content
 <div class="p-1 text-center">
-  <speakbooktextfourcolorbkg class="speakbook-title fsize-10 p-1 bold" :text="$page.frontmatter.text.SPEAKBOOK"></speakbooktextfourcolorbkg>
+  <SpeakBookTextFourColorBkg class="speakbook-title fsize-10 p-1 bold" :text="$page.frontmatter.text.SPEAKBOOK"></SpeakBookTextFourColorBkg>
 </div>
-<p>Speakbook هو أداة الاتصال اللفظي غير بالنسبة للأشخاص الذين لا يستطيعون الكلام ويجدون صعوبة في استخدام أيديهم أو أذرعهم، ولكن الذين يحتفظون استخدام أعينهم. هذه الطبعة هي للأشخاص الذين يستطيعون القراءة والتهجئة. للحصول على إصدارات لغير القراء، اللغات الأجنبية، وطبعة الجيب، وزيارة<b>www.speakbook.org</b></p>
+<p>Speakbook هو أداة الاتصال اللفظي غير بالنسبة للأشخاص الذين لا يستطيعون الكلام ويجدون صعوبة في استخدام أيديهم أو أذرعهم، ولكن الذين يحتفظون استخدام أعينهم. هذه الطبعة هي للأشخاص الذين يستطيعون القراءة والتهجئة. للحصول على إصدارات لغير القراء، اللغات الأجنبية، وطبعة الجيب، وزيارة<b>acecent.re/speakbook</b></p>
 <h2 class="fsize-6">تعليمات الاستخدام.</h2>
 <p>لتبدأ، ستحتاج. وspeakbook، أسود، قلم السبورة غير الدائمين، قطعة قماش لفرك بها، وشريك التحدث.</p>
 <p>أنت وشريك يتحدث بك الجلوس عكس بعضها البعض نحو ثلاثة أقدام بعيدا. اعتمادا على البصر، قد تجد أنه من المفيد لخفض أو زيادة هذه المسافة. فتح speakbook إلى صفحة التدريب داخل الغطاء الخلفي. يتم تعبئة هذا في سبق لمساعدتك على تعلم هذه التقنية الأساسية. عند "لقد أتقن ذلك، يمكنك إرسال صفحاتك الخاصة، وذلك باستخدام تلك فارغة المقدمة. طي ظهر كتاب عن نفسها وعقد ليصل بينك، لذلك كنت على حد سواء تواجه "صفحة التدريب"، ويمكنك ان ترى كل عيون الآخرين من خلال ثقب في الوسط. أنت الآن ننظر في الخيارات على الصفحة لاتخاذ قرار واحد للاتصال. عند "لقد قررت، كنت تشير إلى شريك حياتك أن تكون مستعدا لبدء
