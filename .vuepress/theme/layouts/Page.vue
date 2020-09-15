@@ -1,5 +1,5 @@
 <template>
-  <Content :style="$page.frontmatter.inlinecss" />
+  <Content :class="($page.frontmatter.rtl ? 'rtl' : '')" :style="$page.frontmatter.inlinecss" />
 </template>
 
 <script>

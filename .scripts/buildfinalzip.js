@@ -25,8 +25,10 @@ let MODULES_BIN_DIR = path.resolve(__dirname, '../node_modules/.bin')
       await copyLangFilesForSize(lang_info, page_size)
     }
   }
-  // build the zip file
-  await zipFolder(langs_info)
+  for (let lang_info of langs_info) {
+    // build the zip file
+    await zipFolderForLang(lang_info)
+  }
 })()
 
 function asyncExec (...args) {
@@ -67,9 +69,9 @@ async function copyLangFilesForSize (lang_info, size) {
   }
 }
 
-function zipFolder (langs_info) {
+function zipFolderForLang (lang_info) {
   return new Promise((resolve, reject) => {
-    var output = fs.createWriteStream(path.join(DEST_DIR, 'speakbook-final.zip'))
+    var output = fs.createWriteStream(path.join(DEST_DIR, lang_info.name + '-speakbook.zip'))
     var archive = archiver('zip')
     output.on('close', function () {
       resolve()
@@ -78,9 +80,7 @@ function zipFolder (langs_info) {
       reject(err)
     })
     archive.pipe(output)
-    for (let lang_info of langs_info) {
-      archive.directory(path.join(DEST_DIR, lang_info.outdir), lang_info.outdir)     
-    }
+    archive.directory(path.join(DEST_DIR, lang_info.outdir), false)
     archive.finalize()
   })
 }
