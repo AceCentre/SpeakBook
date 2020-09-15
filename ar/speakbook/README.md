@@ -13,32 +13,32 @@ text:
   SPELL: تهجئه
   HOME: الصفحة الرئيسية
   THANK_YOU: شكرا
-  A: A
-  B: B
-  C: C
-  D: D
-  E: E
-  F: F
-  G: G
-  H: H
-  I: I
-  J: J
-  K: K
-  L: L
-  M: M
-  N: N
-  O: O
-  P: P
-  Q: Q
-  R: R
-  S: S
-  T: T
-  U: U
-  V: V
-  W: W
-  X: X
-  Y: Y
-  Z: Z
+  A: غ
+  B: ظ
+  C: ض
+  D: ذ
+  E: خ
+  F: ث
+  G: ت
+  H: ش
+  I: ر
+  J: ق
+  K: ص
+  L: ف
+  M: ع
+  N: س
+  O: ن
+  P: م
+  Q: ل
+  R: ك
+  S: ي
+  T: ط
+  U: ح
+  V: ز
+  W: و
+  X: ه
+  Y: د
+  Z: ج
   _zero: "0"
   _one: "1"
   _two: "2"
@@ -67,7 +67,7 @@ text:
   TRAINING_PAGE: TRAINING PAGE
   training_page: صفحة التداول
   _GBP: £
-  _USD: $
+  _USD: د.ع
   _percent: "%"
   _plus: +
   _minus: "-"
@@ -1495,42 +1495,42 @@ grid_pages:
           <div class="block pink-bkg">{{ $page.frontmatter.text._seven }}</div>
           <div class="block pink-bkg">{{ $page.frontmatter.text._eight }}</div>
           <div class="block pink-bkg">{{ $page.frontmatter.text._nine }}</div>
-          <Content class="block" slot-key="redheart-img" />
+          <div class="block yellow-bkg">{{ $page.frontmatter.text.YES }}</div>
           <div class="block pink-bkg">{{ $page.frontmatter.text._zero }}</div>
-          <Content class="block" slot-key="smileyface-img" />
+          <div class="block yellow-bkg">{{ $page.frontmatter.text.NO }}</div>
         </div>
       </div>
     </div>
     <div class="flex-h flex-wrap">
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.Q }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.W }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.E }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.R }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.T }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.Y }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.U }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.I }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.O }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.P }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.A }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.S }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.B }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.C }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.D }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.E }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.F }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.G }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.H }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.I }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.J }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.K }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.L }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text._atsign }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.Z }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.X }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.C }}</div>
-      <div class="block b1_5x yellow-bkg">{{ $page.frontmatter.text.YES }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.V }}</div>
-      <div class="block b1_5x yellow-bkg">{{ $page.frontmatter.text.NO }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.B }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.N }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.M }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.N }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.O }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.P }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.Q }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.R }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.S }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.T }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.U }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.V }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.W }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.X }}</div>
+      <div class="block b1_5x yellow-bkg">  </div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.Y }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.Z }}</div>
+      <div class="block cyan-bkg">ب</div>
+      <div class="block cyan-bkg">أ</div>
     </div>
   </div>
 </div>

@@ -14,33 +14,33 @@ text:
   SPELL: կախարդանք
   HOME: ՏՈՒՆ
   THANK_YOU: ՇՆՈՐՀԱԿԱԼՈՒԹՅՈՒՆ
-  A: A
-  B: B
-  C: C
-  D: D
-  E: E
-  F: F
-  G: G
-  H: H
-  I: ես
-  J: J
-  K: K
-  L: L
-  M: M
-  N: N
-  O: O
-  P: P
-  Q: Q
-  R: R
-  S: S
-  T: T
-  U: U
-  V: V
-  W: W
-  X: X
-  Y: Y
-  Z: Z
-  _zero: ""
+  A: Ա
+  B: Բ
+  C: Գ
+  D: Տ
+  E: Է
+  F: Ֆ
+  G: Կ
+  H: Հ
+  I: Ի
+  J: Ճ
+  K: Ք
+  L: Լ
+  M: Մ
+  N: Ն
+  O: Ո
+  P: Պ
+  Q: Խ
+  R: Ր
+  S: Ս
+  T: Դ
+  U: Ը
+  V: Ւ
+  W: Վ
+  X: Ց
+  Y: Ե
+  Z: Զ
+  _zero: "0"
   _one: "1"
   _two: "2"
   _three: "3"
@@ -78,7 +78,7 @@ text:
   _question_mark: "?"
   _atsign: "@"
   YES: ԱՅՈ
-  NO: NO
+  NO: ՈՉ
   edition_nth: 4-րդ
 slots_in_need_for_translation:
   - training-page-description
