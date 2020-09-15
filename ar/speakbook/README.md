@@ -1427,7 +1427,7 @@ grid_pages:
 ::: slot inst-02-flt-left-label
 <div class="pos-rel fill-height fill-width">
   <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-left-label-bkg.svg')">
-  <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% - 5mm), calc(-50% - 5mm)) rotate(-45deg); color: white;width: 42mm;text-align: center;">{{ $page.frontmatter.text.instructions }}</div>
+  <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% - 5mm), calc(-50% - 5mm)) rotate(-45deg); color: white; width: 42mm;text-align: center;">{{ $page.frontmatter.text.instructions }}</div>
 </div>
 :::
 ::: slot inst-02-flt-left-content

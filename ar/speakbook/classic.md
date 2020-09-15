@@ -86,17 +86,23 @@ slots_in_need_for_translation:
   - cover-footer
   - inst-01-flt-right-content
   - inst-01-content
-  - inst-02-flt-right-label
+  - inst-02-flt-left-label
   - inst-02-content
+rtl: true
 inlinecss:
   --page-width: 210mm
   --page-height: 297mm
   --cut-out-center-guide-width: 68mm
   --cut-out-center-guide-height: 162mm
+  --fsize-9: 21pt
+  --fsize-10: 24pt
+  --fsize-11: 27pt
+  --fsize-12: 29pt
+  --fsize-13: 38pt
 instruction_pages:
   - content_slotname: inst-01-content
     floating_elements:
-      - comment: left spacing
+      - comment: left spacing (right side for rtl)
         dir: left
         inlinecss:
           --spacing-offset-top: 17mm
@@ -104,10 +110,11 @@ instruction_pages:
           --max-left-spacing: 40mm
           width: var(--max-left-spacing)
           height: var(--page-height)
-          shape-outside: polygon(0 var(--spacing-offset-top), var(--max-left-spacing)
-            var(--spacing-offset-top), var(--left-spacing)
-            calc(var(--spacing-offset-top) + 20mm), var(--left-spacing)
-            var(--page-height), 0 var(--page-height))
+          shape-outside: polygon(var(--max-left-spacing) var(--spacing-offset-top), 0
+            var(--spacing-offset-top), calc(var(--max-left-spacing) -
+            var(--left-spacing)) calc(var(--spacing-offset-top) + 20mm),
+            calc(var(--max-left-spacing) - var(--left-spacing))
+            var(--page-height), var(--max-left-spacing) var(--page-height))
       - comment: floating content at center right
         dir: right
         mode: fixed
@@ -123,7 +130,7 @@ instruction_pages:
     floating_elements:
       - comment: right side cut out guide
         dir: right
-        slotname: cut-out-right-side-guide-02
+        slotname: cut-out-left-side-guide-02
         inlinecss:
           width: 10mm
       - comment: right side label
@@ -134,8 +141,8 @@ instruction_pages:
           --flt-height: 44mm
           --flt-shape-width: var(--flt-width)
           --flt-shape-height: var(--flt-height)
-          shape-outside: polygon(0 0, 100% 100%, 100% 0)
-        slotname: inst-02-flt-right-label
+          shape-outside: polygon(0 0, 100% 0, 0 100%)
+        slotname: inst-02-flt-left-label
       - dir: left
         mode: center-fixed
         inlinecss:
@@ -214,7 +221,7 @@ grid_pages:
               --grid-item-height: 94mm
               height: var(--grid-item-height)
   - name: page05
-    start_spacing_slotname: cut-out-right-side-guide-03
+    start_spacing_slotname: cut-out-left-side-guide-03
     start_spacing_inlinecss:
       transform: rotate(180deg)
     inlinecss:
@@ -473,7 +480,7 @@ grid_pages:
                 inlinecss:
                   color: var(--color-cyan)
   - name: page07
-    start_spacing_slotname: cut-out-right-side-guide-04
+    start_spacing_slotname: cut-out-left-side-guide-04
     start_spacing_inlinecss:
       transform: rotate(180deg)
     inlinecss:
@@ -742,7 +749,7 @@ grid_pages:
               --grid-item-height: 94mm
               height: var(--grid-item-height)
   - name: page09
-    start_spacing_slotname: cut-out-right-side-guide-05
+    start_spacing_slotname: cut-out-left-side-guide-05
     start_spacing_inlinecss:
       transform: rotate(180deg)
     inlinecss:
@@ -826,43 +833,43 @@ grid_pages:
     copyof: page08
   - name: page11
     copyof: page09
-    start_spacing_slotname: cut-out-right-side-guide-06
+    start_spacing_slotname: cut-out-left-side-guide-06
   - name: page12
     comment: no cut out
     copyof: page08
   - name: page13
     copyof: page09
-    start_spacing_slotname: cut-out-right-side-guide-07
+    start_spacing_slotname: cut-out-left-side-guide-07
   - name: page14
     comment: no cut out
     copyof: page08
   - name: page15
     copyof: page09
-    start_spacing_slotname: cut-out-right-side-guide-08
+    start_spacing_slotname: cut-out-left-side-guide-08
   - name: page16
     comment: no cut out
     copyof: page08
   - name: page17
     copyof: page09
-    start_spacing_slotname: cut-out-right-side-guide-09
+    start_spacing_slotname: cut-out-left-side-guide-09
   - name: page18
     comment: no cut out
     copyof: page08
   - name: page19
     copyof: page09
-    start_spacing_slotname: cut-out-right-side-guide-10
+    start_spacing_slotname: cut-out-left-side-guide-10
   - name: page20
     comment: no cut out
     copyof: page08
   - name: page21
     copyof: page09
-    start_spacing_slotname: cut-out-right-side-guide-11
+    start_spacing_slotname: cut-out-left-side-guide-11
   - name: page22
     comment: no cut out
     copyof: page08
   - name: page23
     copyof: page09
-    start_spacing_slotname: cut-out-right-side-guide-12
+    start_spacing_slotname: cut-out-left-side-guide-12
   - name: page24
     comment: no cut out
     columns:
@@ -875,15 +882,15 @@ grid_pages:
             overlay_slotname: table-overlay-01
             rows:
               - text_key: i_love_you
-              - text_key: yes
-                inlinecss:
-                  margin-left: 14mm
-              - text_key: no
-                inlinecss:
-                  margin-left: 30mm
-              - text_key: CAR
                 inlinecss:
                   margin-left: 43mm
+              - text_key: yes
+                inlinecss:
+                  margin-left: 30mm
+              - text_key: no
+                inlinecss:
+                  margin-left: 14mm
+              - text_key: CAR
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -973,7 +980,7 @@ grid_pages:
               --grid-item-height: 94mm
               height: var(--grid-item-height)
   - name: page25
-    start_spacing_slotname: cut-out-right-side-guide-13
+    start_spacing_slotname: cut-out-left-side-guide-13
     start_spacing_inlinecss:
       transform: rotate(180deg)
     inlinecss:
@@ -1015,15 +1022,15 @@ grid_pages:
             rowheight: 12mm
             rows:
               - text_key: i_love_you
-              - text_key: yes
-                inlinecss:
-                  margin-right: 14mm
-              - text_key: no
-                inlinecss:
-                  margin-right: 30mm
-              - text_key: CAR
                 inlinecss:
                   margin-right: 43mm
+              - text_key: yes
+                inlinecss:
+                  margin-right: 30mm
+              - text_key: no
+                inlinecss:
+                  margin-right: 14mm
+              - text_key: CAR
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -1109,14 +1116,14 @@ grid_pages:
   يمكنك كتابة الصفحات الخاصة بك باستخدام تلك فارغة في هذا الكتاب.</p>
 :::
 ::: slot table-overlay-01
-<div class="abs-at-top-left" style="top: 0.5mm; left: 0.5mm; width: 44mm; height: 44mm;">
-  <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/table-overlay-01.svg')" />
-  <div class="abs-at-center bold" style="transform: translate(calc(-50% - 8mm), calc(-50% - 8mm)) rotate(-45deg); color: white;text-align: center;font-size: 18pt;width: 35mm;line-height: 1;">{{ $page.frontmatter.text.training_page }}</div>
+<div class="abs-at-top-left" style="top: 0.5mm; right: 0.5mm; width: 44mm; height: 44mm;">
+  <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/table-overlay-01-flipped.svg')" />
+  <div class="abs-at-center bold" style="transform: translate(calc(-50% + 8mm), calc(-50% - 8mm)) rotate(45deg); color: white;text-align: center;font-size: 18pt;width: 35mm;line-height: 1;">{{ $page.frontmatter.text.training_page }}</div>
 </div>
 :::
 
 ::: slot table-overlay-02
-<img class="abs-at-bottom-left rotate-180" style="bottom: 0.5mm; left: 0.5mm; width: 44mm; height: 44mm;" :src="$withBase('/speakbook/shapes/table-overlay-02.svg')" />
+<img class="abs-at-bottom-left rotate-180" style="width: 44mm; height: 44mm;" :src="$withBase('/speakbook/shapes/table-overlay-02-flipped.svg')" />
 :::
 
 ::: slot shape-square-2x-img
@@ -1154,9 +1161,9 @@ grid_pages:
   </div>
 </div>
 :::
-::: slot cut-out-right-side-guide-01
+::: slot cut-out-left-side-guide-01
 <div class="flex-h height-100ph grey-color">
-  <img style="width: 44.5mm; height: 287.2mm;" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide.svg')" />
+  <img style="width: 44.5mm; height: 287.2mm;" :src="$withBase('/speakbook/shapes/cut-out-left-side-guide.svg')" />
   <div class="flex-v mx-auto fsize-8 v-oneline-fsize-8 bold">
     <div v-for="i in 2" class="wmode-vertical-lr rotate-180 flex-grow-1 text-center">
       {{ $page.frontmatter.text.cut_out_this_part }}
@@ -1164,64 +1171,64 @@ grid_pages:
   </div>
 </div>
 :::
-::: slot cut-out-right-side-guide-02
+::: slot cut-out-left-side-guide-02
 <CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part">
-  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-02.svg')" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-left-side-guide-02.svg')" />
 </CutOutSideGuide>
 :::
-::: slot cut-out-right-side-guide-03
+::: slot cut-out-left-side-guide-03
 <CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part">
-  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-03.svg')" />
-  <div class="white-color wmode-vertical-lr rotate-180 fsize-8 bold flex-v items-align-center justify-content-center" style="position: absolute; top: 2mm; left: 0mm; width: 10mm; height: 28mm;">{{ $page.frontmatter.text.HOME }}</div>
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-left-side-guide-03.svg')" />
+  <div class="white-color wmode-vertical-lr rotate-180 fsize-8 bold flex-v items-align-center justify-content-center" style="position: absolute; top: 2mm; left: 0mm; width: 10mm; height: 28mm; font-size: 10pt;">{{ $page.frontmatter.text.HOME }}</div>
 </CutOutSideGuide>
 :::
-::: slot cut-out-right-side-guide-04
+::: slot cut-out-left-side-guide-04
 <CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-top: 30mm; box-sizing: border-box;">
-  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-04.svg')" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-left-side-guide-04.svg')" />
   <div class="red-color wmode-vertical-lr rotate-180 fsize-8 bold flex-v items-align-center justify-content-center" style="position: absolute; top: 30.5mm; left: 0mm; width: 10mm; height: 28mm;">{{ $page.frontmatter.text.SPELL }}</div>
 </CutOutSideGuide>
 :::
-::: slot cut-out-right-side-guide-05
+::: slot cut-out-left-side-guide-05
 <CutOutSideGuide textlen="1" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-top: 90mm; box-sizing: border-box;">
-  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-05.svg')" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-left-side-guide-05.svg')" />
 </CutOutSideGuide>
 :::
-::: slot cut-out-right-side-guide-06
+::: slot cut-out-left-side-guide-06
 <CutOutSideGuide textlen="1" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-top: 90mm; box-sizing: border-box;">
-  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-06.svg')" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-left-side-guide-06.svg')" />
 </CutOutSideGuide>
 :::
-::: slot cut-out-right-side-guide-07
+::: slot cut-out-left-side-guide-07
 <CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part">
-  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-07.svg')" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-left-side-guide-07.svg')" />
 </CutOutSideGuide>
 :::
-::: slot cut-out-right-side-guide-08
+::: slot cut-out-left-side-guide-08
 <CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-top: 10mm; box-sizing: border-box;">
-  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-08.svg')" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-left-side-guide-08.svg')" />
 </CutOutSideGuide>
 :::
-::: slot cut-out-right-side-guide-09
+::: slot cut-out-left-side-guide-09
 <CutOutSideGuide textlen="1" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-bottom: 80mm; box-sizing: border-box;">
-  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-09.svg')" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-left-side-guide-09.svg')" />
 </CutOutSideGuide>
 :::
-::: slot cut-out-right-side-guide-10
+::: slot cut-out-left-side-guide-10
 <CutOutSideGuide textlen="1" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-bottom: 90mm; box-sizing: border-box;">
-  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-10.svg')" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-left-side-guide-10.svg')" />
 </CutOutSideGuide>
 :::
-::: slot cut-out-right-side-guide-11
+::: slot cut-out-left-side-guide-11
 <CutOutSideGuide textlen="1" :text="$page.frontmatter.text.cut_out_this_part">
-  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-11.svg')" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-left-side-guide-11.svg')" />
 </CutOutSideGuide>
 :::
-::: slot cut-out-right-side-guide-12
+::: slot cut-out-left-side-guide-12
 <CutOutSideGuide textlen="1" :text="$page.frontmatter.text.cut_out_this_part">
-  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-12.svg')" />
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-left-side-guide-12.svg')" />
 </CutOutSideGuide>
 :::
-::: slot cut-out-right-side-guide-13
+::: slot cut-out-left-side-guide-13
 <CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part">
   <img class="abs-at-bottom-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-13.svg')" />
 </CutOutSideGuide>
@@ -1262,10 +1269,10 @@ grid_pages:
 <p>هذا هو الأسلوب الأساسي لاستخدام speakbook. والآن أنت بحاجة لمعرفة كيفية استخدام صفحات أخرى في الكتاب، لأن العبقرية الحقيقية من الأكاذيب speakbook في قدرته على إعطاء لك سهولة الوصول إلى مئات من العبارات التي تختارها الخاصة، العبارات التي يمكن أن تتغير في أي وقت، مع فقط قطعة قماش مبللة وبجرة قلم.</p>
 :::
 
-::: slot inst-02-flt-right-label
+::: slot inst-02-flt-left-label
 <div class="pos-rel fill-height fill-width">
-  <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-right-label-bkg.svg')">
-  <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 18px), calc(-50% - 18px)) rotate(45deg); color: white;">{{ $page.frontmatter.text.instructions }}</div>
+  <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-left-label-bkg.svg')">
+  <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% - 5mm), calc(-50% - 5mm)) rotate(-45deg); color: white;">{{ $page.frontmatter.text.instructions }}</div>
 </div>
 :::
 ::: slot inst-02-flt-left-content
@@ -1307,7 +1314,7 @@ grid_pages:
           <div class="block">{{ $page.frontmatter.text._equal }}</div>
           <div class="block">{{ $page.frontmatter.text._question_mark }}</div>
         </div>
-        <div class="block b3x white-color black-bkg">{{ $page.frontmatter.text.HOME }}</div>
+        <div class="block b3x white-color black-bkg" style="font-size: 18pt;">{{ $page.frontmatter.text.HOME }}</div>
         <div class="block b3x yellow-bkg" style="font-size: 18pt;">{{ $page.frontmatter.text.THANK_YOU }}</div>
       </div>
       <div class="flex-v block-holder b4x">

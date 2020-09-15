@@ -1,6 +1,7 @@
 ---
 layout: Page
 title: Printing Instructions
+rtl: true
 inlinecss:
   --page-width: 210mm
   --page-height: 297mm

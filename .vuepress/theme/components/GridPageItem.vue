@@ -205,7 +205,15 @@ export default {
     }
   }
 }
-.rtl {
+.rtl .grid-page-item {
+  &.item-type-text-with-coloured-circle {
+    .rotate-90 { transform: rotate(-90deg); }
+    .fixed {
+      &.rotate-90 {
+        transform: translate(calc(var(--grid-item-height) - var(--grid-item-width) - 0.5mm), calc(var(--grid-item-height) - 0.5mm)) rotate(-90deg);
+      }
+    }
+  }
   .letters-grid {
     &.rotate-90 {
       transform: translate(calc(var(--grid-item-height) - var(--grid-item-width)), calc(var(--grid-item-height))) rotate(-90deg);
@@ -219,12 +227,10 @@ export default {
       transform: translate(calc(var(--grid-item-height) - var(--grid-item-width) - 0.5mm), calc(var(--grid-item-height) - 0.5mm)) rotate(-90deg);
     }
   }
-  .grid-page-item {
-    .table {
-      &.rotate-90 {
-        transform-origin: 0 0;
-        transform: translate(100%, 0) rotate(90deg) translate(0.5mm, 0.5mm);
-      }
+  .table {
+    &.rotate-90 {
+      transform-origin: 0 0;
+      transform: translate(100%, 0) rotate(90deg) translate(0.5mm, 0.5mm);
     }
   }
 }
