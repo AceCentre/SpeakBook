@@ -88,37 +88,45 @@ $ yarn build
 $ yarn buildpdf
 ```
 
-### Language translation scripts
+There is also a way we can use Google translate to start a new language. This is useful to get you going in the right direction.. 
 
-1. Export your PO file from POEditor
-2. Convert your language file with the correct strings. e.g. 
-```node .scripts/apply-po-to-md.js res/lang/Swedish.po speakbook/README.md > sv/speakbook/README.md```
-3. Done!
+setup:
+```npm install parse5-serializer-stream, parse5, @vitalets/google-translate-api  ```
+and then run:
+```node .scripts/po-google-translate.js res/lang/master.po res/lang/SpeakBook_Armenian.po English Armenian'```
 
-If you need to make a new POEditor file of terms run
-```node .scripts/po-from-md.js speakbook/README.md > res/master.po```
+e.g. For English to Armenian
+
+```node .scripts/po-google-translate.js res/lang/master.po res/lang/SpeakBook_Armenian.po en hy```
 
 
 ### Script to update all files from POEditor
 
 ```
+node .scripts/apply-po-to-md.js res/lang/SpeakBook_Arabic.po ar/speakbook/README.md > ar/speakbook/README2.md && mv ar/speakbook/README2.md ar/speakbook/README.md 
 node .scripts/apply-po-to-md.js res/lang/SpeakBook_Spanish.po es/speakbook/README.md > es/speakbook/README2.md && mv es/speakbook/README2.md es/speakbook/README.md 
-
 node .scripts/apply-po-to-md.js res/lang/SpeakBook_French.po fr/speakbook/README.md > fr/speakbook/README2.md && mv fr/speakbook/README2.md fr/speakbook/README.md 
-
 node .scripts/apply-po-to-md.js res/lang/SpeakBook_Portuguese.po po/speakbook/README.md > po/speakbook/README2.md && mv po/speakbook/README2.md po/speakbook/README.md 
-
 node .scripts/apply-po-to-md.js res/lang/SpeakBook_Swedish.po sv/speakbook/README.md > sv/speakbook/README2.md && mv sv/speakbook/README2.md sv/speakbook/README.md 
-
 node .scripts/apply-po-to-md.js res/lang/SpeakBook_German.po de/speakbook/README.md > de/speakbook/README2.md && mv de/speakbook/README2.md de/speakbook/README.md 
-
 node .scripts/apply-po-to-md.js res/lang/SpeakBook_Afrikaans.po af/speakbook/README.md > af/speakbook/README2.md && mv af/speakbook/README2.md af/speakbook/README.md 
-
 node .scripts/apply-po-to-md.js res/lang/SpeakBook_Zulu.po zu/speakbook/README.md > zu/speakbook/README2.md && mv zu/speakbook/README2.md zu/speakbook/README.md 
-
 node .scripts/apply-po-to-md.js res/lang/SpeakBook_Turkish.po tr/speakbook/README.md > tr/speakbook/README2.md && mv tr/speakbook/README2.md tr/speakbook/README.md 
-
 node .scripts/apply-po-to-md.js res/lang/SpeakBook_Maltese.po mt/speakbook/README.md > mt/speakbook/README2.md && mv mt/speakbook/README2.md mt/speakbook/README.md 
+node .scripts/apply-po-to-md.js res/lang/SpeakBook_Armenian.po hu/speakbook/README.md > hu/speakbook/README2.md && mv hu/speakbook/README2.md hu/speakbook/README.md 
+```
+and likewise for Classic (colour version):
 
 ```
-
+node .scripts/apply-po-to-md.js res/lang/SpeakBook_Arabic.po ar/speakbook/classic.md > ar/speakbook/classic2.md && mv ar/speakbook/classic2.md ar/speakbook/classic.md 
+node .scripts/apply-po-to-md.js res/lang/SpeakBook_Spanish.po es/speakbook/classic.md > es/speakbook/classic2.md && mv es/speakbook/classic2.md es/speakbook/classic.md 
+node .scripts/apply-po-to-md.js res/lang/SpeakBook_French.po fr/speakbook/classic.md > fr/speakbook/classic2.md && mv fr/speakbook/classic2.md fr/speakbook/classic.md 
+node .scripts/apply-po-to-md.js res/lang/SpeakBook_Portuguese.po po/speakbook/classic.md > po/speakbook/classic2.md && mv po/speakbook/classic2.md po/speakbook/classic.md 
+node .scripts/apply-po-to-md.js res/lang/SpeakBook_Swedish.po sv/speakbook/classic.md > sv/speakbook/classic2.md && mv sv/speakbook/classic2.md sv/speakbook/classic.md 
+node .scripts/apply-po-to-md.js res/lang/SpeakBook_German.po de/speakbook/classic.md > de/speakbook/classic2.md && mv de/speakbook/classic2.md de/speakbook/classic.md 
+node .scripts/apply-po-to-md.js res/lang/SpeakBook_Afrikaans.po af/speakbook/classic.md > af/speakbook/classic2.md && mv af/speakbook/classic2.md af/speakbook/classic.md 
+node .scripts/apply-po-to-md.js res/lang/SpeakBook_Zulu.po zu/speakbook/classic.md > zu/speakbook/classic2.md && mv zu/speakbook/classic2.md zu/speakbook/classic.md 
+node .scripts/apply-po-to-md.js res/lang/SpeakBook_Turkish.po tr/speakbook/classic.md > tr/speakbook/classic2.md && mv tr/speakbook/classic2.md tr/speakbook/classic.md 
+node .scripts/apply-po-to-md.js res/lang/SpeakBook_Maltese.po mt/speakbook/classic.md > mt/speakbook/classic2.md && mv mt/speakbook/classic2.md mt/speakbook/classic.md 
+node .scripts/apply-po-to-md.js res/lang/SpeakBook_Armenian.po hu/speakbook/classic.md > hu/speakbook/classic2.md && mv hu/speakbook/classic2.md hu/speakbook/classic.md 
+```
