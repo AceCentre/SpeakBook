@@ -4,6 +4,36 @@ description: This is a project to build a toolchain for multi-lingual PDF's. Ini
 ---
 <img src="https://i.imgur.com/FyH8YF2.png" :src="$withBase('/assets/logo.png')" alt="SpeakBook" style="width:100%">
 
+Table of Contents
+=================
+
+* [Introduction](#introduction)
+* [Complete Translatons](#complete-translatons)
+    * [<g-emoji class="g-emoji" alias="gb" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1ec-1f1e7.png">🇬🇧</g-emoji> English](#-english)
+    * [<g-emoji class="g-emoji" alias="tr" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f9-1f1f7.png">🇹🇷</g-emoji> Turkish](#-turkish)
+    * [<g-emoji class="g-emoji" alias="south_africa" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1ff-1f1e6.png">🇿🇦</g-emoji> Afrikaans](#-afrikaans)
+* [Needing "Printing Instructions" (but complete otherwise)](#needing-printing-instructions-but-complete-otherwise)
+    * [<g-emoji class="g-emoji" alias="sweden" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f8-1f1ea.png">🇸🇪</g-emoji> Swedish](#-swedish)
+    * [<g-emoji class="g-emoji" alias="portugal" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f5-1f1f9.png">🇵🇹</g-emoji> Portuguese](#-portuguese)
+    * [<g-emoji class="g-emoji" alias="es" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1ea-1f1f8.png">🇪🇸</g-emoji> Spanish](#-spanish)
+    * [<g-emoji class="g-emoji" alias="de" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1e9-1f1ea.png">🇩🇪</g-emoji> German](#-german)
+    * [<g-emoji class="g-emoji" alias="fr" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1eb-1f1f7.png">🇫🇷</g-emoji> French](#-french)
+    * [<g-emoji class="g-emoji" alias="malta" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f2-1f1f9.png">🇲🇹</g-emoji> Maltese](#-maltese)
+    * [<g-emoji class="g-emoji" alias="mozambique" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f2-1f1ff.png">🇲🇿</g-emoji> Zulu](#-zulu)
+* [Needs a proof reader](#needs-a-proof-reader)
+    * [<g-emoji class="g-emoji" alias="cn" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1e8-1f1f3.png">🇨🇳</g-emoji> Chinese Simplified](#-chinese-simplified)
+    * [<g-emoji class="g-emoji" alias="mozambique" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f2-1f1ff.png">🇲🇿</g-emoji> Arabic](#-arabic)
+    * [<g-emoji class="g-emoji" alias="pakistan" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f5-1f1f0.png">🇵🇰</g-emoji> Urdu](#-urdu)
+* [New Translations? Help improve a translation?](#new-translations-help-improve-a-translation)
+* [How do I create a new version for my language - or improve a language translation](#how-do-i-create-a-new-version-for-my-language---or-improve-a-language-translation)
+* [Technical Background](#technical-background)
+    * [Layout](#layout)
+    * [Package scripts](#package-scripts)
+    * [Script to update all files from POEditor](#script-to-update-all-files-from-poeditor)
+
+
+## Introduction
+
 This is a repository to hold the working versions of [Patrick Joyce's SpeakBook project](https://web.archive.org/web/20170325172200/http://www.speakbook.org/). We aim to provide a platform for crowd-sourced version control of future PDF's here. More info (*and the current final releases*) can be found at the Ace Centre's project page [here](http://acecentre.org.uk/project/speakbook/).
 
 The current *in-progress* versions (Note: will only look as intended in Chrome. We recommend looking at the PDF builds):
@@ -12,26 +42,26 @@ The current *in-progress* versions (Note: will only look as intended in Chrome. 
 
 ### 🇬🇧 English
 
-- [Color-Blind Friendly](/speakbook/) - [📄 PDF](/speakbook/index.pdf) 
-- [Colour Version][/speakbook/classic.html] - [📄 PDF](/speakbook/classic.pdf) 
-- [Printing Instructions](/speakbook/printing-instructions.html) -  [📄 PDF](/speakbook/printing-instructions.pdf))
+- [Color-Blind Friendly](/speakbook/) - 📄 [A4 PDF](/speakbook/index.pdf) 
+- [Colour Version](/speakbook/classic.html) - 📄 [A4 PDF](/speakbook/classic.pdf) 
+- [Printing Instructions](/speakbook/printing-instructions.html) -  📄 [A4 PDF](/speakbook/printing-instructions.pdf)
 
 [Complete Zipped package with US Letter size](/speakbook/en-speakbook.zip)
 
 ### 🇹🇷 Turkish
 
-- [Color-Blind Friendly](/tr/speakbook/) - [📄 PDF](/tr/speakbook/index.pdf) 
-- [Colour Version][/tr/speakbook/classic.html] - [📄 PDF](/tr/speakbook/classic.pdf) 
-- [Printing Instructions](/tr/speakbook/printing-instructions.html) -  [📄 PDF](/tr/speakbook/printing-instructions.pdf))
+- [Color-Blind Friendly](/tr/speakbook/) - 📄 [A4 PDF](/tr/speakbook/index.pdf) 
+- [Colour Version](/tr/speakbook/classic.html) - 📄 [A4 PDF](/tr/speakbook/classic.pdf) 
+- [Printing Instructions](/tr/speakbook/printing-instructions.html) -  📄 [A4 PDF](/tr/speakbook/printing-instructions.pdf)
 
 [Complete Zipped package with US Letter size](/tr/speakbook/tr-speakbook.zip)
 
 
-- 🇿🇦 Afrikaans
+### 🇿🇦 Afrikaans
 
-- [Color-Blind Friendly](/af/speakbook/) - [📄 PDF](/af/speakbook/index.pdf) 
-- [Colour Version][/af/speakbook/classic.html] - [📄 PDF](/af/speakbook/classic.pdf) 
-- [Printing Instructions](/af/speakbook/printing-instructions.html) -  [📄 PDF](/af/speakbook/printing-instructions.pdf))
+- [Color-Blind Friendly](/af/speakbook/) - 📄 [A4 PDF](/af/speakbook/index.pdf) 
+- [Colour Version](/af/speakbook/classic.html) - 📄 [A4 PDF](/af/speakbook/classic.pdf) 
+- [Printing Instructions](/af/speakbook/printing-instructions.html) -  📄 [A4 PDF](/af/speakbook/printing-instructions.pdf)
 
 [Complete Zipped package with US Letter size](/af/speakbook/af-speakbook.zip)
 
@@ -40,59 +70,61 @@ The current *in-progress* versions (Note: will only look as intended in Chrome. 
 
 ### 🇸🇪 Swedish
 
-- [Color-Blind Friendly](/sv/speakbook/) - [📄 PDF](/sv/speakbook/index.pdf) 
-- [Colour Version][/sv/speakbook/classic.html] - [📄 PDF](/sv/speakbook/classic.pdf) 
+- [Color-Blind Friendly](/sv/speakbook/) - 📄 [A4 PDF](/sv/speakbook/index.pdf) 
+- [Colour Version](/sv/speakbook/classic.html) - 📄 [A4 PDF](/sv/speakbook/classic.pdf) 
 
 [Complete Zipped package with US Letter size](/sv/speakbook/sv-speakbook.zip)
 
 ### 🇵🇹 Portuguese
 
-- [Color-Blind Friendly](/po/speakbook/) - [📄 PDF](/po/speakbook/index.pdf) 
-- [Colour Version][/po/speakbook/classic.html] - [📄 PDF](/po/speakbook/classic.pdf) 
+- [Color-Blind Friendly](/po/speakbook/) - 📄 [A4 PDF](/po/speakbook/index.pdf) 
+- [Colour Version](/po/speakbook/classic.html) - 📄 [A4 PDF](/po/speakbook/classic.pdf) 
 
 [Complete Zipped package with US Letter size](/sv/speakbook/sv-speakbook.zip)
 
-### 🇵🇪🇸Spanish
+### 🇪🇸 Spanish
 
-- [Color-Blind Friendly](/es/speakbook/) - [📄 PDF](/es/speakbook/index.pdf) 
-- [Colour Version][/es/speakbook/classic.html] - [📄 PDF](/es/speakbook/classic.pdf) 
+- [Color-Blind Friendly](/es/speakbook/) - 📄 [A4 PDF](/es/speakbook/index.pdf) 
+- [Colour Version](/es/speakbook/classic.html) - 📄 [A4 PDF](/es/speakbook/classic.pdf) 
 
 [Complete Zipped package with US Letter size](/es/speakbook/es-speakbook.zip)
 
 ### 🇩🇪 German
 
-- [Color-Blind Friendly](/de/speakbook/) - [📄 PDF](/de/speakbook/index.pdf) 
-- [Colour Version][/de/speakbook/classic.html] - [📄 PDF](/de/speakbook/classic.pdf) 
+- [Color-Blind Friendly](/de/speakbook/) - 📄 [A4 PDF](/de/speakbook/index.pdf) 
+- [Colour Version](/de/speakbook/classic.html) - 📄 [A4 PDF](/de/speakbook/classic.pdf) 
 
 [Complete Zipped package with US Letter size](/de/speakbook/de-speakbook.zip)
 
-### 🇩🇪 French
+### 🇫🇷 French
 
-- [Color-Blind Friendly](/fr/speakbook/) - [📄 PDF](/fr/speakbook/index.pdf) 
-- [Colour Version][/fr/speakbook/classic.html] - [📄 PDF](/fr/speakbook/classic.pdf) 
+- [Color-Blind Friendly](/fr/speakbook/) - 📄 [A4 PDF](/fr/speakbook/index.pdf) 
+- [Colour Version](/fr/speakbook/classic.html) - 📄 [A4 PDF](/fr/speakbook/classic.pdf) 
 
 [Complete Zipped package with US Letter size](/fr/speakbook/fr-speakbook.zip)
 
 ### 🇲🇹 Maltese
 
-- [Color-Blind Friendly](/mt/speakbook/) - [📄 PDF](/mt/speakbook/index.pdf) 
-- [Colour Version][/mt/speakbook/classic.html] - [📄 PDF](/mt/speakbook/classic.pdf) 
+- [Color-Blind Friendly](/mt/speakbook/) - 📄 [A4 PDF](/mt/speakbook/index.pdf) 
+- [Colour Version](/mt/speakbook/classic.html) - 📄 [A4 PDF](/mt/speakbook/classic.pdf) 
 
 [Complete Zipped package with US Letter size](/mt/speakbook/mt-speakbook.zip)
 
 ### 🇲🇿 Zulu
 
-- [Color-Blind Friendly](/zu/speakbook/) - [📄 PDF](/zu/speakbook/index.pdf) 
-- [Colour Version][/zu/speakbook/classic.html] - [📄 PDF](/zu/speakbook/classic.pdf) 
+- [Color-Blind Friendly](/zu/speakbook/) - 📄 [A4 PDF](/zu/speakbook/index.pdf) 
+- [Colour Version](/zu/speakbook/classic.html) - 📄 [A4 PDF](/zu/speakbook/classic.pdf) 
 
 [Complete Zipped package with US Letter size](/zu/speakbook/zu-speakbook.zip)
 
 ## Needs a proof reader 
 
-### 🇲🇿 Chinese Simplified
+### 🇨🇳 Chinese Simplified
 
-- [Color-Blind Friendly](/zh-CN/speakbook/) - [📄 PDF](/zh-CN/speakbook/index.pdf) 
-- [Colour Version][/zh-CN/speakbook/classic.html] - [📄 PDF](/zh-CN/speakbook/classic.pdf) 
+NB: We really are not sure how speakbook would work in Chinese. Maybe we need to strip out the finger spelling page - and spelling e-tran style page. 
+
+- [Color-Blind Friendly](/zh-CN/speakbook/) - 📄 [A4 PDF](/zh-CN/speakbook/index.pdf) 
+- [Colour Version](/zh-CN/speakbook/classic.html) - 📄 [A4 PDF](/zh-CN/speakbook/classic.pdf) 
 
 [Complete Zipped package with US Letter size](/zh-CN/speakbook/zh-CN-speakbook.zip)
 
@@ -100,19 +132,20 @@ The current *in-progress* versions (Note: will only look as intended in Chrome. 
 
 Note: using Abjadī alphabet
 
-- [Color-Blind Friendly](/ar/speakbook/) - [📄 PDF](/ar/speakbook/index.pdf) 
-- [Colour Version][/ar/speakbook/classic.html] - [📄 PDF](/ar/speakbook/classic.pdf) 
-- [Printing Instructions](/ar/speakbook/printing-instructions.html) -  [📄 PDF](/af/speakbook/printing-instructions.pdf))
+- [Color-Blind Friendly](/ar/speakbook/) - 📄 [A4 PDF](/ar/speakbook/index.pdf) 
+- [Colour Version](/ar/speakbook/classic.html) - 📄 [A4 PDF](/ar/speakbook/classic.pdf) 
+- [Printing Instructions](/ar/speakbook/printing-instructions.html) -  📄 [A4 PDF](/af/speakbook/printing-instructions.pdf)
 
 [Complete Zipped package with US Letter size](/ar/speakbook/ar-speakbook.zip)
   
-### 🇲🇿 Urdu
+### 🇵🇰 Urdu
 
-- [Color-Blind Friendly](/ur/speakbook/) - [📄 PDF](/ur/speakbook/index.pdf) 
-- [Colour Version][/ur/speakbook/classic.html] - [📄 PDF](/ur/speakbook/classic.pdf) 
+- [Color-Blind Friendly](/ur/speakbook/) - 📄 [A4 PDF](/ur/speakbook/index.pdf) 
+- [Colour Version](/ur/speakbook/classic.html) - 📄 [A4 PDF](/ur/speakbook/classic.pdf) 
 
 [Complete Zipped package with US Letter size](/ur/speakbook/ur-speakbook.zip)
   
+## New Translations? Help improve a translation? 
 
 To help out with translation into new languages join the [POEditor project here](https://poeditor.com/join/project/wKsMtKRLIj)
 
