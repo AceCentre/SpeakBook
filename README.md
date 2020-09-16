@@ -146,7 +146,9 @@ Note: using Abjadī alphabet
 - [Printing Instructions](/ar/speakbook/printing-instructions.html) -  📄 [A4 PDF](/af/speakbook/printing-instructions.pdf)
 
 [Complete Zipped package with US Letter size](/ar/speakbook/ar-speakbook.zip)
-  
+
+**Credits** Hossein Amin, Iraq. 
+
 ### 🇵🇰 Urdu
 
 - [Color-Blind Friendly](/ur/speakbook/) - 📄 [A4 PDF](/ur/speakbook/index.pdf) 
@@ -154,11 +156,7 @@ Note: using Abjadī alphabet
 
 [Complete Zipped package with US Letter size](/ur/speakbook/ur-speakbook.zip)
   
-## New Translations? Help improve a translation? 
 
-To help out with translation into new languages join the [POEditor project here](https://poeditor.com/join/project/wKsMtKRLIj)
-
-[Issues here](https://github.com/acecentre/SpeakBook/issues).  
 
 ## How do I create a new version for my language - or improve a language translation
 
@@ -170,16 +168,22 @@ Firstly - *Great!* Here are the steps:
 4.  There’s usually tweaks to be made around how we do the e-Tran frame and finger spelling page. At that stage we just have a email chat about the best way forward. Some languages don’t bother to use all their letters - or we ignore the numbers. Lots of things we can do. And feel free to change things like the static words like “I feel hot” to something more regional. 
 5.  *Lastly** - we translate the printing instructions page. That’s just a text or word file you can [send me](mailto:wwade@acecentre.org.uk).  Example [here](https://speakbook.netlify.app/speakbook/printing-instructions.pdf) 
 
+## I want it to do _____ or can it print upside down?  
+
+[Get in touch with the team](mailto:wwade@acecentre.org.uk) if you have a special request. We occasionally do sprints of work on SpeakBook to add new features. Alternatively look at the current 
+[Issues here](https://github.com/acecentre/SpeakBook/issues).  We welcome code changes and pull requests! 
 
 **Urgent needs**
 - Need translations for a [printed instructions sheet ](https://acecentre.org.uk/wp-content/uploads/2018/11/Printing-Instructions1.pdf)
-- More serious coding issues see the queue [ here](https://github.com/acecentre/SpeakBook/issues). 
+- More serious coding issues see the queue [here](https://github.com/acecentre/SpeakBook/issues). 
 
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/) [![OpenAAC](https://img.shields.io/badge/OpenAAC-💬-red?style=plastic&logoWidth=40&link=https://www.openaac.org)](https://img.shields.io/badge/OpenAAC-💬-red?style=plastic&logoWidth=40&link=https://www.openaac.org) [![Netlify Status](https://api.netlify.com/api/v1/badges/e7e4b2ad-fd21-4239-8141-ea608482fea7/deploy-status)](https://app.netlify.com/sites/speakbook/deploys)
 
 ## Technical Background
 
 This is simply a Vue.js themed template with some scripts to generate a PDF of the html document that is created. Its designed for chrome as chrome does the PDF generation.  We use [PO language strings](https://www.gnu.org/software/gettext/manual/html_node/PO-Files.html) in this project. On each markdown file we have a ``text:`` field where there is a list of strings available to the page. This means you can separate the design logic from the language information. We have some scripts to aid this process. A Markdown->PO script to create a PO file from a file - and then a PO->Markdown script that applies new language strings to a markdown file.  
+
+We also have a very natty script that uses Google translate to make a new po file.. See below
 
 ### Layout
 
