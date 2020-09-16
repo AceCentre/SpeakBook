@@ -10,20 +10,109 @@ The current *in-progress* versions (Note: will only look as intended in Chrome. 
 
 ## Complete Translatons
 
-- 🇬🇧[English SpeakBook](/speakbook/), [Printing Instructions](/speakbook/printing-instructions.html) (and [PDF](/speakbook/index.pdf), [PDF - Printing Instructions](/speakbook/printing-instructions.pdf))
-- 🇹🇷[Turkish Speakbook](/tr/speakbook/), [Printing Instructions](/tr/speakbook/printing-instructions.html) (and [PDF](/tr/speakbook/index.pdf), [PDF - Printing Instructions](/tr/speakbook/printing-instructions.pdf))
-- 🇿🇦[Afrikaans SpeakBook](/af/speakbook/), [Printing Instructions](/af/speakbook/printing-instructions.html) (and [PDF](/af/speakbook/index.pdf), [PDF - Printing Instructions](/af/speakbook/printing-instructions.pdf))
+### 🇬🇧 English
+
+- [Color-Blind Friendly](/speakbook/) - [📄 PDF](/speakbook/index.pdf) 
+- [Colour Version][/speakbook/classic.html] - [📄 PDF](/speakbook/classic.pdf) 
+- [Printing Instructions](/speakbook/printing-instructions.html) -  [📄 PDF](/speakbook/printing-instructions.pdf))
+
+[Complete Zipped package with US Letter size](/speakbook/en-speakbook.zip)
+
+### 🇹🇷 Turkish
+
+- [Color-Blind Friendly](/tr/speakbook/) - [📄 PDF](/tr/speakbook/index.pdf) 
+- [Colour Version][/tr/speakbook/classic.html] - [📄 PDF](/tr/speakbook/classic.pdf) 
+- [Printing Instructions](/tr/speakbook/printing-instructions.html) -  [📄 PDF](/tr/speakbook/printing-instructions.pdf))
+
+[Complete Zipped package with US Letter size](/tr/speakbook/tr-speakbook.zip)
+
+
+- 🇿🇦 Afrikaans
+
+- [Color-Blind Friendly](/af/speakbook/) - [📄 PDF](/af/speakbook/index.pdf) 
+- [Colour Version][/af/speakbook/classic.html] - [📄 PDF](/af/speakbook/classic.pdf) 
+- [Printing Instructions](/af/speakbook/printing-instructions.html) -  [📄 PDF](/af/speakbook/printing-instructions.pdf))
+
+[Complete Zipped package with US Letter size](/af/speakbook/af-speakbook.zip)
+
 
 ## Needing "Printing Instructions" (but complete otherwise)
 
-- 🇸🇪[Swedish SpeakBook](/sv/speakbook/) (and [PDF](/sv/speakbook/index.pdf))
-- 🇵🇹[Portuguese SpeakBook](/po/speakbook/) (and [PDF](/po/speakbook/index.pdf))
-- 🇪🇸[Spanish SpeakBook](/es/speakbook/) (and [PDF](/es/speakbook/index.pdf))
-- 🇩🇪[German SpeakBook](/de/speakbook/) (and [PDF](/de/speakbook/index.pdf))
-- 🇫🇷[French SpeakBook](/fr/speakbook/) (and [PDF](/fr/speakbook/index.pdf))
-- 🇿🇦[Zulu SpeakBook](/zu/speakbook/) (and [PDF](/zu/speakbook/index.pdf))
-- 🇲🇹[Maltese SpeakBook](/mt/speakbook/) (and [PDF](/mt/speakbook/index.pdf))
+### 🇸🇪 Swedish
 
+- [Color-Blind Friendly](/sv/speakbook/) - [📄 PDF](/sv/speakbook/index.pdf) 
+- [Colour Version][/sv/speakbook/classic.html] - [📄 PDF](/sv/speakbook/classic.pdf) 
+
+[Complete Zipped package with US Letter size](/sv/speakbook/sv-speakbook.zip)
+
+### 🇵🇹 Portuguese
+
+- [Color-Blind Friendly](/po/speakbook/) - [📄 PDF](/po/speakbook/index.pdf) 
+- [Colour Version][/po/speakbook/classic.html] - [📄 PDF](/po/speakbook/classic.pdf) 
+
+[Complete Zipped package with US Letter size](/sv/speakbook/sv-speakbook.zip)
+
+### 🇵🇪🇸Spanish
+
+- [Color-Blind Friendly](/es/speakbook/) - [📄 PDF](/es/speakbook/index.pdf) 
+- [Colour Version][/es/speakbook/classic.html] - [📄 PDF](/es/speakbook/classic.pdf) 
+
+[Complete Zipped package with US Letter size](/es/speakbook/es-speakbook.zip)
+
+### 🇩🇪 German
+
+- [Color-Blind Friendly](/de/speakbook/) - [📄 PDF](/de/speakbook/index.pdf) 
+- [Colour Version][/de/speakbook/classic.html] - [📄 PDF](/de/speakbook/classic.pdf) 
+
+[Complete Zipped package with US Letter size](/de/speakbook/de-speakbook.zip)
+
+### 🇩🇪 French
+
+- [Color-Blind Friendly](/fr/speakbook/) - [📄 PDF](/fr/speakbook/index.pdf) 
+- [Colour Version][/fr/speakbook/classic.html] - [📄 PDF](/fr/speakbook/classic.pdf) 
+
+[Complete Zipped package with US Letter size](/fr/speakbook/fr-speakbook.zip)
+
+### 🇲🇹 Maltese
+
+- [Color-Blind Friendly](/mt/speakbook/) - [📄 PDF](/mt/speakbook/index.pdf) 
+- [Colour Version][/mt/speakbook/classic.html] - [📄 PDF](/mt/speakbook/classic.pdf) 
+
+[Complete Zipped package with US Letter size](/mt/speakbook/mt-speakbook.zip)
+
+### 🇲🇿 Zulu
+
+- [Color-Blind Friendly](/zu/speakbook/) - [📄 PDF](/zu/speakbook/index.pdf) 
+- [Colour Version][/zu/speakbook/classic.html] - [📄 PDF](/zu/speakbook/classic.pdf) 
+
+[Complete Zipped package with US Letter size](/zu/speakbook/zu-speakbook.zip)
+
+## Needs a proof reader 
+
+### 🇲🇿 Chinese Simplified
+
+- [Color-Blind Friendly](/zh-CN/speakbook/) - [📄 PDF](/zh-CN/speakbook/index.pdf) 
+- [Colour Version][/zh-CN/speakbook/classic.html] - [📄 PDF](/zh-CN/speakbook/classic.pdf) 
+
+[Complete Zipped package with US Letter size](/zh-CN/speakbook/zh-CN-speakbook.zip)
+
+### 🇲🇿 Arabic
+
+Note: using Abjadī alphabet
+
+- [Color-Blind Friendly](/ar/speakbook/) - [📄 PDF](/ar/speakbook/index.pdf) 
+- [Colour Version][/ar/speakbook/classic.html] - [📄 PDF](/ar/speakbook/classic.pdf) 
+- [Printing Instructions](/ar/speakbook/printing-instructions.html) -  [📄 PDF](/af/speakbook/printing-instructions.pdf))
+
+[Complete Zipped package with US Letter size](/ar/speakbook/ar-speakbook.zip)
+  
+### 🇲🇿 Urdu
+
+- [Color-Blind Friendly](/ur/speakbook/) - [📄 PDF](/ur/speakbook/index.pdf) 
+- [Colour Version][/ur/speakbook/classic.html] - [📄 PDF](/ur/speakbook/classic.pdf) 
+
+[Complete Zipped package with US Letter size](/ur/speakbook/ur-speakbook.zip)
+  
 
 To help out with translation into new languages join the [POEditor project here](https://poeditor.com/join/project/wKsMtKRLIj)
 
@@ -86,18 +175,14 @@ $ yarn dev
 $ yarn build
 # build pdf format for all pages
 $ yarn buildpdf
+# build a zip of all the pdfs for each language
+$ node .scripts/buildfinalzip.js
 ```
 
 There is also a way we can use Google translate to start a new language. This is useful to get you going in the right direction.. 
-
-setup:
-```npm install parse5-serializer-stream, parse5, @vitalets/google-translate-api  ```
-and then run:
-```node .scripts/po-google-translate.js res/lang/master.po res/lang/SpeakBook_Armenian.po English Armenian'```
-
 e.g. For English to Armenian
 
-```node .scripts/po-google-translate.js res/lang/master.po res/lang/SpeakBook_Armenian.po en hy```
+```node .scripts/po-google-translate.js res/lang/master.po res/lang/SpeakBook_Armenian.po en hy'```
 
 
 ### Script to update all files from POEditor
@@ -130,3 +215,4 @@ node .scripts/apply-po-to-md.js res/lang/SpeakBook_Turkish.po tr/speakbook/class
 node .scripts/apply-po-to-md.js res/lang/SpeakBook_Maltese.po mt/speakbook/classic.md > mt/speakbook/classic2.md && mv mt/speakbook/classic2.md mt/speakbook/classic.md 
 node .scripts/apply-po-to-md.js res/lang/SpeakBook_Armenian.po hu/speakbook/classic.md > hu/speakbook/classic2.md && mv hu/speakbook/classic2.md hu/speakbook/classic.md 
 ```
+    
