@@ -9,21 +9,21 @@ Table of Contents
 
 * [Introduction](#introduction)
 * [Complete Translatons](#complete-translatons)
-    * [<g-emoji class="g-emoji" alias="gb" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1ec-1f1e7.png">🇬🇧</g-emoji> English](#-english)
-    * [<g-emoji class="g-emoji" alias="tr" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f9-1f1f7.png">🇹🇷</g-emoji> Turkish](#-turkish)
-    * [<g-emoji class="g-emoji" alias="south_africa" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1ff-1f1e6.png">🇿🇦</g-emoji> Afrikaans](#-afrikaans)
+    * [<g-emoji class="g-emoji" alias="gb" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1ec-1f1e7.png">🇬🇧</g-emoji> English](#🇬🇧-english)
+    * [<g-emoji class="g-emoji" alias="tr" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f9-1f1f7.png">🇹🇷</g-emoji> Turkish](#🇹🇷-turkish)
+    * [<g-emoji class="g-emoji" alias="south_africa" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1ff-1f1e6.png">🇿🇦</g-emoji> Afrikaans](🇿🇦-afrikaans)
 * [Needing "Printing Instructions" (but complete otherwise)](#needing-printing-instructions-but-complete-otherwise)
-    * [<g-emoji class="g-emoji" alias="sweden" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f8-1f1ea.png">🇸🇪</g-emoji> Swedish](#-swedish)
-    * [<g-emoji class="g-emoji" alias="portugal" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f5-1f1f9.png">🇵🇹</g-emoji> Portuguese](#-portuguese)
-    * [<g-emoji class="g-emoji" alias="es" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1ea-1f1f8.png">🇪🇸</g-emoji> Spanish](#-spanish)
-    * [<g-emoji class="g-emoji" alias="de" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1e9-1f1ea.png">🇩🇪</g-emoji> German](#-german)
-    * [<g-emoji class="g-emoji" alias="fr" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1eb-1f1f7.png">🇫🇷</g-emoji> French](#-french)
-    * [<g-emoji class="g-emoji" alias="malta" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f2-1f1f9.png">🇲🇹</g-emoji> Maltese](#-maltese)
-    * [<g-emoji class="g-emoji" alias="mozambique" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f2-1f1ff.png">🇲🇿</g-emoji> Zulu](#-zulu)
+    * [<g-emoji class="g-emoji" alias="sweden" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f8-1f1ea.png">🇸🇪</g-emoji> Swedish](#🇸🇪-swedish)
+    * [<g-emoji class="g-emoji" alias="portugal" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f5-1f1f9.png">🇵🇹</g-emoji> Portuguese](#🇵🇹-portuguese)
+    * [<g-emoji class="g-emoji" alias="es" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1ea-1f1f8.png">🇪🇸</g-emoji> Spanish](#🇪🇸-spanish)
+    * [<g-emoji class="g-emoji" alias="de" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1e9-1f1ea.png">🇩🇪</g-emoji> German](#🇩🇪-german)
+    * [<g-emoji class="g-emoji" alias="fr" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1eb-1f1f7.png">🇫🇷</g-emoji> French](#🇫🇷-french)
+    * [<g-emoji class="g-emoji" alias="malta" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f2-1f1f9.png">🇲🇹</g-emoji> Maltese](#🇲🇹-maltese)
+    * [<g-emoji class="g-emoji" alias="mozambique" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f2-1f1ff.png">🇲🇿</g-emoji> Zulu](#🇲🇿-zulu)
 * [Needs a proof reader](#needs-a-proof-reader)
-    * [<g-emoji class="g-emoji" alias="cn" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1e8-1f1f3.png">🇨🇳</g-emoji> Chinese Simplified](#-chinese-simplified)
-    * [<g-emoji class="g-emoji" alias="mozambique" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f2-1f1ff.png">🇲🇿</g-emoji> Arabic](#-arabic)
-    * [<g-emoji class="g-emoji" alias="pakistan" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f5-1f1f0.png">🇵🇰</g-emoji> Urdu](#-urdu)
+    * [<g-emoji class="g-emoji" alias="cn" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1e8-1f1f3.png">🇨🇳</g-emoji> Chinese Simplified](#🇨🇳-chinese-simplified)
+    * [<g-emoji class="g-emoji" alias="mozambique" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f2-1f1ff.png">🇲🇿</g-emoji> Arabic](#🇲🇿-arabic
+    * [<g-emoji class="g-emoji" alias="pakistan" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f5-1f1f0.png">🇵🇰</g-emoji> Urdu](#🇵🇰-urdu)
 * [New Translations? Help improve a translation?](#new-translations-help-improve-a-translation)
 * [How do I create a new version for my language - or improve a language translation](#how-do-i-create-a-new-version-for-my-language---or-improve-a-language-translation)
 * [Technical Background](#technical-background)
@@ -56,6 +56,7 @@ The current *in-progress* versions (Note: will only look as intended in Chrome. 
 
 [Complete Zipped package with US Letter size](/tr/speakbook/tr-speakbook.zip)
 
+**Credits** Ersin Sinay
 
 ### 🇿🇦 Afrikaans
 
@@ -65,6 +66,7 @@ The current *in-progress* versions (Note: will only look as intended in Chrome. 
 
 [Complete Zipped package with US Letter size](/af/speakbook/af-speakbook.zip)
 
+**Credits** Emma Emmerich,  Inclusive Solutions. 
 
 ## Needing "Printing Instructions" (but complete otherwise)
 
@@ -81,6 +83,8 @@ The current *in-progress* versions (Note: will only look as intended in Chrome. 
 - [Colour Version](/po/speakbook/classic.html) - 📄 [A4 PDF](/po/speakbook/classic.pdf) 
 
 [Complete Zipped package with US Letter size](/sv/speakbook/sv-speakbook.zip)
+
+**Credits** Hélio Lourenço, Ace Centre UK
 
 ### 🇪🇸 Spanish
 
@@ -119,6 +123,8 @@ The current *in-progress* versions (Note: will only look as intended in Chrome. 
 - [Colour Version](/zu/speakbook/classic.html) - 📄 [A4 PDF](/zu/speakbook/classic.pdf) 
 
 [Complete Zipped package with US Letter size](/zu/speakbook/zu-speakbook.zip)
+
+**Credits** Sipho Sibanda, Inclusive Solutions 
 
 ## Needs a proof reader 
 
