@@ -2,7 +2,7 @@
 layout: SpeakBook
 text:
   ring_bind_edge: Agħmel il-binding hawn
-  cut_out_this_part: Aqta' din il-bicca
+  cut_out_this_part: Aqta' din il-biċċa
   SPEAKBOOK: SPEAKBOOK
   edition_nth: ir-raba'
   EDITION: edizzjoni
@@ -25,7 +25,7 @@ text:
   H: H
   H2: Ħ
   I: I
-  J: Ie
+  J: J
   K: K
   L: L
   M: M
@@ -70,7 +70,7 @@ text:
   TRAINING_PAGE: PAĠNA TA' PRATTIKA
   training_page: paġna ta' prattika
   _GBP: €
-  _USD: $
+  _USD: £
   _percent: "%"
   _plus: +
   _minus: "-"
@@ -1266,9 +1266,9 @@ grid_pages:
 :::
 ::: slot last-page-heading
 <div class="float-left" style="width: 40mm; height: 37mm; shape-outside: polygon(0 0, 40mm 0, 10mm 100%, 0 100%);"></div>
-<h2 class="my-2">Paġna tal-ortografija tas-swaba.</h2>
+<h2 class="my-2">ortografija tas-swaba 'paġna.</h2>
 <p class="my-2">
-  Jek għadek tista' tuża' idejk, mela din il-paġna hi għalik. Tista' tispelli kliem u frażijiet lill-persuna li qed tikommunika magħha billi tipponta.
+  Jekk għadek tista' tuża' idejk, mela din il-paġna hi għalik. Tista' tispelli kliem u frażijiet lill-persuna li qed tikommunika magħha billi tipponta.
 </p>
 :::
 ::: slot training-page-description
@@ -1397,7 +1397,7 @@ Meta tkun tgħallimt it-teknika bażika permezz ta' din il-paġna ta' prattika, 
 ::: slot cover-footer
 <div class="lheight-1_5x">
   <p class="text-center cover-footer-text">
-    <span class="fsize-8 bold">Sistema ta' kommunikazzjoni ghal nies li ma jitkelmux</span><br>
+    <span class="fsize-8 bold">Sistema ta' kommunikazzjoni għal nies li ma jitkelmux</span><br>
     <span class="red-color fsize-8 bold">acecent.re/speakbook</span><br>
     <span class="fsize-4">Speakbook ir-raba' edizzjoni © 2011 Patrick Joyce</span>
   </p>
@@ -1411,16 +1411,7 @@ Meta tkun tgħallimt it-teknika bażika permezz ta' din il-paġna ta' prattika, 
 
 
 ::: slot inst-01-flt-right-content
-<div class="abs-fill-parent flex-h" style="align-items: flex-end;">
-  <div class="flex-grow-1"></div>
-  <div class="flex-v">
-    <img class="m-1" style="width: 58.5mm; height: 79.7mm; box-sizing: border-box;" :src="$withBase('/speakbook/images/01.png')"  />
-    <div class="m-1 p-1 flex-grow-1 flt-box" style="width: 57.5mm; min-height: 79.7mm; box-sizing: border-box;">
-      <h3 class="my-1 fsize-5">Kif tikteb fuq il-talkbook</h3>
-      <p class="my-2 fsize-4_5">Eżattament dak li tikteb fuq il-speakbook jiddependi fuq il-ħtiġijiet partikolari tiegħek, imma tkun xi tkun tikteb, huwa importanti li kull naħa ta 'kull paġna mifruxa doppja jkollha l-istess test fuqu, u li huma xbieha mera ta' xulxin - bħal f ' l-eżempju hawn fuq. Int u sieħbek jitkellmu lingwi differenti? Ebda problema - ikteb lingwa differenti fuq kull naħa.</p>
-    </div>
-  </div>
-</div>
+Dak li tikteb fuq l-iSpeakbook, jidependi mill-bżonnijiet partikolari tiegħek. Huwa importanti, li dak kollu li tikteb, ikun l-istess f'paġni li huma identiċi minn quddiem u minn wara - bħal l-eżempju ta' hawn fuq. Jekk inti u s-sieħeb tiegħek titkelmu lingwi differenti, mhijiex probelma - ikteb il-lingwa l-oħra fuq naħa minnhom. 
 :::
 v>
 :::

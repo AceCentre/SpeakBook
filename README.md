@@ -110,6 +110,9 @@ The current *in-progress* versions (Note: will only look as intended in Chrome. 
 
 [Complete Zipped package with US Letter size](/mt/speakbook/mt-speakbook.zip)
 
+**Credits** Martina Zarb, Jamie Said, Access to Communication and Technology Unit (ACTU), Malta
+
+
 ### 🇲🇿 Zulu
 
 - [Color-Blind Friendly](/zu/speakbook/) - 📄 [A4 PDF](/zu/speakbook/index.pdf) 
