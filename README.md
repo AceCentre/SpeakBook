@@ -100,12 +100,17 @@ The current *in-progress* versions (Note: will only look as intended in Chrome. 
 
 [Complete Zipped package with US Letter size](/de/speakbook/de-speakbook.zip)
 
+**Credits** Michael Ritson, Ace Centre, UK. 
+
+
 ### 🇫🇷 French
 
 - [Color-Blind Friendly](/fr/speakbook/) - 📄 [A4 PDF](/fr/speakbook/index.pdf) 
 - [Colour Version](/fr/speakbook/classic.html) - 📄 [A4 PDF](/fr/speakbook/classic.pdf) 
 
 [Complete Zipped package with US Letter size](/fr/speakbook/fr-speakbook.zip)
+
+**Credits** Michael Ritson, Ace Centre, UK. 
 
 ### 🇲🇹 Maltese
 
