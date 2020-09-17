@@ -1394,12 +1394,14 @@ grid_pages:
 :::
 
 ::: slot cover-footer
-<div class="lheight-1_5x">
-  <p class="text-center cover-footer-text">
+<div class="flex-h items-align-center lheight-1_5x" style="width: calc(var(--page-width) - 60mm);">
+  <p class="cover-footer-text">
     <span class="fsize-8 bold">ոչ բանավոր կապի համակարգը</span><br>
     <span class="red-color fsize-8 bold">www.speakbook.org</span><br>
     <span class="fsize-4">Speakbook 4-րդ հրատարակություն © 2011 Պատրիկ Joyce</span>
   </p>
+  <div class="flex-grow-1"></div>
+  <img style="width: 30mm;height: 30mm;" :src="$withBase('/speakbook/images/PublishedByAce.svg')" />
 </div>
 :::
 

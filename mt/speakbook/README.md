@@ -1395,12 +1395,14 @@ Meta tkun tgħallimt it-teknika bażika permezz ta' din il-paġna ta' prattika, 
 :::
 
 ::: slot cover-footer
-<div class="lheight-1_5x">
-  <p class="text-center cover-footer-text">
+<div class="flex-h items-align-center lheight-1_5x" style="width: calc(var(--page-width) - 60mm);">
+  <p class="cover-footer-text">
     <span class="fsize-8 bold">Sistema ta' kommunikazzjoni għal nies li ma jitkelmux</span><br>
     <span class="red-color fsize-8 bold">acecent.re/speakbook</span><br>
     <span class="fsize-4">Speakbook ir-raba' edizzjoni © 2011 Patrick Joyce</span>
   </p>
+  <div class="flex-grow-1"></div>
+  <img style="width: 30mm;height: 30mm;" :src="$withBase('/speakbook/images/PublishedByAce.svg')" />
 </div>
 :::
 
