@@ -90,7 +90,7 @@ rtl: true
 comment_for_pagesize: page size is a little smaller that A4 due to an unknown issue with pdf renderer
 inlinecss:
   --page-width: 209.5mm
-  --page-height: 296.5mm
+  --page-height: 296.35mm
   --cut-out-center-guide-width: 68mm
   --cut-out-center-guide-height: 162mm
   --fsize-9: 21pt

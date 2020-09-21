@@ -3,8 +3,8 @@ layout: Page
 title: Printing Instructions
 rtl: true
 inlinecss:
-  --page-width: 210mm
-  --page-height: 297mm
+  --page-width: 209.5mm
+  --page-height: 296.35mm
 ---
 <div class="page">
   <div class="flex-v items-align-center">
