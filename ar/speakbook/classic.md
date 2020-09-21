@@ -90,8 +90,8 @@ slots_in_need_for_translation:
   - inst-02-content
 rtl: true
 inlinecss:
-  --page-width: 210mm
-  --page-height: 297mm
+  --page-width: 209.5mm
+  --page-height: 296.35mm
   --cut-out-center-guide-width: 68mm
   --cut-out-center-guide-height: 162mm
   --fsize-9: 21pt
