@@ -12,11 +12,11 @@ Table of Contents
     * [<g-emoji class="g-emoji" alias="gb" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1ec-1f1e7.png">🇬🇧</g-emoji> English](#🇬🇧-english)
     * [<g-emoji class="g-emoji" alias="tr" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f9-1f1f7.png">🇹🇷</g-emoji> Turkish](#🇹🇷-turkish)
     * [<g-emoji class="g-emoji" alias="south_africa" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1ff-1f1e6.png">🇿🇦</g-emoji> Afrikaans](🇿🇦-afrikaans)
+    * [<g-emoji class="g-emoji" alias="de" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1e9-1f1ea.png">🇩🇪</g-emoji> German](#🇩🇪-german)
 * [Needing "Printing Instructions" (but complete otherwise)](#needing-printing-instructions-but-complete-otherwise)
     * [<g-emoji class="g-emoji" alias="sweden" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f8-1f1ea.png">🇸🇪</g-emoji> Swedish](#🇸🇪-swedish)
     * [<g-emoji class="g-emoji" alias="portugal" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f5-1f1f9.png">🇵🇹</g-emoji> Portuguese](#🇵🇹-portuguese)
     * [<g-emoji class="g-emoji" alias="es" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1ea-1f1f8.png">🇪🇸</g-emoji> Spanish](#🇪🇸-spanish)
-    * [<g-emoji class="g-emoji" alias="de" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1e9-1f1ea.png">🇩🇪</g-emoji> German](#🇩🇪-german)
     * [<g-emoji class="g-emoji" alias="fr" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1eb-1f1f7.png">🇫🇷</g-emoji> French](#🇫🇷-french)
     * [<g-emoji class="g-emoji" alias="malta" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f2-1f1f9.png">🇲🇹</g-emoji> Maltese](#🇲🇹-maltese)
     * [<g-emoji class="g-emoji" alias="mozambique" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f2-1f1ff.png">🇲🇿</g-emoji> Zulu](#🇲🇿-zulu)
@@ -55,6 +55,17 @@ The current *in-progress* versions (Note: will only look as intended in Chrome. 
 
 [Complete Zipped package with US Letter size](/tr/speakbook/tr-speakbook.zip)
 
+
+### 🇩🇪 German
+
+- [Color-Blind Friendly](/de/speakbook/) - 📄 [A4 PDF](/de/speakbook/index.pdf) 
+- [Colour Version](/de/speakbook/classic.html) - 📄 [A4 PDF](/de/speakbook/classic.pdf) 
+- [Printing Instructions](/de/speakbook/printing-instructions.html) -  📄 [A4 PDF](/de/speakbook/printing-instructions.pdf)
+
+[Complete Zipped package with US Letter size](/de/speakbook/de-speakbook.zip)
+
+**Credits** [Julius Deutsch,  kommhelp e.V.](mailto:j.deutsch@kommhelp.de), Michael Ritson, Ace Centre, UK. 
+
 **Credits** Ersin Sinay
 
 ### 🇿🇦 Afrikaans
@@ -92,14 +103,6 @@ The current *in-progress* versions (Note: will only look as intended in Chrome. 
 
 [Complete Zipped package with US Letter size](/es/speakbook/es-speakbook.zip)
 
-### 🇩🇪 German
-
-- [Color-Blind Friendly](/de/speakbook/) - 📄 [A4 PDF](/de/speakbook/index.pdf) 
-- [Colour Version](/de/speakbook/classic.html) - 📄 [A4 PDF](/de/speakbook/classic.pdf) 
-
-[Complete Zipped package with US Letter size](/de/speakbook/de-speakbook.zip)
-
-**Credits** Michael Ritson, Ace Centre, UK. 
 
 
 ### 🇫🇷 French
@@ -227,6 +230,8 @@ $ yarn build
 $ yarn buildpdf
 # build a zip of all the pdfs for each language
 $ node .scripts/buildfinalzip.js
+$ netlify deploy --dir=.vuepress/dist
+$ netlify deploy --prod 
 ```
 
 There is also a way we can use Google translate to start a new language. This is useful to get you going in the right direction.. 

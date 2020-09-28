@@ -53,7 +53,7 @@ text:
   _seven: "7"
   _eight: "8"
   _nine: "9"
-  im_too_hot: Ich bin zu heiß
+  im_too_hot: Mir ist zu heiß
   im_too_cold: Mir ist zu kalt
   cup_of_tea: Tasse Tee!
   cup_of_coffee: Tasse Kaffee!
