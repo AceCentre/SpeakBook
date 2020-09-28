@@ -17,7 +17,7 @@ inlinecss:
   <h3>Druck durch einen Dienstleister.</h3>
   <p>Wenn Sie SpeakBook durch einen Dienstleister (Druckerei, Copyshop) herstellen lassen wollen, können Sie den folgenden Text für die Einholung eines Kostenvoranschlags verwenden. Denken Sie aber daran, dass nicht jeder Dienstleister Ringbuchbindung anbietet. Klären Sie das bevor sie den Kostenvoranschlag anfordern. (Ringbuchbindung ist deswegen wichtig, weil es die einzige Methode ist, mit der man das Ringbuch ganz nach hinten umschlagen kann).</p>
   <div class="my-3"></div>
-  <p>Sehr geehrte Damen und Herren/p>
+  <p>Sehr geehrte Damen und Herren</p>
   <p>Ich bitte um einen Kostenvoranschlag für den Druck einer Kopie das beiliegenden PDF. Es handelt sich um ein A4 Dokument. Der Druck soll beidseitig erfolgen: Seite 1 des PDF ist die Vorderseite des Deckblatts, Seite 2 ist die Innenseite des Deckblatts, usw. Der Druck soll auf festem Karton mit einer wischfesten Oberfläche erfolgen. (Die Nutzer dieses Buches müssen darauf mit einem Whiteboard-Stift schreiben und das Geschriebene auch immer wieder löschen können. An der linken Kante soll Ringbuchbindung erfolgen, sodass das Buch um 360° geöffnet werden kann. Die Seite (Tabs) und die Öffnungen in der Seitenmitte werde ich selbst ausschneiden. </p>
   <p>Sobald Sie Ihre Kopie bekommen, müssen Sie noch die Öffnung in den Seiten sowie die Reiter mit einer Schere und/oder einem Messer (Cutter) ausschneiden.</p>
 </div>
