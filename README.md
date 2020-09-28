@@ -55,6 +55,8 @@ The current *in-progress* versions (Note: will only look as intended in Chrome. 
 
 [Complete Zipped package with US Letter size](/tr/speakbook/tr-speakbook.zip)
 
+**Credits** Ersin Sinay
+
 
 ### 🇩🇪 German
 
@@ -66,7 +68,6 @@ The current *in-progress* versions (Note: will only look as intended in Chrome. 
 
 **Credits** [Julius Deutsch,  kommhelp e.V.](mailto:j.deutsch@kommhelp.de), Michael Ritson, Ace Centre, UK. 
 
-**Credits** Ersin Sinay
 
 ### 🇿🇦 Afrikaans
 
