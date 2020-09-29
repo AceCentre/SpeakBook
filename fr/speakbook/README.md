@@ -4,7 +4,7 @@ text:
   ring_bind_edge: Reliez en classeur à spirales
   cut_out_this_part: Découpez cette partie.
   SPEAKBOOK: SPEAKBOOK
-  edition_nth: 4ème
+  edition_nth: 5e
   EDITION: VERSION
   color_blind: Adapté pour les
   friendly: daltoniens
@@ -1072,7 +1072,7 @@ grid_pages:
               - image: shape-heart-1x-img
                 text_key: im_too_hot
                 text_inlinecss:
-                  font-size: 26pt                
+                  font-size: 26pt
               - image: shape-circle-1x-img
                 text_key: im_too_cold
               - image: shape-triangle-1x-img
@@ -1175,7 +1175,7 @@ grid_pages:
                 inlinecss:
                   margin-right: 43mm
                 text_inlinecss:
-                 font-size: 24pt
+                  font-size: 24pt
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -1242,7 +1242,7 @@ grid_pages:
               - image: shape-heart-1x-img
                 text_key: im_too_hot
                 text_inlinecss:
-                  font-size: 26pt  
+                  font-size: 26pt
               - image: shape-circle-1x-img
                 text_key: im_too_cold
               - image: shape-triangle-1x-img
@@ -1265,7 +1265,7 @@ grid_pages:
 <div class="float-left" style="width: 40mm; height: 37mm; shape-outside: polygon(0 0, 40mm 0, 10mm 100%, 0 100%);"></div>
 <h2 class="my-2">Page pour épeler en utilisant les doigts.</h2>
 <p class="my-2">
-Si vous avez encore l'usage de vos mains, cette page est pour vous. Vous pouvez épe-ler des mots ou des phrases à votre partenaire en les montrant du doigt. Les mots fré-quemment utilisés peuvent être écrits dans les cases vides. Quand vous voulez revenir au livre principal pour communiquer, attirez l'attention sur <strong class="bold">"ACCUEIL</strong>.
+Si vous avez encore l'usage de vos mains, cette page est pour vous. Vous pouvez épe-ler des mots ou des phrases à votre partenaire en les montrant du doigt. Les mots fré-quemment utilisés peuvent être écrits dans les cases vides. Quand vous voulez revenir au livre principal pour communiquer, attirez l'attention sur <strong class="bold">„ ACCUEIL‟*</strong> .
 </p>
 :::
 ::: slot training-page-description
@@ -1397,7 +1397,7 @@ Lorsque vous avez appris la technique de base en utilisant cette page d'essai, v
   <p class="cover-footer-text">
     <span class="fsize-8 bold">Outil de communication non-verbale</span><br>
     <span class="red-color fsize-8 bold">acecent.re/speakbook</span><br>
-    <span class="fsize-4">Speakbook 4ème version © 2011 Patrick Joyce, traduit en français par Myrande Robin et Jill Shepperd</span>
+    <span class="fsize-4">Speakbook 4ème version © 2011 Patrick Joyce, 2020 Ace Centre traduit en français par Myrande Robin et Jill Shepperd</span>
   </p>
   <div class="flex-grow-1"></div>
   <img style="width: 30mm;height: 30mm;" :src="$withBase('/speakbook/images/PublishedByAce.svg')" />

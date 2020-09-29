@@ -4,7 +4,7 @@ text:
   ring_bind_edge: ربط عصابة على طول هذه الحافة
   cut_out_this_part: قطع هذا الجزء.
   SPEAKBOOK: SPEAKBOOK
-  edition_nth: "4"
+  edition_nth: "5"
   EDITION: الإصدار
   color_blind: عمى الالوان
   friendly: ودود!
@@ -1393,7 +1393,7 @@ grid_pages:
   <p class="cover-footer-text">
     <span class="fsize-8 bold">غير النظام لفظية</span><br>
     <span class="red-color fsize-8 bold">acecent.re/speakbook</span><br>
-    <span class="fsize-4">Speakbook 4th الطبعة © 2011 باتريك جويس</span>
+    <span class="fsize-4">Speakbook 5th الطبعة © 2020 باتريك جويس</span>
   </p>
   <div class="flex-grow-1"></div>
   <img style="width: 30mm;height: 30mm;" :src="$withBase('/speakbook/images/PublishedByAce.svg')">
@@ -1427,7 +1427,7 @@ grid_pages:
 ::: slot inst-02-flt-left-label
 <div class="pos-rel fill-height fill-width">
   <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-left-label-bkg.svg')">
-  <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% - 5mm), calc(-50% - 5mm)) rotate(-45deg); color: white; width: 42mm;text-align: center;">{{ $page.frontmatter.text.instructions }}</div>
+  <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% - 5mm), calc(-50% - 5mm)) rotate(-45deg); color: white;width: 42mm;text-align: center;">{{ $page.frontmatter.text.instructions }}</div>
 </div>
 :::
 ::: slot inst-02-flt-left-content

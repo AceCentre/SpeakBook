@@ -4,7 +4,7 @@ text:
   ring_bind_edge: رنگ اس کنارے کے ساتھ ساتھ پابند
   cut_out_this_part: اس حصہ کاٹ.
   SPEAKBOOK: SPEAKBOOK
-  edition_nth: 4th کے
+  edition_nth: 5th کے
   EDITION: EDITION
   color_blind: رنگوں کی پہچان نہ کر سکنے والا
   friendly: دوستانہ!
@@ -1393,7 +1393,7 @@ grid_pages:
   <p class="cover-footer-text">
     <span class="fsize-8 bold">غیر زبانی مواصلات کے نظام</span><br>
     <span class="red-color fsize-8 bold">acecent.re/speakbook</span><br>
-    <span class="fsize-4">Speakbook 4th ایڈیشن © 2011 پیٹرک جوائس</span>
+    <span class="fsize-4">Speakbook 5th ایڈیشن © 2011 پیٹرک جوائس</span>
   </p>
   <div class="flex-grow-1"></div>
   <img style="width: 30mm;height: 30mm;" :src="$withBase('/speakbook/images/PublishedByAce.svg')" />

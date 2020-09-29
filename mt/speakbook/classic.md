@@ -79,7 +79,7 @@ text:
   _atsign: "@"
   YES: IVA
   NO: LE
-  edition_nth: ir-raba'
+  edition_nth: "5"
 slots_in_need_for_translation:
   - training-page-description
   - last-page-heading
@@ -1229,7 +1229,7 @@ Meta tkun tgħallimt it-teknika bażika permezz ta' din il-paġna ta' prattika, 
   <p class="cover-footer-text">
     <span class="fsize-8 bold">Sistema ta' kommunikazzjoni għal nies li ma jitkelmux</span><br>
     <span class="red-color fsize-8 bold">acecent.re/speakbook</span><br>
-    <span class="fsize-4">Speakbook ir-raba' edizzjoni © 2011 Patrick Joyce</span>
+    <span class="fsize-4">Speakbook ir-raba' edizzjoni © 2011 Patrick Joyce, 2020 Ace Centre, Tradott minn Martina Zarb</span>
   </p>
   <div class="flex-grow-1"></div>
   <img style="width: 30mm;height: 30mm;" :src="$withBase('/speakbook/images/PublishedByAce.svg')" />
@@ -1237,17 +1237,29 @@ Meta tkun tgħallimt it-teknika bażika permezz ta' din il-paġna ta' prattika, 
 :::
 
 ::: slot inst-01-flt-right-content
-Dak li tikteb fuq l-iSpeakbook, jidependi mill-bżonnijiet partikolari tiegħek. Huwa importanti, li dak kollu li tikteb, ikun l-istess f'paġni li huma identiċi minn quddiem u minn wara - bħal l-eżempju ta' hawn fuq. Jekk inti u s-sieħeb tiegħek titkelmu lingwi differenti, mhijiex probelma - ikteb il-lingwa l-oħra fuq naħa minnhom. 
+<div class="abs-fill-parent flex-h" style="align-items: flex-end;">
+  <div class="flex-grow-1"></div>
+  <div class="flex-v">
+    <img class="m-1" style="width: 58.5mm; height: 79.7mm; box-sizing: border-box;" :src="$withBase('/speakbook/images/01.png')"  />
+    <div class="m-1 p-1 flex-grow-1 flt-box" style="width: 57.5mm; min-height: 79.7mm; box-sizing: border-box;">
+      <h3 class="my-1 fsize-5">How to write on the speakbook</h3>
+      <p class="my-2 fsize-4_5">Dak li tikteb fuq l-iSpeakbook, jidependi mill-bżonnijiet partikolari tiegħek. Huwa importanti, li dak kollu li tikteb, ikun l-istess f'paġni li huma identiċi minn quddiem u minn wara - bħal l-eżempju ta' hawn fuq. Jekk inti u s-sieħeb tiegħek titkelmu lingwi differenti, mhijiex probelma - ikteb il-lingwa l-oħra fuq naħa minnhom. </p>
+    </div>
+  </div>
+</div>
 :::
 ::: slot inst-01-content
-Speakbook hija sistema ta' kommunikazzjoni għal nies li ma jitkellmux u għandhom problemi biex jużaw idejhom jew driegħhom, imma għadhom jistgħu jużaw għajnejhom. Din l-edizzjoni hija għal nies li kapaċi jaqraw u jispellu. Għal min ma jafx jaqra, għal verżjonijiet b'lingwi differenti jew għa; verżjoni ta' pocket edition, żur: <b>acecent.re/speakbook</b></p>
-<h2 class="fsize-6">Instructions for use.</h2>
+<div class="p-1 text-center">
+  <SpeakBookTextFourColorBkg class="speakbook-title fsize-10 p-1 bold" :text="$page.frontmatter.text.SPEAKBOOK"></SpeakBookTextFourColorBkg>
+</div>
+<p>Speakbook huwa għodda ta ’komunikazzjoni mhux verbali għal persuni li ma jistgħux jitkellmu u jkollhom diffikultà jużaw l-idejn jew l-armi tagħhom, iżda li jżommu l-użu ta’ għajnejhom. Din l-edizzjoni hija għal nies li jistgħu jaqraw u jispeċifikaw. Għal verżjonijiet għal dawk li ma jaqrawx, verżjonijiet b’lingwa barranija, u l-edizzjoni tal-but, żur <b>acecent.re/speakbook</b></p>
+<h2 class="fsize-6">Istruzzjonijiet għall-użu.</h2>
+<p>Biex tibda, ser ikollok bżonn; il-talkbook, pinna whiteboard sewda u mhux permanenti, drapp biex togħrok, u sieħeb li jitkellem.</p>
 <p>
-Instruzzjonijiet ta' użu. 
-Biex tibda' se jkollok bżonn; l-iSpeakbook, marker iswed mhux permanenti, biċċa biex timsaħ u xi ħadd ma' min tikkomunika. 
-
-Inti u il-persuna li ħa tikkomunika magħha tpoġġu opposti ta' xulxin b'distanza ta' tlett piedi bod. Tista' tnaqqas jew iżżid id-distanza skont il-vista tiegħek. Iftaħ l-iSpeakbook fuq il-paġna ta' prattika li tinsab fuq il-qoxra ta' wara. Din hija kompluta diġa sabiex tgħinek titgħallem it-teknika bażika. Meta titgħallimha, tista' tikteb il-paġni tiegħek, billi tuża il-paġni l-vojta. Itwi il-ktieb ta' wara fuqu nnifsu u żommu bejnek u bejn il-persuna li ħa tikkomunika magħha, sabiex it-tnejn tkunu qegħdin tħarsu lejn il-paġna ta' prattika, u tkunu tistgħu taraw għajnejn xulxin mit-toqba tan-nofs. Issa tista' tħares lejn l-għażliet fuq il-paġna biex tiddeċiedi liem kliem trid tikkomunika. Meta tkun iddeċidejt, indika lill-persuna li tkun ħa tikkomunika magħha li lest biex tibda. 
-- Din tista' ssir billi tħares lejn il-persuna li tkun qed tikkomunika magħha u tegħmiżha jew billi iċċaqlaq għajnejk il-fuq u l-isfel, skont x'inhu komdu għalik......................
+Int u s-sieħeb li titkellem joqogħdu faċċata ta 'xulxin madwar tliet piedi' l bogħod minn xulxin. Jiddependi fuq il-vista tiegħek, tista 'ssibha utli li tnaqqas jew iżżid din id-distanza. Iftaħ il-talkbook għall-paġna tat-taħriġ ġewwa l-qoxra ta 'wara. Dan huwa mimli diġà biex jgħinek titgħallem it-teknika bażika. Meta tkun ikkontrollajtha, tista 'tikteb il-paġni tiegħek stess, billi tuża dawk vojta pprovduti. Itwi l-ktieb lura fuqu nnifsu u żommu 'l fuq bejnek, sabiex intom it-tnejn tiffaċċjaw' paġna ta 'taħriġ', u taraw lil xulxin għajnejn mit-toqba fin-nofs. Issa tħares lejn l-għażliet fuq il-paġna biex tiddeċiedi liema waħda tikkomunika. Meta tkun iddeċidejt, tindika lis-sieħeb tiegħek li int lest biex tibda
+- dan jista 'jkun billi tħares lejn is-sieħeb tiegħek u tteptep, jew billi waggling l-għajnejn tiegħek' il fuq u 'l isfel - kulma jaqbel għalik. Imbagħad ħares lejn il-messaġġ li trid, għal sekonda jew hekk, segwit mis-simbolu l-kbir l-istess bħaċ-ċkejken fil-ġenb tal-messaġġ. Is-sieħeb tiegħek isegwi l-movimenti ta 'l-għajnejn tiegħek - pereżempju huwa jista' jara li rajt il-parti ta 'fuq tax-xellug tal-bord segwit mit-trijanglu kbir, u għalhekk jaf li trid tgħid "tazza ta' te!". Huwa mbagħad jgħid, "tazza ta 'tè!" b'leħen għoli, u tikkonferma dan bi teptip, jew b'xi sinjal ieħor irranġat minn qabel
+</p>
+<p>Din hija t-teknika bażika għall-użu tal-speakbook. Issa trid titgħallem kif tuża l-paġni l-oħra fil-ktieb, għax il-ġenju veru tal-speakbook jinsab fil-kapaċità tiegħu li jagħtik aċċess faċli għal mijiet ta 'frażijiet li tagħżel int stess, frażijiet li tista' tbiddel fi kwalunkwe ħin, bi drapp niedja biss u l-kolp ta 'pinna.</p>
 :::
 
 ::: slot inst-02-flt-right-label

@@ -9,7 +9,7 @@ text:
   color_blind: Adaptado para
   friendly: Daltónicos!
   instructions: instruções
-  HOME_PAGE: PAGINA INICIAL
+  HOME_PAGE: INÍCIO
   SPELL: SOLETRAR
   HOME: INÍCIO
   THANK_YOU: OBRIGADO
@@ -1405,7 +1405,7 @@ escrever as suas próprias páginas usando as que estão em branco neste livro.
   <p class="cover-footer-text">
     <span class="fsize-8 bold">sistema de comunicação não verbal</span><br>
     <span class="red-color fsize-8 bold">acecent.re/speakbook</span><br>
-    <span class="fsize-4">Speakbook 4ª edição © 2011 Patrick Joyce</span>
+    <span class="fsize-4">Speakbook 5ª edição © 2011 Patrick Joyce, Traduzido por Hélio Lourenço</span>
   </p>
   <div class="flex-grow-1"></div>
   <img style="width: 30mm;height: 30mm;" :src="$withBase('/speakbook/images/PublishedByAce.svg')" />

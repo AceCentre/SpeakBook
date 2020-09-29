@@ -4,7 +4,7 @@ text:
   ring_bind_edge: Bopha izindandatho kulolu onqenqemeni
   cut_out_this_part: Sika le ngxenye.
   SPEAKBOOK: Incwadi yokukhuluma
-  edition_nth: 4th
+  edition_nth: 5th
   EDITION: ISIHLOKO
   color_blind: Ukungahlukanisi umbala
   friendly: Mngani!
@@ -1412,7 +1412,7 @@ grid_pages:
   <p class="cover-footer-text">
     <span class="fsize-7 bold">uhlelo lokuxhumana olungasebenzisi ngamazwi </span> <br>
     <span class="red-color fsize-7 bold">acecent.re/speakbook </span> <br>
-    <span class="fsize-4"> I-Talkbook 4th edition © 2011 Patrick Joyce </span>
+    <span class="fsize-4"> I-Talkbook 5th edition © 2011 Patrick Joyce, 2020 Ace Centre </span>
   </p>
   <div class="flex-grow-1"></div>
   <img style="width: 30mm;height: 30mm;" :src="$withBase('/speakbook/images/PublishedByAce.svg')" />
@@ -1440,14 +1440,15 @@ grid_pages:
 <div class="p-1 text-center">
   <SpeakBookTextFourColorBkg class="speakbook-title fsize-10 p-1 bold" :text="$page.frontmatter.text.SPEAKBOOK"></SpeakBookTextFourColorBkg>
 </div>
-<p> I-speakerbook iyithuluzi lokuxhumana elingelona elomlomo kubantu abangakwazi ukukhuluma futhi banobunzima bokusebenzisa izandla noma izingalo, kepha abaakwazi ukusebenzisa amehlo abo. Lolu hlobo lwenzelwe abantu abakwazi ukufunda nokupela. Okwezinhlobo zabantu abangafundanga, izinhlobo zolimi lwakwamanye amazwe, kanye nohlobo lwephakethe, vakashela <b>acecent.re/speakbook</b> </p>
+<p> I-speakerbook iyithuluzi lokuxhumana elingelona elomlomo kubantu abangakwazi ukukhuluma futhi banobunzima bokusebenzisa izandla noma izingalo, kepha abakwazi ukusebenzisa amehlo abo. Lolu hlobo lwenzelwe abantu abakwazi ukufunda nokupela. Okwezinhlobo zabantu abangafundanga, izinhlobo zolimi lwakwamanye amazwe, kanye nohlobo lwephakethe, vakashela <b>acecent.re/speakbook</b> </p>
 <h2 class = "fsize-6"> Imiyalo yokusebenzisa. </h2>
 <p> Ukuze uqalise, uzodinga; incwadi yokukhuluma, ipeni elimnyama lebhodi, indwangu yokuhlikihla, kanye nomlingani okhuluma naye.
 <p>
 Wena nomuntu enikhuluma nonke nihlala maqondana komunye nomunye lehlukane cishe ngamamitha amathathu. Ngokuya ngamehlo akho, ungehlisa noma wengeze leli banga. Vula incwadi yokukhuluma ekhasini lokuqeqeshwa ngaphakathi kwekhava engemuva. Lokhu kugcwaliswe ukukusiza ufunde isisekelo samasu. Lapho usuwazi kahle, ungabhala amakhasi akho, usebenzisa 
  amakhasi  owanikezwe angenalutho. Goqa le ncwadi ngendlela okumele ime ngayo futhi uyibambe phakathi naphakathi kwenu nobabili nibheke nonke ekhasini ‟lokuziqeqesha‟, futhi nikwazi ukubonana ngamehlo omunye nomunye ngesikhala kumbe imbobo ephakathi. Manje bheka izinqumo ezisekhasini ukhethe ukuthi yiphi okufanele uyixoxe. Lapho usuthathe isinqumo, khombisa umlingani wakho ukuthi usukulungele ukuqala
 - lokhu kungaba yikukubheka umlingani wakho noma ukucwayiza, noma ngokugoba amehlo akho phezulu naphansi - noma yini ekufanele. Bese ubheka umlayezo owufunayo, umzuzwana noma ngaphezudlwana kwawo, olandelwa luphawu olukhulu olucishe lufane nalo oluseceleni komyalezo. Umlingani wakho ulandela ukunyakaza kwamehlo akho - ngokwesibonelo angabona ukuthi ubheke ngakwesokunxele phezulu kwebhodi elandelwa unxantathu omkhulu, ngakho uyazi ukuthi kufanele  asho athi „inkomishi yetiye!‟. Ube esethi, “inkomishi yetiye!” ngezwi elikhulu, futhi uqinisekisa lokhu ngokucwayiza, noma enye indlela ehlelwe ngaphambili
-</p><p> Le yindlela elula yokusebenzisa i-speakbook. Manje udinga ukufunda ukuthi ungawasebenzisa kanjani amanye amakhasi asencwadini, ngoba ubuhlakani be-speakbook  bukunikeza imitsho engadlula amakhulu ongazikhethela yona njalo ukwazi 1lokuyintshintsha nganoma yisiphi isikhathi ngokuhlikihla ngendwangu emanzi noma ukukhansela ngepeni. </p>
+</p>
+<p> Le yindlela elula yokusebenzisa i-speakbook. Manje udinga ukufunda ukuthi ungawasebenzisa kanjani amanye amakhasi asencwadini, ngoba ubuhlakani be-speakbook  bukunikeza imitsho engadlula amakhulu ongazikhethela yona njalo ukwazi 1lokuyintshintsha nganoma yisiphi isikhathi ngokuhlikihla ngendwangu emanzi noma ukukhansela ngepeni. </p>
 :::
 
 :::
@@ -1459,7 +1460,7 @@ Wena nomuntu enikhuluma nonke nihlala maqondana komunye nomunye lehlukane cishe 
 ::: slot inst-02-flt-right-label
 <div class="pos-rel fill-height fill-width">
   <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-right-label-bkg.svg')" />
-  <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 18px), calc(-50% - 18px)) rotate(45deg); color: white;">{{ $page.frontmatter.text.instructions }}</div>
+  <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 5mm), calc(-50% - 5mm)) rotate(45deg); color: white;width: 42mm;text-align: center;">{{ $page.frontmatter.text.instructions }}</div>
 </div>
 :::
 div>

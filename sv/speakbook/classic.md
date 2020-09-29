@@ -67,8 +67,8 @@ text:
   DRINKS: DRICKA
   TRAINING_PAGE: ÖVNINGSSIDA
   training_page: övnings sida
-  _GBP: ""
-  _USD: $
+  _GBP: Kr
+  _USD: €
   _percent: "%"
   _plus: +
   _minus: "-"
@@ -76,10 +76,10 @@ text:
   _X: X
   _equal: =
   _question_mark: "?"
-  _atsign: ""
-  YES: ""
-  NO: ""
-  edition_nth: 4th
+  _atsign: "@"
+  YES: JA
+  NO: NEJ
+  edition_nth: 5th
 slots_in_need_for_translation:
   - training-page-description
   - last-page-heading
@@ -1233,8 +1233,8 @@ kan du göra dina egna sidor på de tomma bladen
   <p class="cover-footer-text">
     <span class="fsize-8 bold">system för icke-verbal kommunikation</span><br>
     <span class="red-color fsize-8 bold">acecent.re/speakbook</span><br>
-    <span class="fsize-4">Speakbook 4th edition © 2011 Patrick Joyce</span><br>
- <span class="fsize-4">Anpassning för svenska av DART 2012</span>
+    <span class="fsize-4">Speakbook 5th edition © 2011 Patrick Joyce, 2020 Ace Centre</span>
+    <span class="fsize-4">Anpassning för svenska av DART 2012</span>
   </p>
   <div class="flex-grow-1"></div>
   <img style="width: 30mm;height: 30mm;" :src="$withBase('/speakbook/images/PublishedByAce.svg')" />
@@ -1269,7 +1269,7 @@ Du och din samtalspartner sitter mittemot varandra, med ungefär en meters mella
 ::: slot inst-02-flt-right-label
 <div class="pos-rel fill-height fill-width">
   <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-right-label-bkg.svg')" />
-  <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 18px), calc(-50% - 18px)) rotate(45deg); color: white;">{{ $page.frontmatter.text.instructions }}</div>
+  <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 5mm), calc(-50% - 5mm)) rotate(45deg); color: white;width: 42mm;text-align: center;">{{ $page.frontmatter.text.instructions }}</div>
 </div>
 :::
 ::: slot inst-02-flt-left-content

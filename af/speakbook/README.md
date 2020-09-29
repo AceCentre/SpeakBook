@@ -4,7 +4,7 @@ text:
   ring_bind_edge: Ringbind hierdie rand.
   cut_out_this_part: Knip hierdie deel uit.
   SPEAKBOOK: SPEAKBOOK
-  edition_nth: 4de
+  edition_nth: 5de
   EDITION: UITGAWE
   color_blind: Kleurblind
   friendly: Vriendelik!
@@ -1405,7 +1405,7 @@ grid_pages:
   <p class="cover-footer-text">
     <span class="fsize-8 bold">nie-verbale kommunikasiestelsel</span> <br>
     <span class="red-color fsize-8 bold">acecent.re/speakbook</span> <br>
-    <span class="fsize-4"> Speakbook 4de uitgawe © 2011 Patrick Joyce </span>
+    <span class="fsize-4"> Speakbook 5de uitgawe © 2020 Patrick Joyce & Ace Centre, Vertaal op Emma Emmerich </span>
   </p>
   <div class="flex-grow-1"></div>
   <img style="width: 30mm;height: 30mm;" :src="$withBase('/speakbook/images/PublishedByAce.svg')" />
@@ -1435,7 +1435,7 @@ grid_pages:
   <SpeakBookTextFourColorBkg class="speakbook-title fsize-10 p-1 bold" :text="$page.frontmatter.text.SPEAKBOOK"></SpeakBookTextFourColorBkg>
 </div>
 <p>Speakbook is 'n nie-verbale kommunikasie hulpmiddel vir mense wat nie kan praat nie en probleme ondervind om hul hande of arms te gebruik,  maar wat die gebruik van hul oë behou. Hierdie uitgawe is vir mense wat kan lees en spel. Besoek <b>acecent.re/speakbook</b>vir weergawes vir nie-lesers, weergawes in ander tale en die sak uitgawe. </p> 
-<h2 class="fsize-5"> Gebruiksaanwysings. </h2>
+<h2 class="fsize-6"> Gebruiksaanwysings. </h2>
 <p> Om te begin, benodig u; die speakbook, 'n swart, nie-permanente witbordpen, 'n lap om uit te vee en 'n maat wat praat.</p>
 <p>
 U en u  maat sit teenoor mekaar ongeveer 90cm uitmekaar. Afhangend van u sig, kan u hierdie afstand verminder of verhoog. Maak die speakbook oop op die oefenblad binne die agterblad. Dit is reeds ingevul om u te help om die basiese tegniek te leer. As u dit bemeester het, kan u u eie bladsye skryf met behulp van die leë bladsye. Vou die boek op homself terug en hou dit tussen u op, sodat u albei na 'n 'oefenbladsy' kyk, en mekaar se oë deur die gat in die middel kan sien. U kyk nou na die keuses op die bladsy om te besluit watter een u wil kommunikeer. As u besluit het, dui u aan u maat aan dat u gereed is om te begin - dit kan wees deur na u maat te kyk en u oë te knip, of deur u oë op en af te beweeg- wat u ook al pas. Kyk dan vir 'n sekonde na die boodskap wat u wil hê, gevolg deur die groot simbool dieselfde as die kleintjie langs die boodskap. Jou maat volg dan jou oogbewegings - hy sien byvoorbeeld dat jy aan die linkerkant van die bord gekyk het, gevolg deur die groot driehoek, sodat hy weet dat jy 'koppie tee' wil sê. Hy sê dan: 'koppie tee!' hardop, en u bevestig dit met 'n oogwink of met 'n ander vooraf ooreengekomde sein

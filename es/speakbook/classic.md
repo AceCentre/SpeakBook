@@ -79,7 +79,7 @@ text:
   _atsign: Ñ
   YES: SÍ
   NO: NO
-  edition_nth: 4ª
+  edition_nth: 5ª
 slots_in_need_for_translation:
   - training-page-description
   - last-page-heading
@@ -1229,12 +1229,11 @@ dice a su interlocutor que ahora quiere comunicarse con sus ojos con el libro pr
   <p class="cover-footer-text">
     <span class="fsize-8 bold">sistema de comunicación no oral</span><br>
     <span class="red-color fsize-8 bold">acecent.re/speakbook</span><br>
-    <span class="fsize-4">Speakbook 4th edition © 2011 Patrick Joyce - Traducción al Español, 2012</span>
+    <span class="fsize-4">Speakbook 5th edition © 2011 Patrick Joyce, 2020 Ace Centre - Traducción al Español, 2012</span>
   </p>
   <div class="flex-grow-1"></div>
   <img style="width: 30mm;height: 30mm;" :src="$withBase('/speakbook/images/PublishedByAce.svg')" />
 </div>
-
 :::
 
 ::: slot inst-01-flt-right-content
@@ -1269,7 +1268,7 @@ Esta es la técnica básica para utilizar speakbook. Ahora tiene que aprender a 
 ::: slot inst-02-flt-right-label
 <div class="pos-rel fill-height fill-width">
   <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-right-label-bkg.svg')" />
-  <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 18px), calc(-50% - 18px)) rotate(45deg); color: white;">{{ $page.frontmatter.text.instructions }}</div>
+  <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 5mm), calc(-50% - 5mm)) rotate(45deg); color: white;width: 42mm;text-align: center;">{{ $page.frontmatter.text.instructions }}</div>
 </div>
 :::
 ::: slot inst-02-flt-left-content

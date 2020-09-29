@@ -4,7 +4,7 @@ text:
   ring_bind_edge: Ring bind along this edge
   cut_out_this_part: Cut out this part.
   SPEAKBOOK: SPEAKBOOK
-  edition_nth: 4th
+  edition_nth: 5th
   EDITION: EDITION
   color_blind: Colour Blind
   friendly: Friendly!
@@ -1369,7 +1369,7 @@ grid_pages:
   <p class="cover-footer-text">
     <span class="fsize-8 bold">non verbal communication system</span><br>
     <span class="red-color fsize-8 bold">acecent.re/speakbook</span><br>
-    <span class="fsize-4">Speakbook 4th edition © 2011 Patrick Joyce</span>
+    <span class="fsize-4">Speakbook 5th edition © 2011 Patrick Joyce</span>
   </p>
   <div class="flex-grow-1"></div>
   <img style="width: 30mm;height: 30mm;" :src="$withBase('/speakbook/images/PublishedByAce.svg')" />

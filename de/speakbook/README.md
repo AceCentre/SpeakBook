@@ -4,7 +4,7 @@ text:
   ring_bind_edge: Ringbindung an dieser Seite
   cut_out_this_part: Diesen Bereich ausschneiden
   SPEAKBOOK: SPEAKBOOK
-  edition_nth: "4."
+  edition_nth: "5."
   EDITION: AUFLAGE
   color_blind: Für Farbenblinde
   friendly: geeignet!
@@ -1401,7 +1401,7 @@ Wenn Sie die mithilfe dieser Trainingsseite die prinzipielle Vorgehensweise vers
   <p class="cover-footer-text">
     <span class="fsize-8 bold">nicht-verbales Kommunikationssystem</span><br>
     <span class="red-color fsize-8 bold">acecent.re/speakbook</span><br>
-    <span class="fsize-4">SpeakBook 4. Auflage © 2011 Patrick Joyce</span>
+    <span class="fsize-4">SpeakBook 5. Auflage © 2020 Patrick Joyce, Ace Centre, Übersetzt von Dr. Julius Deutsch</span>
   </p>
   <div class="flex-grow-1"></div>
   <img style="width: 30mm;height: 30mm;" :src="$withBase('/speakbook/images/PublishedByAce.svg')" />

@@ -79,7 +79,7 @@ text:
   _atsign: "@"
   YES: جی ہاں
   NO: نہیں
-  edition_nth: 4th کے
+  edition_nth: 5th کے
 slots_in_need_for_translation:
   - training-page-description
   - last-page-heading
@@ -1231,7 +1231,7 @@ grid_pages:
   <p class="cover-footer-text">
     <span class="fsize-8 bold">غیر زبانی مواصلات کے نظام</span><br>
     <span class="red-color fsize-8 bold">acecent.re/speakbook</span><br>
-    <span class="fsize-4">Speakbook 4th ایڈیشن © 2011 پیٹرک جوائس</span>
+    <span class="fsize-4">Speakbook 5th ایڈیشن © 2011 پیٹرک جوائس</span>
   </p>
   <div class="flex-grow-1"></div>
   <img style="width: 30mm;height: 30mm;" :src="$withBase('/speakbook/images/PublishedByAce.svg')" />

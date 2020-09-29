@@ -4,7 +4,7 @@ text:
   ring_bind_edge: Ringbind längs denna kant
   cut_out_this_part: Klipp ut denna del.
   SPEAKBOOK: PRATBOK
-  edition_nth: 4th
+  edition_nth: 5th
   EDITION: EDITION
   color_blind: Färgblinds-
   friendly: vänlig!
@@ -69,7 +69,7 @@ text:
   DRINKS: DRICKA
   TRAINING_PAGE: ÖVNINGSSIDA
   training_page: övnings sida
-  _GBP: "Kr"
+  _GBP: Kr
   _USD: €
   _percent: "%"
   _plus: +
@@ -79,13 +79,13 @@ text:
   _equal: =
   _question_mark: "?"
   _atsign: "@"
-  YES: "JA"
-  NO: "NEJ"
+  YES: JA
+  NO: NEJ
   CLEAR: KLAR
   _fel: FEL
   _clear: KLAR
   _nytt: NYTT
-  _start: START 
+  _start: START
 slots_in_need_for_translation:
   - training-page-description
   - last-page-heading
@@ -409,7 +409,7 @@ grid_pages:
               - text_key: O1
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: 
+              - text_key: null
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -439,7 +439,7 @@ grid_pages:
                 inlinecss:
                   color: var(--color-yellow)
                   font-size: 12pt
-              - text_key: 
+              - text_key: null
                 inlinecss:
                   color: var(--color-orange)
               - text_key: HOME
@@ -601,7 +601,7 @@ grid_pages:
               - text_key: O1
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: 
+              - text_key: null
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -615,7 +615,7 @@ grid_pages:
               height: var(--grid-item-height)
               background-color: var(--color-cyan)
             entries:
-              - text_key: _fel                  
+              - text_key: _fel
                 inlinecss:
                   color: var(--color-purple)
                   font-size: 12pt
@@ -631,7 +631,7 @@ grid_pages:
                 inlinecss:
                   color: var(--color-yellow)
                   font-size: 12pt
-              - text_key: 
+              - text_key: null
                 inlinecss:
                   color: var(--color-orange)
               - text_key: HOME
@@ -1415,7 +1415,7 @@ kan du göra dina egna sidor på de tomma bladen
   <p class="cover-footer-text">
     <span class="fsize-8 bold">system för icke-verbal kommunikation</span><br>
     <span class="red-color fsize-8 bold">acecent.re/speakbook</span><br>
-    <span class="fsize-4">Speakbook 4th edition © 2011 Patrick Joyce</span>
+    <span class="fsize-4">Speakbook 5th edition © 2011 Patrick Joyce, 2020 Ace Centre</span>
     <span class="fsize-4">Anpassning för svenska av DART 2012</span>
   </p>
   <div class="flex-grow-1"></div>
@@ -1460,10 +1460,7 @@ Du och din samtalspartner sitter mittemot varandra, med ungefär en meters mella
   <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 5mm), calc(-50% - 5mm)) rotate(45deg); color: white;width: 42mm;text-align: center;">{{ $page.frontmatter.text.instructions }}</div>
 </div>
 :::
-v>
-:::
-:::
-:
+
 ::: slot inst-02-flt-left-content
 <div class="flex-h" style="padding: 3mm;">
   <div class="flex-grow-1 flex-v">
@@ -1474,8 +1471,60 @@ v>
 </div>
 :::
 ::: slot inst-02-content
-<p>Varje sida i pratboken har 14 eller 15 blanka rutor som du kan skriva på. För att du ska kunna flytta dig mellan olika sidor har vi skapat en startsida. Den ser du på framsidan av boken och är markerad med en svart START-flik i sidans nederkant. Tanken är att du skriver de 7 fraser du använder oftast på den här sidan eftersom det är här du alltid kommer börja. De återstående 8 rutorna är tänkta att länkas till de övriga 8 blanka sidorna i boken. Där bör du därför skriva områden i ditt liv som kräver fler fraser, som till exempel badrumsbesök eller åka ut med bilen. På bilden ser du en möjlig layout för START-sidan. De 8 orden i feta stora bokstäver länkar till uppslag i resten av boken. Hitta en blank sida och skriv till exempel SOVA på fliken i nederkanten. Fyll sedan sidans rutor med 14 fraser som du använder mest när du ska sova. Sedan gör du likadant för de andra 7 orden på startsidan. Om du gör ett misstag eller vill byta ut en fras, torkar du bara av ordet med en trasa och börjar om.</p> <p>För att använda pratboken visar du din samtalspartner att du vill kommunicera. Din partner slår upp pratboken på START-sidan och du visar med ögonen ett ord du vill säga. Din partner slår då upp den flik som passar till ordet och du kan fortsätta att prata kring detta ämne. På varje sida finns START och STAVA förtryckt. På så sätt kan du alltid ta dig tillbaka till START-sidan (du kanske vill ta med dig ”en kopp te” när du ska sova). På STAVA-sidan kan du bokstavera ord och fraser som inte finns någon annanstans i boken. Den fungerar på samma sätt som de övriga sidorna, men med ett undantag. På den här sidan finns det 6 färgade rutor som alla har 6 färgade bokstäver. Hela alfabetet finns här. Du tittar på den bokstav du vill förmedla i ungefär en sekund och fortsätter med att titta på den ruta som har samma färg som bokstaven. Din samtalspartner följer dina ögonrörelser. Till exempel ser hon att du tittar på den övre vänstra rutan och sedan på den övre högra rutan (som är grön) och vet då att du menar ”C”. Din partner säger ”C” högt för att bekräfta ditt val och du fortsätter med nästa bokstav. Din partner kan gissa vilket ord du vill säga så snart hon kan för att snabba upp samtalet.</p>
-<p>Pratboken har plats för 119 valfria fraser. Om detta inte räcker, eller om du behöver fler än 14 fraser inom ett visst område kan du öka kapaciteten genom att skriva två fraser på en rad. Då skriver du en fras med svart färg och en med röd färg. Om du vill välja den röda frasen visar du det genom att blinka när du tittar på den stora symbolen. Den svarta frasen väljer du som vanligt.</p>
+<p>Varje sida i pratboken har 14 eller 15 blanka rutor som du kan skriva på. För
+att du ska kunna flytta dig mellan olika sidor har vi skapat en startsida. Den ser
+du på framsidan av boken och är markerad med en svart START-flik i sidans
+nederkant. Tanken är att du skriver de 7 fraser du använder oftast på den här sidan
+eftersom det är här du alltid kommer börja. De återstående 8 rutorna är tänkta att
+länkas till de övriga 8 blanka sidorna i boken. Där bör du därför skriva områden i ditt liv
+som kräver fler fraser, som till exempel badrumsbesök eller åka ut med bilen. På bilden ser
+du en möjlig layout för START-sidan. De 8 orden i feta stora bokstäver länkar till uppslag i
+resten av boken. Hitta en blank sida och skriv till exempel SOVA på fliken i nederkanten. Fyll
+sedan sidans rutor med 14 fraser som du använder mest när du ska sova. Sedan gör du likadant
+för de andra 7 orden på startsidan. Om du gör ett misstag eller vill byta ut en fras, torkar du bara av
+ordet med en trasa och
+börjar om.</p>
+<p>För att använda pratboken
+visar du din samtalspartner
+att du vill kommunicera. Din
+partner slår upp pratboken
+på START-sidan och du
+visar med ögonen ett ord du
+vill säga. Din partner slår då
+upp den flik som passar till
+ordet och du kan fortsätta
+att prata kring detta ämne.
+På varje sida finns START
+och STAVA förtryckt. På så
+sätt kan du alltid ta dig
+tillbaka till START-sidan (du
+kanske vill ta med dig ”en
+kopp te” när du ska sova).
+På STAVA-sidan kan du
+bokstavera ord och fraser
+som inte finns någon
+annanstans i boken. Den
+fungerar på samma sätt
+som de övriga sidorna, men
+med ett undantag. På den
+här sidan finns det 6
+färgade rutor som alla har 6
+färgade bokstäver. Hela
+alfabetet finns här. Du tittar
+på den bokstav du vill
+förmedla i ungefär en
+sekund och fortsätter med
+att titta på den ruta som har
+samma färg som bokstaven.
+Din samtalspartner följer
+dina ögonrörelser. Till exempel ser hon att du tittar på den övre vänstra rutan och sedan på den
+övre högra rutan (som är grön) och vet då att du menar ”C”. Din partner säger ”C” högt för att
+bekräfta ditt val och du fortsätter med nästa bokstav. Din partner kan gissa vilket ord du vill säga
+så snart hon kan för att snabba upp samtalet.</p>
+<p>Pratboken har plats för 119 valfria fraser. Om detta inte räcker, eller om du behöver fler än 14
+fraser inom ett visst område kan du öka kapaciteten genom att skriva två fraser på en rad. Då
+skriver du en fras med svart färg och en med röd färg. Om du vill välja den röda frasen visar du det
+genom att blinka när du tittar på den stora symbolen. Den svarta frasen väljer du som vanligt.</p>
 :::
 
 ::: slot last-page-content

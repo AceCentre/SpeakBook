@@ -79,7 +79,7 @@ text:
   _atsign: "@"
   YES: JA
   NO: NEE
-  edition_nth: 4de
+  edition_nth: 5de
 slots_in_need_for_translation:
   - training-page-description
   - last-page-heading
@@ -1230,7 +1230,7 @@ grid_pages:
   <p class="cover-footer-text">
     <span class="fsize-8 bold">nie-verbale kommunikasiestelsel</span> <br>
     <span class="red-color fsize-8 bold">acecent.re/speakbook</span> <br>
-    <span class="fsize-4"> Speakbook 4de uitgawe © 2011 Patrick Joyce </span>
+    <span class="fsize-4"> Speakbook 5de uitgawe © 2020 Patrick Joyce & Ace Centre, Vertaal op Emma Emmerich </span>
   </p>
   <div class="flex-grow-1"></div>
   <img style="width: 30mm;height: 30mm;" :src="$withBase('/speakbook/images/PublishedByAce.svg')" />
@@ -1264,8 +1264,8 @@ U en u  maat sit teenoor mekaar ongeveer 90cm uitmekaar. Afhangend van u sig, ka
 
 ::: slot inst-02-flt-right-label
 <div class="pos-rel fill-height fill-width">
-  <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-right-label-bkg.svg')"/>
-  <div class="fsize-8 abs-at-center" style="transform:translate(calc(-50% + 18px), calc(-50% - 18px)) rotate(45deg); color: white;">{{ $page.frontmatter.text.instructions }}</div>
+  <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-right-label-bkg.svg')" />
+  <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 5mm), calc(-50% - 5mm)) rotate(45deg); color: white;width: 42mm;text-align: center;">{{ $page.frontmatter.text.instructions }}</div>
 </div>
 :::
 ::: slot inst-02-flt-left-content

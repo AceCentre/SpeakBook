@@ -80,7 +80,7 @@ text:
   _atsign: "@"
   YES: YEBO
   NO: CHA
-  edition_nth: 4th
+  edition_nth: 5th
 slots_in_need_for_translation:
   - training-page-description
   - last-page-heading
@@ -1236,7 +1236,7 @@ grid_pages:
   <p class="cover-footer-text">
     <span class="fsize-7 bold">uhlelo lokuxhumana olungasebenzisi ngamazwi </span> <br>
     <span class="red-color fsize-7 bold">acecent.re/speakbook </span> <br>
-    <span class="fsize-4"> I-Talkbook 4th edition © 2011 Patrick Joyce </span>
+    <span class="fsize-4"> I-Talkbook 5th edition © 2011 Patrick Joyce, 2020 Ace Centre </span>
   </p>
   <div class="flex-grow-1"></div>
   <img style="width: 30mm;height: 30mm;" :src="$withBase('/speakbook/images/PublishedByAce.svg')" />
@@ -1259,7 +1259,7 @@ grid_pages:
 <div class="p-1 text-center">
   <SpeakBookTextFourColorBkg class="speakbook-title fsize-10 p-1 bold" :text="$page.frontmatter.text.SPEAKBOOK"></SpeakBookTextFourColorBkg>
 </div>
-<p> I-speakerbook iyithuluzi lokuxhumana elingelona elomlomo kubantu abangakwazi ukukhuluma futhi banobunzima bokusebenzisa izandla noma izingalo, kepha abaakwazi ukusebenzisa amehlo abo. Lolu hlobo lwenzelwe abantu abakwazi ukufunda nokupela. Okwezinhlobo zabantu abangafundanga, izinhlobo zolimi lwakwamanye amazwe, kanye nohlobo lwephakethe, vakashela <b>acecent.re/speakbook</b> </p>
+<p> I-speakerbook iyithuluzi lokuxhumana elingelona elomlomo kubantu abangakwazi ukukhuluma futhi banobunzima bokusebenzisa izandla noma izingalo, kepha abakwazi ukusebenzisa amehlo abo. Lolu hlobo lwenzelwe abantu abakwazi ukufunda nokupela. Okwezinhlobo zabantu abangafundanga, izinhlobo zolimi lwakwamanye amazwe, kanye nohlobo lwephakethe, vakashela <b>acecent.re/speakbook</b> </p>
 <h2 class = "fsize-6"> Imiyalo yokusebenzisa. </h2>
 <p> Ukuze uqalise, uzodinga; incwadi yokukhuluma, ipeni elimnyama lebhodi, indwangu yokuhlikihla, kanye nomlingani okhuluma naye.
 <p>
@@ -1267,13 +1267,13 @@ Wena nomuntu enikhuluma nonke nihlala maqondana komunye nomunye lehlukane cishe 
  amakhasi  owanikezwe angenalutho. Goqa le ncwadi ngendlela okumele ime ngayo futhi uyibambe phakathi naphakathi kwenu nobabili nibheke nonke ekhasini ‟lokuziqeqesha‟, futhi nikwazi ukubonana ngamehlo omunye nomunye ngesikhala kumbe imbobo ephakathi. Manje bheka izinqumo ezisekhasini ukhethe ukuthi yiphi okufanele uyixoxe. Lapho usuthathe isinqumo, khombisa umlingani wakho ukuthi usukulungele ukuqala
 - lokhu kungaba yikukubheka umlingani wakho noma ukucwayiza, noma ngokugoba amehlo akho phezulu naphansi - noma yini ekufanele. Bese ubheka umlayezo owufunayo, umzuzwana noma ngaphezudlwana kwawo, olandelwa luphawu olukhulu olucishe lufane nalo oluseceleni komyalezo. Umlingani wakho ulandela ukunyakaza kwamehlo akho - ngokwesibonelo angabona ukuthi ubheke ngakwesokunxele phezulu kwebhodi elandelwa unxantathu omkhulu, ngakho uyazi ukuthi kufanele  asho athi „inkomishi yetiye!‟. Ube esethi, “inkomishi yetiye!” ngezwi elikhulu, futhi uqinisekisa lokhu ngokucwayiza, noma enye indlela ehlelwe ngaphambili
 </p>
-I-<p> Le yindlela elula yokusebenzisa i-speakbook. Manje udinga ukufunda ukuthi ungawasebenzisa kanjani amanye amakhasi asencwadini, ngoba ubuhlakani be-speakbook  bukunikeza imitsho engadlula amakhulu ongazikhethela yona njalo ukwazi 1lokuyintshintsha nganoma yisiphi isikhathi ngokuhlikihla ngendwangu emanzi noma ukukhansela ngepeni. </p>
+<p> Le yindlela elula yokusebenzisa i-speakbook. Manje udinga ukufunda ukuthi ungawasebenzisa kanjani amanye amakhasi asencwadini, ngoba ubuhlakani be-speakbook  bukunikeza imitsho engadlula amakhulu ongazikhethela yona njalo ukwazi 1lokuyintshintsha nganoma yisiphi isikhathi ngokuhlikihla ngendwangu emanzi noma ukukhansela ngepeni. </p>
 :::
 
 ::: slot inst-02-flt-right-label
 <div class="pos-rel fill-height fill-width">
   <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-right-label-bkg.svg')" />
-  <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 18px), calc(-50% - 18px)) rotate(45deg); color: white;">{{ $page.frontmatter.text.instructions }}</div>
+  <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 5mm), calc(-50% - 5mm)) rotate(45deg); color: white;width: 42mm;text-align: center;">{{ $page.frontmatter.text.instructions }}</div>
 </div>
 :::
 ::: slot inst-02-flt-left-content
@@ -1286,9 +1286,9 @@ I-<p> Le yindlela elula yokusebenzisa i-speakbook. Manje udinga ukufunda ukuthi 
 </div>
 :::
 ::: slot inst-02-content
-<p> Ikhasi ngalinye lencwadi yokukhuluma linezigaba eziyi-14 noma eziyi-15 ezingenalutho ongabhala ngazo umbhalo wakho. Ukuze umsebenzisi akwazi ukuhamba phakathi kwamakhasi ahlukile, sidale ikhasi le- „home‟. Lokhu kutholakala ngaphambili kwencwadi, futhi kumakwe ngethebhu emnyama „IKHAYA‟ ekugcineni kwekhasi. Umqondo uwukuthi ubhale imishwana eyi-7 oyisebenzisa kakhulu kuleli khasi, ngoba liyikhasi oqala ngalo njalo. Futhi, kumakhasi ayisishiyagalombili angenalutho ubhala izixhumanisi kwamanye amakhasi ayi-8 angenalutho. Lezi kufanele kube yizingxenye zempilo yakho ezidinga imishwana esezingeni elijulile, lezi zingaba yizindawo ezinjengokugeza, noma ukuphuma emotweni. Ngakwesobunxele yisibonelo sesakhiwo esingenzeka sekhasi le- „IKHAYA‟. Amagama ayi-8 ngezinhlamvu eziyinhlanganisela ezinesibindi azixhumanisi zokusakazwa kwamakhasi okuphindwe kabili kwenye indawo encwadini. Lokho okwenzayo nje, uthola ikhasi elingenalutho bese ubhala, ngokwesibonelo, ED BED ‟ekhasini lesiphelo, bese emapheshana ubhala imishwana eyi-14 efaneleke kakhulu kunqubo yakho yokulala. Ngemuva kwalokho uphinda le nqubo kwezinye izixhumanisi eziyi-7, kuze kufike lapho incwadi yakho igcwele. Uma wenza iphutha, noma ufuna ukushintsha ibinzana, mane ulisule ngendwangu emanzi bese uqala futhi. </p>
-<p> Ukuze usebenzise i-speakbook, ukhombisa umlingani wakho ukuthi ufuna ukuxhumana. Umlingani wakho uvula incwadi yokukhuluma ekhasini le-„IKHAYA and futhi uyaxhumana, isibonelo,„ BED ‟. Umlingani wakho ube esephendukela ekhasini le-„BED‟ bese ukwazi ukuxhumana, „Ngifuna ukulala‟ - noma yini. Ikhasi ngalinye line- „IKHAYA‟ ne-„Spell‟ ephrintiwe kulo. I- "IKHAYA‟ "ukuze njalo ukwazi ukubuyela ekhasini le-„ IKHAYA ‟(ungahle uthande„ Indebe yetiye! Take ukulala nawe). Ikhasi ‟le-SPELL‟ likuvumela ukuba upele amagama namabinzana angaveli kwenye incwadi. Isebenza ngendlela efanayo namanye amakhasi, ngomehluko owodwa. Kuleli khasi kunamabhlokhethi anemibala ayi-6, ngalinye linonobumba eziyisithupha ezinemibala noma izinombolo kulo. Alfabhethi lonke likhona, nezinombolo 1-9 (ezokusebenzisa u-zero u-O). Ubheka incwadi ofuna ukuyihumusha, okwesibili noma kunjalo, kulandelwe yibhlokhi enemibala yombala ofanayo nencwadi yakho oyikhethile. Umlingani wakho ulandela iso lakho, ubona ukuthi ubuke, ngokwesibonelo, ibhulokhi eliphezulu kwesobunxele elandelwa ibhulokhi ephezulu (okuyinto eluhlaza), futhi uyazi ukuthi ufuna want C ‟. Umlingani wakho uthi „C‟ ngokuzwakalayo ukuze uqinisekise, bese udlulela kunhlamvu olulandelayo. Umlingani wakho uqagela lonke igama lapho kungenzeka, ukusheshisa inqubo. </p>
-I <p> I-speakerbook inendawo yemishwana engu-119 oyikhethile. Uma lokhu akwanele, noma uma udinga imishwana engaphezu kuka-14 esigabeni esithile, ungasiphinda kabili isibalo saso ngokubhala imishwana emibili kulayini ngamunye, munye epeni elimnyama, munye ngokubomvu. Ukhetha ibinzana elimnyama ngendlela ejwayelekile, ebomvu ngokunqena lapho ubuka uphawu olukhulu. </p>
+<p> Ikhasi ngalinye lencwadi yokukhuluma linezigaba eziyi-14 noma eziyi-15 ezingenalutho ongabhala kuzo umibhalo yakho. Ukuze umsebenzisi akwazi ukuvula  amakhasi ahlukile, sidale ikhasi le- "home‟ - Ikhaya. Lokhu kutholakala ngaphambili kwencwadi, futhi kumakwe ngethebhu emnyama „IKHAYA‟ ekugcineni kwekhasi. Umqondo uwukuthi ubhale imishwana eyi-7 oyisebenzisa kakhulu kuleli khasi, ngoba liyikhasi oqala ngalo njalo. Futhi, kumakhasi ayisishiyagalombili angenalutho ubhala izixhumanisi kwamanye amakhasi ayi-8 angenalutho. Lezi kufanele kube yizingxenye zempilo yakho ezidinga imishwana esezingeni elijulile, lezi zingaba yizindawo ezinjengokugeza, noma ukuphuma emotweni. Ngakwesobunxele yisibonelo sesakhiwo esingenzeka sekhasi le- „IKHAYA‟. Amagama  amakhulu ayi-8  abhalwe ngamabala ayisisxhumanisi samakhasi akuphindwe kabili kwenye indawo encwadini. Lokho okwenzayo nje, uthola ikhasi elingenalutho bese ubhala, ngokwesibonelo,  BED ‟ lapho okuphelela khona ikhasi, bese kumapheshana ubhala imishwana eyi-14 ehambisana  kakhulu lesikhathi sakho sokulala. Ngemuva kwalokho uphinda le nqubo kwezinye izixhumanisi eziyi-7, kuze kufike lapho incwadi yakho igcwale. Uma wenza iphutha, noma ufuna ukushintsha umutsho, mane ulisule ngendwangu emanzi bese uqala futhi. </p>
+<p> Ukuze usebenzise i-speakbook, ukhombisa umlingani wakho ukuthi ufuna ukuxhumana naye. Umlingani wakho uvula incwadi yokukhuluma ekhasini le-„IKHAYA wena uyamkhombisa ngamehlo, isibonelo,„ BED ‟. Umlingani wakho ube esephendukela ekhasini le-„BED‟ bese ukwazi ukuxhumana, „Ngifuna ukulala‟ - noma yini. Ikhasi ngalinye line- „IKHAYA‟ ne-„Spell‟ ephrintiwe kulo. I- "IKHAYA‟ Ukuze njalo ukwazi ukubuyela ekhasini le-„ IKHAYA ‟(ungahle uthande„ Inkomishi yetiye! ma usiyalala). Ikhasi ‟le-SPELL‟ likuvumela ukuba upele amagama namabinzana angaveli kwenye incwadi. Isebenza ngendlela efanayo namanye amakhasi, ngomehluko owodwa. Kuleli khasi kunamabhlokhi anemibala ayi-6, ngalinye ibhlokhi linezinhlamvu ezyisithupha kumbe inombolo eziyisithupha.  Alfabhethi lonke likhona, nezinombolo 1-9 (ezokusebenzisa u-zero usebenzisa u-O). Ubheka uhlamvu ofuna ukulitsho, okomzuzu, kulandelwe yibhlokhi enombala  ofana nonhlamvu  olikhethile. Umlingani wakho ulandela amehlo akho, ubona ukuthi ubuke, ngokwesibonelo, ibhulokhi eliphezulu kwesobunxele elandelwa ibhulokhi ephezulu (okuyinto eluhlaza), futhi uyazi ukuthi ufuna  u -C ‟. Umlingani wakho uthi „C‟ ngokuzwakalayo ukuze uqinisekise, bese udlulela kunhlamvu olulandelayo. Umlingani wakho uqagela lonke igama lapho kungenzeka, ukusheshisa inqubo. </p>
+I <p> I-speakerbook ingaba lemishwana engu-119 oyikhethile. Uma lokhu akwanele, noma uma udinga imishwana engaphezu kuka-14 esigabeni esithile, ungasiphinda kabili isibalo saso ngokubhala imishwana emibili kulayini eyodwa,  ngepeni elimnyama, eminye imishwana ngepeni ebomvu. Ukhetha ibinzana elimnyama ngendlela ejwayelekile, ebomvu ngokucwayiza lapho ubuka uphawu olukhulu. </p>
 :::
 
 ::: slot last-page-content

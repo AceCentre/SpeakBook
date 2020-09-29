@@ -7,7 +7,7 @@ text:
   SPEAKBOOK: KONUŞMAKİTABI
   classic: classic
   EDITION: BASKI
-  color_blind: Renk körü
+  color_blind: Renk körlüğü olanlar için de uygundur
   friendly: Samimi
   instructions: Kullanma talimatları
   HOME_PAGE: ANA SAYFA
@@ -79,7 +79,7 @@ text:
   _atsign: "@"
   YES: EVET
   NO: HAYIR
-  edition_nth: "4.cü "
+  edition_nth: "5.cü "
 slots_in_need_for_translation:
   - training-page-description
   - last-page-heading
@@ -1232,7 +1232,7 @@ Eğitim sayfasındaki basit teknikleri öğrendikten sonra, bu kitapta bulunan b
   <p class="cover-footer-text">
     <span class="fsize-8 bold"> sözel olmayan iletişim sistemi </span><br>
     <span class="red-color fsize-8 bold">acecent.re/speakbook</span><br>
-    <span class="fsize-4"> Konuşmakitabı 4. baskı © 2011 Patrick Joyce </span>
+    <span class="fsize-4"> Konuşmakitabı 5. baskı © 2011 Patrick Joyce,  2020 Ace Centre, Kuhunyushwe ngu-Ersin Sinay</span>
   </p>
   <div class="flex-grow-1"></div>
   <img style="width: 30mm;height: 30mm;" :src="$withBase('/speakbook/images/PublishedByAce.svg')" />
@@ -1266,7 +1266,7 @@ Siz ve konuşma partneriniz birbinizden yaklaşık 1 metre uzak olacak şekilde 
 ::: slot inst-02-flt-right-label
 <div class="pos-rel fill-height fill-width">
   <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-right-label-bkg.svg')" />
-  <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 18px), calc(-50% - 18px)) rotate(45deg); color: white;">{{ $page.frontmatter.text.instructions }}</div>
+  <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 5mm), calc(-50% - 5mm)) rotate(45deg); color: white;width: 42mm;text-align: center;">{{ $page.frontmatter.text.instructions }}</div>
 </div>
 :::
 ::: slot inst-02-flt-left-content

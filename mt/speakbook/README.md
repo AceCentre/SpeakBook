@@ -4,7 +4,7 @@ text:
   ring_bind_edge: Agħmel il-binding hawn
   cut_out_this_part: Aqta' din il-biċċa
   SPEAKBOOK: SPEAKBOOK
-  edition_nth: ir-raba'
+  edition_nth: "5"
   EDITION: edizzjoni
   color_blind: Kulur Għomja
   friendly: Ħbiberija
@@ -1399,7 +1399,7 @@ Meta tkun tgħallimt it-teknika bażika permezz ta' din il-paġna ta' prattika, 
   <p class="cover-footer-text">
     <span class="fsize-8 bold">Sistema ta' kommunikazzjoni għal nies li ma jitkelmux</span><br>
     <span class="red-color fsize-8 bold">acecent.re/speakbook</span><br>
-    <span class="fsize-4">Speakbook ir-raba' edizzjoni © 2011 Patrick Joyce</span>
+    <span class="fsize-4">Speakbook ir-raba' edizzjoni © 2011 Patrick Joyce, 2020 Ace Centre, Tradott minn Martina Zarb</span>
   </p>
   <div class="flex-grow-1"></div>
   <img style="width: 30mm;height: 30mm;" :src="$withBase('/speakbook/images/PublishedByAce.svg')" />
@@ -1413,13 +1413,16 @@ Meta tkun tgħallimt it-teknika bażika permezz ta' din il-paġna ta' prattika, 
 
 
 ::: slot inst-01-flt-right-content
-Dak li tikteb fuq l-iSpeakbook, jidependi mill-bżonnijiet partikolari tiegħek. Huwa importanti, li dak kollu li tikteb, ikun l-istess f'paġni li huma identiċi minn quddiem u minn wara - bħal l-eżempju ta' hawn fuq. Jekk inti u s-sieħeb tiegħek titkelmu lingwi differenti, mhijiex probelma - ikteb il-lingwa l-oħra fuq naħa minnhom. 
-:::
-v>
-:::
->
-:::
-
+<div class="abs-fill-parent flex-h" style="align-items: flex-end;">
+  <div class="flex-grow-1"></div>
+  <div class="flex-v">
+    <img class="m-1" style="width: 58.5mm; height: 79.7mm; box-sizing: border-box;" :src="$withBase('/speakbook/images/01.png')"  />
+    <div class="m-1 p-1 flex-grow-1 flt-box" style="width: 57.5mm; min-height: 79.7mm; box-sizing: border-box;">
+      <h3 class="my-1 fsize-5">How to write on the speakbook</h3>
+      <p class="my-2 fsize-4_5">Dak li tikteb fuq l-iSpeakbook, jidependi mill-bżonnijiet partikolari tiegħek. Huwa importanti, li dak kollu li tikteb, ikun l-istess f'paġni li huma identiċi minn quddiem u minn wara - bħal l-eżempju ta' hawn fuq. Jekk inti u s-sieħeb tiegħek titkelmu lingwi differenti, mhijiex probelma - ikteb il-lingwa l-oħra fuq naħa minnhom. </p>
+    </div>
+  </div>
+</div>
 :::
 ::: slot inst-01-content
 <div class="p-1 text-center">
@@ -1434,22 +1437,11 @@ Int u s-sieħeb li titkellem joqogħdu faċċata ta 'xulxin madwar tliet piedi' 
 </p>
 <p>Din hija t-teknika bażika għall-użu tal-speakbook. Issa trid titgħallem kif tuża l-paġni l-oħra fil-ktieb, għax il-ġenju veru tal-speakbook jinsab fil-kapaċità tiegħu li jagħtik aċċess faċli għal mijiet ta 'frażijiet li tagħżel int stess, frażijiet li tista' tbiddel fi kwalunkwe ħin, bi drapp niedja biss u l-kolp ta 'pinna.</p>
 :::
-of a pen.</p>
-:::
-o.</p>
-:::
-
 
 ::: slot inst-02-flt-right-label
 <div class="pos-rel fill-height fill-width">
   <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-right-label-bkg.svg')" />
   <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 18px), calc(-50% - 18px)) rotate(45deg); color: white;">{{ $page.frontmatter.text.instructions }}</div>
-</div>
-:::
-structions }}</div>
-</div>
-:::
->
 </div>
 :::
 
