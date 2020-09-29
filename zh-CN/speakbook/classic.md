@@ -1230,7 +1230,7 @@ grid_pages:
 <div class="flex-h items-align-center lheight-1_5x" style="width: calc(var(--page-width) - 60mm);">
   <p class="cover-footer-text">
     <span class="fsize-8 bold">非言语交际系统</span><br>
-    <span class="red-color fsize-8 bold">www.speakbook.org</span><br>
+    <span class="red-color fsize-8 bold">acecent.re/speakbook</span><br>
     <span class="fsize-4">Speakbook第四版©2011帕特里克·乔伊斯</span>
   </p>
   <div class="flex-grow-1"></div>
@@ -1254,7 +1254,7 @@ grid_pages:
 <div class="p-1 text-center">
   <speakbooktextfourcolorbkg class="speakbook-title fsize-10 p-1 bold" :text="$page.frontmatter.text.SPEAKBOOK"></speakbooktextfourcolorbkg>
 </div>
-<p>Speakbook是谁也无法发言，提出用他们的手或手臂困难的人一个非言语交际的工具，但谁保留使用他们的眼睛。此版本的人谁可以阅读和拼写。对于版本的非读者，外语版本，以及袖珍版，请访问：<b>www.speakbook.org</b></p>
+<p>Speakbook是谁也无法发言，提出用他们的手或手臂困难的人一个非言语交际的工具，但谁保留使用他们的眼睛。此版本的人谁可以阅读和拼写。对于版本的非读者，外语版本，以及袖珍版，请访问：<b>acecent.re/speakbook</b></p>
 <h2 class="fsize-6">使用说明。</h2>
 <p>要开始，你需要;在speakbook，黑色，非永久性白板笔，布来擦出来，一个讲的合作伙伴。</p>
 <p>你和你的伴侣说对面坐彼此相距约三英尺。根据您的视力，你会发现它有助于减少或增加这个距离。打开speakbook到后盖内的培训页面。这填补了已经帮助您学习的基本技术。当你“已经掌握了它，你可以写你自己的网页，使用提供空白的。弯曲折叠，书回来，拿着它你之间，所以你都面临着“培训”页，并且可以通过中间的孔看到对方的眼睛。你现在看选择在页面上决定哪一个通信。当你“已经决定，你指示你的伴侣，你已经准备好开始

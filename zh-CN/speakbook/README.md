@@ -1397,7 +1397,7 @@ grid_pages:
 <div class="flex-h items-align-center lheight-1_5x" style="width: calc(var(--page-width) - 60mm);">
   <p class="cover-footer-text">
     <span class="fsize-8 bold">非言语交际系统</span><br>
-    <span class="red-color fsize-8 bold">www.speakbook.org</span><br>
+    <span class="red-color fsize-8 bold">acecent.re/speakbook</span><br>
     <span class="fsize-4">Speakbook第四版©2011帕特里克·乔伊斯</span>
   </p>
   <div class="flex-grow-1"></div>

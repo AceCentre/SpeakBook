@@ -35,5 +35,5 @@ inlinecss:
 </div>
 <div class="page">
   <p class="fsize-8 bold">If you have any questions about making your Speakbook then email me enquiries@acecentre.org.uk</p>
-  <p class="fsize-9 bold text-center">www.speakbook.org</p>
+  <p class="fsize-9 bold text-center">acecent.re/speakbook</p>
 </div>

@@ -35,5 +35,5 @@ inlinecss:
 </div>
 <div class="page">
   <p class="fsize-8 bold">Kontak asb vir enquiries@acecentre.org.uk met enige vrae.</p>
-  <p class="fsize-9 bold text-center">www.speakbook.org</p>
+  <p class="fsize-9 bold text-center">acecent.re/speakbook</p>
 </div>
