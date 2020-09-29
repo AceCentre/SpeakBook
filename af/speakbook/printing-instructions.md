@@ -11,7 +11,7 @@ inlinecss:
   </div>
   <h2>Instruksies vir druk</h2>
   <p>Hoe om die Speakbook  uit te durk – of dit self te maak!</p>
-  <p>Speakbook  word beskerm deur kopiereg, maar u is welkom om kopieë daarvan te maak vir eie gebruik.  Kopieëring en verspreiding van die Speakbook  vir kommersiële of professionele redes word nie toegelaat sonder skriftelike toestemming nie – dit sluit in die gebruik in of deur hospitale, of enige ander Gesondheidspersoneel.  Dit beteken nie dat ons dit nie sal toelaat nie, ons wil slegs ‘n gesprek voer, ‘n kommersiële gebruik lisensie laat onderteken en in sommige gevalle mag ons ‘n fooi hef vir die ondersteuning van ons dienste.  Kontak asb vir patrick@speakbook.org en laat weet ons wat u in gedagte het.</p>
+  <p>Speakbook  word beskerm deur kopiereg, maar u is welkom om kopieë daarvan te maak vir eie gebruik.  Kopieëring en verspreiding van die Speakbook  vir kommersiële of professionele redes word nie toegelaat sonder skriftelike toestemming nie – dit sluit in die gebruik in of deur hospitale, of enige ander Gesondheidspersoneel.  Dit beteken nie dat ons dit nie sal toelaat nie, ons wil slegs ‘n gesprek voer, ‘n kommersiële gebruik lisensie laat onderteken en in sommige gevalle mag ons ‘n fooi hef vir die ondersteuning van ons dienste.  Kontak asb vir enquiries@acecentre.org.uk en laat weet ons wat u in gedagte het.</p>
   <h3>A4 of sak grootte?</h3>
   <p>All die Speakbook  PDF’s is verstelbaar.  Dit beteken dat al is dit ‘n A4 grootte document, u dit kan druk in enige verlangde grootte.  Beplan u om Speakbook  baie te gebruik? Of is dit net vir noodgevalle?  Indien laasgenoemde, mag dit raadsaam wees om ‘n kleiner Speakbook  te druk sodat u dit maklik kan ronddra.  Die verskil met die Kleiner weergawe is dat u en u maat nader aan mekaar sal moet sit.  Julle sal ook Kleiner teks naby aan u oë moet kan lees.  Ons het die Speakbook  getoets in A5 en ‘letter’ groottes – en hulle het beide goed gewerk vir ons toets persoon.  Voordat u ‘n Kleiner weergawe druk, stel ons voor u druk eers die opleidings bladsye (bl 24 en 25 van die pdf) op ‘n sakpas papier grootte, sny uit die gat en toets met ‘n maat voordat u die hele boek druk.</p>
   <h3>Professionele drukwerk</h3>
@@ -34,6 +34,6 @@ inlinecss:
   <p>Die beste binding vir die praatboek is draad spiraal binding omdat dit die bladsye netjies bymekaar hou en die boek heeltemaal laat oopmaak.  U sal waarskynlik nie hierdie by die huis kan doen nie, so ‘n ander opsie is om die linker sy van die boek te pons.  Bind met tou of gebruik klein silwer sleutelringe (beskikbaar by sleutel sny besighede).  Pons die gate tot teenaan die hoeke van die boeke ook, sodat alles mooi netjies bly.</p>
 </div>
 <div class="page">
-  <p class="fsize-8 bold">Kontak asb vir Patrick@speakbook.com met enige vrae.</p>
+  <p class="fsize-8 bold">Kontak asb vir enquiries@acecentre.org.uk met enige vrae.</p>
   <p class="fsize-9 bold text-center">www.speakbook.org</p>
 </div>

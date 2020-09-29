@@ -11,7 +11,7 @@ inlinecss:
   </div>
   <h2>Kullanma Kılavuzu </h2>
   <p>Speakbook’u nasıl yazdırmalısınız – veya kendiniz nasıl yapabilirsiniz. </p>
-  <p>Speakbook'un telif hakkı vardır, ancak kişisel kullanım için ücretsiz kopyalar alabilirsiniz. Herhangi bir profesyonel veya ticari nedenden ötürü konuşmakitabının çoğaltılmasına veya dağıtılmasına izin verilmez. Bunun dışındaki  koşullar için patrick@speakbook.org ile iletişime geçin ve bize aklınızdan geçenleri söyleyin.</p>
+  <p>Speakbook'un telif hakkı vardır, ancak kişisel kullanım için ücretsiz kopyalar alabilirsiniz. Herhangi bir profesyonel veya ticari nedenden ötürü konuşmakitabının çoğaltılmasına veya dağıtılmasına izin verilmez. Bunun dışındaki  koşullar için enquiries@acecentre.org.uk ile iletişime geçin ve bize aklınızdan geçenleri söyleyin.</p>
   <h3>A4 veya cep boyutunda mı? </h3>
   <p>Tüm Speakbook PDF'leri oldukça büyüktür ancak siz bunu  herhangi bir boyutta kullanabilirsiniz. SpeakBook’u çok kullanmayı düşünüyor musunuz? Yoksa sadece acil durumlar için mi? İkinci seçenek sizin için daha gerçeli ise, taşımayı kolaylaştırmak için daha küçük bir tane yazdırmaya karar verebilirsiniz. Daha küçük Speakbook kullanımındaki fark, sizin ve konuşma partnerinizin birbirine daha yakın oturmanız ve siz ve konuşma partnerinizin gözünüze çok daha yakın olan metni rahatça okuyabilmeniz gerekecektir. Speakbook'u A5 ve ‘mektup’ boyutunda da denedik ve her iki durumda da işe yarıyor. Ancak cep boyutunda bir Speakbook yazdırmadan önce, eğitim sayfasını (PDF sayfa 24 ve 25) cep boyutunda bir kağıda yazdırmanızı, deliği kesmenizi ve kitabın tamamını yapmadan önce konuşma partnerinizle test etmenizi öneririz.</p>
   <h3>Profesyonel baskı </h3>
