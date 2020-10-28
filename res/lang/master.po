@@ -8,7 +8,7 @@ msgid "SPEAKBOOK"
 msgstr "SPEAKBOOK"
 
 msgid "edition_nth"
-msgstr "4th"
+msgstr "5th"
 
 msgid "EDITION"
 msgstr "EDITION"
@@ -236,7 +236,7 @@ msgid "__slot_last-page-heading"
 msgstr "<div class=\"float-left\" style=\"width: 40mm; height: 37mm; shape-outside: polygon(0 0, 40mm 0, 10mm 100%, 0 100%);\"></div>\n<h2 class=\"my-2\">Finger spelling page.</h2>\n<p class=\"my-2\">\n  If you still have the use of your hands, then this page is for you.\n  By pointing with a finger you can spell out words and phrases to your partner.\n  Frequently used words can be written in the blank boxes.\n  Pointing to the word <strong class=\"bold\">„ HOME ‟*</strong> indicates to your partner that you now\n  want to communicate with your eyes using the main book.\n</p>"
 
 msgid "__slot_cover-footer"
-msgstr "<div class=\"lheight-1_5x\">\n  <p class=\"text-center cover-footer-text\">\n    <span class=\"fsize-8 bold\">non verbal communication system</span><br>\n    <span class=\"red-color fsize-8 bold\">acecent.re/speakbook</span><br>\n    <span class=\"fsize-4\">Speakbook 4th edition © 2011 Patrick Joyce</span>\n  </p>\n</div>"
+msgstr "<div class=\"lheight-1_5x\">\n  <p class=\"text-center cover-footer-text\">\n    <span class=\"fsize-8 bold\">non verbal communication system</span><br>\n    <span class=\"red-color fsize-8 bold\">acecent.re/speakbook</span><br>\n    <span class=\"fsize-4\">Speakbook 5th edition © 2020 Patrick Joyce & Ace Centre</span>\n  </p>\n</div>"
 
 msgid "__slot_inst-01-flt-right-content"
 msgstr "<div class=\"abs-fill-parent flex-h\" style=\"align-items: flex-end;\">\n  <div class=\"flex-grow-1\"></div>\n  <div class=\"flex-v\">\n    <img class=\"m-1\" style=\"width: 58.5mm; height: 79.7mm; box-sizing: border-box;\" :src=\"$withBase('/speakbook/images/01.png')\"  />\n    <div class=\"m-1 p-1 flex-grow-1 flt-box\" style=\"width: 57.5mm; min-height: 79.7mm; box-sizing: border-box;\">\n      <h3 class=\"my-1 fsize-5\">How to write on the speakbook</h3>\n      <p class=\"my-2 fsize-4_5\">Exactly what you write on the speakbook will depend on your particular requirements, but whatever you write, it is important that each side of any double page spread has the same text on it, and that they are a mirror image of each other - as in the example above. Do you and your partner speak different languages? No problem - just write a different language on either side.</p>\n    </div>\n  </div>\n</div>"
