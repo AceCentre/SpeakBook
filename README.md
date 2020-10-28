@@ -24,7 +24,11 @@ Table of Contents
     * [<g-emoji class="g-emoji" alias="cn" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1e8-1f1f3.png">🇨🇳</g-emoji> Chinese Simplified](#🇨🇳-chinese-simplified)
     * [<g-emoji class="g-emoji" alias="mozambique" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f2-1f1ff.png">🇲🇿</g-emoji> Arabic](#🇲🇿-arabic)
     * [<g-emoji class="g-emoji" alias="pakistan" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f5-1f1f0.png">🇵🇰</g-emoji> Urdu](#🇵🇰-urdu)
-    * [<g-emoji class="g-emoji" alias="poland" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f5-1f1f0.png">🇵🇰</g-emoji> Polish](#🇵🇱-polish)
+    * [<g-emoji class="g-emoji" alias="poland" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f5-1f1f1.png">🇵🇱</g-emoji> Polish](#🇵🇱-polish)
+* [How do I create a new version for my language - or improve a language translation](#how-do-i-create-a-new-version-for-my-language---or-improve-a-language-translation)
+    * [<g-emoji class="g-emoji" alias="armenia" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1e6-1f1f2.png">🇦🇲</g-emoji> Armenian](#🇦🇲-armenian)
+    
+    
 * [How do I create a new version for my language - or improve a language translation](#how-do-i-create-a-new-version-for-my-language---or-improve-a-language-translation)
 * [I want it to do _____ or can it print upside down?](#i-want-it-to-do-_____-or-can-it-print-upside-down)
 * [Technical Background](#technical-background)
@@ -171,6 +175,13 @@ Note: using Abjadī alphabet
 - [Colour Version](/pl/speakbook/classic.html) - 📄 [A4 PDF](/pl/speakbook/classic.pdf) 
 
 [Complete Zipped package with US Letter size](/pl/speakbook/pl-speakbook.zip)
+  
+### 🇦🇲 Armenian
+
+- [Color-Blind Friendly](/hu/speakbook/) - 📄 [A4 PDF](/hu/speakbook/index.pdf) 
+- [Colour Version](/hu/speakbook/classic.html) - 📄 [A4 PDF](/hu/speakbook/classic.pdf) 
+
+[Complete Zipped package with US Letter size](/hu/speakbook/hu-speakbook.zip)
   
 
 ## How do I create a new version for my language - or improve a language translation
