@@ -259,7 +259,7 @@ grid_pages:
         rows:
           - comment: At top center
             type: coloured-circle
-            colour: cyan
+            colour: green
             inlinecss:
               flex-grow: 1
           - comment: Guide at center
@@ -270,7 +270,7 @@ grid_pages:
               transform: rotate(180deg)
           - comment: At bottom center
             type: coloured-circle
-            colour: green
+            colour: cyan
             inlinecss:
               flex-grow: 1
       - inlinecss:
@@ -792,7 +792,7 @@ grid_pages:
         rows:
           - comment: At top center
             type: coloured-circle
-            colour: cyan
+            colour: green
             inlinecss:
               flex-grow: 1
           - comment: Guide at center
@@ -803,7 +803,7 @@ grid_pages:
               transform: rotate(180deg)
           - comment: At bottom center
             type: coloured-circle
-            colour: green
+            colour: cyan
             inlinecss:
               flex-grow: 1
       - inlinecss:
@@ -1040,7 +1040,7 @@ grid_pages:
         rows:
           - comment: At bottom center
             type: coloured-circle
-            colour: cyan
+            colour: green
             inlinecss:
               flex-grow: 1
           - comment: Guide at center
@@ -1051,7 +1051,7 @@ grid_pages:
               transform: rotate(180deg)
           - comment: At top center
             type: coloured-circle
-            colour: green
+            colour: cyan
             inlinecss:
               flex-grow: 1
       - inlinecss:
