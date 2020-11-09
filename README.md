@@ -52,6 +52,9 @@ The current *in-progress* versions (Note: will only look as intended in Chrome. 
 
 [Complete Zipped package with US Letter size](/speakbook/en-speakbook.zip)
 
+With thanks to Suzanne Guerin and her colleagues for finding the mistake with the circles/triangles and cyan/green dots! 
+
+
 ### 🇹🇷 Turkish
 
 - [Color-Blind Friendly](/tr/speakbook/) - 📄 [A4 PDF](/tr/speakbook/index.pdf) 
