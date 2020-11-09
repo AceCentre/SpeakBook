@@ -66,7 +66,7 @@ text:
   TOILET: TOILET
   DRINKS: DRINKS
   TRAINING_PAGE: TRAINING PAGE
-  training_page: trading page
+  training_page: training page
   _GBP: '£'
   _USD: '$'
   _percent: '%'
@@ -248,7 +248,7 @@ grid_pages:
         rows:
           - comment: At top center
             type: coloured-circle
-            colour: cyan
+            colour: green
             inlinecss:
               flex-grow: 1
           - comment: Guide at center
@@ -259,7 +259,7 @@ grid_pages:
               transform: rotate(180deg)
           - comment: At bottom center
             type: coloured-circle
-            colour: green
+            colour: cyan
             inlinecss:
               flex-grow: 1
       - inlinecss:
@@ -781,7 +781,7 @@ grid_pages:
         rows:
           - comment: At top center
             type: coloured-circle
-            colour: cyan
+            colour: green
             inlinecss:
               flex-grow: 1
           - comment: Guide at center
@@ -792,7 +792,7 @@ grid_pages:
               transform: rotate(180deg)
           - comment: At bottom center
             type: coloured-circle
-            colour: green
+            colour: cyan
             inlinecss:
               flex-grow: 1
       - inlinecss:
@@ -1029,7 +1029,7 @@ grid_pages:
         rows:
           - comment: At bottom center
             type: coloured-circle
-            colour: cyan
+            colour: green
             inlinecss:
               flex-grow: 1
           - comment: Guide at center
@@ -1040,7 +1040,7 @@ grid_pages:
               transform: rotate(180deg)
           - comment: At top center
             type: coloured-circle
-            colour: green
+            colour: cyan
             inlinecss:
               flex-grow: 1
       - inlinecss:

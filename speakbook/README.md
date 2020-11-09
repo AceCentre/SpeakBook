@@ -65,7 +65,7 @@ text:
   TOILET: TOILET
   DRINKS: DRINKS
   TRAINING_PAGE: TRAINING PAGE
-  training_page: trading page
+  training_page: training page
   _GBP: '£'
   _USD: '$'
   _percent: '%'
@@ -285,7 +285,7 @@ grid_pages:
         rows:
           - comment: At bottom center
             type: fig
-            image: shape-triangle-2x-img
+            image: shape-circle-2x-img
             inlinecss:
               padding-top: 10mm
               padding-bottom: 10mm
@@ -297,7 +297,7 @@ grid_pages:
               transform: rotate(180deg)
           - comment: At top center
             type: fig
-            image: shape-circle-2x-img
+            image: shape-triangle-2x-img
             inlinecss:
               padding-top: 10mm
               padding-bottom: 10mm
@@ -864,7 +864,7 @@ grid_pages:
         rows:
           - comment: At bottom center
             type: fig
-            image: shape-triangle-2x-img
+            image: shape-circle-2x-img
             inlinecss:
               padding-top: 10mm
               padding-bottom: 10mm
@@ -876,7 +876,7 @@ grid_pages:
               transform: rotate(180deg)
           - comment: At top center
             type: fig
-            image: shape-circle-2x-img
+            image: shape-triangle-2x-img
             inlinecss:
               padding-top: 10mm
               padding-bottom: 10mm
@@ -924,42 +924,70 @@ grid_pages:
   - name: page11
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-06
+    start_spacing_inlinecss:
+      transform: rotate(180deg)
+    inlinecss:
+      transform: rotate(180deg)
   - name: page12
     comment: no cut out
     copyof: page08
   - name: page13
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-07
+    start_spacing_inlinecss:
+      transform: rotate(180deg)
+    inlinecss:
+      transform: rotate(180deg)
   - name: page14
     comment: no cut out
     copyof: page08
   - name: page15
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-08
+    start_spacing_inlinecss:
+      transform: rotate(180deg)
+    inlinecss:
+      transform: rotate(180deg)
   - name: page16
     comment: no cut out
     copyof: page08
   - name: page17
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-09
+    start_spacing_inlinecss:
+      transform: rotate(180deg)
+    inlinecss:
+      transform: rotate(180deg)
   - name: page18
     comment: no cut out
     copyof: page08
   - name: page19
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-10
+    start_spacing_inlinecss:
+      transform: rotate(180deg)
+    inlinecss:
+      transform: rotate(180deg)
   - name: page20
     comment: no cut out
     copyof: page08
   - name: page21
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-11
+    start_spacing_inlinecss:
+      transform: rotate(180deg)
+    inlinecss:
+      transform: rotate(180deg)
   - name: page22
     comment: no cut out
     copyof: page08
   - name: page23
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-12
+    start_spacing_inlinecss:
+      transform: rotate(180deg)
+    inlinecss:
+      transform: rotate(180deg)
   - name: page24
     comment: no cut out
     columns:
@@ -1156,7 +1184,7 @@ grid_pages:
         rows:
           - comment: At bottom center
             type: fig
-            image: shape-triangle-2x-img
+            image: shape-circle-2x-img
             inlinecss:
               padding-top: 10mm
               padding-bottom: 10mm
@@ -1168,7 +1196,7 @@ grid_pages:
               transform: rotate(180deg)
           - comment: At top center
             type: fig
-            image: shape-circle-2x-img
+            image: shape-triangle-2x-img
             inlinecss:
               padding-top: 10mm
               padding-bottom: 10mm
@@ -1369,7 +1397,7 @@ grid_pages:
   <p class="cover-footer-text">
     <span class="fsize-8 bold">non verbal communication system</span><br>
     <span class="red-color fsize-8 bold">acecent.re/speakbook</span><br>
-    <span class="fsize-4">Speakbook 5th edition © 2011 Patrick Joyce</span>
+    <span class="fsize-4">Speakbook 5th edition © 2011 Patrick Joyce, 2020 Ace Centre</span>
   </p>
   <div class="flex-grow-1"></div>
   <img style="width: 30mm;height: 30mm;" :src="$withBase('/speakbook/images/PublishedByAce.svg')" />
