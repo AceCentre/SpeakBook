@@ -293,7 +293,7 @@ grid_pages:
         rows:
           - comment: At bottom center
             type: fig
-            image: shape-triangle-2x-img
+            image: shape-circle-2x-img
             inlinecss:
               padding-top: 10mm
               padding-bottom: 10mm
@@ -305,7 +305,7 @@ grid_pages:
               transform: rotate(180deg)
           - comment: At top center
             type: fig
-            image: shape-circle-2x-img
+            image: shape-triangle-2x-img
             inlinecss:
               padding-top: 10mm
               padding-bottom: 10mm
@@ -872,7 +872,7 @@ grid_pages:
         rows:
           - comment: At bottom center
             type: fig
-            image: shape-triangle-2x-img
+            image: shape-circle-2x-img
             inlinecss:
               padding-top: 10mm
               padding-bottom: 10mm
@@ -884,7 +884,7 @@ grid_pages:
               transform: rotate(180deg)
           - comment: At top center
             type: fig
-            image: shape-circle-2x-img
+            image: shape-triangle-2x-img
             inlinecss:
               padding-top: 10mm
               padding-bottom: 10mm
@@ -1196,7 +1196,7 @@ grid_pages:
         rows:
           - comment: At bottom center
             type: fig
-            image: shape-triangle-2x-img
+            image: shape-circle-2x-img
             inlinecss:
               padding-top: 10mm
               padding-bottom: 10mm
@@ -1208,7 +1208,7 @@ grid_pages:
               transform: rotate(180deg)
           - comment: At top center
             type: fig
-            image: shape-circle-2x-img
+            image: shape-triangle-2x-img
             inlinecss:
               padding-top: 10mm
               padding-bottom: 10mm

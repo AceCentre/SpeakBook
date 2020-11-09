@@ -21,7 +21,7 @@
     "parse5-serializer-stream": "^6.0.1",
     "puppeteer": "^3.0.2",
     "sass-loader": "^8.0.2",
-    "vuepress": "^1.4.1",
+    "vuepress": "^1.7.1",
     "yaml": "^1.9.2"
   },
   "dependencies": {
