@@ -1,89 +1,83 @@
 ---
 layout: SpeakBook
 text:
-  ring_bind_edge: Bu kenar boyunca halkayı bağlayın
-  cut_out_this_part: Bu kısmı kesin
-  SPEAKBOOK: KONUŞMAKİTABI
-  edition_nth: "5.cü "
-  EDITION: BASKI
-  color_blind: Renk körlüğü olanlar için de uygundur
-  friendly: Samimi
-  instructions: Kullanma talimatları
-  HOME_PAGE: ANA SAYFA
-  SPELL: HECELEME
-  HOME: ANA SAYFA
-  THANK_YOU: Teşekkür ederim
+  ring_bind_edge: Ring bind along this edge
+  cut_out_this_part: Cut out this part.
+  SPEAKBOOK: SPEAKBOOK
+  edition_nth: 5th
+  EDITION: EDITION
+  color_blind: Colour Blind
+  friendly: Friendly!
+  instructions: instructions
+  HOME_PAGE: HOME PAGE
+  SPELL: SPELL
+  HOME: HOME
+  THANK_YOU: THANK YOU
   A: A
   B: B
-  C: Ç
-  Ç: Ç
+  C: C
   D: D
   E: E
   F: F
   G: G
-  Ğ: Ğ
   H: H
-  I: İ
-  İ: İ
+  I: I
   J: J
   K: K
   L: L
   M: M
   N: N
   O: O
-  Ö: Ö
   P: P
   Q: Q
   R: R
   S: S
-  Ş: Ş
   T: T
   U: U
-  Ü: Ü
   V: V
-  W: Ğ
-  X: Ş
+  W: W
+  X: X
   Y: Y
   Z: Z
-  _zero: "0"
-  _one: "1"
-  _two: "2"
-  _three: "3"
-  _four: "4"
-  _five: "5"
-  _six: "6"
-  _seven: "7"
-  _eight: "8"
-  _nine: "9"
-  im_too_hot: çok sıcak
-  im_too_cold: çok soğuk / üşüyorum
-  cup_of_tea: Bir bardak çay
-  cup_of_coffee: Bir bardak kahve
-  i_love_you: Seni seviyorum
-  yes: Evet
-  no: Hayır
-  CAR: ARABA
-  BED: YATAK
-  CLOTHING: KIYAFET
-  BATHTIME: YIKANMA ZAMANI
-  MEALS: YİYECEKLER
-  COMFORT: RAHATLIK
-  TOILET: TUVALET
-  DRINKS: İÇECEKLER
-  TRAINING_PAGE: EĞİTİM SAYFASI
-  training_page: eğitim sayfası
-  _GBP: £
-  _USD: $
-  _percent: "%"
-  _plus: +
-  _minus: "-"
-  _slash: /
+  _zero: 0
+  _one: 1
+  _two: 2
+  _three: 3
+  _four: 4
+  _five: 5
+  _six: 6
+  _seven: 7
+  _eight: 8
+  _nine: 9
+  im_too_hot: I'm too hot
+  im_too_cold: I'm too cold
+  cup_of_tea: Cup of tea!
+  cup_of_coffee: Cup of coffee!
+  i_love_you: I love you
+  yes: yes
+  no: no
+  CAR: CAR
+  BED: BED
+  CLOTHING: CLOTHING
+  BATHTIME: BATHTIME
+  MEALS: MEALS
+  COMFORT: COMFORT
+  TOILET: TOILET
+  DRINKS: DRINKS
+  TRAINING_PAGE: TRAINING PAGE
+  training_page: trading page
+  _GBP: '£'
+  _USD: '$'
+  _percent: '%'
+  _plus: '+'
+  _minus: '-'
+  _slash: '/'
   _X: X
-  _equal: =
-  _question_mark: "?"
-  _atsign: "@"
-  YES: EVET
-  NO: HAYIR
+  _equal: '='
+  _question_mark: '?'
+  _atsign: '@'
+  YES: YES
+  NO: NO
 slots_in_need_for_translation:
   - training-page-description
   - last-page-heading
@@ -108,10 +102,7 @@ instruction_pages:
           --max-left-spacing: 40mm
           width: var(--max-left-spacing)
           height: var(--page-height)
-          shape-outside: polygon(0 var(--spacing-offset-top), var(--max-left-spacing)
-            var(--spacing-offset-top), var(--left-spacing)
-            calc(var(--spacing-offset-top) + 20mm), var(--left-spacing)
-            var(--page-height), 0 var(--page-height))
+          shape-outside: polygon(0 var(--spacing-offset-top), var(--max-left-spacing) var(--spacing-offset-top), var(--left-spacing) calc(var(--spacing-offset-top) + 20mm), var(--left-spacing) var(--page-height), 0 var(--page-height))
       - comment: floating content at center right
         dir: right
         mode: fixed
@@ -294,7 +285,7 @@ grid_pages:
         rows:
           - comment: At bottom center
             type: fig
-            image: shape-triangle-2x-img
+            image: shape-circle-2x-img
             inlinecss:
               padding-top: 10mm
               padding-bottom: 10mm
@@ -306,7 +297,7 @@ grid_pages:
               transform: rotate(180deg)
           - comment: At top center
             type: fig
-            image: shape-circle-2x-img
+            image: shape-triangle-2x-img
             inlinecss:
               padding-top: 10mm
               padding-bottom: 10mm
@@ -363,22 +354,22 @@ grid_pages:
               height: var(--grid-item-height)
               background-color: var(--color-yellow)
             entries:
-              - text_key: Ö
-                inlinecss:
-                  color: var(--color-purple)
-              - text_key: P
-                inlinecss:
-                  color: var(--color-white)
-              - text_key: R
-                inlinecss:
-                  color: var(--color-green)
               - text_key: S
                 inlinecss:
+                  color: var(--color-purple)
+              - text_key: T
+                inlinecss:
+                  color: var(--color-white)
+              - text_key: U
+                inlinecss:
+                  color: var(--color-green)
+              - text_key: V
+                inlinecss:
                   color: var(--color-yellow)
-              - text_key: Ş
+              - text_key: W
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: T
+              - text_key: X
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -392,22 +383,22 @@ grid_pages:
               height: var(--grid-item-height)
               background-color: var(--color-orange)
             entries:
-              - text_key: U
-                inlinecss:
-                  color: var(--color-purple)
-              - text_key: Ü
-                inlinecss:
-                  color: var(--color-white)
-              - text_key: V
-                inlinecss:
-                  color: var(--color-green)
               - text_key: Y
                 inlinecss:
-                  color: var(--color-yellow)
+                  color: var(--color-purple)
               - text_key: Z
                 inlinecss:
-                  color: var(--color-orange)
+                  color: var(--color-white)
               - text_key: _one
+                inlinecss:
+                  color: var(--color-green)
+              - text_key: _two
+                inlinecss:
+                  color: var(--color-yellow)
+              - text_key: _three
+                inlinecss:
+                  color: var(--color-orange)
+              - text_key: _four
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -421,19 +412,19 @@ grid_pages:
               height: var(--grid-item-height)
               background-color: var(--color-cyan)
             entries:
-              - text_key: _two
-                inlinecss:
-                  color: var(--color-purple)
-              - text_key: _three
-                inlinecss:
-                  color: var(--color-white)
-              - text_key: _four
-                inlinecss:
-                  color: var(--color-green)
               - text_key: _five
                 inlinecss:
-                  color: var(--color-yellow)
+                  color: var(--color-purple)
               - text_key: _six
+                inlinecss:
+                  color: var(--color-white)
+              - text_key: _seven
+                inlinecss:
+                  color: var(--color-green)
+              - text_key: _eight
+                inlinecss:
+                  color: var(--color-yellow)
+              - text_key: _nine
                 inlinecss:
                   color: var(--color-orange)
               - text_key: HOME
@@ -464,13 +455,13 @@ grid_pages:
               - text_key: C
                 inlinecss:
                   color: var(--color-green)
-              - text_key: Ç
-                inlinecss:
-                  color: var(--color-yellow)
               - text_key: D
                 inlinecss:
-                  color: var(--color-orange)
+                  color: var(--color-yellow)
               - text_key: E
+                inlinecss:
+                  color: var(--color-orange)
+              - text_key: F
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -485,22 +476,22 @@ grid_pages:
               background-color: var(--color-white)
               border: 1px solid var(--color-black)
             entries:
-              - text_key: F
-                inlinecss:
-                  color: var(--color-purple)
               - text_key: G
                 inlinecss:
-                  color: var(--color-white)
-              - text_key: Ğ
-                inlinecss:
-                  color: var(--color-green)
+                  color: var(--color-purple)
               - text_key: H
                 inlinecss:
-                  color: var(--color-yellow)
+                  color: var(--color-white)
               - text_key: I
                 inlinecss:
+                  color: var(--color-green)
+              - text_key: J
+                inlinecss:
+                  color: var(--color-yellow)
+              - text_key: K
+                inlinecss:
                   color: var(--color-orange)
-              - text_key: İ
+              - text_key: L
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -514,22 +505,22 @@ grid_pages:
               height: var(--grid-item-height)
               background-color: var(--color-green)
             entries:
-              - text_key: J
-                inlinecss:
-                  color: var(--color-purple)
-              - text_key: K
-                inlinecss:
-                  color: var(--color-white)
-              - text_key: L
-                inlinecss:
-                  color: var(--color-green)
               - text_key: M
                 inlinecss:
-                  color: var(--color-yellow)
+                  color: var(--color-purple)
               - text_key: N
                 inlinecss:
-                  color: var(--color-orange)
+                  color: var(--color-white)
               - text_key: O
+                inlinecss:
+                  color: var(--color-green)
+              - text_key: P
+                inlinecss:
+                  color: var(--color-yellow)
+              - text_key: Q
+                inlinecss:
+                  color: var(--color-orange)
+              - text_key: R
                 inlinecss:
                   color: var(--color-cyan)
   - name: page07
@@ -551,22 +542,22 @@ grid_pages:
               height: var(--grid-item-height)
               background-color: var(--color-yellow)
             entries:
-              - text_key: Ö
-                inlinecss:
-                  color: var(--color-purple)
-              - text_key: P
-                inlinecss:
-                  color: var(--color-white)
-              - text_key: R
-                inlinecss:
-                  color: var(--color-green)
               - text_key: S
                 inlinecss:
+                  color: var(--color-purple)
+              - text_key: T
+                inlinecss:
+                  color: var(--color-white)
+              - text_key: U
+                inlinecss:
+                  color: var(--color-green)
+              - text_key: V
+                inlinecss:
                   color: var(--color-yellow)
-              - text_key: Ş
+              - text_key: W
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: T
+              - text_key: X
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -580,22 +571,22 @@ grid_pages:
               height: var(--grid-item-height)
               background-color: var(--color-orange)
             entries:
-              - text_key: U
-                inlinecss:
-                  color: var(--color-purple)
-              - text_key: Ü
-                inlinecss:
-                  color: var(--color-white)
-              - text_key: V
-                inlinecss:
-                  color: var(--color-green)
               - text_key: Y
                 inlinecss:
-                  color: var(--color-yellow)
+                  color: var(--color-purple)
               - text_key: Z
                 inlinecss:
-                  color: var(--color-orange)
+                  color: var(--color-white)
               - text_key: _one
+                inlinecss:
+                  color: var(--color-green)
+              - text_key: _two
+                inlinecss:
+                  color: var(--color-yellow)
+              - text_key: _three
+                inlinecss:
+                  color: var(--color-orange)
+              - text_key: _four
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -609,19 +600,19 @@ grid_pages:
               height: var(--grid-item-height)
               background-color: var(--color-cyan)
             entries:
-              - text_key: _two
-                inlinecss:
-                  color: var(--color-purple)
-              - text_key: _three
-                inlinecss:
-                  color: var(--color-white)
-              - text_key: _four
-                inlinecss:
-                  color: var(--color-green)
               - text_key: _five
                 inlinecss:
-                  color: var(--color-yellow)
+                  color: var(--color-purple)
               - text_key: _six
+                inlinecss:
+                  color: var(--color-white)
+              - text_key: _seven
+                inlinecss:
+                  color: var(--color-green)
+              - text_key: _eight
+                inlinecss:
+                  color: var(--color-yellow)
+              - text_key: _nine
                 inlinecss:
                   color: var(--color-orange)
               - text_key: HOME
@@ -659,13 +650,13 @@ grid_pages:
               - text_key: C
                 inlinecss:
                   color: var(--color-green)
-              - text_key: Ç
-                inlinecss:
-                  color: var(--color-yellow)
               - text_key: D
                 inlinecss:
-                  color: var(--color-orange)
+                  color: var(--color-yellow)
               - text_key: E
+                inlinecss:
+                  color: var(--color-orange)
+              - text_key: F
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -680,22 +671,22 @@ grid_pages:
               background-color: var(--color-white)
               border: 1px solid var(--color-black)
             entries:
-              - text_key: F
-                inlinecss:
-                  color: var(--color-purple)
               - text_key: G
                 inlinecss:
-                  color: var(--color-white)
-              - text_key: Ğ
-                inlinecss:
-                  color: var(--color-green)
+                  color: var(--color-purple)
               - text_key: H
                 inlinecss:
-                  color: var(--color-yellow)
+                  color: var(--color-white)
               - text_key: I
                 inlinecss:
+                  color: var(--color-green)
+              - text_key: J
+                inlinecss:
+                  color: var(--color-yellow)
+              - text_key: K
+                inlinecss:
                   color: var(--color-orange)
-              - text_key: İ
+              - text_key: L
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -709,22 +700,22 @@ grid_pages:
               height: var(--grid-item-height)
               background-color: var(--color-green)
             entries:
-              - text_key: J
-                inlinecss:
-                  color: var(--color-purple)
-              - text_key: K
-                inlinecss:
-                  color: var(--color-white)
-              - text_key: L
-                inlinecss:
-                  color: var(--color-green)
               - text_key: M
                 inlinecss:
-                  color: var(--color-yellow)
+                  color: var(--color-purple)
               - text_key: N
                 inlinecss:
-                  color: var(--color-orange)
+                  color: var(--color-white)
               - text_key: O
+                inlinecss:
+                  color: var(--color-green)
+              - text_key: P
+                inlinecss:
+                  color: var(--color-yellow)
+              - text_key: Q
+                inlinecss:
+                  color: var(--color-orange)
+              - text_key: R
                 inlinecss:
                   color: var(--color-cyan)
   - name: page08
@@ -873,7 +864,7 @@ grid_pages:
         rows:
           - comment: At bottom center
             type: fig
-            image: shape-triangle-2x-img
+            image: shape-circle-2x-img
             inlinecss:
               padding-top: 10mm
               padding-bottom: 10mm
@@ -885,7 +876,7 @@ grid_pages:
               transform: rotate(180deg)
           - comment: At top center
             type: fig
-            image: shape-circle-2x-img
+            image: shape-triangle-2x-img
             inlinecss:
               padding-top: 10mm
               padding-bottom: 10mm
@@ -1085,8 +1076,6 @@ grid_pages:
                 text_key: im_too_hot
               - image: shape-circle-1x-img
                 text_key: im_too_cold
-                text_inlinecss:
-                  font-size: 18pt
               - image: shape-triangle-1x-img
                 text_key: cup_of_tea
               - image: shape-square-1x-img
@@ -1195,7 +1184,7 @@ grid_pages:
         rows:
           - comment: At bottom center
             type: fig
-            image: shape-triangle-2x-img
+            image: shape-circle-2x-img
             inlinecss:
               padding-top: 10mm
               padding-bottom: 10mm
@@ -1207,7 +1196,7 @@ grid_pages:
               transform: rotate(180deg)
           - comment: At top center
             type: fig
-            image: shape-circle-2x-img
+            image: shape-triangle-2x-img
             inlinecss:
               padding-top: 10mm
               padding-bottom: 10mm
@@ -1253,8 +1242,6 @@ grid_pages:
                 text_key: im_too_hot
               - image: shape-circle-1x-img
                 text_key: im_too_cold
-                text_inlinecss:
-                  font-size: 18pt
               - image: shape-triangle-1x-img
                 text_key: cup_of_tea
               - image: shape-square-1x-img
@@ -1263,7 +1250,6 @@ grid_pages:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
               height: var(--grid-item-height)
-
 ---
 ::: slot redheart-img
 <img style="width: var(--img-width); height: var(--img-width);" :src="$withBase('/speakbook/shapes/redheart.svg')" />
@@ -1273,16 +1259,19 @@ grid_pages:
 :::
 ::: slot last-page-heading
 <div class="float-left" style="width: 40mm; height: 37mm; shape-outside: polygon(0 0, 40mm 0, 10mm 100%, 0 100%);"></div>
-<h2 class="my-2"> Parmaklarla heceleme sayfası </h2>
+<h2 class="my-2">Finger spelling page.</h2>
 <p class="my-2">
-Eğer ellerinizi kullanabiliyorsanız, bu sayfa sizin için. 
-Parmağınızla harfleri teker teker göstererek kelimeleri veya sözcük gruplarını heceleyebilirsiniz. 
-Sıklıkla kullanılan kelimeler boş kutuların içerisine yazılabilir. 
-ANA SAYFA kelimesine işaret ederek, konuşma partnerinize ana kitabı kullanarak ve gözlerinizle iletişime geçmek istediğinizi belirtebilirsiniz. </p>
+  If you still have the use of your hands, then this page is for you.
+  By pointing with a finger you can spell out words and phrases to your partner.
+  Frequently used words can be written in the blank boxes.
+  Pointing to the word <strong class="bold">„ HOME ‟*</strong> indicates to your partner that you now
+  want to communicate with your eyes using the main book.
+</p>
 :::
 ::: slot training-page-description
 <p class="fsize-3">
-Eğitim sayfasındaki basit teknikleri öğrendikten sonra, bu kitapta bulunan boş sayfaları kullanarak kendi sayfalarınızı yaratabilirsiniz. 
+  When you've learnt the basic technique using this training page,
+  you can write your own pages using the blank ones in this book.
 </p>
 :::
 ::: slot table-overlay-01
@@ -1349,13 +1338,13 @@ Eğitim sayfasındaki basit teknikleri öğrendikten sonra, bu kitapta bulunan b
 ::: slot cut-out-right-side-guide-03
 <CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part">
   <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-03.svg')" />
-  <div class="white-color wmode-vertical-lr rotate-180 fsize-8 bold flex-v items-align-center justify-content-center" style="position: absolute; top: 2mm; left: 0mm; width: 10mm; height: 28mm; font-size: 10pt">{{ $page.frontmatter.text.HOME }}</div>
+  <div class="white-color wmode-vertical-lr rotate-180 fsize-8 bold flex-v items-align-center justify-content-center" style="position: absolute; top: 2mm; left: 0mm; width: 10mm; height: 28mm;">{{ $page.frontmatter.text.HOME }}</div>
 </CutOutSideGuide>
 :::
 ::: slot cut-out-right-side-guide-04
 <CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-top: 30mm; box-sizing: border-box;">
   <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-04.svg')" />
-  <div class="red-color wmode-vertical-lr rotate-180 fsize-8 bold flex-v items-align-center justify-content-center" style="position: absolute; top: 30.5mm; left: 0mm; width: 10mm; height: 28mm; font-size: 10pt">{{ $page.frontmatter.text.SPELL }}</div>
+  <div class="red-color wmode-vertical-lr rotate-180 fsize-8 bold flex-v items-align-center justify-content-center" style="position: absolute; top: 30.5mm; left: 0mm; width: 10mm; height: 28mm;">{{ $page.frontmatter.text.SPELL }}</div>
 </CutOutSideGuide>
 :::
 ::: slot cut-out-right-side-guide-05
@@ -1406,9 +1395,9 @@ Eğitim sayfasındaki basit teknikleri öğrendikten sonra, bu kitapta bulunan b
 ::: slot cover-footer
 <div class="flex-h items-align-center lheight-1_5x" style="width: calc(var(--page-width) - 60mm);">
   <p class="cover-footer-text">
-    <span class="fsize-8 bold"> sözel olmayan iletişim sistemi </span><br>
+    <span class="fsize-8 bold">non verbal communication system</span><br>
     <span class="red-color fsize-8 bold">acecent.re/speakbook</span><br>
-    <span class="fsize-4"> Konuşmakitabı 5. baskı © 2011 Patrick Joyce,  2020 Ace Centre, Kuhunyushwe ngu-Ersin Sinay</span>
+    <span class="fsize-4">Speakbook 5th edition © 2011 Patrick Joyce,  2020 Ace Centre</span>
   </p>
   <div class="flex-grow-1"></div>
   <img style="width: 30mm;height: 30mm;" :src="$withBase('/speakbook/images/PublishedByAce.svg')" />
@@ -1421,25 +1410,25 @@ Eğitim sayfasındaki basit teknikleri öğrendikten sonra, bu kitapta bulunan b
   <div class="flex-v">
     <img class="m-1" style="width: 58.5mm; height: 79.7mm; box-sizing: border-box;" :src="$withBase('/speakbook/images/01.png')"  />
     <div class="m-1 p-1 flex-grow-1 flt-box" style="width: 57.5mm; min-height: 79.7mm; box-sizing: border-box;">
-      <h3 class="my-1 fsize-5">Konuşmakitabı üzerine nasıl yazılır? </h3>
-      <p class="my-2 fsize-4_5">
-Konuşma kitabına yazdıklarınız kişisel ihtiyaçlarınıza bağlı olacaktır, ancak ne yazarsanız yazın, herhangi bir çift sayfa yayılımının her bir yüzünün üzerinde aynı metnin olması ve bunların birbirinin ayna görüntüsü olması önemlidir- yukarıdaki örnekteki gibi. Siz ve eşiniz farklı bir dilde mi konuşuyorsunuz? Sorun değil - her iki tarafa da farklı bir dil yazın.</p>
+      <h3 class="my-1 fsize-5">How to write on the speakbook</h3>
+      <p class="my-2 fsize-4_5">Exactly what you write on the speakbook will depend on your particular requirements, but whatever you write, it is important that each side of any double page spread has the same text on it, and that they are a mirror image of each other - as in the example above. Do you and your partner speak different languages? No problem - just write a different language on either side.</p>
     </div>
   </div>
 </div>
 :::
-
 ::: slot inst-01-content
-Konuşmakitabı, konuşamayan ve ellerini veya kollarını kullanmada zorluk çeken, ancak gözlerinin kullanımını koruyan insanlar için sözel olmayan bir iletişim aracıdır. Bu basım, okuma ve yazma bilen kişiler içindir. Okuma-yazma bilmeyen kişiler için,  yabancı dil baskıları ve cep sürümü için, şu adresi ziyaret edin:
-<b>acecent.re/speakbook</b></p>
-<h2 class="fsize-6">Kullanma talimatları</h2>
-<p> Başlamak için ihtiyacınız olan şeyler, konuşma kitabı; siyah, kalıcı olmayan bir kalem, silme bezi ve konuşma partneri.</p>
+<div class="p-1 text-center">
+  <SpeakBookTextFourColorBkg class="speakbook-title fsize-10 p-1 bold" :text="$page.frontmatter.text.SPEAKBOOK"></SpeakBookTextFourColorBkg>
+</div>
+<p>Speakbook is a non verbal communication tool for people who cannot speak and have difficulty using their hands or arms, but who retain the use of their eyes. This edition is for people who can read and spell. For versions for non-readers, foreign language versions, and the pocket edition, visit <b>acecent.re/speakbook</b></p>
+<h2 class="fsize-6">Instructions for use.</h2>
+<p>To get started, you will need; the speakbook, a black, non-permanent whiteboard pen, a cloth to rub out, and a speaking partner.</p>
 <p>
-Siz ve konuşma partneriniz birbinizden yaklaşık 1 metre uzak olacak şekilde karşılıklı oturun. Görme yetinize bağlı olarak, bu mesafeyi azaltmayı veya artırmayı yararlı bulabilirsiniz. Kitabın arka kapağının içindeki eğitim sayfasını açın. Bu, temel tekniği öğrenmenize yardımcı olmak için zaten doldurulmuştur. Uzmanlaştığınızda, sağlanan boş sayfaları kullanarak kendi sayfalarınızı yazabilirsiniz. Kitabı kendi üzerine katlayın ve aranızda tutun, böylece ikiniz de bir 'eğitim sayfasına' bakıyor olacaksınız ve birbirinizin gözlerini ortadaki boş alandan görebileceksiniz. Sonra sayfada bulunan ihtimallerden hangisi hakkında iletişime geçmek istediğinize karar verin. Karar verdiğinizde, partnerinize başlamaya hazır olduğunuzu belirtin. Bunu konuşma partnerinize bakıp göz kırparak, gözlerini açıp kapatarak belirtebilirsiniz ya da kendinizin belirlediği başka bir ifade ile belirtebilisiniz. Daha sonra istediğiniz mesaja bir saniye kadar bakın, ardından mesajın yanındaki küçük sembolle aynı büyük simgeye bakın. Konuşma partneriniz daha sonra göz hareketlerinizi takip ederek ne demek istediğiniz öğrenir - örneğin tahtanın sol üst tarafına ve ardından büyük üçgene baktığınızı görebilir, bu yüzden “bir fincan çay!” demek istemeniz gerektiğini bilir. Seçim yaptıktan sonra konuşma partneriniz bu seçimi sözel olarak yüksek ses söyle ve siz de bunu göz kırparak veya daha önceden ayarladığınız bir ifade ile onaylarınız. 
-</ P>
-<p> Bu konuşma kitabını kullanmak için temel tekniktir. Şimdi kitaptaki diğer sayfaları nasıl kullanacağınızı öğrenmelisiniz, çünkü konuşma kitabının gerçek dehası, kendi seçtiğiniz yüzlerce cümleye, istediğiniz zaman değiştirebileceğiniz ifadelere kolayca erişebilmenizde yatmaktadır. Tek ihtiyacınız olan sadece nemli bir bez ve kaleminiz. </p>
+You and your speaking partner sit opposite each other about three feet apart. Depending on your eyesight, you may find it helpful to decrease or increase this distance. Open the speakbook to the training page inside the back cover. This is filled in already to help you learn the basic technique. When you‟ve mastered it, you can write your own pages, using the blank ones provided. Fold the book back on itself and hold it up between you, so you are both facing a ‟training page‟, and you can see each others eyes through the hole in the middle. You now look at the choices on the page to decide which one to communicate. When you‟ve decided, you indicate to your partner that you are ready to start
+- this could be by looking at your partner and blinking, or by waggling your eyes up and down - whatever suits you. Then look at the message you want, for a second or so, followed by the large symbol the same as the little one by the side of the message. Your partner then follows your eye movements - for instance he might see that you have looked at the top left hand side of the board followed by the big triangle, so he knows that you must want to say „cup of tea !‟. He then says, “cup of tea !” out loud, and you confirm this with a blink, or some other pre-arranged signal
+</p>
+<p>This is the basic technique for using the speakbook. Now you need to learn how to use the other pages in the book, because the true genius of the speakbook lies in its ability to give you easy access to hundreds of phrases of your own choosing, phrases that you can change at any time, with only a damp cloth and the stroke of a pen.</p>
 :::
-
 
 ::: slot inst-02-flt-right-label
 <div class="pos-rel fill-height fill-width">
@@ -1447,7 +1436,6 @@ Siz ve konuşma partneriniz birbinizden yaklaşık 1 metre uzak olacak şekilde 
   <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 5mm), calc(-50% - 5mm)) rotate(45deg); color: white;width: 42mm;text-align: center;">{{ $page.frontmatter.text.instructions }}</div>
 </div>
 :::
-:
 ::: slot inst-02-flt-left-content
 <div class="flex-h" style="padding: 3mm;">
   <div class="flex-grow-1 flex-v">
@@ -1458,10 +1446,9 @@ Siz ve konuşma partneriniz birbinizden yaklaşık 1 metre uzak olacak şekilde 
 </div>
 :::
 ::: slot inst-02-content
-<p> Konuşma kitabının her sayfasında kendi metninizi yazabileceğiniz 14 veya 15 boş bölüm bulunur. Kullanıcının farklı sayfalar arasında hareket edebilmesi için, "ana sayfa" sayfasını oluşturduk. Bu kitabın ön tarafında bulunur ve sayfanın kenarında siyah bir “ANA SAYFA” sekmesi ile işaretlenmiştir. Buradaki amaç, kitabın en başında bulunan bu sayfada en çok kullandığınız 7 ifadeyi yazmanız ve böylelikle kolaylıkla bu ifadelere istediğiniz anda ulaşabilmeniz. 
-Ayrıca, boş olan sekiz şeritin birinde diğer 8 boş çift sayfaya bağlantı kurabilirsiniz. Bunlar hayatınızın daha derinlemesine ifadeler gerektiren parçaları olmalı, örneğin banyo veya araba ile dışarı çıkmak gibi.  Sol tarafta “ANA SAYFA” sayfası için olası bir örnek bulabilirsiniz. Kalın harflerle yazılan 8 kelime, kitabın başka yerlerindeki çift sayfalara olan bağlantıları ifade eder. Yapmanız gereken boş bir sayfa bulmak ve örneğin kenar sekmesine “YATAK” yazmak, daha sonra varolan şeritlere uyumadan önce rutininizle en çok alakalı 14 ifadeyi yazmanızdır. Ardından kitabınız dolana kadar diğer 7 bağlantı için bu işlemi tekrarlayın. Bir hata yaparsanız veya bir cümleyi değiştirmek isterseniz, nemli bir bezle silin ve tekrar başlayın. </p>
-<p> Konuşma kitabını kullanmak için partnerinize iletişim kurmak istediğinizi belirtirsiniz. Konuşma partneriniz konuşma kitabının “ANA SAYFA” sayfasına açar ve örneğin siz “YATAK” kelimesini ifade edersiniz. Konuşma partneriniz daha sonra “YATAK” sayfasına geçer ve siz bu sayfadaki kelime ve sözcük grupları ile iletişime geçebilirsiniz ör: yatağa gitmek istiyorum gibi. Her sayfada “ANA SAYFA” ve “HECELEME” ifadeleri bulunmaktadır. “ANA SAYFA” sekmesi her zaman “ANA SAYFA” sayfasına geri dönebilmeniz içindir. “HECELEME” sayfası, kitabın başka bir yerinde görünmeyen kelime ve sözcük gruplarını heceleyerek iafde etmenize olanak tanır. Bir farkla diğer sayfalara benzer şekilde çalışır. Bu sayfada, üzerinde 6 renkli harf veya rakam bulunan 6 renkli blok vardır. Bu sayfada harfler ve 1'den 9'a kadar sayılar bulunmaktadır. (sıfır için O harfini kullanabilirsiniz). İletişim kurmak istediğiniz harfe bir saniye kadar bakın, ardından seçtiğiniz harfle aynı renkteki renkli bloğa bakın. Konuşma partneriniz gözlerinizi takip edip; örneğin sol üst bloğa ve ardından sağ üst bloğa (yeşil olan) baktığınızı görür ve “C” harfiniz ifade ettiğinizi anlar. Konuşma partneriniz onaylamak için yüksek sesle “C” der ve siz de bunu daha önce belirlediğiniz onaylama sinyal ile onayladıktan sonra bir sonraki harfe geçebilirsiniz. Konuşma partneriniz, mümkün olduğunda süreci hızlandırmak için kelimenin geri kalanını tahmin eder. </ P>
-<p> Konuşmakitabı içerisinde seçtiğiniz 119 cümle için yer var. Bu yeterli değilse veya belirli bir bölümde 14'ten fazla ifadeye ihtiyacınız varsa, her satıra bir tane siyah kalem, biri kırmızı olmak üzere iki kelime öbeği yazarak kapasitesini iki katına çıkarabilirsiniz. Normal bir şekilde siyah olarak yazılmış cümleyi gözlerinizle ifade ederek, büyük sembole bakıp kırmızı olana gözlerinizi kırparak aynı kutudaki kırmızı cümleyi ifade etmek istediğinizi belirtebilirsiniz </p>
+<p>Each page of the speakbook has 14 or 15 blank sections on which you can write your own text. In order that the user can move between the different pages, we have created the „home‟ page. This is found at the front of the book, and is marked with a black „HOME‟ tab at the edge of the page. The idea is that you write the 7 phrases you use the most on this page, as it is the page you always start on. Also, on 8 of the blank strips you write links to the other 8 blank double pages. These should be the parts of your life that require a more in depth set of phrases, these might be areas like bathtime, or going out in the car. On the left is an example of a possible layout for the „HOME‟ page. The 8 words in bold capital letters are links to double page spreads elsewhere in the book. What you do is, you find a blank page and write, for instance, „BED‟ on the edge tab, then on the strips you write the 14 phrases most relevant to your bedtime routine. Then you repeat this process for the other 7 links, until your book is full. If you make a mistake, or want to change a phrase, then just wipe it off with a damp cloth and start again.</p>
+<p>To use the speakbook, you indicate to your partner that you want to communicate. Your partner opens the speakbook to the „HOME‟ page and you communicate, for example, „BED‟. Your partner then turns to the „BED‟ page and you can then communicate, „I want to go to bed‟ - or whatever. Each page has „HOME‟ and „SPELL‟ pre-printed on it. The „HOME‟ is so that you can can always get back to the „HOME‟ page (you might want a „Cup of tea !‟ to take to bed with you). The ‟SPELL‟ page allows you to spell out individual words and phrases that don‟t appear elsewhere in the book. It works in a similar way as the other pages, with one difference. On this page there are 6 coloured blocks, each with 6 coloured letters or numbers on it. The whole alphabet is there, plus numbers 1-9 (for zero use the letter O). You look at the letter you want to communicate, for a second or so, followed by the coloured block of the same colour as your chosen letter. Your partner follows your eyes, sees that you have looked at, for instance, the top left block followed by the top right block (which is green), and knows you want „C‟. Your partner says „C‟ out loud to confirm, and you move on to the next letter. Your partner guesses the rest of the word when possible, to speed the process up.</p>
+<p>Speakbook has room for 119 phrases of your choosing. If this is not enough, or if you need more than 14 phrases in one particular section, then you can double its capacity by writing two phrases on each line, one in black pen, one in red. You choose a black phrase in the normal way, a red one by blinking when you look at the large symbol.</p>
 :::
 
 ::: slot last-page-content
@@ -1488,7 +1475,7 @@ Ayrıca, boş olan sekiz şeritin birinde diğer 8 boş çift sayfaya bağlantı
           <div class="block">{{ $page.frontmatter.text._equal }}</div>
           <div class="block">{{ $page.frontmatter.text._question_mark }}</div>
         </div>
-        <div class="block b3x white-color black-bkg" style="font-size: 18pt;">{{ $page.frontmatter.text.HOME }}</div>
+        <div class="block b3x white-color black-bkg">{{ $page.frontmatter.text.HOME }}</div>
         <div class="block b3x yellow-bkg" style="font-size: 18pt;">{{ $page.frontmatter.text.THANK_YOU }}</div>
       </div>
       <div class="flex-v block-holder b4x">
@@ -1544,9 +1531,9 @@ Ayrıca, boş olan sekiz şeritin birinde diğer 8 boş çift sayfaya bağlantı
       <div class="block cyan-bkg">{{ $page.frontmatter.text.Z }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.X }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.C }}</div>
-      <div class="block b1_5x yellow-bkg" style="font-size: 18pt">{{ $page.frontmatter.text.YES }}</div>
+      <div class="block b1_5x yellow-bkg">{{ $page.frontmatter.text.YES }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.V }}</div>
-      <div class="block b1_5x yellow-bkg" style="font-size: 18pt">{{ $page.frontmatter.text.NO }}</div>
+      <div class="block b1_5x yellow-bkg">{{ $page.frontmatter.text.NO }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.B }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.N }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.M }}</div>
