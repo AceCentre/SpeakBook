@@ -217,14 +217,10 @@ body {
   &.b1_5x {
     width: calc(var(--block-width) * 1.5 + var(--block-margin) * 0.5);
   }
-  &.b3x {
-    width: calc(3 * (var(--block-width) + var(--block-margin)));
-  }
-  &.b4x {
-    width: calc(4 * (var(--block-width) + var(--block-margin)));
-  }
-  &.b10x {
-    width: calc(10 * (var(--block-width) + var(--block-margin)));
+  @for $i from 2 through 15 {
+    &.b#{$i}x {
+      width: calc(#{$i} * (var(--block-width) + var(--block-margin)));
+    }
   }
   .block {
     box-sizing: border-box;
@@ -250,14 +246,10 @@ body {
     &.b1_5x {
       width: calc(var(--block-width) * 1.5 + var(--block-margin) * 0.5);
     }
-    &.b3x {
-      width: calc(var(--block-width) * 3 + var(--block-margin) * 2);
-    }
-    &.b4x {
-      width: calc(var(--block-width) * 4 + var(--block-margin) * 3);
-    }
-    &.b10x {
-      width: calc(var(--block-width) * 10 + var(--block-margin) * 9);
+    @for $i from 2 through 15 {
+      &.b#{$i}x {
+        width: calc(var(--block-width) * #{$i} + var(--block-margin) * (#{$i} - 1));
+      }
     }
   }
 }
