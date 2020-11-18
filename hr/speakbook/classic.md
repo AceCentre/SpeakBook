@@ -1344,7 +1344,7 @@ grid_pages:
         </div>
       </div>
     </div>
-    <div class="flex-h flex-wrap" style="--block-width:13mm;--block-height:13mm;>
+    <div class="flex-h flex-wrap" style="--block-width:13mm;--block-height:13mm;">
       <div class="block cyan-bkg">{{ $page.frontmatter.text.Q }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.W }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.E }}</div>
