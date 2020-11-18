@@ -1290,19 +1290,18 @@ grid_pages:
 :::
 
 ::: slot last-page-content
-<div style="width: 10mm;"></div>
-<div class="flex-v block-holder b13x">
+<div class="flex-v block-holder b10x" style="--block-width:13mm;--block-height:13mm;">
   <Content slot-key="last-page-heading" />
   <div class="flex-v mt-2"> <!-- split between letters keys and others -->
     <div class="flex-h">
-      <div class="flex-v block-holder b3x">
+      <div class="flex-v block-holder b3x" style="--block-width:13mm;--block-height:13mm;">
         <div class="block b0x flex-grow-1" style="margin-left: 8mm;"></div>
         <div class="block b3x"></div>
         <div class="block b3x"></div>
         <div class="block b3x"></div>
         <div class="block b3x"></div>
         <div class="block b3x"></div>
-        <div class="flex-h flex-wrap">
+        <div class="flex-h flex-wrap" style="--block-width:13mm;--block-height:13mm;">
           <div class="block">{{ $page.frontmatter.text._GBP }}</div>
           <div class="block">{{ $page.frontmatter.text._USD }}</div>
           <div class="block">{{ $page.frontmatter.text._percent }}</div>
@@ -1316,12 +1315,12 @@ grid_pages:
         <div class="block b3x white-color black-bkg">{{ $page.frontmatter.text.HOME }}</div>
         <div class="block b3x yellow-bkg" style="font-size: 18pt;">{{ $page.frontmatter.text.THANK_YOU }}</div>
       </div>
-      <div class="flex-v block-holder b4x">
+      <div class="flex-v block-holder b4x" style="--block-width:13mm;--block-height:13mm;">
         <div class="block b4x">
         </div>
         <div class="flex-grow-1"></div>
       </div>
-      <div class="flex-v block-holder b3x">
+      <div class="flex-v block-holder b3x" style="--block-width:13mm;--block-height:13mm;">
         <div class="block b3x"></div>
         <div class="block b3x"></div>
         <div class="block b3x"></div>
@@ -1329,7 +1328,7 @@ grid_pages:
         <div class="block b3x"></div>
         <div class="block b3x"></div>
         <div class="block b3x"></div>
-        <div class="flex-h flex-wrap">
+        <div class="flex-h flex-wrap" style="--block-width:13mm;--block-height:13mm;">
           <div class="block pink-bkg">{{ $page.frontmatter.text._one }}</div>
           <div class="block pink-bkg">{{ $page.frontmatter.text._two }}</div>
           <div class="block pink-bkg">{{ $page.frontmatter.text._three }}</div>
@@ -1345,7 +1344,7 @@ grid_pages:
         </div>
       </div>
     </div>
-    <div class="flex-h flex-wrap">
+    <div class="flex-h flex-wrap" style="--block-width:13mm;--block-height:13mm;>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.Q }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.W }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.E }}</div>
@@ -1359,7 +1358,6 @@ grid_pages:
       <div class="block cyan-bkg">{{ $page.frontmatter.text.S2 }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.D2 }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.Z2 }}</div>
-
       <div class="block cyan-bkg">{{ $page.frontmatter.text.A }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.S }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.D }}</div>
@@ -1371,7 +1369,6 @@ grid_pages:
       <div class="block cyan-bkg">{{ $page.frontmatter.text.C2 }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.C3 }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text._atsign }}</div>
-
       <div class="block cyan-bkg">{{ $page.frontmatter.text.Y }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.X }}</div>
        <div class="block b1_5x yellow-bkg">{{ $page.frontmatter.text.YES }}</div>
@@ -1381,7 +1378,6 @@ grid_pages:
       <div class="block cyan-bkg">{{ $page.frontmatter.text.B }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.N }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.M }}</div>
-
     </div>
   </div>
 </div>
