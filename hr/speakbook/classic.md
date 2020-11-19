@@ -1294,13 +1294,14 @@ grid_pages:
   <Content slot-key="last-page-heading" />
   <div class="flex-v mt-2"> <!-- split between letters keys and others -->
     <div class="flex-h">
-      <div class="flex-v block-holder b3x" style="--block-width:13mm;--block-height:13mm;">
+      <div class="flex-v block-holder b5x" style="--block-width:13mm;--block-height:13mm;">
         <div class="block b0x flex-grow-1" style="margin-left: 8mm;"></div>
-        <div class="block b3x"></div>
-        <div class="block b3x"></div>
-        <div class="block b3x"></div>
-        <div class="block b3x"></div>
-        <div class="block b3x"></div>
+        <div class="block b5x"></div>
+        <div class="block b5x"></div>
+        <div class="block b5x"></div>
+        <div class="block b5x"></div>
+        <div class="block b5x"></div>
+        <div class="block b5x"></div>
         <div class="flex-h flex-wrap" style="--block-width:13mm;--block-height:13mm;">
           <div class="block">{{ $page.frontmatter.text._GBP }}</div>
           <div class="block">{{ $page.frontmatter.text._USD }}</div>
@@ -1312,22 +1313,22 @@ grid_pages:
           <div class="block">{{ $page.frontmatter.text._equal }}</div>
           <div class="block">{{ $page.frontmatter.text._question_mark }}</div>
         </div>
-        <div class="block b3x white-color black-bkg">{{ $page.frontmatter.text.HOME }}</div>
-        <div class="block b3x yellow-bkg" style="font-size: 18pt;">{{ $page.frontmatter.text.THANK_YOU }}</div>
+        <div class="block b5x white-color black-bkg">{{ $page.frontmatter.text.HOME }}</div>
+        <div class="block b5x yellow-bkg" style="font-size: 18pt;">{{ $page.frontmatter.text.THANK_YOU }}</div>
       </div>
       <div class="flex-v block-holder b4x" style="--block-width:13mm;--block-height:13mm;">
         <div class="block b4x">
         </div>
         <div class="flex-grow-1"></div>
       </div>
-      <div class="flex-v block-holder b3x" style="--block-width:13mm;--block-height:13mm;">
-        <div class="block b3x"></div>
-        <div class="block b3x"></div>
-        <div class="block b3x"></div>
-        <div class="block b3x"></div>
-        <div class="block b3x"></div>
-        <div class="block b3x"></div>
-        <div class="block b3x"></div>
+      <div class="flex-v block-holder b5x" style="--block-width:13mm;--block-height:13mm;">
+        <div class="block b5x"></div>
+        <div class="block b5x"></div>
+        <div class="block b5x"></div>
+        <div class="block b5x"></div>
+        <div class="block b5x"></div>
+        <div class="block b5x"></div>
+        <div class="block b5x"></div>
         <div class="flex-h flex-wrap" style="--block-width:13mm;--block-height:13mm;">
           <div class="block pink-bkg">{{ $page.frontmatter.text._one }}</div>
           <div class="block pink-bkg">{{ $page.frontmatter.text._two }}</div>
