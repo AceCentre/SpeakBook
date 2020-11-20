@@ -16,29 +16,37 @@ text:
   A: A
   B: B
   C: C
+  C2: Č
+  C3: Ć
   D: D
+  D2: DŽ
+  D3: Đ
   E: E
   F: F
   G: G
   H: H
-  I: ja
+  I: I
   J: J
   K: K
   L: L
+  L2: LJ
   M: M
   N: N
+  N2: NJ
   O: O
   P: P
-  Q: P
+  Q: Q
   R: R
   S: S
+  S2: Š
   T: T
   U: U
   V: V
   W: W
-  X: x
+  X: X
   Y: Y
   Z: Z
+  Z2: Ž
   _zero: "0"
   _one: "1"
   _two: "2"
@@ -67,7 +75,7 @@ text:
   TRAINING_PAGE: TRENING STRANICA
   training_page: trgovinu stranica
   _GBP: £
-  _USD: $
+  _USD: "€"
   _percent: "%"
   _plus: +
   _minus: "-"
@@ -349,22 +357,22 @@ grid_pages:
               height: var(--grid-item-height)
               background-color: var(--color-yellow)
             entries:
-              - text_key: S
+              - text_key: N
                 inlinecss:
                   color: var(--color-purple)
-              - text_key: T
+              - text_key: N2
                 inlinecss:
                   color: var(--color-white)
-              - text_key: U
+              - text_key: O
                 inlinecss:
                   color: var(--color-green)
-              - text_key: V
+              - text_key: P
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: W
+              - text_key: Q
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: X
+              - text_key: R
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -378,22 +386,22 @@ grid_pages:
               height: var(--grid-item-height)
               background-color: var(--color-orange)
             entries:
-              - text_key: Y
+              - text_key: S
                 inlinecss:
                   color: var(--color-purple)
-              - text_key: Z
+              - text_key: S2
                 inlinecss:
                   color: var(--color-white)
-              - text_key: _one
+              - text_key: T
                 inlinecss:
                   color: var(--color-green)
-              - text_key: _two
+              - text_key: U
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: _three
+              - text_key: V
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: _four
+              - text_key: W
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -407,19 +415,19 @@ grid_pages:
               height: var(--grid-item-height)
               background-color: var(--color-cyan)
             entries:
-              - text_key: _five
+              - text_key: X
                 inlinecss:
                   color: var(--color-purple)
-              - text_key: _six
+              - text_key: Y
                 inlinecss:
                   color: var(--color-white)
-              - text_key: _seven
+              - text_key: Z
                 inlinecss:
                   color: var(--color-green)
-              - text_key: _eight
+              - text_key: Z2
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: _nine
+              - text_key: _one
                 inlinecss:
                   color: var(--color-orange)
               - text_key: HOME
@@ -450,13 +458,13 @@ grid_pages:
               - text_key: C
                 inlinecss:
                   color: var(--color-green)
-              - text_key: D
+              - text_key: C2
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: E
+              - text_key: C3
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: F
+              - text_key: D
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -471,22 +479,22 @@ grid_pages:
               background-color: var(--color-white)
               border: 1px solid var(--color-black)
             entries:
-              - text_key: G
+              - text_key: D2
                 inlinecss:
                   color: var(--color-purple)
-              - text_key: H
+              - text_key: D3
                 inlinecss:
                   color: var(--color-white)
-              - text_key: I
+              - text_key: E
                 inlinecss:
                   color: var(--color-green)
-              - text_key: J
+              - text_key: F
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: K
+              - text_key: G
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: L
+              - text_key: H
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -500,22 +508,22 @@ grid_pages:
               height: var(--grid-item-height)
               background-color: var(--color-green)
             entries:
-              - text_key: M
+              - text_key: I
                 inlinecss:
                   color: var(--color-purple)
-              - text_key: N
+              - text_key: J
                 inlinecss:
                   color: var(--color-white)
-              - text_key: O
+              - text_key: K
                 inlinecss:
                   color: var(--color-green)
-              - text_key: P
+              - text_key: L
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: Q
+              - text_key: L2
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: R
+              - text_key: M
                 inlinecss:
                   color: var(--color-cyan)
   - name: page07
@@ -537,22 +545,22 @@ grid_pages:
               height: var(--grid-item-height)
               background-color: var(--color-yellow)
             entries:
-              - text_key: S
+              - text_key: N
                 inlinecss:
                   color: var(--color-purple)
-              - text_key: T
+              - text_key: N2
                 inlinecss:
                   color: var(--color-white)
-              - text_key: U
+              - text_key: O
                 inlinecss:
                   color: var(--color-green)
-              - text_key: V
+              - text_key: P
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: W
+              - text_key: Q
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: X
+              - text_key: R
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -566,22 +574,22 @@ grid_pages:
               height: var(--grid-item-height)
               background-color: var(--color-orange)
             entries:
-              - text_key: Y
+              - text_key: S
                 inlinecss:
                   color: var(--color-purple)
-              - text_key: Z
+              - text_key: S2
                 inlinecss:
                   color: var(--color-white)
-              - text_key: _one
+              - text_key: T
                 inlinecss:
                   color: var(--color-green)
-              - text_key: _two
+              - text_key: U
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: _three
+              - text_key: V
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: _four
+              - text_key: W
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -595,19 +603,19 @@ grid_pages:
               height: var(--grid-item-height)
               background-color: var(--color-cyan)
             entries:
-              - text_key: _five
+              - text_key: X
                 inlinecss:
                   color: var(--color-purple)
-              - text_key: _six
+              - text_key: Y
                 inlinecss:
                   color: var(--color-white)
-              - text_key: _seven
+              - text_key: Z
                 inlinecss:
                   color: var(--color-green)
-              - text_key: _eight
+              - text_key: Z2
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: _nine
+              - text_key: _one
                 inlinecss:
                   color: var(--color-orange)
               - text_key: HOME
@@ -645,13 +653,13 @@ grid_pages:
               - text_key: C
                 inlinecss:
                   color: var(--color-green)
-              - text_key: D
+              - text_key: C2
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: E
+              - text_key: C3
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: F
+              - text_key: D
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -666,22 +674,22 @@ grid_pages:
               background-color: var(--color-white)
               border: 1px solid var(--color-black)
             entries:
-              - text_key: G
+              - text_key: D2
                 inlinecss:
                   color: var(--color-purple)
-              - text_key: H
+              - text_key: D3
                 inlinecss:
                   color: var(--color-white)
-              - text_key: I
+              - text_key: E
                 inlinecss:
                   color: var(--color-green)
-              - text_key: J
+              - text_key: F
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: K
+              - text_key: G
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: L
+              - text_key: H
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -695,22 +703,22 @@ grid_pages:
               height: var(--grid-item-height)
               background-color: var(--color-green)
             entries:
-              - text_key: M
+              - text_key: I
                 inlinecss:
                   color: var(--color-purple)
-              - text_key: N
+              - text_key: J
                 inlinecss:
                   color: var(--color-white)
-              - text_key: O
+              - text_key: K
                 inlinecss:
                   color: var(--color-green)
-              - text_key: P
+              - text_key: L
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: Q
+              - text_key: L2
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: R
+              - text_key: M
                 inlinecss:
                   color: var(--color-cyan)
   - name: page08
@@ -1458,22 +1466,23 @@ Vous vous asseyez, face à face avec votre interlocuteur, à environ un mètre d
 :::
 
 ::: slot last-page-content
-<div style="width: 10mm;"></div>
-<div class="flex-v block-holder b10x">
+<div class="flex-v block-holder b13x" style="--block-width:13mm;--block-height:13mm;">
   <Content slot-key="last-page-heading" />
   <div class="flex-v mt-2"> <!-- split between letters keys and others -->
     <div class="flex-h">
-      <div class="flex-v block-holder b3x">
+      <div class="flex-v block-holder b5x" style="--block-width:13mm;--block-height:17mm;">
         <div class="block b0x flex-grow-1" style="margin-left: 8mm;"></div>
-        <div class="block b3x"></div>
-        <div class="block b3x"></div>
-        <div class="block b3x"></div>
-        <div class="block b3x"></div>
-        <div class="block b3x"></div>
-        <div class="flex-h flex-wrap">
+        <div class="block b5x"></div>
+        <div class="block b5x"></div>
+        <div class="block b5x"></div>
+        <div class="block b5x"></div>
+        <div class="block b5x"></div>
+        <div class="block b5x"></div>
+        <div class="flex-h flex-wrap" style="--block-width:13mm;--block-height:13mm;">
           <div class="block">{{ $page.frontmatter.text._GBP }}</div>
           <div class="block">{{ $page.frontmatter.text._USD }}</div>
           <div class="block">{{ $page.frontmatter.text._percent }}</div>
+          <div class="block">.</div>
           <div class="block">{{ $page.frontmatter.text._plus }}</div>
           <div class="block">{{ $page.frontmatter.text._minus }}</div>
           <div class="block">{{ $page.frontmatter.text._slash }}</div>
@@ -1481,23 +1490,22 @@ Vous vous asseyez, face à face avec votre interlocuteur, à environ un mètre d
           <div class="block">{{ $page.frontmatter.text._equal }}</div>
           <div class="block">{{ $page.frontmatter.text._question_mark }}</div>
         </div>
-        <div class="block b3x white-color black-bkg">{{ $page.frontmatter.text.HOME }}</div>
-        <div class="block b3x yellow-bkg" style="font-size: 26pt;">{{ $page.frontmatter.text.THANK_YOU }}</div>
+        <div class="block b5x white-color black-bkg">{{ $page.frontmatter.text.HOME }}</div>
       </div>
-      <div class="flex-v block-holder b4x">
+      <div class="flex-v block-holder b4x" style="--block-width:13mm;--block-height:17mm;">
         <div class="block b4x">
         </div>
         <div class="flex-grow-1"></div>
       </div>
-      <div class="flex-v block-holder b3x">
-        <div class="block b3x"></div>
-        <div class="block b3x"></div>
-        <div class="block b3x"></div>
-        <div class="block b3x"></div>
-        <div class="block b3x"></div>
-        <div class="block b3x"></div>
-        <div class="block b3x"></div>
-        <div class="flex-h flex-wrap">
+      <div class="flex-v block-holder b5x" style="--block-width:13mm;--block-height:17mm;">
+        <div class="block b5x"></div>
+        <div class="block b5x"></div>
+        <div class="block b5x"></div>
+        <div class="block b5x"></div>
+        <div class="block b5x"></div>
+        <div class="block b5x"></div>
+        <div class="block b5x"></div>
+        <div class="flex-h flex-wrap" style="--block-width:13mm;--block-height:13mm;">
           <div class="block pink-bkg">{{ $page.frontmatter.text._one }}</div>
           <div class="block pink-bkg">{{ $page.frontmatter.text._two }}</div>
           <div class="block pink-bkg">{{ $page.frontmatter.text._three }}</div>
@@ -1507,24 +1515,26 @@ Vous vous asseyez, face à face avec votre interlocuteur, à environ un mètre d
           <div class="block pink-bkg">{{ $page.frontmatter.text._seven }}</div>
           <div class="block pink-bkg">{{ $page.frontmatter.text._eight }}</div>
           <div class="block pink-bkg">{{ $page.frontmatter.text._nine }}</div>
-          <Content class="block" slot-key="redheart-img" />
           <div class="block pink-bkg">{{ $page.frontmatter.text._zero }}</div>
-          <Content class="block" slot-key="smileyface-img" />
+          <div class="block b5x yellow-bkg" style="font-size: 18pt;--block-height:17mm;">{{ $page.frontmatter.text.THANK_YOU }}</div>
         </div>
       </div>
     </div>
-    <div class="flex-h flex-wrap">
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.A }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.Z }}</div>
+    <div class="flex-h flex-wrap" style="--block-width:13mm;--block-height:13mm;">
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.Q }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.W }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.E }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.R }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.T }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.Y }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.Z }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.U }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.I }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.O }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.P }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.Q }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.S2 }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.D2 }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.Z2 }}</div>
+      <div class="block cyan-bkg" style="margin-left: 12mm;">{{ $page.frontmatter.text.A }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.S }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.D }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.F }}</div>
@@ -1533,16 +1543,17 @@ Vous vous asseyez, face à face avec votre interlocuteur, à environ un mètre d
       <div class="block cyan-bkg">{{ $page.frontmatter.text.J }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.K }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.L }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.M }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.W }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.C2 }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.C3 }}</div>
+      <div class="block b2x yellow-bkg" style="margin-left: 12mm;">{{ $page.frontmatter.text.YES }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.Y }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.X }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.C }}</div>
-      <div class="block b1_5x yellow-bkg">{{ $page.frontmatter.text.YES }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.V }}</div>
-      <div class="block b1_5x yellow-bkg">{{ $page.frontmatter.text.NO }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.B }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.N }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text._atsign }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.M }}</div>
+      <div class="block b2x yellow-bkg">{{ $page.frontmatter.text.NO }}</div>
     </div>
   </div>
 </div>
