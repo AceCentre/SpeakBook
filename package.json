@@ -25,6 +25,7 @@
     "yaml": "^1.9.2"
   },
   "dependencies": {
+    "google-translate-api": "^2.3.0",
     "node-poeditor": "1.0.7"
   }
 }

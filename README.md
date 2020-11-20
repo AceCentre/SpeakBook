@@ -25,10 +25,9 @@ Table of Contents
     * [<g-emoji class="g-emoji" alias="mozambique" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f2-1f1ff.png">🇲🇿</g-emoji> Arabic](#🇲🇿-arabic)
     * [<g-emoji class="g-emoji" alias="pakistan" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f5-1f1f0.png">🇵🇰</g-emoji> Urdu](#🇵🇰-urdu)
     * [<g-emoji class="g-emoji" alias="poland" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f5-1f1f1.png">🇵🇱</g-emoji> Polish](#🇵🇱-polish)
-* [How do I create a new version for my language - or improve a language translation](#how-do-i-create-a-new-version-for-my-language---or-improve-a-language-translation)
     * [<g-emoji class="g-emoji" alias="armenia" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1e6-1f1f2.png">🇦🇲</g-emoji> Armenian](#🇦🇲-armenian)
-    
-    
+    * [<g-emoji class="g-emoji" alias="armenia" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1ed-1f1f7.png">🇭🇷</g-emoji> Croatian](#🇦🇲-croatian)
+
 * [How do I create a new version for my language - or improve a language translation](#how-do-i-create-a-new-version-for-my-language---or-improve-a-language-translation)
 * [I want it to do _____ or can it print upside down?](#i-want-it-to-do-_____-or-can-it-print-upside-down)
 * [Technical Background](#technical-background)
@@ -186,6 +185,12 @@ Note: using Abjadī alphabet
 
 [Complete Zipped package with US Letter size](/hu/speakbook/hu-speakbook.zip)
   
+### 🇭🇷 Croatian
+
+- [Color-Blind Friendly](/hr/speakbook/) - 📄 [A4 PDF](/hr/speakbook/index.pdf) 
+- [Colour Version](/hr/speakbook/classic.html) - 📄 [A4 PDF](/hr/speakbook/classic.pdf) 
+
+[Complete Zipped package with US Letter size](/hr/speakbook/hr-speakbook.zip)
 
 ## How do I create a new version for my language - or improve a language translation
 
@@ -276,6 +281,8 @@ node .scripts/apply-po-to-md.js res/lang/SpeakBook_Zulu.po zu/speakbook/README.m
 node .scripts/apply-po-to-md.js res/lang/SpeakBook_Turkish.po tr/speakbook/README.md > tr/speakbook/README2.md && mv tr/speakbook/README2.md tr/speakbook/README.md 
 node .scripts/apply-po-to-md.js res/lang/SpeakBook_Maltese.po mt/speakbook/README.md > mt/speakbook/README2.md && mv mt/speakbook/README2.md mt/speakbook/README.md 
 node .scripts/apply-po-to-md.js res/lang/SpeakBook_Armenian.po hu/speakbook/README.md > hu/speakbook/README2.md && mv hu/speakbook/README2.md hu/speakbook/README.md 
+node .scripts/apply-po-to-md.js res/lang/SpeakBook_Croatian.po hr/speakbook/README.md > hr/speakbook/README2.md && mv hr/speakbook/README2.md hr/speakbook/README.md 
+
 ```
 and likewise for Classic (colour version):
 
@@ -291,5 +298,7 @@ node .scripts/apply-po-to-md.js res/lang/SpeakBook_Zulu.po zu/speakbook/classic.
 node .scripts/apply-po-to-md.js res/lang/SpeakBook_Turkish.po tr/speakbook/classic.md > tr/speakbook/classic2.md && mv tr/speakbook/classic2.md tr/speakbook/classic.md 
 node .scripts/apply-po-to-md.js res/lang/SpeakBook_Maltese.po mt/speakbook/classic.md > mt/speakbook/classic2.md && mv mt/speakbook/classic2.md mt/speakbook/classic.md 
 node .scripts/apply-po-to-md.js res/lang/SpeakBook_Armenian.po hu/speakbook/classic.md > hu/speakbook/classic2.md && mv hu/speakbook/classic2.md hu/speakbook/classic.md 
+node .scripts/apply-po-to-md.js res/lang/SpeakBook_Croatian.po hr/speakbook/classic.md > hr/speakbook/classic2.md && mv hr/speakbook/classic2.md hr/speakbook/classic.md 
+
 ```
     
