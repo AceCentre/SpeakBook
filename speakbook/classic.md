@@ -485,7 +485,7 @@ grid_pages:
               --grid-item-width: 55mm
               --grid-item-height: 62mm
               height: var(--grid-item-height)
-              background-color: var(--color-yellow)
+              background-color: var(--color-blue)
             entries:
               - text_key: S
                 inlinecss:
@@ -543,7 +543,7 @@ grid_pages:
               --grid-item-width: 55mm
               --grid-item-height: 62mm
               height: var(--grid-item-height)
-              background-color: var(--color-cyan)
+              background-color: var(--color-yellow)
             entries:
               - text_key: _five
                 inlinecss:
