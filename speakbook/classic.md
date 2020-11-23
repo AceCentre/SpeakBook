@@ -226,6 +226,11 @@ grid_pages:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
               height: var(--grid-item-height)
+            rows:
+              - comment: empty
+              - comment: empty
+              - comment: empty
+              - text_key: SPELL
           - comment: At center left
             type: coloured-circle
             colour: yellow
@@ -234,11 +239,6 @@ grid_pages:
           - comment: At bottom left
             type: coloured-table
             rowheight: 12mm
-            rows:
-              - comment: empty
-              - comment: empty
-              - comment: empty
-              - text_key: SPELL
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
