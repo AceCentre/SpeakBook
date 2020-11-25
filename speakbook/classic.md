@@ -754,7 +754,7 @@ grid_pages:
               - comment: empty
               - comment: empty
               - comment: empty
-              - text_key: HOME
+              - text_key: SPELL
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
@@ -771,7 +771,7 @@ grid_pages:
               - comment: empty
               - comment: empty
               - comment: empty
-              - text_key: SPELL
+              - text_key: HOME
             inlinecss:
               --grid-item-width: 57mm
               --grid-item-height: 94mm
