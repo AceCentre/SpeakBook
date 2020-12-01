@@ -583,13 +583,13 @@ grid_pages:
                   color: var(--color-purple)
               - text_key: _four
                 inlinecss:
-                  color: var(--color-yellow)
+                  color: var(--color-cyan)
               - text_key: _three
                 inlinecss:
                   color: var(--color-orange)
               - text_key: _two
                 inlinecss:
-                  color: var(--color-cyan)
+                  color: var(--color-yellow)
           - comment: spacing
             inlinecss:
               flex-grow: 1
