@@ -588,22 +588,22 @@ grid_pages:
             entries:
               - text_key: O
                 inlinecss:
-                  color: var(--color-green)
+                  color: var(--color-purple)
               - text_key: N
                 inlinecss:
                   color: var(--color-white)
               - text_key: M
                 inlinecss:
-                  color: var(--color-purple)
+                  color: var(--color-green)
               - text_key: R
                 inlinecss:
-                  color: var(--color-cyan)
+                  color: var(--color-yellow)
               - text_key: Q
                 inlinecss:
                   color: var(--color-orange)
               - text_key: P
                 inlinecss:
-                  color: var(--color-yellow)
+                  color: var(--color-cyan)
           - comment: spacing
             inlinecss:
               flex-grow: 1
