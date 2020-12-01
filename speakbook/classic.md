@@ -423,22 +423,22 @@ grid_pages:
             entries:
               - text_key: G
                 inlinecss:
-                  color: var(--color-purple)
+                  color: var(--color-green)
               - text_key: H
                 inlinecss:
                   color: var(--color-white)
               - text_key: I
                 inlinecss:
-                  color: var(--color-green)
+                  color: var(--color-purple)
               - text_key: J
                 inlinecss:
-                  color: var(--color-yellow)
+                  color: var(--color-cyan)
               - text_key: K
                 inlinecss:
                   color: var(--color-orange)
               - text_key: L
                 inlinecss:
-                  color: var(--color-cyan)
+                  color: var(--color-yellow)
           - comment: spacing
             inlinecss:
               flex-grow: 1
@@ -452,22 +452,22 @@ grid_pages:
             entries:
               - text_key: M
                 inlinecss:
-                  color: var(--color-purple)
+                  color: var(--color-green)
               - text_key: N
                 inlinecss:
                   color: var(--color-white)
               - text_key: O
                 inlinecss:
-                  color: var(--color-green)
+                  color: var(--color-purple)
               - text_key: P
                 inlinecss:
-                  color: var(--color-yellow)
+                  color: var(--color-cyan)
               - text_key: Q
                 inlinecss:
                   color: var(--color-orange)
               - text_key: R
                 inlinecss:
-                  color: var(--color-cyan)
+                  color: var(--color-yellow)
   - name: page07
     start_spacing_slotname: cut-out-right-side-guide-04
     start_spacing_inlinecss:
@@ -485,27 +485,27 @@ grid_pages:
               --grid-item-width: 55mm
               --grid-item-height: 62mm
               height: var(--grid-item-height)
-              background-color: var(--color-yellow)
+              background-color: var(--color-cyan)
             entries:
               - text_key: _seven
                 inlinecss:
-                  color: var(--color-purple)
+                  color: var(--color-green)
               - text_key: _six
                 inlinecss:
                   color: var(--color-white)
               - text_key: _five
                 inlinecss:
-                  color: var(--color-green)
+                  color: var(--color-purple)
               - text_key: HOME
                 inlinecss:
-                  color: var(--color-yellow)
+                  color: var(--color-cyan)
                   font-size: 18pt
               - text_key: _nine
                 inlinecss:
                   color: var(--color-orange)
               - text_key: _eight
                 inlinecss:
-                  color: var(--color-cyan)
+                  color: var(--color-yellow)
           - comment: spacing
             inlinecss:
               flex-grow: 1
@@ -519,13 +519,13 @@ grid_pages:
             entries:
               - text_key: _one
                 inlinecss:
-                  color: var(--color-purple)
+                  color: var(--color-green)
               - text_key: Z
                 inlinecss:
                   color: var(--color-white)
               - text_key: Y
                 inlinecss:
-                  color: var(--color-green)
+                  color: var(--color-purple)
               - text_key: _two
                 inlinecss:
                   color: var(--color-yellow)
@@ -544,27 +544,26 @@ grid_pages:
               --grid-item-width: 55mm
               --grid-item-height: 62mm
               height: var(--grid-item-height)
-              background-color: var(--color-blue)
+              background-color: var(--color-yellow)
             entries:
               - text_key: U
                 inlinecss:
-                  color: var(--color-purple)
+                  color: var(--color-green)
               - text_key: T
                 inlinecss:
                   color: var(--color-white)
               - text_key: S
                 inlinecss:
-                  color: var(--color-green)
+                  color: var(--color-purple)
               - text_key: X
                 inlinecss:
-                  color: var(--color-yellow)
+                  color: var(--color-cyan)
               - text_key: W
                 inlinecss:
                   color: var(--color-orange)
               - text_key: V
                 inlinecss:
-                  color: var(--color-cyan)
-
+                  color: var(--color-yellow)
       - comment: Center
         inlinecss:
           width: 76mm
@@ -589,22 +588,22 @@ grid_pages:
             entries:
               - text_key: O
                 inlinecss:
-                  color: var(--color-purple)
+                  color: var(--color-green)
               - text_key: N
                 inlinecss:
                   color: var(--color-white)
               - text_key: M
                 inlinecss:
-                  color: var(--color-green)
+                  color: var(--color-purple)
               - text_key: R
                 inlinecss:
-                  color: var(--color-yellow)
+                  color: var(--color-cyan)
               - text_key: Q
                 inlinecss:
                   color: var(--color-orange)
               - text_key: P
                 inlinecss:
-                  color: var(--color-cyan)
+                  color: var(--color-yellow)
           - comment: spacing
             inlinecss:
               flex-grow: 1
@@ -648,22 +647,22 @@ grid_pages:
             entries:
               - text_key: C
                 inlinecss:
-                  color: var(--color-purple)
+                  color: var(--color-green)
               - text_key: B
                 inlinecss:
                   color: var(--color-white)
               - text_key: A
                 inlinecss:
-                  color: var(--color-green)
+                  color: var(--color-purple)
               - text_key: F
                 inlinecss:
-                  color: var(--color-yellow)
+                  color: var(--color-cyan)
               - text_key: E
                 inlinecss:
                   color: var(--color-orange)
               - text_key: D
                 inlinecss:
-                  color: var(--color-cyan)
+                  color: var(--color-yellow)
   - name: page08
     comment: no cut out
     columns:
