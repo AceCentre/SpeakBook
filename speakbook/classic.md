@@ -423,22 +423,22 @@ grid_pages:
             entries:
               - text_key: G
                 inlinecss:
-                  color: var(--color-green)
+                  color: var(--color-purple)
               - text_key: H
                 inlinecss:
                   color: var(--color-white)
               - text_key: I
                 inlinecss:
-                  color: var(--color-purple)
+                  color: var(--color-green)
               - text_key: J
                 inlinecss:
-                  color: var(--color-cyan)
+                  color: var(--color-yellow)
               - text_key: K
                 inlinecss:
                   color: var(--color-orange)
               - text_key: L
                 inlinecss:
-                  color: var(--color-yellow)
+                  color: var(--color-cyan)
           - comment: spacing
             inlinecss:
               flex-grow: 1
@@ -452,22 +452,22 @@ grid_pages:
             entries:
               - text_key: M
                 inlinecss:
-                  color: var(--color-green)
+                  color: var(--color-purple)
               - text_key: N
                 inlinecss:
                   color: var(--color-white)
               - text_key: O
                 inlinecss:
-                  color: var(--color-purple)
+                  color: var(--color-green)
               - text_key: P
                 inlinecss:
-                  color: var(--color-cyan)
+                  color: var(--color-yellow)
               - text_key: Q
                 inlinecss:
                   color: var(--color-orange)
               - text_key: R
                 inlinecss:
-                  color: var(--color-yellow)
+                  color: var(--color-cyan)
   - name: page07
     start_spacing_slotname: cut-out-right-side-guide-04
     start_spacing_inlinecss:
@@ -526,13 +526,13 @@ grid_pages:
               - text_key: Y
                 inlinecss:
                   color: var(--color-purple)
-              - text_key: _two
+              - text_key: _four
                 inlinecss:
                   color: var(--color-yellow)
               - text_key: _three
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: _four
+              - text_key: _two
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -588,22 +588,22 @@ grid_pages:
             entries:
               - text_key: O
                 inlinecss:
-                  color: var(--color-purple)
+                  color: var(--color-green)
               - text_key: N
                 inlinecss:
                   color: var(--color-white)
               - text_key: M
                 inlinecss:
-                  color: var(--color-green)
+                  color: var(--color-purple)
               - text_key: R
                 inlinecss:
-                  color: var(--color-yellow)
+                  color: var(--color-cyan)
               - text_key: Q
                 inlinecss:
                   color: var(--color-orange)
               - text_key: P
                 inlinecss:
-                  color: var(--color-cyan)
+                  color: var(--color-yellow)
           - comment: spacing
             inlinecss:
               flex-grow: 1
@@ -618,22 +618,22 @@ grid_pages:
             entries:
               - text_key: I
                 inlinecss:
-                  color: var(--color-purple)
+                  color: var(--color-green)
               - text_key: H
                 inlinecss:
                   color: var(--color-white)
               - text_key: G
                 inlinecss:
-                  color: var(--color-green)
+                  color: var(--color-purple)
               - text_key: L
                 inlinecss:
-                  color: var(--color-yellow)
+                  color: var(--color-cyan)
               - text_key: K
                 inlinecss:
                   color: var(--color-orange)
               - text_key: J
                 inlinecss:
-                  color: var(--color-cyan)
+                  color: var(--color-yellow)
           - comment: spacing
             inlinecss:
               flex-grow: 1
