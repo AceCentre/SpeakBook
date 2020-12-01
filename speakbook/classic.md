@@ -485,24 +485,25 @@ grid_pages:
               --grid-item-width: 55mm
               --grid-item-height: 62mm
               height: var(--grid-item-height)
-              background-color: var(--color-blue)
+              background-color: var(--color-yellow)
             entries:
-              - text_key: S
+              - text_key: _seven
                 inlinecss:
                   color: var(--color-purple)
-              - text_key: T
+              - text_key: _six
                 inlinecss:
                   color: var(--color-white)
-              - text_key: U
+              - text_key: _five
                 inlinecss:
                   color: var(--color-green)
-              - text_key: V
+              - text_key: HOME
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: W
+                  font-size: 18pt
+              - text_key: _nine
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: X
+              - text_key: _eight
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -516,13 +517,13 @@ grid_pages:
               height: var(--grid-item-height)
               background-color: var(--color-orange)
             entries:
-              - text_key: Y
+              - text_key: _one
                 inlinecss:
                   color: var(--color-purple)
               - text_key: Z
                 inlinecss:
                   color: var(--color-white)
-              - text_key: _one
+              - text_key: Y
                 inlinecss:
                   color: var(--color-green)
               - text_key: _two
@@ -543,27 +544,27 @@ grid_pages:
               --grid-item-width: 55mm
               --grid-item-height: 62mm
               height: var(--grid-item-height)
-              background-color: var(--color-yellow)
+              background-color: var(--color-blue)
             entries:
-              - text_key: _five
+              - text_key: U
                 inlinecss:
                   color: var(--color-purple)
-              - text_key: _six
+              - text_key: T
                 inlinecss:
                   color: var(--color-white)
-              - text_key: _seven
+              - text_key: S
                 inlinecss:
                   color: var(--color-green)
-              - text_key: _eight
+              - text_key: X
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: _nine
+              - text_key: W
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: HOME
+              - text_key: V
                 inlinecss:
                   color: var(--color-cyan)
-                  font-size: 18pt
+
       - comment: Center
         inlinecss:
           width: 76mm
@@ -578,30 +579,30 @@ grid_pages:
         inlinecss:
           width: 55mm
         rows:
-          - comment: At top right
+          - comment: At bottom right
             type: letters-grid
             inlinecss:
               --grid-item-width: 55mm
               --grid-item-height: 62mm
               height: var(--grid-item-height)
-              background-color: var(--color-purple)
+              background-color: var(--color-green)
             entries:
-              - text_key: A
+              - text_key: O
                 inlinecss:
                   color: var(--color-purple)
-              - text_key: B
+              - text_key: N
                 inlinecss:
                   color: var(--color-white)
-              - text_key: C
+              - text_key: M
                 inlinecss:
                   color: var(--color-green)
-              - text_key: D
+              - text_key: R
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: E
+              - text_key: Q
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: F
+              - text_key: P
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -616,51 +617,51 @@ grid_pages:
               background-color: var(--color-white)
               border: 1px solid var(--color-black)
             entries:
-              - text_key: G
+              - text_key: I
                 inlinecss:
                   color: var(--color-purple)
               - text_key: H
                 inlinecss:
                   color: var(--color-white)
-              - text_key: I
+              - text_key: G
                 inlinecss:
                   color: var(--color-green)
-              - text_key: J
+              - text_key: L
                 inlinecss:
                   color: var(--color-yellow)
               - text_key: K
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: L
+              - text_key: J
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
             inlinecss:
               flex-grow: 1
-          - comment: At bottom right
+          - comment: At top right
             type: letters-grid
             inlinecss:
               --grid-item-width: 55mm
               --grid-item-height: 62mm
               height: var(--grid-item-height)
-              background-color: var(--color-green)
+              background-color: var(--color-purple)
             entries:
-              - text_key: M
+              - text_key: C
                 inlinecss:
                   color: var(--color-purple)
-              - text_key: N
+              - text_key: B
                 inlinecss:
                   color: var(--color-white)
-              - text_key: O
+              - text_key: A
                 inlinecss:
                   color: var(--color-green)
-              - text_key: P
+              - text_key: F
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: Q
+              - text_key: E
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: R
+              - text_key: D
                 inlinecss:
                   color: var(--color-cyan)
   - name: page08
