@@ -1180,7 +1180,7 @@ Quanto aprender a técnica de base usando esta página de teste, poderá usar as
 ::: slot cut-out-right-side-guide-04
 <CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-top: 30mm; box-sizing: border-box;">
   <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-04.svg')" />
-  <div class="red-color wmode-vertical-lr rotate-180 fsize-8 bold flex-v items-align-center justify-content-center" style="position: absolute; top: 30.5mm; left: 0mm; width: 10mm; height: 28mm;">{{ $page.frontmatter.text.SPELL }}</div>
+  <div class="red-color wmode-vertical-lr rotate-180 fsize-2 bold flex-v items-align-center justify-content-center" style="position: absolute; top: 30.5mm; left: 0mm; width: 10mm; height: 28mm;">{{ $page.frontmatter.text.SPELL }}</div>
 </CutOutSideGuide>
 :::
 ::: slot cut-out-right-side-guide-05
@@ -1232,9 +1232,8 @@ Quanto aprender a técnica de base usando esta página de teste, poderá usar as
 <div class="flex-h items-align-center lheight-1_5x" style="width: calc(var(--page-width) - 60mm);">
   <p class="cover-footer-text">
     <span class="fsize-8 bold">sistema de comunicação não verbal</span><br>
-    <span class="red-color fsize-8 bold">acecentre/speakbook</span><br>
-    <span class="fsize-4">Speakbook 5ª edição © 2011 Patrick Joyce,
-  </p>Traduzido por Hélio Lourenço</span>
+    <span class="red-color fsize-8 bold">acecent.re/speakbook</span><br>
+    <span class="fsize-4">Speakbook 5ª edição © 2011Patrick Joyce, 2020 Ace Centre - Traduzido por Hélio Lourenço</span>
   </p>
   <div class="flex-grow-1"></div>
   <img style="width: 30mm;height: 30mm;" :src="$withBase('/speakbook/images/PublishedByAce.svg')" />
