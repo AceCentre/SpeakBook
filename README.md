@@ -13,9 +13,9 @@ Table of Contents
     * [<g-emoji class="g-emoji" alias="tr" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f9-1f1f7.png">🇹🇷</g-emoji> Turkish](#🇹🇷-turkish)
     * [<g-emoji class="g-emoji" alias="south_africa" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1ff-1f1e6.png">🇿🇦</g-emoji> Afrikaans](🇿🇦-afrikaans)
     * [<g-emoji class="g-emoji" alias="de" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1e9-1f1ea.png">🇩🇪</g-emoji> German](#🇩🇪-german)
+    * [<g-emoji class="g-emoji" alias="portugal" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f5-1f1f9.png">🇵🇹</g-emoji> Portuguese](#🇵🇹-portuguese)
 * [Needing "Printing Instructions" (but complete otherwise)](#needing-printing-instructions-but-complete-otherwise)
     * [<g-emoji class="g-emoji" alias="sweden" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f8-1f1ea.png">🇸🇪</g-emoji> Swedish](#🇸🇪-swedish)
-    * [<g-emoji class="g-emoji" alias="portugal" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f5-1f1f9.png">🇵🇹</g-emoji> Portuguese](#🇵🇹-portuguese)
     * [<g-emoji class="g-emoji" alias="es" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1ea-1f1f8.png">🇪🇸</g-emoji> Spanish](#🇪🇸-spanish)
     * [<g-emoji class="g-emoji" alias="fr" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1eb-1f1f7.png">🇫🇷</g-emoji> French](#🇫🇷-french)
     * [<g-emoji class="g-emoji" alias="malta" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f2-1f1f9.png">🇲🇹</g-emoji> Maltese](#🇲🇹-maltese)
@@ -86,6 +86,17 @@ With thanks to Suzanne Guerin and her colleagues for finding the mistake with th
 
 **Credits** Emma Emmerich,  Inclusive Solutions. 
 
+### 🇵🇹 Portuguese
+
+- [Color-Blind Friendly](/po/speakbook/) - 📄 [A4 PDF](/po/speakbook/index.pdf) 
+- [Colour Version](/po/speakbook/classic.html) - 📄 [A4 PDF](/po/speakbook/classic.pdf) 
+- [Printing Instructions](/po/speakbook/printing-instructions.html) -  📄 [A4 PDF](/po/speakbook/printing-instructions.pdf)
+
+[Complete Zipped package with US Letter size](/po/speakbook/po-speakbook.zip)
+
+**Credits** Hélio Lourenço, Ace Centre UK
+
+
 ## Needing "Printing Instructions" (but complete otherwise)
 
 ### 🇸🇪 Swedish
@@ -95,14 +106,6 @@ With thanks to Suzanne Guerin and her colleagues for finding the mistake with th
 
 [Complete Zipped package with US Letter size](/sv/speakbook/sv-speakbook.zip)
 
-### 🇵🇹 Portuguese
-
-- [Color-Blind Friendly](/po/speakbook/) - 📄 [A4 PDF](/po/speakbook/index.pdf) 
-- [Colour Version](/po/speakbook/classic.html) - 📄 [A4 PDF](/po/speakbook/classic.pdf) 
-
-[Complete Zipped package with US Letter size](/po/speakbook/po-speakbook.zip)
-
-**Credits** Hélio Lourenço, Ace Centre UK
 
 ### 🇪🇸 Spanish
 
