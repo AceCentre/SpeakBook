@@ -100,7 +100,7 @@ With thanks to Suzanne Guerin and her colleagues for finding the mistake with th
 - [Color-Blind Friendly](/po/speakbook/) - 📄 [A4 PDF](/po/speakbook/index.pdf) 
 - [Colour Version](/po/speakbook/classic.html) - 📄 [A4 PDF](/po/speakbook/classic.pdf) 
 
-[Complete Zipped package with US Letter size](/sv/speakbook/sv-speakbook.zip)
+[Complete Zipped package with US Letter size](/po/speakbook/po-speakbook.zip)
 
 **Credits** Hélio Lourenço, Ace Centre UK
 
