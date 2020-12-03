@@ -20,6 +20,7 @@ Table of Contents
     * [<g-emoji class="g-emoji" alias="fr" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1eb-1f1f7.png">🇫🇷</g-emoji> French](#🇫🇷-french)
     * [<g-emoji class="g-emoji" alias="malta" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f2-1f1f9.png">🇲🇹</g-emoji> Maltese](#🇲🇹-maltese)
     * [<g-emoji class="g-emoji" alias="mozambique" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f2-1f1ff.png">🇲🇿</g-emoji> Zulu](#🇲🇿-zulu)
+    * [<g-emoji class="g-emoji" alias="bulgaria" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1e7-1f1ec.png">🇲🇿</g-emoji> Bulgarian](#🇧🇬-bulgarian)
 * [Needs a proof reader](#needs-a-proof-reader)
     * [<g-emoji class="g-emoji" alias="cn" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1e8-1f1f3.png">🇨🇳</g-emoji> Chinese Simplified](#🇨🇳-chinese-simplified)
     * [<g-emoji class="g-emoji" alias="mozambique" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f2-1f1ff.png">🇲🇿</g-emoji> Arabic](#🇲🇿-arabic)
@@ -143,6 +144,18 @@ With thanks to Suzanne Guerin and her colleagues for finding the mistake with th
 [Complete Zipped package with US Letter size](/zu/speakbook/zu-speakbook.zip)
 
 **Credits** Sipho Sibanda, Inclusive Solutions 
+
+
+### 🇧🇬 Bulgarian
+
+**NB: Work in progress**
+
+- [Color-Blind Friendly](/bg/speakbook/) - 📄 [A4 PDF](/bg/speakbook/index.pdf) 
+- [Colour Version](/bg/speakbook/classic.html) - 📄 [A4 PDF](/bg/speakbook/classic.pdf) 
+
+[Complete Zipped package with US Letter size](/bg/speakbook/bg-speakbook.zip)
+
+**Credits** Evgeniya Hristova
 
 ## Needs a proof reader 
 
@@ -273,6 +286,7 @@ e.g. For English to Armenian
 ### Script to update all files from POEditor
 
 ```
+node .scripts/apply-po-to-md.js res/lang/SpeakBook_Bulgarian.po bg/speakbook/README.md > bg/speakbook/README2.md && mv bg/speakbook/README2.md bg/speakbook/README.md 
 node .scripts/apply-po-to-md.js res/lang/SpeakBook_Arabic.po ar/speakbook/README.md > ar/speakbook/README2.md && mv ar/speakbook/README2.md ar/speakbook/README.md 
 node .scripts/apply-po-to-md.js res/lang/SpeakBook_Spanish.po es/speakbook/README.md > es/speakbook/README2.md && mv es/speakbook/README2.md es/speakbook/README.md 
 node .scripts/apply-po-to-md.js res/lang/SpeakBook_French.po fr/speakbook/README.md > fr/speakbook/README2.md && mv fr/speakbook/README2.md fr/speakbook/README.md 
@@ -290,6 +304,7 @@ node .scripts/apply-po-to-md.js res/lang/SpeakBook_Croatian.po hr/speakbook/READ
 and likewise for Classic (colour version):
 
 ```
+node .scripts/apply-po-to-md.js res/lang/SpeakBook_Bulgarian.po bg/speakbook/classic.md > bg/speakbook/classic2.md && mv bg/speakbook/classic2.md bg/speakbook/classic.md 
 node .scripts/apply-po-to-md.js res/lang/SpeakBook_Arabic.po ar/speakbook/classic.md > ar/speakbook/classic2.md && mv ar/speakbook/classic2.md ar/speakbook/classic.md 
 node .scripts/apply-po-to-md.js res/lang/SpeakBook_Spanish.po es/speakbook/classic.md > es/speakbook/classic2.md && mv es/speakbook/classic2.md es/speakbook/classic.md 
 node .scripts/apply-po-to-md.js res/lang/SpeakBook_French.po fr/speakbook/classic.md > fr/speakbook/classic2.md && mv fr/speakbook/classic2.md fr/speakbook/classic.md 
