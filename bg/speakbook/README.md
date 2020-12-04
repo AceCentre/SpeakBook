@@ -39,6 +39,10 @@ text:
   X: Ч
   Y: Ш
   Z: Щ
+  Z1: Ъ
+  Z2: Ь
+  Z3: Ю
+  Z4: Я
   _zero: "0"
   _one: "1"
   _two: "2"
@@ -392,16 +396,16 @@ grid_pages:
               - text_key: Z
                 inlinecss:
                   color: var(--color-white)
-              - text_key: _one
+              - text_key: Z1
                 inlinecss:
                   color: var(--color-green)
-              - text_key: _two
+              - text_key: Z2
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: _three
+              - text_key: Z3
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: _four
+              - text_key: _one
                 inlinecss:
                   color: var(--color-cyan)
           - comment: spacing
@@ -415,25 +419,25 @@ grid_pages:
               height: var(--grid-item-height)
               background-color: var(--color-cyan)
             entries:
-              - text_key: _five
+              - text_key: _two
                 inlinecss:
                   color: var(--color-purple)
-              - text_key: _six
+              - text_key: _three
                 inlinecss:
                   color: var(--color-white)
-              - text_key: _seven
+              - text_key: _four
                 inlinecss:
                   color: var(--color-green)
-              - text_key: _eight
+              - text_key: _five
                 inlinecss:
                   color: var(--color-yellow)
-              - text_key: _nine
+              - text_key: _six
                 inlinecss:
                   color: var(--color-orange)
               - text_key: HOME
                 inlinecss:
                   color: var(--color-cyan)
-                  font-size: 18pt
+                  font-size: 14pt
       - comment: Center
         inlinecss:
           width: 76mm
@@ -545,23 +549,23 @@ grid_pages:
               height: var(--grid-item-height)
               background-color: var(--color-cyan)
             entries:
-              - text_key: _seven
+              - text_key: _four
                 inlinecss:
                   color: var(--color-green)
-              - text_key: _six
+              - text_key: _three
                 inlinecss:
                   color: var(--color-white)
-              - text_key: _five
+              - text_key: _two
                 inlinecss:
                   color: var(--color-purple)
               - text_key: HOME
                 inlinecss:
                   color: var(--color-cyan)
-                  font-size: 18pt
-              - text_key: _nine
+                  font-size: 14pt
+              - text_key: _six
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: _eight
+              - text_key: _five
                 inlinecss:
                   color: var(--color-yellow)
           - comment: spacing
@@ -575,7 +579,7 @@ grid_pages:
               height: var(--grid-item-height)
               background-color: var(--color-orange)
             entries:
-              - text_key: _one
+              - text_key: Z1
                 inlinecss:
                   color: var(--color-green)
               - text_key: Z
@@ -584,15 +588,15 @@ grid_pages:
               - text_key: Y
                 inlinecss:
                   color: var(--color-purple)
-              - text_key: _four
+              - text_key: _one
                 inlinecss:
                   color: var(--color-cyan)
-              - text_key: _three
+              - text_key: Z3
                 inlinecss:
                   color: var(--color-orange)
-              - text_key: _two
+              - text_key: Z2
                 inlinecss:
-                  color: var(--color-cyan)
+                  color: var(--color-yellow)
           - comment: spacing
             inlinecss:
               flex-grow: 1
@@ -1500,42 +1504,43 @@ You and your speaking partner sit opposite each other about three feet apart. De
           <div class="block pink-bkg">{{ $page.frontmatter.text._seven }}</div>
           <div class="block pink-bkg">{{ $page.frontmatter.text._eight }}</div>
           <div class="block pink-bkg">{{ $page.frontmatter.text._nine }}</div>
-          <Content class="block" slot-key="redheart-img" />
+          <div class="block yellow-bkg">{{ $page.frontmatter.text.YES }}</div>
           <div class="block pink-bkg">{{ $page.frontmatter.text._zero }}</div>
-          <Content class="block" slot-key="smileyface-img" />
+          <div class="block yellow-bkg">{{ $page.frontmatter.text.NO }}</div>
         </div>
       </div>
     </div>
     <div class="flex-h flex-wrap">
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.Q }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.W }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.E }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.R }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.T }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.Y }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.U }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.I }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.O }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.P }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.A }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.S }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.B }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.C }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.D }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.E }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.F }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.G }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.H }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.J }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.I }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.K }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.L }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text._atsign }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.Z }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.X }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.C }}</div>
-      <div class="block b1_5x yellow-bkg">{{ $page.frontmatter.text.YES }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.V }}</div>
-      <div class="block b1_5x yellow-bkg">{{ $page.frontmatter.text.NO }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.B }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.N }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.M }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.N }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.O }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.P }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.Q }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.R }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.S }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.T }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.U }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.U }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.V }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.W }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.X }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.Y }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.Z }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.Z1  }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.Z2  }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.Z3  }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.Z4  }}</div>
     </div>
   </div>
 </div>
