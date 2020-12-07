@@ -1353,7 +1353,7 @@ You and your speaking partner sit opposite each other about three feet apart. De
       <div class="block cyan-bkg">{{ $page.frontmatter.text.F }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.G }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.H }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.I }}</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.I }} / {{ $page.frontmatter.text.J }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.K }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.L }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.M }}</div>
