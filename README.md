@@ -20,7 +20,7 @@ Table of Contents
     * [<g-emoji class="g-emoji" alias="fr" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1eb-1f1f7.png">🇫🇷</g-emoji> French](#french)
     * [<g-emoji class="g-emoji" alias="malta" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f2-1f1f9.png">🇲🇹</g-emoji> Maltese](#maltese)
     * [<g-emoji class="g-emoji" alias="mozambique" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f2-1f1ff.png">🇲🇿</g-emoji> Zulu](#zulu)
-    * [<g-emoji class="g-emoji" alias="bulgaria" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1e7-1f1ec.png">🇲🇿</g-emoji> Bulgarian](#bulgarian)
+    * [<g-emoji class="g-emoji" alias="bulgaria" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1e7-1f1ec.png">🇧🇬</g-emoji> Bulgarian](#bulgarian)
 * [Needs a proof reader](#needs-a-proof-reader)
     * [<g-emoji class="g-emoji" alias="cn" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1e8-1f1f3.png">🇨🇳</g-emoji> Chinese Simplified](#chinese-simplified)
     * [<g-emoji class="g-emoji" alias="mozambique" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f2-1f1ff.png">🇲🇿</g-emoji> Arabic](#arabic)
