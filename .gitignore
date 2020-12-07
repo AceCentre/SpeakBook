@@ -3,7 +3,7 @@ node_modules/
 .envrc
 lang/
 dist-final
-
+.DS_Store
 
 # Local Netlify folder
 .netlify
