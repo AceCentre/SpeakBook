@@ -1309,15 +1309,15 @@ Your communication partner needs to know how you communicate “yes” and “no
         <div class="block b3x"></div>
         <div class="block b3x"></div>
         <div class="flex-h flex-wrap">
-          <div class="block">{{ $page.frontmatter.text._GBP }} {{ $page.frontmatter.text._USD }}</div>
-          <div class="block">:</div>
-          <div class="block">{{ $page.frontmatter.text._percent }}</div>
-          <div class="block">{{ $page.frontmatter.text._plus }}</div>
-          <div class="block">{{ $page.frontmatter.text._minus }}</div>
-          <div class="block">{{ $page.frontmatter.text._slash }}</div>
-          <div class="block">{{ $page.frontmatter.text._X }}</div>
-          <div class="block">{{ $page.frontmatter.text._equal }}</div>
-          <div class="block">{{ $page.frontmatter.text._question_mark }}</div>
+          <div class="block grey-bkg">{{ $page.frontmatter.text._GBP }} {{ $page.frontmatter.text._USD }}</div>
+          <div class="block grey-bkg">:</div>
+          <div class="block grey-bkg">{{ $page.frontmatter.text._percent }}</div>
+          <div class="block grey-bkg">{{ $page.frontmatter.text._plus }}</div>
+          <div class="block grey-bkg">{{ $page.frontmatter.text._minus }}</div>
+          <div class="block grey-bkg">{{ $page.frontmatter.text._slash }}</div>
+          <div class="block grey-bkg">{{ $page.frontmatter.text._X }}</div>
+          <div class="block grey-bkg">{{ $page.frontmatter.text._equal }}</div>
+          <div class="block grey-bkg">{{ $page.frontmatter.text._question_mark }}</div>
         </div>
         <div class="block b3x white-color black-bkg">{{ $page.frontmatter.text.HOME }}</div>
         <div class="block b3x yellow-bkg" style="font-size: 18pt;">{{ $page.frontmatter.text.THANK_YOU }}</div>
