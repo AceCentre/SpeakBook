@@ -2,7 +2,7 @@
 layout: SpeakBook
 text:
   ring_bind_edge: Ring bind along this edge
-  cut_out_this_part: Cut out this part.
+  cut_out_this_part: Cut out this part
   SPEAKBOOK: SPEAKBOOK
   edition_nth: 5th
   EDITION: EDITION

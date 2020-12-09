@@ -3,7 +3,7 @@ layout: SpeakBook
 classic_edition: true
 text:
   ring_bind_edge: Ring bind along this edge
-  cut_out_this_part: Cut out this part.
+  cut_out_this_part: Cut out this part
   SPEAKBOOK: SPEAKBOOK
   classic: classic
   EDITION: EDITION
@@ -1094,12 +1094,7 @@ grid_pages:
 <div class="float-left" style="width: 40mm; height: 37mm; shape-outside: polygon(0 0, 40mm 0, 10mm 100%, 0 100%);"></div>
 <h2 class="my-2">Finger spelling page.</h2>
 <p class="my-2">
-  If you still have the use of your hands, then this page is for you.
-  By pointing with a finger you can spell out words and phrases to your partner.
-  Frequently used words can be written in the blank boxes.
-  Pointing to the word <strong class="bold">„ HOME ‟*</strong> indicates to your partner that you now
-  want to communicate with your eyes using the main book.
-</p>
+This alphabet chart can be used to spell out words and phrases using a finger movement.  Pointing to the word <strong class="bold">HOME</strong> indicates to your communication partner that you now want to communicate with your eyes using the main Speakbook. Customise the chart by writing your own useful phrases in the blank rectangles.  </p>
 :::
 ::: slot training-page-description
 <p class="fsize-3">
@@ -1228,9 +1223,9 @@ grid_pages:
 ::: slot cover-footer
 <div class="flex-h items-align-center lheight-1_5x" style="width: calc(var(--page-width) - 60mm);">
   <p class="cover-footer-text">
-    <span class="fsize-8 bold">non verbal communication system</span><br>
+    <span class="fsize-8 bold">An eye pointing communication system</span><br>
     <span class="red-color fsize-8 bold">acecent.re/speakbook</span><br>
-    <span class="fsize-4">Speakbook 5th edition © 2011 Patrick Joyce, 2020 Ace Centre</span>
+    <span class="fsize-4">Speakbook 6th edition © 2011 Patrick Joyce, 2020 Ace Centre</span>
   </p>
   <div class="flex-grow-1"></div>
   <img style="width: 30mm;height: 30mm;" :src="$withBase('/speakbook/images/PublishedByAce.svg')" />
@@ -1253,14 +1248,27 @@ grid_pages:
 <div class="p-1 text-center">
   <SpeakBookTextFourColorBkg class="speakbook-title fsize-10 p-1 bold" :text="$page.frontmatter.text.SPEAKBOOK"></SpeakBookTextFourColorBkg>
 </div>
-<p>Speakbook is a non verbal communication tool for people who cannot speak and have difficulty using their hands or arms, but who retain the use of their eyes. This edition is for people who can read and spell. For versions for non-readers, foreign language versions, and the pocket edition, visit <b>acecent.re/speakbook</b></p>
-<h2 class="fsize-6">Instructions for use.</h2>
-<p>To get started, you will need; the speakbook, a black, non-permanent whiteboard pen, a cloth to rub out, and a speaking partner.</p>
+<p>Speakbook is a paper-based communication tool for people who cannot rely upon speech to communicate.  It is accessed using eye pointing.  An alternative version of the Speakbook is optimised for people with colour blindness, and both versions have been translated into multiple languages.  These are available from <b>acecent.re/speakbook</b></p>
+<h2 class="fsize-6">Learning to Use the Speakbook.</h2>
+<p>To get started, you will need the printed Speakbook and a communication partner.  This is the term we use for the person with whom you are communicating.</p>
 <p>
-You and your speaking partner sit opposite each other about three feet apart. Depending on your eyesight, you may find it helpful to decrease or increase this distance. Open the speakbook to the training page inside the back cover. This is filled in already to help you learn the basic technique. When you‟ve mastered it, you can write your own pages, using the blank ones provided. Fold the book back on itself and hold it up between you, so you are both facing a ‟training page‟, and you can see each others eyes through the hole in the middle. You now look at the choices on the page to decide which one to communicate. When you‟ve decided, you indicate to your partner that you are ready to start
-- this could be by looking at your partner and blinking, or by waggling your eyes up and down - whatever suits you. Then look at the message you want, for a second or so, followed by the large symbol the same as the little one by the side of the message. Your partner then follows your eye movements - for instance he might see that you have looked at the top left hand side of the board followed by the big triangle, so he knows that you must want to say „cup of tea !‟. He then says, “cup of tea !” out loud, and you confirm this with a blink, or some other pre-arranged signal
+Your communication partner needs to know how you communicate “yes” and “no”.  It is also helpful to agree a signal that means “I’ve got something to say”.  For example, you might blink rapidly, use a specific eye movement, raise an arm or make a vocalisation.
 </p>
-<p>This is the basic technique for using the speakbook. Now you need to learn how to use the other pages in the book, because the true genius of the speakbook lies in its ability to give you easy access to hundreds of phrases of your own choosing, phrases that you can change at any time, with only a damp cloth and the stroke of a pen.</p>
+<p>You and your communication partner should be face-to-face, about three feet / one metre apart.  Depending upon your eyesight, you might increase or decrease this distance.</p>
+<p>When you are ready, communicate “I’ve got something to say” using your agreed signal.  Your communication partner should open the Speakbook to the example Training page (located at the back of the book), then fold the Speakbook back on itself so that there is a Training page visible on both sides.  </p>
+<p>They should hold the Speakbook up so that you can see each other’s eyes through the hole in the middle. Check they are holding the book the right way round – they should see labelled tabs along the bottom whereas the tabs will be blank on your side.</p>
+<p>Choose one of the messages on the training page to communicate to your communication partner.  </p>
+<p>Look at your chosen message, resting your eyes on it for a moment.  Then look at the coloured dot that matches the colour of the strip the message is written on.  Again, rest your eyes on the dot for a moment.  Your communication partner can now work out which of the messages you are communicating.  They should speak this message aloud.  If they have spoken the correct message, communicate “yes”.</p>
+<p>For example, if you look at the block of messages in the top left corner of the Training page, they will know that you are communicating “I’m too hot”, “I’m too cold”, “Cup of tea!” or “Cup of coffee!”.  (Your communication partner could confirm the block they think you are looking at by saying “this block” while pointing to it - if you communicate “no”, they will know they have made a mistake and can try again). If you then look at the blue dot, they will know that you are communicating the message “Cup of tea!” because this is written on the blue strip.  The communication partner says, “cup of tea” and you confirm “yes”.</p>
+
+<p>You can view a video of the Speakbook being demonstrated here. [https://www.youtube.com/watch?v=9W2JJxmAdLs&list=PLWWQ5nlUD_ttvSxL0UKsQMGKkuodFSsJs&index=10]</p>
+
+<p>You will need to work out how long you need to rest your eyes on the message and dot for your communication partner to be able to work out what you are looking at.  You may find you can shorten this time as you both gain confidence. </p> 
+
+<p>Similarly, as you gain confidence, you may find that you don’t need to confirm “yes” when your communication partner speaks aloud the message.  Instead, it is assumed the message is correct unless you communicate “no”.</p>    
+
+<p>You are now ready to personalise your Speakbook.</p>
+
 :::
 
 ::: slot inst-02-flt-right-label
