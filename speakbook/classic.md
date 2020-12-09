@@ -1088,7 +1088,10 @@ grid_pages:
 <img style="width: var(--img-width); height: var(--img-width);" :src="$withBase('/speakbook/shapes/redheart.svg')" />
 :::
 ::: slot smileyface-img
-<img style="width: var(--img-width); height: var(--img-width);" :src="$withBase('/speakbook/shapes/smileyface.svg')" />
+<img style="width: 70px; height: 70px;" :src="$withBase('/speakbook/shapes/happyface.png')" />
+:::
+::: slot unhappyface-img
+<img style="width: 70px; height: 70px;" :src="$withBase('/speakbook/shapes/unhappyface.png')" />
 :::
 ::: slot last-page-heading
 <div class="float-left" style="width: 40mm; height: 37mm; shape-outside: polygon(0 0, 40mm 0, 10mm 100%, 0 100%);"></div>
@@ -1306,8 +1309,8 @@ Your communication partner needs to know how you communicate “yes” and “no
         <div class="block b3x"></div>
         <div class="block b3x"></div>
         <div class="flex-h flex-wrap">
-          <div class="block">{{ $page.frontmatter.text._GBP }}</div>
-          <div class="block">{{ $page.frontmatter.text._USD }}</div>
+          <div class="block">{{ $page.frontmatter.text._GBP }} {{ $page.frontmatter.text._USD }}</div>
+          <div class="block">:</div>
           <div class="block">{{ $page.frontmatter.text._percent }}</div>
           <div class="block">{{ $page.frontmatter.text._plus }}</div>
           <div class="block">{{ $page.frontmatter.text._minus }}</div>
@@ -1331,7 +1334,11 @@ Your communication partner needs to know how you communicate “yes” and “no
         <div class="block b3x"></div>
         <div class="block b3x"></div>
         <div class="block b3x"></div>
-        <div class="block b3x"></div>
+        <div class="flex-h flex-wrap">
+        <Content class="block" slot-key="redheart-img" />
+        <Content class="block" slot-key="smileyface-img" />
+        <Content class="block" slot-key="unhappyface-img" />
+        </div>
         <div class="flex-h flex-wrap">
           <div class="block pink-bkg">{{ $page.frontmatter.text._one }}</div>
           <div class="block pink-bkg">{{ $page.frontmatter.text._two }}</div>
@@ -1342,9 +1349,9 @@ Your communication partner needs to know how you communicate “yes” and “no
           <div class="block pink-bkg">{{ $page.frontmatter.text._seven }}</div>
           <div class="block pink-bkg">{{ $page.frontmatter.text._eight }}</div>
           <div class="block pink-bkg">{{ $page.frontmatter.text._nine }}</div>
-          <Content class="block" slot-key="redheart-img" />
+          <div class="block yellow-bkg">{{ $page.frontmatter.text.YES }}</div>
           <div class="block pink-bkg">{{ $page.frontmatter.text._zero }}</div>
-          <Content class="block" slot-key="smileyface-img" />
+          <div class="block yellow-bkg">{{ $page.frontmatter.text.NO }}</div>
         </div>
       </div>
     </div>
@@ -1372,12 +1379,12 @@ Your communication partner needs to know how you communicate “yes” and “no
       <div class="block cyan-bkg">{{ $page.frontmatter.text.Z }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.X }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.C }}</div>
-      <div class="block b1_5x yellow-bkg">{{ $page.frontmatter.text.YES }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.V }}</div>
-      <div class="block b1_5x yellow-bkg">{{ $page.frontmatter.text.NO }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.B }}</div>
+      <div class="block b1_5x yellow-bkg">SPACE</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.N }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.M }}</div>
+      <div class="block b1_5x cyan-bkg">DEL</div>
     </div>
   </div>
 </div>
