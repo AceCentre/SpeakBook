@@ -1349,9 +1349,9 @@ Your communication partner needs to know how you communicate “yes” and “no
           <div class="block pink-bkg">{{ $page.frontmatter.text._seven }}</div>
           <div class="block pink-bkg">{{ $page.frontmatter.text._eight }}</div>
           <div class="block pink-bkg">{{ $page.frontmatter.text._nine }}</div>
-          <div class="block yellow-bkg">{{ $page.frontmatter.text.YES }}</div>
+          <div class="block yellow-bkg" style="font-size: 18pt;">{{ $page.frontmatter.text.YES }}</div>
           <div class="block pink-bkg">{{ $page.frontmatter.text._zero }}</div>
-          <div class="block yellow-bkg">{{ $page.frontmatter.text.NO }}</div>
+          <div class="block yellow-bkg" style="font-size: 18pt;">{{ $page.frontmatter.text.NO }}</div>
         </div>
       </div>
     </div>
@@ -1381,10 +1381,10 @@ Your communication partner needs to know how you communicate “yes” and “no
       <div class="block cyan-bkg">{{ $page.frontmatter.text.C }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.V }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.B }}</div>
-      <div class="block b1_5x yellow-bkg">SPACE</div>
+      <div class="block b1_5x yellow-bkg" style="font-size: 18pt;">SPACE</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.N }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.M }}</div>
-      <div class="block b1_5x cyan-bkg">DEL</div>
+      <div class="block b1_5x yellow-bkg" style="font-size: 18pt;">DEL</div>
     </div>
   </div>
 </div>
