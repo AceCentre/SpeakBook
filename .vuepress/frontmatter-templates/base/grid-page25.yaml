@@ -1,0 +1,137 @@
+comment: page25
+start_spacing_slotname: cut-out-right-side-guide-13
+start_spacing_inlinecss:
+  transform: rotate(180deg)
+inlinecss:
+  transform: rotate(180deg)
+columns:
+  - inlinecss:
+      width: 57mm
+    rows:
+      - comment: At bottom right
+        type: table02
+        rowheight: 12mm
+        reverserow: true
+        rows:
+          - image: shape-heart-1x-img
+            text_key: COMFORT
+          - image: shape-circle-1x-img
+            text_key: TOILET
+          - image: shape-triangle-1x-img
+            text_key: DRINKS
+          - image: shape-square-1x-img
+            text_key: SPELL
+        inlinecss:
+          --grid-item-width: 57mm
+          --grid-item-height: 94mm
+          height: var(--grid-item-height)
+      - comment: spacing
+        inlinecss:
+          flex-grow: 1
+      - comment: At center right
+        type: fig
+        fixed: true
+        image: shape-square-2x-img
+        text_slotname: training-page-description
+        inlinecss:
+          --grid-item-width: 57mm
+          --grid-item-height: 94mm
+          height: var(--grid-item-height)
+      - comment: spacing
+        inlinecss:
+          flex-grow: 1
+      - comment: At top right
+        overlay_slotname: table-overlay-02
+        type: table02
+        rowheight: 12mm
+        reverserow: true
+        rows:
+          - image: shape-heart-1x-img
+            text_key: i_love_you
+          - image: shape-circle-1x-img
+            text_key: yes
+            inlinecss:
+              margin-right: 14mm
+          - image: shape-triangle-1x-img
+            text_key: no
+            inlinecss:
+              margin-right: 30mm
+          - image: shape-square-1x-img
+            text_key: CAR
+            inlinecss:
+              margin-right: 43mm
+        inlinecss:
+          --grid-item-width: 57mm
+          --grid-item-height: 94mm
+          height: var(--grid-item-height)
+  - inlinecss:
+      width: 72mm
+    rows:
+      - comment: At bottom center
+        type: fig
+        image: shape-circle-2x-img
+        inlinecss:
+          padding-top: 10mm
+          padding-bottom: 10mm
+      - comment: Guide at center
+        type: custom
+        slotname: cut-out-center-guide
+        inlinecss:
+          flex-grow: 1
+          transform: rotate(180deg)
+      - comment: At top center
+        type: fig
+        image: shape-triangle-2x-img
+        inlinecss:
+          padding-top: 10mm
+          padding-bottom: 10mm
+  - inlinecss:
+      width: 57mm
+    rows:
+      - comment: At left bottom
+        type: table02
+        rowheight: 12mm
+        reverserow: true
+        rows:
+          - image: shape-heart-1x-img
+            text_key: BED
+          - image: shape-circle-1x-img
+            text_key: CLOTHING
+          - image: shape-triangle-1x-img
+            text_key: BATHTIME
+          - image: shape-square-1x-img
+            text_key: MEALS
+        inlinecss:
+          --grid-item-width: 57mm
+          --grid-item-height: 94mm
+          height: var(--grid-item-height)
+      - comment: spacing
+        inlinecss:
+          flex-grow: 1
+      - comment: At center left
+        type: fig
+        image: shape-heart-2x-img
+        text_key: TRAINING_PAGE
+        text_inlinecss:
+          font-size: 18pt
+        text_at_top: true
+      - comment: spacing
+        inlinecss:
+          flex-grow: 1
+      - comment: At top center
+        type: table02
+        rowheight: 12mm
+        reverserow: true
+        rows:
+          - image: shape-heart-1x-img
+            text_key: im_too_hot
+          - image: shape-circle-1x-img
+            text_key: im_too_cold
+          - image: shape-triangle-1x-img
+            text_key: cup_of_tea
+          - image: shape-square-1x-img
+            text_key: cup_of_coffee
+        inlinecss:
+          --grid-item-width: 57mm
+          --grid-item-height: 94mm
+          height: var(--grid-item-height)

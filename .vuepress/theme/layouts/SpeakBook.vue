@@ -33,7 +33,7 @@
       </div>
       <Content class="abs-at-center" slot-key="cut-out-center-guide" />
     </div>
-    <div v-for="(ipage, ipageindex) in $page.frontmatter.instruction_pages" class="page instruction-page fsize-4_5">
+    <div v-for="(ipage, ipageindex) in eval_instruction_pages($page.frontmatter.instruction_pages)" class="page instruction-page fsize-4_5">
       <div v-for="fltelm in ipage.floating_elements" :class="'floating-element float-' + fltelm.dir + ' floating-element-' + (fltelm.mode||'default') + '-mode'" :style="fltelm.inlinecss">
         <Content v-if="fltelm.slotname" class="floating-element-body" :slot-key="fltelm.slotname" />
       </div>
@@ -80,51 +80,80 @@ export default {
   },
 
   methods: {
+    eval_instruction_pages (pages) {
+      let templates = Object.assign({}, this.$page.frontmatter.templates_data)
+      return pages.map((page) => {
+        return this._eval_page(page, templates)
+      })
+    },
     eval_grid_pages (pages) {
-      let pagesByName = {}
+      let templates = Object.assign({}, this.$page.frontmatter.templates_data)
       for (let page of pages) {
         if (page.name) {
-          pagesByName[page.name] = page
+          templates[page.name] = page
         }
       }
-      return pages.map((page) => {
-        if (page.copyof && page.copyof in pagesByName) {
-          let src_page = pagesByName[page.copyof]
-          return copyof_sub(src_page, page)
-        } else {
-          return page
-        }
+      let grid_pages = pages.map((page) => {
+        return this._eval_page(page, templates)
       })
-      function copyof_sub (src, dest) {
-        if (Array.isArray(src)) {
-          let out = []
-          if (Array.isArray(dest)) {
-            for (let i = 0; i < src.length; i++) {
-              out.push(copyof_sub(src[i], dest[i]))
-            }
-          } else if (dest) {
-            for (let i = 0; i < src.length; i++) {
-              out.push(copyof_sub(src[i], dest[i+'']))
-            }
-          } else {
-            for (let i = 0; i < src.length; i++) {
-              out.push(copyof_sub(src[i], undefined))
-            }
-          }
-          return out
-        } else if (typeof src == 'object') {
-          let out = {}
-          for (let key in src) {
-            if (src.hasOwnProperty(key)) {
-              out[key] = copyof_sub(src[key], dest ? dest[key] : undefined)
-            }
-          }
-          return out
+      return grid_pages
+    },
+    _eval_page (page, templates) {
+      let copyoflist = []
+      let tmp = page
+      while (typeof tmp.copyof == 'string' && tmp.copyof && tmp.copyof in templates) {
+        if (copyoflist.indexOf(tmp.copyof) != -1) {
+          throw new Error('Exit eval grid due to loopback copyof: ' + copyoflist.join(' => '))
+        }
+        copyoflist.push(tmp.copyof)
+        tmp = templates[tmp.copyof]
+      }
+      let compiled_template = null
+      for (let i = copyoflist.length - 1; i >= 0; i--) {
+        let name = copyoflist[i]
+        let data = JSON.parse(JSON.stringify(templates[name])) // copy
+        if (compiled_template == null) {
+          compiled_template = data
         } else {
-          return dest === undefined ? src : dest
+          compiled_template = this._copyof(compiled_template, data)
         }
       }
+      let dest_page = JSON.parse(JSON.stringify(page)) // copy
+      if (compiled_template != null) {
+        dest_page = this._copyof(compiled_template, dest_page)
+      }
+      delete dest_page.copyof
+      return dest_page
     },
+    _copyof (src, dest) {
+      if (Array.isArray(src)) {
+        let out = []
+        if (Array.isArray(dest)) {
+          for (let i = 0; i < src.length; i++) {
+            out.push(this._copyof(src[i], dest[i]))
+          }
+        } else if (dest) {
+          for (let i = 0; i < src.length; i++) {
+            out.push(this._copyof(src[i], dest[i+'']))
+          }
+        } else {
+          for (let i = 0; i < src.length; i++) {
+            out.push(this._copyof(src[i], undefined))
+          }
+        }
+        return out
+      } else if (typeof src == 'object') {
+        let out = {}
+        for (let key in src) {
+          if (src.hasOwnProperty(key)) {
+            out[key] = this._copyof(src[key], dest ? dest[key] : undefined)
+          }
+        }
+        return out
+      } else {
+        return dest === undefined ? src : dest
+      }
+    }
   }
 }
 </script>

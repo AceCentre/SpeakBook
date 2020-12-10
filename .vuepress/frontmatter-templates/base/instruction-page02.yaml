@@ -1,0 +1,24 @@
+content_slotname: inst-02-content
+floating_elements:
+  - comment: right side cut out guide
+    dir: right
+    slotname: cut-out-right-side-guide-02
+    inlinecss:
+      width: 10mm
+  - comment: right side label
+    dir: right
+    mode: fixed
+    inlinecss:
+      --flt-width: 44mm
+      --flt-height: 44mm
+      --flt-shape-width: var(--flt-width)
+      --flt-shape-height: var(--flt-height)
+      shape-outside: polygon(0 0, 100% 100%, 100% 0)
+    slotname: inst-02-flt-right-label
+  - dir: left
+    mode: center-fixed
+    inlinecss:
+      --flt-shape-width: 137mm
+      --flt-shape-height: 168mm
+      --chrome-bugfix-bottom-offset: 6mm
+    slotname: inst-02-flt-left-content
