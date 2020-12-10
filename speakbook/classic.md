@@ -1085,17 +1085,17 @@ grid_pages:
               height: var(--grid-item-height)
 ---
 ::: slot redheart-img
-<img style="width: var(--img-width); height: var(--img-width);" :src="$withBase('/speakbook/shapes/redheart.svg')" />
+<img style="width: 70px; height: 70px;" :src="$withBase('/speakbook/shapes/2764.svg')" />
 :::
 ::: slot smileyface-img
-<img style="width: 70px; height: 70px;" :src="$withBase('/speakbook/shapes/happyface.png')" />
+<img style="width: 70px; height: 70px;" :src="$withBase('/speakbook/shapes/1F600.svg')" />
 :::
 ::: slot unhappyface-img
-<img style="width: 70px; height: 70px;" :src="$withBase('/speakbook/shapes/unhappyface.png')" />
+<img style="width: 70px; height: 70px;" :src="$withBase('/speakbook/shapes/1F622.svg')" />
 :::
 ::: slot last-page-heading
 <div class="float-left" style="width: 40mm; height: 37mm; shape-outside: polygon(0 0, 40mm 0, 10mm 100%, 0 100%);"></div>
-<h2 class="my-2">Finger spelling page.</h2>
+<h2 class="my-2">Finger spelling page</h2>
 <p class="my-2">
 This alphabet chart can be used to spell out words and phrases using a finger movement.  Pointing to the word <strong class="bold">HOME</strong> indicates to your communication partner that you now want to communicate with your eyes using the main Speakbook. Customise the chart by writing your own useful phrases in the blank rectangles.  </p>
 :::
@@ -1309,7 +1309,7 @@ Your communication partner needs to know how you communicate “yes” and “no
         <div class="block b3x"></div>
         <div class="block b3x"></div>
         <div class="flex-h flex-wrap">
-          <div class="block grey-bkg">{{ $page.frontmatter.text._GBP }} {{ $page.frontmatter.text._USD }}</div>
+          <div class="block grey-bkg" style="font-size: 18pt;">{{ $page.frontmatter.text._GBP }} {{ $page.frontmatter.text._USD }}</div>
           <div class="block grey-bkg">:</div>
           <div class="block grey-bkg">{{ $page.frontmatter.text._percent }}</div>
           <div class="block grey-bkg">{{ $page.frontmatter.text._plus }}</div>
