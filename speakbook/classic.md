@@ -1085,13 +1085,13 @@ grid_pages:
               height: var(--grid-item-height)
 ---
 ::: slot redheart-img
-<img style="width: 70px; height: 70px;" :src="$withBase('/speakbook/shapes/2764.svg')" />
+<img style="width: 60px; height: 60px;" :src="$withBase('/speakbook/shapes/emoji_u2764.svg')" />
 :::
 ::: slot smileyface-img
-<img style="width: 70px; height: 70px;" :src="$withBase('/speakbook/shapes/1F600.svg')" />
+<img style="width: 60px; height: 60px;" :src="$withBase('/speakbook/shapes/emoji_u1f600.svg')" />
 :::
 ::: slot unhappyface-img
-<img style="width: 70px; height: 70px;" :src="$withBase('/speakbook/shapes/1F622.svg')" />
+<img style="width: 60px; height: 60px;" :src="$withBase('/speakbook/shapes/emoji_u1f44e.svg')" />
 :::
 ::: slot last-page-heading
 <div class="float-left" style="width: 40mm; height: 37mm; shape-outside: polygon(0 0, 40mm 0, 10mm 100%, 0 100%);"></div>
@@ -1380,8 +1380,8 @@ Your communication partner needs to know how you communicate “yes” and “no
       <div class="block cyan-bkg">{{ $page.frontmatter.text.X }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.C }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.V }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.B }}</div>
       <div class="block b1_5x yellow-bkg" style="font-size: 18pt;">SPACE</div>
+      <div class="block cyan-bkg">{{ $page.frontmatter.text.B }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.N }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.M }}</div>
       <div class="block b1_5x yellow-bkg" style="font-size: 18pt;">DEL</div>
