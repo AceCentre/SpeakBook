@@ -1366,7 +1366,7 @@ Your communication partner needs to know how you communicate “yes” and “no
       <div class="block cyan-bkg">{{ $page.frontmatter.text.I }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.O }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.P }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.A }}</div>
+      <div class="block cyan-bkg" style="margin-left: 8mm;">{{ $page.frontmatter.text.A }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.S }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.D }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.F }}</div>
@@ -1374,17 +1374,16 @@ Your communication partner needs to know how you communicate “yes” and “no
       <div class="block cyan-bkg">{{ $page.frontmatter.text.H }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.J }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.K }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text.L }}</div>
-      <div class="block cyan-bkg">{{ $page.frontmatter.text._atsign }}</div>
+      <div class="block cyan-bkg" style="margin-right: 8mm;">{{ $page.frontmatter.text.L }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.Z }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.X }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.C }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.V }}</div>
-      <div class="block b1_5x yellow-bkg" style="font-size: 18pt;">SPACE</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.B }}</div>
+      <div class="block b2x yellow-bkg" style="font-size: 18pt;">SPACE</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.N }}</div>
       <div class="block cyan-bkg">{{ $page.frontmatter.text.M }}</div>
-      <div class="block b1_5x yellow-bkg" style="font-size: 18pt;">DEL</div>
+      <div class="block  yellow-bkg" style="font-size: 18pt;">DEL</div>
     </div>
   </div>
 </div>
