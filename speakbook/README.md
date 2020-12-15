@@ -12,13 +12,14 @@ external_templates_data:
   grid_page24: base/grid-page24.yaml
   grid_page25: base/grid-page25.yaml
 external_append_content:
-  - slots/guides-common.ejs
-  - slots/imgs-common.ejs
-  - slots/instruction-page-common.ejs
-  - slots/intro-common.ejs
-  - slots/misc-common.ejs
-  - slots/last-page-common.ejs
-  - slots/last-page-rev01.ejs
+  - common/guides.ejs
+  - common/imgs.ejs
+  - common/misc.ejs
+  - common/last-page.ejs
+  - en/instructions-page.ejs
+  - en/intro.ejs
+  - en/last-page-header.ejs
+  - en/misc.ejs
 text:
   ring_bind_edge: Ring bind along this edge
   cut_out_this_part: Cut out this part.
@@ -132,70 +133,42 @@ grid_pages:
   - name: page11
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-06
-    start_spacing_inlinecss:
-      transform: rotate(180deg)
-    inlinecss:
-      transform: rotate(180deg)
   - name: page12
     comment: no cut out
     copyof: page08
   - name: page13
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-07
-    start_spacing_inlinecss:
-      transform: rotate(180deg)
-    inlinecss:
-      transform: rotate(180deg)
   - name: page14
     comment: no cut out
     copyof: page08
   - name: page15
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-08
-    start_spacing_inlinecss:
-      transform: rotate(180deg)
-    inlinecss:
-      transform: rotate(180deg)
   - name: page16
     comment: no cut out
     copyof: page08
   - name: page17
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-09
-    start_spacing_inlinecss:
-      transform: rotate(180deg)
-    inlinecss:
-      transform: rotate(180deg)
   - name: page18
     comment: no cut out
     copyof: page08
   - name: page19
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-10
-    start_spacing_inlinecss:
-      transform: rotate(180deg)
-    inlinecss:
-      transform: rotate(180deg)
   - name: page20
     comment: no cut out
     copyof: page08
   - name: page21
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-11
-    start_spacing_inlinecss:
-      transform: rotate(180deg)
-    inlinecss:
-      transform: rotate(180deg)
   - name: page22
     comment: no cut out
     copyof: page08
   - name: page23
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-12
-    start_spacing_inlinecss:
-      transform: rotate(180deg)
-    inlinecss:
-      transform: rotate(180deg)
   - name: page24
     copyof: grid_page24
   - name: page25

@@ -33,7 +33,7 @@
       </div>
       <Content class="abs-at-center" slot-key="cut-out-center-guide" />
     </div>
-    <div v-for="(ipage, ipageindex) in eval_instruction_pages($page.frontmatter.instruction_pages)" class="page instruction-page fsize-4_5">
+    <div v-for="(ipage, ipageindex) in eval_instruction_pages($page.frontmatter.instruction_pages)" class="page instruction-page fsize-4_5" :style="ipage.inlinecss">
       <div v-for="fltelm in ipage.floating_elements" :class="'floating-element float-' + fltelm.dir + ' floating-element-' + (fltelm.mode||'default') + '-mode'" :style="fltelm.inlinecss">
         <Content v-if="fltelm.slotname" class="floating-element-body" :slot-key="fltelm.slotname" />
       </div>
@@ -42,7 +42,7 @@
       </div>
     </div>
     <!-- grid pages -->
-    <div v-for="(gdata, pageindex) in eval_grid_pages($page.frontmatter.grid_pages)" class="page flex-h" :style="gdata.inlinecss">
+    <div v-for="(gdata, pageindex) in eval_grid_pages($page.frontmatter.grid_pages)" class="page flex-h" :style="gdata.inlinecss" :x-name="gdata.name" :x-comment="gdata.comment">
       <div style="width:10mm;" class="flex-v">
         <Content class="flex-grow-1" v-if="gdata.start_spacing_slotname" :slot-key="gdata.start_spacing_slotname" :style="gdata.start_spacing_inlinecss" />
       </div>
@@ -142,10 +142,15 @@ export default {
           }
         }
         return out
-      } else if (typeof src == 'object') {
-        let out = {}
-        for (let key in src) {
-          if (src.hasOwnProperty(key)) {
+      } else if (typeof src == 'object' && src != null) {
+        // start with dest entries
+        let out = Object.assign({}, dest)
+        for (let key of Object.keys(src)) {
+          let owkey = '__OVERWRITE_' + key
+          if (dest && owkey in dest) {
+            out[key] = dest[owkey]
+            delete out[owkey]
+          } else if (key in src) {
             out[key] = this._copyof(src[key], dest ? dest[key] : undefined)
           }
         }

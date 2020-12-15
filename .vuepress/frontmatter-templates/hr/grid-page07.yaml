@@ -1,0 +1,195 @@
+comment: grid-page07 hr
+start_spacing_slotname: cut-out-right-side-guide-04
+start_spacing_inlinecss:
+  transform: rotate(180deg)
+inlinecss:
+  transform: rotate(180deg)
+columns:
+  - comment: Left column
+    inlinecss:
+      width: 55mm
+    rows:
+      - comment: At top left
+        type: letters-grid
+        inlinecss:
+          --grid-item-width: 55mm
+          --grid-item-height: 62mm
+          height: var(--grid-item-height)
+          background-color: var(--color-cyan)
+        entries:
+          - text_key: X
+            inlinecss:
+              color: var(--color-purple)
+          - text_key: Y
+            inlinecss:
+              color: var(--color-white)
+          - text_key: Z
+            inlinecss:
+              color: var(--color-green)
+          - text_key: Z2
+            inlinecss:
+              color: var(--color-yellow)
+          - text_key: _one
+            inlinecss:
+              color: var(--color-orange)
+          - text_key: HOME
+            inlinecss:
+              color: var(--color-cyan)
+              font-size: 16pt
+      - comment: spacing
+        inlinecss:
+          flex-grow: 1
+      - comment: At center left
+        type: letters-grid
+        inlinecss:
+          --grid-item-width: 55mm
+          --grid-item-height: 62mm
+          height: var(--grid-item-height)
+          background-color: var(--color-orange)
+        entries:
+          - text_key: S
+            inlinecss:
+              color: var(--color-purple)
+          - text_key: S2
+            inlinecss:
+              color: var(--color-white)
+          - text_key: T
+            inlinecss:
+              color: var(--color-green)
+          - text_key: U
+            inlinecss:
+              color: var(--color-yellow)
+          - text_key: V
+            inlinecss:
+              color: var(--color-orange)
+          - text_key: W
+            inlinecss:
+              color: var(--color-cyan)
+      - comment: spacing
+        inlinecss:
+          flex-grow: 1
+      - comment: At bottom left
+        type: letters-grid
+        inlinecss:
+          --grid-item-width: 55mm
+          --grid-item-height: 62mm
+          height: var(--grid-item-height)
+          background-color: var(--color-yellow)
+        entries:
+          - text_key: N
+            inlinecss:
+              color: var(--color-purple)
+          - text_key: N2
+            inlinecss:
+              color: var(--color-white)
+          - text_key: O
+            inlinecss:
+              color: var(--color-green)
+          - text_key: P
+            inlinecss:
+              color: var(--color-yellow)
+          - text_key: Q
+            inlinecss:
+              color: var(--color-orange)
+          - text_key: R
+            inlinecss:
+              color: var(--color-cyan)
+  - comment: Center
+    inlinecss:
+      width: 76mm
+    rows:
+      - comment: Guide at center
+        type: custom
+        slotname: cut-out-center-guide
+        inlinecss:
+          flex-grow: 1
+          transform: rotate(180deg)
+  - comment: Right column
+    inlinecss:
+      width: 55mm
+    rows:
+      - comment: At top right
+        type: letters-grid
+        inlinecss:
+          --grid-item-width: 55mm
+          --grid-item-height: 62mm
+          height: var(--grid-item-height)
+          background-color: var(--color-purple)
+        entries:
+          - text_key: A
+            inlinecss:
+              color: var(--color-purple)
+          - text_key: B
+            inlinecss:
+              color: var(--color-white)
+          - text_key: C
+            inlinecss:
+              color: var(--color-green)
+          - text_key: C2
+            inlinecss:
+              color: var(--color-yellow)
+          - text_key: C3
+            inlinecss:
+              color: var(--color-orange)
+          - text_key: D
+            inlinecss:
+              color: var(--color-cyan)
+      - comment: spacing
+        inlinecss:
+          flex-grow: 1
+      - comment: At center right
+        type: letters-grid
+        inlinecss:
+          --grid-item-width: 55mm
+          --grid-item-height: 62mm
+          height: var(--grid-item-height)
+          background-color: var(--color-white)
+          border: 1px solid var(--color-black)
+        entries:
+          - text_key: D2
+            inlinecss:
+              color: var(--color-purple)
+          - text_key: D3
+            inlinecss:
+              color: var(--color-white)
+          - text_key: E
+            inlinecss:
+              color: var(--color-green)
+          - text_key: F
+            inlinecss:
+              color: var(--color-yellow)
+          - text_key: G
+            inlinecss:
+              color: var(--color-orange)
+          - text_key: H
+            inlinecss:
+              color: var(--color-cyan)
+      - comment: spacing
+        inlinecss:
+          flex-grow: 1
+      - comment: At bottom right
+        type: letters-grid
+        inlinecss:
+          --grid-item-width: 55mm
+          --grid-item-height: 62mm
+          height: var(--grid-item-height)
+          background-color: var(--color-green)
+        entries:
+          - text_key: I
+            inlinecss:
+              color: var(--color-purple)
+          - text_key: J
+            inlinecss:
+              color: var(--color-white)
+          - text_key: K
+            inlinecss:
+              color: var(--color-green)
+          - text_key: L
+            inlinecss:
+              color: var(--color-yellow)
+          - text_key: L2
+            inlinecss:
+              color: var(--color-orange)
+          - text_key: M
+            inlinecss:
+              color: var(--color-cyan)

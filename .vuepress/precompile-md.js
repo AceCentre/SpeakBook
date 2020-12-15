@@ -11,12 +11,17 @@ module.exports = function (source) {
     return source
   }
   let newfm = YAML.parse(fm_content)
-  newfm.templates_data = eval_external_templates_data(newfm)
+  let loaded_filenames = []
+  newfm.templates_data = eval_external_templates_data(newfm, loaded_filenames)
+  loaded_filenames.forEach((fn) => {
+    this.addDependency(fn)
+  })
   let content_append_list = []
   let external_content_dir = path.join(__dirname, 'content-templates')
   for (let name of newfm.external_append_content || []) {
     let fn = path.join(external_content_dir, name)
     let content = fs.readFileSync(fn).toString('utf8')
+    this.addDependency(fn)
     let options = { root: external_content_dir }
     let builder = ejs.compile(content, options)
     content_append_list.push(builder({ frontmatter: newfm }))

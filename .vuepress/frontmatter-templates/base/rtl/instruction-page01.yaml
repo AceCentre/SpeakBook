@@ -1,0 +1,26 @@
+content_slotname: inst-01-content
+floating_elements:
+  - comment: left spacing (right side for rtl)
+    dir: left
+    inlinecss:
+      --spacing-offset-top: 17mm
+      --left-spacing: 13mm
+      --max-left-spacing: 40mm
+      width: var(--max-left-spacing)
+      height: var(--page-height)
+      shape-outside: polygon(var(--max-left-spacing) var(--spacing-offset-top), 0
+        var(--spacing-offset-top), calc(var(--max-left-spacing) -
+        var(--left-spacing)) calc(var(--spacing-offset-top) + 20mm),
+        calc(var(--max-left-spacing) - var(--left-spacing))
+        var(--page-height), var(--max-left-spacing) var(--page-height))
+  - comment: floating content at center right
+    dir: right
+    mode: fixed
+    inlinecss:
+      --flt-width: 137mm
+      --flt-height: var(--page-height)
+      --flt-shape-width: var(--flt-width)
+      --flt-shape-height: 175mm
+      shape-outside: polygon(0 55mm, 100% 55mm, 100% 230mm, 0 230mm)
+      top: 56mm
+    slotname: inst-01-flt-right-content

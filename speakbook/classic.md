@@ -13,13 +13,14 @@ external_templates_data:
   grid_page24: base/classic/grid-page24.yaml
   grid_page25: base/classic/grid-page25.yaml
 external_append_content:
-  - slots/guides-common.ejs
-  - slots/imgs-common.ejs
-  - slots/instruction-page-common.ejs
-  - slots/intro-common.ejs
-  - slots/misc-common.ejs
-  - slots/last-page-common.ejs
-  - slots/last-page-rev01.ejs
+  - common/guides.ejs
+  - common/imgs.ejs
+  - common/misc.ejs
+  - common/last-page.ejs
+  - en/instructions-page.ejs
+  - en/intro.ejs
+  - en/last-page-header.ejs
+  - en/misc.ejs
 text:
   ring_bind_edge: Ring bind along this edge
   cut_out_this_part: Cut out this part.

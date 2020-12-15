@@ -1,0 +1,80 @@
+::: slot cut-out-center-guide
+<div class="pos-rel flex-h justify-content-center" style="width: var(--cut-out-center-guide-width); height: var(--cut-out-center-guide-height);">
+  <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/cut-out-center-guide.svg')" />
+  <div class="wmode-vertical-lr rotate-180 fsize-10 v-oneline-fsize-10 bold grey-color text-center">
+    {{ $page.frontmatter.text.cut_out_this_part }}
+  </div>
+</div>
+:::
+::: slot cut-out-left-side-guide-01
+<div class="flex-h height-100ph grey-color">
+  <img style="width: 44.5mm; height: 287.2mm;" :src="$withBase('/speakbook/shapes/cut-out-left-side-guide.svg')" />
+  <div class="flex-v mx-auto fsize-8 v-oneline-fsize-8 bold">
+    <div v-for="i in 2" class="wmode-vertical-lr rotate-180 flex-grow-1 text-center">
+      {{ $page.frontmatter.text.cut_out_this_part }}
+    </div>
+  </div>
+</div>
+:::
+::: slot cut-out-left-side-guide-02
+<CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part">
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-left-side-guide-02.svg')" />
+</CutOutSideGuide>
+:::
+::: slot cut-out-left-side-guide-03
+<CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part">
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-left-side-guide-03.svg')" />
+  <div class="white-color wmode-vertical-lr rotate-180 fsize-8 bold flex-v items-align-center justify-content-center" style="position: absolute; top: 2mm; left: 0mm; width: 10mm; height: 28mm; font-size: 10pt;">{{ $page.frontmatter.text.HOME }}</div>
+</CutOutSideGuide>
+:::
+::: slot cut-out-left-side-guide-04
+<CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-top: 30mm; box-sizing: border-box;">
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-left-side-guide-04.svg')" />
+  <div class="red-color wmode-vertical-lr rotate-180 fsize-8 bold flex-v items-align-center justify-content-center" style="position: absolute; top: 30.5mm; left: 0mm; width: 10mm; height: 28mm;">{{ $page.frontmatter.text.SPELL }}</div>
+</CutOutSideGuide>
+:::
+::: slot cut-out-left-side-guide-05
+<CutOutSideGuide textlen="1" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-top: 90mm; box-sizing: border-box;">
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-left-side-guide-05.svg')" />
+</CutOutSideGuide>
+:::
+::: slot cut-out-left-side-guide-06
+<CutOutSideGuide textlen="1" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-top: 90mm; box-sizing: border-box;">
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-left-side-guide-06.svg')" />
+</CutOutSideGuide>
+:::
+::: slot cut-out-left-side-guide-07
+<CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part">
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-left-side-guide-07.svg')" />
+</CutOutSideGuide>
+:::
+::: slot cut-out-left-side-guide-08
+<CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-top: 10mm; box-sizing: border-box;">
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-left-side-guide-08.svg')" />
+</CutOutSideGuide>
+:::
+::: slot cut-out-left-side-guide-09
+<CutOutSideGuide textlen="1" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-bottom: 80mm; box-sizing: border-box;">
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-left-side-guide-09.svg')" />
+</CutOutSideGuide>
+:::
+::: slot cut-out-left-side-guide-10
+<CutOutSideGuide textlen="1" :text="$page.frontmatter.text.cut_out_this_part" textstyle="padding-bottom: 90mm; box-sizing: border-box;">
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-left-side-guide-10.svg')" />
+</CutOutSideGuide>
+:::
+::: slot cut-out-left-side-guide-11
+<CutOutSideGuide textlen="1" :text="$page.frontmatter.text.cut_out_this_part">
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-left-side-guide-11.svg')" />
+</CutOutSideGuide>
+:::
+::: slot cut-out-left-side-guide-12
+<CutOutSideGuide textlen="1" :text="$page.frontmatter.text.cut_out_this_part">
+  <img class="abs-at-center-left" :src="$withBase('/speakbook/shapes/cut-out-left-side-guide-12.svg')" />
+</CutOutSideGuide>
+:::
+::: slot cut-out-left-side-guide-13
+<CutOutSideGuide textlen="2" :text="$page.frontmatter.text.cut_out_this_part">
+  <img class="abs-at-bottom-left" :src="$withBase('/speakbook/shapes/cut-out-right-side-guide-13.svg')" />
+</CutOutSideGuide>
+:::
