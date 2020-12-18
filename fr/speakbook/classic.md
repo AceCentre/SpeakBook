@@ -11,6 +11,7 @@ external_templates_data:
   grid_page09: base/classic/grid-page09.yaml
   grid_page24: base/classic/grid-page24.yaml
   grid_page25: base/classic/grid-page25.yaml
+  text_dict: fr/speakbook-text.yaml
 external_append_content:
   - common/imgs.ejs
   - fr/guides.ejs
@@ -20,84 +21,7 @@ external_append_content:
   - fr/misc.ejs
 classic_edition: true
 text:
-  ring_bind_edge: Reliez en classeur à spirales
-  cut_out_this_part: Découpez cette partie.
-  SPEAKBOOK: SPEAKBOOK
-  classic: classic
-  EDITION: VERSION
-  color_blind: Adapté pour les
-  friendly: daltoniens
-  instructions: instructions
-  HOME_PAGE: ACCUEIL
-  SPELL: EPELER
-  HOME: ACCUEIL
-  THANK_YOU: MERCI
-  A: A
-  B: B
-  C: C
-  D: D
-  E: E
-  F: F
-  G: G
-  H: H
-  I: I
-  J: J
-  K: K
-  L: L
-  M: M
-  N: N
-  O: O
-  P: P
-  Q: Q
-  R: R
-  S: S
-  T: T
-  U: U
-  V: V
-  W: W
-  X: X
-  Y: Y
-  Z: Z
-  _zero: "0"
-  _one: "1"
-  _two: "2"
-  _three: "3"
-  _four: "4"
-  _five: "5"
-  _six: "6"
-  _seven: "7"
-  _eight: "8"
-  _nine: "9"
-  im_too_hot: J’ai trop chaud
-  im_too_cold: J’ai trop froid
-  cup_of_tea: Verre d’eau!
-  cup_of_coffee: Tasse de café!
-  i_love_you: Je t’aime
-  yes: oui
-  no: non
-  CAR: Voiture
-  BED: COUCHER
-  CLOTHING: VETEMENTS
-  BATHTIME: DOUCHE
-  MEALS: REPAS
-  COMFORT: INCONFORT
-  TOILET: WC
-  DRINKS: BOISSONS
-  TRAINING_PAGE: Page d’essai
-  training_page: Page d’essai
-  _GBP: €
-  _USD: $
-  _percent: "%"
-  _plus: +
-  _minus: "-"
-  _slash: /
-  _X: X
-  _equal: =
-  _question_mark: "?"
-  _atsign: "@"
-  YES: OUI
-  NO: NON
-  edition_nth: 5e
+  copyof: text_dict
 slots_in_need_for_translation:
   - training-page-description
   - last-page-heading
@@ -122,21 +46,21 @@ grid_pages:
   - name: page06
     copyof: grid_page06
     columns:
-      0:
+      "0":
         rows:
-          4:
+          "4":
             entries:
-              5:
+              "5":
                 inlinecss:
                   font-size: 12pt
   - name: page07
     copyof: grid_page07
     columns:
-      0:
+      "0":
         rows:
-          0:
+          "0":
             entries:
-              3:
+              "3":
                 inlinecss:
                   font-size: 12pt
   - name: page08

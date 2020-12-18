@@ -12,6 +12,7 @@ external_templates_data:
   grid_page09: base/classic/grid-page09.yaml
   grid_page24: base/classic/grid-page24.yaml
   grid_page25: base/classic/grid-page25.yaml
+  text_dict: hr/speakbook-text.yaml
 external_append_content:
   - common/imgs.ejs
   - hr/guides.ejs
@@ -20,92 +21,7 @@ external_append_content:
   - hr/last-page.ejs
   - hr/misc.ejs
 text:
-  ring_bind_edge: Prsten se vežu uz ovaj rub
-  cut_out_this_part: Izrezati taj dio.
-  SPEAKBOOK: SPEAKBOOK
-  classic: classic
-  EDITION: IZDANJE
-  color_blind: Slijep na boje
-  friendly: Prijateljski!
-  instructions: instrukcije
-  HOME_PAGE: POČETNA STRANICA
-  SPELL: ČAROLIJA
-  HOME: DOM
-  THANK_YOU: HVALA VAM
-  A: A
-  B: B
-  C: C
-  C2: Č
-  C3: Ć
-  D: D
-  D2: DŽ
-  D3: Đ
-  E: E
-  F: F
-  G: G
-  H: H
-  I: I
-  J: J
-  K: K
-  L: L
-  L2: LJ
-  M: M
-  N: N
-  N2: NJ
-  O: O
-  P: P
-  Q: Q
-  R: R
-  S: S
-  S2: Š
-  T: T
-  U: U
-  V: V
-  W: W
-  X: X
-  Y: Y
-  Z: Z
-  Z2: Ž
-  _zero: "0"
-  _one: "1"
-  _two: "2"
-  _three: "3"
-  _four: "4"
-  _five: "5"
-  _six: "6"
-  _seven: "7"
-  _eight: "8"
-  _nine: "9"
-  im_too_hot: Ja sam previše vruće
-  im_too_cold: Ja sam previše hladno
-  cup_of_tea: Šalica čaja!
-  cup_of_coffee: Šalica kave!
-  i_love_you: Volim te
-  yes: Da
-  no: Ne
-  CAR: AUTOMOBIL
-  BED: KREVET
-  CLOTHING: ODJEĆA
-  BATHTIME: VRIJEME ZA KUPANJE
-  MEALS: PREHRANA
-  COMFORT: UDOBNOST
-  TOILET: WC
-  DRINKS: PIĆA
-  TRAINING_PAGE: TRENING STRANICA
-  training_page: trgovinu stranica
-  _GBP: £
-  _USD: "€"
-  _percent: "%"
-  _plus: +
-  _minus: "-"
-  _slash: /
-  _X: x
-  _equal: =
-  _question_mark: "?"
-  _atsign: "@"
-  YES: DA
-  NO: NE
-  edition_nth: "5."
+  copyof: text_dict
 slots_in_need_for_translation:
   - training-page-description
   - last-page-heading
@@ -194,22 +110,22 @@ grid_pages:
   - name: page24
     copyof: grid_page24
     columns:
-      0:
+      "0":
         rows:
-          0:
+          "0":
             rows:
-              3:
+              "3":
                 comment: CAR
                 text_inlinecss:
                   font-size: 13pt
   - name: page25
     copyof: grid_page25
     columns:
-      0:
+      "0":
         rows:
-          4:
+          "4":
             rows:
-              3:
+              "3":
                 comment: CAR
                 text_inlinecss:
                   font-size: 13pt

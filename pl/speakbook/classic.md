@@ -11,6 +11,7 @@ external_templates_data:
   grid_page09: base/classic/grid-page09.yaml
   grid_page24: base/classic/grid-page24.yaml
   grid_page25: base/classic/grid-page25.yaml
+  text_dict: pl/speakbook-text.yaml
 external_append_content:
   - common/guides.ejs
   - common/imgs.ejs
@@ -22,84 +23,7 @@ external_append_content:
   - pl/misc.ejs
 classic_edition: true
 text:
-  ring_bind_edge: Pierścień wiążą wzdłuż tej krawędzi
-  cut_out_this_part: Wyciąć ten fragment.
-  SPEAKBOOK: SPEAKBOOK
-  classic: classic
-  EDITION: WYDANIE
-  color_blind: Kolor Blind
-  friendly: Przyjazny!
-  instructions: instrukcje
-  HOME_PAGE: STRONA GŁÓWNA
-  SPELL: ZAKLĘCIE
-  HOME: DOM
-  THANK_YOU: DZIĘKUJĘ CI
-  A: A
-  B: B
-  C: C
-  D: D
-  E: E
-  F: F
-  G: G
-  H: H
-  I: I
-  J: J
-  K: K
-  L: L
-  M: M
-  N: N
-  O: O
-  P: P
-  Q: Q
-  R: R
-  S: S
-  T: T
-  U: U
-  V: V
-  W: W
-  X: X
-  Y: Y
-  Z: Z
-  _zero: ""
-  _one: "1"
-  _two: "2"
-  _three: "3"
-  _four: "4"
-  _five: "5"
-  _six: "6"
-  _seven: "7"
-  _eight: "8"
-  _nine: "9"
-  im_too_hot: Jestem zbyt gorący
-  im_too_cold: Jestem zbyt zimno
-  cup_of_tea: Filiżanka herbaty!
-  cup_of_coffee: Kubek kawy!
-  i_love_you: kocham Cię
-  yes: tak
-  no: Nie
-  CAR: SAMOCHÓD
-  BED: ŁÓŻKO
-  CLOTHING: ODZIEŻ
-  BATHTIME: CZAS NA KĄPIEL
-  MEALS: POSIŁKI
-  COMFORT: KOMFORT
-  TOILET: TOALETA
-  DRINKS: NAPOJE
-  TRAINING_PAGE: STRONA SZKOLENIA
-  training_page: strona handlowym
-  _GBP: £
-  _USD: €
-  _percent: "%"
-  _plus: +
-  _minus: "-"
-  _slash: /
-  _X: X
-  _equal: =
-  _question_mark: "?"
-  _atsign: "@"
-  YES: TAK
-  NO: NIE
-  edition_nth: 5-ci
+  copyof: text_dict
 slots_in_need_for_translation:
   - training-page-description
   - last-page-heading
@@ -136,8 +60,8 @@ grid_pages:
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-06
     comment2: remove rotate 180deg
-    start_spacing_inlinecss:
-    inlinecss:
+    start_spacing_inlinecss: null
+    inlinecss: null
   - name: page12
     comment: no cut out
     copyof: page08
@@ -145,8 +69,8 @@ grid_pages:
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-07
     comment2: remove rotate 180deg
-    __OVERWRITE_start_spacing_inlinecss:
-    __OVERWRITE_inlinecss:
+    __OVERWRITE_start_spacing_inlinecss: null
+    __OVERWRITE_inlinecss: null
   - name: page14
     comment: no cut out
     copyof: page08
@@ -154,8 +78,8 @@ grid_pages:
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-08
     comment2: remove rotate 180deg
-    __OVERWRITE_start_spacing_inlinecss:
-    __OVERWRITE_inlinecss:
+    __OVERWRITE_start_spacing_inlinecss: null
+    __OVERWRITE_inlinecss: null
   - name: page16
     comment: no cut out
     copyof: page08
@@ -163,8 +87,8 @@ grid_pages:
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-09
     comment2: remove rotate 180deg
-    __OVERWRITE_start_spacing_inlinecss:
-    __OVERWRITE_inlinecss:
+    __OVERWRITE_start_spacing_inlinecss: null
+    __OVERWRITE_inlinecss: null
   - name: page18
     comment: no cut out
     copyof: page08
@@ -172,8 +96,8 @@ grid_pages:
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-10
     comment2: remove rotate 180deg
-    __OVERWRITE_start_spacing_inlinecss:
-    __OVERWRITE_inlinecss:
+    __OVERWRITE_start_spacing_inlinecss: null
+    __OVERWRITE_inlinecss: null
   - name: page20
     comment: no cut out
     copyof: page08
@@ -181,8 +105,8 @@ grid_pages:
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-11
     comment2: remove rotate 180deg
-    __OVERWRITE_start_spacing_inlinecss:
-    __OVERWRITE_inlinecss:
+    __OVERWRITE_start_spacing_inlinecss: null
+    __OVERWRITE_inlinecss: null
   - name: page22
     comment: no cut out
     copyof: page08
@@ -190,8 +114,8 @@ grid_pages:
     copyof: page09
     start_spacing_slotname: cut-out-right-side-guide-12
     comment2: remove rotate 180deg
-    __OVERWRITE_start_spacing_inlinecss:
-    __OVERWRITE_inlinecss:
+    __OVERWRITE_start_spacing_inlinecss: null
+    __OVERWRITE_inlinecss: null
   - name: page24
     copyof: grid_page24
   - name: page25

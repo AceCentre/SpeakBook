@@ -11,6 +11,7 @@ external_templates_data:
   grid_page09: base/classic/grid-page09.yaml
   grid_page24: base/classic/grid-page24.yaml
   grid_page25: base/classic/grid-page25.yaml
+  text_dict: ar/speakbook-text.yaml
 external_append_content:
   - common/imgs.ejs
   - common/rtl/guides.ejs
@@ -21,84 +22,7 @@ external_append_content:
   - ar/misc.ejs
 classic_edition: true
 text:
-  ring_bind_edge: ربط عصابة على طول هذه الحافة
-  cut_out_this_part: قطع هذا الجزء.
-  SPEAKBOOK: SPEAKBOOK
-  classic: classic
-  EDITION: الإصدار
-  color_blind: عمى الالوان
-  friendly: ودود!
-  instructions: تعليمات
-  HOME_PAGE: الصفحة الرئيسية
-  SPELL: تهجئه
-  HOME: الصفحة الرئيسية
-  THANK_YOU: شكرا
-  A: غ
-  B: ظ
-  C: ض
-  D: ذ
-  E: خ
-  F: ث
-  G: ت
-  H: ش
-  I: ر
-  J: ق
-  K: ص
-  L: ف
-  M: ع
-  N: س
-  O: ن
-  P: م
-  Q: ل
-  R: ك
-  S: ي
-  T: ط
-  U: ح
-  V: ز
-  W: و
-  X: ه
-  Y: د
-  Z: ج
-  _zero: ٠
-  _one: ١
-  _two: ٢
-  _three: ٣
-  _four: ٤
-  _five: ٥
-  _six: ٦
-  _seven: ٧
-  _eight: ٨
-  _nine: ٩
-  im_too_hot: انا حار جدا
-  im_too_cold: أنا بارد جدا
-  cup_of_tea: كوب من الشاي!
-  cup_of_coffee: كوب من القهوة!
-  i_love_you: أحبك
-  yes: نعم
-  no: لا
-  CAR: سيارة
-  BED: السرير
-  CLOTHING: ملابس
-  BATHTIME: وقت الاستحمام
-  MEALS: وجبات
-  COMFORT: راحة
-  TOILET: الحمام
-  DRINKS: مشروبات
-  TRAINING_PAGE: TRAINING PAGE
-  training_page: صفحة التداول
-  _GBP: £
-  _USD: د.ع
-  _percent: "%"
-  _plus: +
-  _minus: "-"
-  _slash: /
-  _X: X
-  _equal: =
-  _question_mark: "?"
-  _atsign: "@"
-  YES: نعم
-  NO: لا
-  edition_nth: "5"
+  copyof: text_dict
 slots_in_need_for_translation:
   - training-page-description
   - last-page-heading
@@ -130,11 +54,11 @@ grid_pages:
   - name: page06
     copyof: grid_page06
     columns:
-      0:
+      "0":
         rows:
-          4:
+          "4":
             entries:
-              5:
+              "5":
                 comment: HOME
                 inlinecss:
                   font-size: 14pt
@@ -142,11 +66,11 @@ grid_pages:
     copyof: grid_page07
     start_spacing_slotname: cut-out-left-side-guide-04
     columns:
-      0:
+      "0":
         rows:
-          0:
+          "0":
             entries:
-              3:
+              "3":
                 comment: HOME
                 inlinecss:
                   font-size: 14pt
@@ -200,9 +124,9 @@ grid_pages:
   - name: page24
     copyof: grid_page24
     columns:
-      0:
+      "0":
         rows:
-          0:
+          "0":
             __OVERWRITE_rows:
               - image: shape-heart-1x-img
                 text_key: i_love_you
@@ -222,9 +146,9 @@ grid_pages:
     copyof: grid_page25
     start_spacing_slotname: cut-out-left-side-guide-13
     columns:
-      0:
+      "0":
         rows:
-          4:
+          "4":
             __OVERWRITE_rows:
               - image: shape-heart-1x-img
                 text_key: i_love_you
@@ -240,7 +164,6 @@ grid_pages:
                   margin-right: 14mm
               - image: shape-square-1x-img
                 text_key: CAR
-
 ---
 
 

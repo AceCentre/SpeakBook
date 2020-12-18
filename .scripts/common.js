@@ -7,7 +7,7 @@ function split_frontmatter (data) {
   if (!match) {
     return [ null, data ]
   }
-  return [ match[2], data.slice(match[0].length)]
+  return [ match[2], data.slice(match[0].length) ]
 }
 
 let slot_pttrn = /(:::\s+slot\s+)([^\r\n]+)(\r?\n)(((?!\r?\n:::\r?\n).)*)(\r?\n:::\r?\n?)/ms

@@ -11,6 +11,7 @@ external_templates_data:
   grid_page09: base/grid-page09.yaml
   grid_page24: base/grid-page24.yaml
   grid_page25: base/grid-page25.yaml
+  text_dict: af/speakbook-text.yaml
 external_append_content:
   - common/guides.ejs
   - common/imgs.ejs
@@ -20,83 +21,7 @@ external_append_content:
   - af/last-page-header.ejs
   - af/misc.ejs
 text:
-  ring_bind_edge: Ringbind hierdie rand.
-  cut_out_this_part: Knip hierdie deel uit.
-  SPEAKBOOK: SPEAKBOOK
-  edition_nth: 5de
-  EDITION: UITGAWE
-  color_blind: Kleurblind
-  friendly: Vriendelik!
-  instructions: instruksies
-  HOME_PAGE: TUISBLAD
-  SPELL: SPEL
-  HOME: TUIS
-  THANK_YOU: DANKIE
-  A: A
-  B: B
-  C: C
-  D: D
-  E: E
-  F: F
-  G: G
-  H: H
-  I: I
-  J: J
-  K: K
-  L: L
-  M: M
-  N: N
-  O: O
-  P: P
-  Q: Q
-  R: R
-  S: S
-  T: T
-  U: U
-  V: V
-  W: W
-  X: X
-  Y: Y
-  Z: Z
-  _zero: "0"
-  _one: "1"
-  _two: "2"
-  _three: "3"
-  _four: "4"
-  _five: "5"
-  _six: "6"
-  _seven: "7"
-  _eight: "8"
-  _nine: "9"
-  im_too_hot: Ek kry warm
-  im_too_cold: Ek kry koud
-  cup_of_tea: Koppie tee!
-  cup_of_coffee: Koppie koffie!
-  i_love_you: Ek is lief vir jou
-  yes: ja
-  no: nee
-  CAR: KAR
-  BED: BED
-  CLOTHING: KLERE
-  BATHTIME: BADTYD
-  MEALS: ETES
-  COMFORT: GEMAK
-  TOILET: TOILET
-  DRINKS: DRANKIES
-  TRAINING_PAGE: OPLEIDINGSBLAD
-  training_page: opleidingsblad
-  _GBP: R
-  _USD: $
-  _percent: "%"
-  _plus: +
-  _minus: "-"
-  _slash: /
-  _X: X
-  _equal: =
-  _question_mark: "?"
-  _atsign: "@"
-  YES: JA
-  NO: NEE
+  copyof: text_dict
 slots_in_need_for_translation:
   - training-page-description
   - last-page-heading
@@ -176,22 +101,22 @@ grid_pages:
   - name: page24
     copyof: grid_page24
     columns:
-      0:
+      "0":
         rows:
-          0:
+          "0":
             rows:
-              3:
+              "3":
                 comment: CAR
                 text_inlinecss:
                   font-size: 17pt
   - name: page25
     copyof: grid_page25
     columns:
-      0:
+      "0":
         rows:
-          4:
+          "4":
             rows:
-              3:
+              "3":
                 comment: CAR
                 text_inlinecss:
                   font-size: 17pt

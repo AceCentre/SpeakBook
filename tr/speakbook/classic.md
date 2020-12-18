@@ -11,95 +11,18 @@ external_templates_data:
   grid_page09: base/classic/grid-page09.yaml
   grid_page24: base/classic/grid-page24.yaml
   grid_page25: base/classic/grid-page25.yaml
+  text_dict: tr/speakbook-text.yaml
 external_append_content:
   - common/imgs.ejs
   - common/misc.ejs
-  - common/last-page.ejs
   - tr/guides.ejs
   - tr/instructions-page.ejs
   - tr/intro.ejs
-  - tr/last-page-header.ejs
+  - tr/last-page.ejs
   - tr/misc.ejs
 classic_edition: true
 text:
-  ring_bind_edge: Bu kenar boyunca halkayı bağlayın
-  cut_out_this_part: Bu kısmı kesin
-  SPEAKBOOK: KONUŞMAKİTABI
-  classic: classic
-  EDITION: BASKI
-  color_blind: Renk körlüğü olanlar için de uygundur
-  friendly: Samimi
-  instructions: Kullanma talimatları
-  HOME_PAGE: ANA SAYFA
-  SPELL: HECELEME
-  HOME: ANA SAYFA
-  THANK_YOU: Teşekkür ederim
-  A: A
-  B: B
-  C: Ç
-  D: D
-  E: E
-  F: F
-  G: G
-  H: H
-  I: İ
-  J: J
-  K: K
-  L: L
-  M: M
-  N: N
-  O: O
-  P: P
-  Q: Q
-  R: R
-  S: S
-  T: T
-  U: U
-  V: V
-  W: Ğ
-  X: Ş
-  Y: Y
-  Z: Z
-  _zero: "0"
-  _one: "1"
-  _two: "2"
-  _three: "3"
-  _four: "4"
-  _five: "5"
-  _six: "6"
-  _seven: "7"
-  _eight: "8"
-  _nine: "9"
-  im_too_hot: çok sıcak
-  im_too_cold: çok soğuk / üşüyorum
-  cup_of_tea: Bir bardak çay
-  cup_of_coffee: Bir bardak kahve
-  i_love_you: Seni seviyorum
-  yes: Evet
-  no: Hayır
-  CAR: ARABA
-  BED: YATAK
-  CLOTHING: KIYAFET
-  BATHTIME: YIKANMA ZAMANI
-  MEALS: YİYECEKLER
-  COMFORT: RAHATLIK
-  TOILET: TUVALET
-  DRINKS: İÇECEKLER
-  TRAINING_PAGE: EĞİTİM SAYFASI
-  training_page: eğitim sayfası
-  _GBP: £
-  _USD: $
-  _percent: "%"
-  _plus: +
-  _minus: "-"
-  _slash: /
-  _X: X
-  _equal: =
-  _question_mark: "?"
-  _atsign: "@"
-  YES: EVET
-  NO: HAYIR
-  edition_nth: "5.cü "
+  copyof: text_dict
 slots_in_need_for_translation:
   - training-page-description
   - last-page-heading

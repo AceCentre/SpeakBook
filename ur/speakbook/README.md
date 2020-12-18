@@ -11,6 +11,7 @@ external_templates_data:
   grid_page09: base/grid-page09.yaml
   grid_page24: base/grid-page24.yaml
   grid_page25: base/grid-page25.yaml
+  text_dict: ur/speakbook-text.yaml
 external_append_content:
   - common/imgs.ejs
   - common/rtl/guides.ejs
@@ -20,83 +21,7 @@ external_append_content:
   - ur/last-page.ejs
   - ur/misc.ejs
 text:
-  ring_bind_edge: رنگ اس کنارے کے ساتھ ساتھ پابند
-  cut_out_this_part: اس حصہ کاٹ.
-  SPEAKBOOK: SPEAKBOOK
-  edition_nth: 5th کے
-  EDITION: EDITION
-  color_blind: رنگوں کی پہچان نہ کر سکنے والا
-  friendly: دوستانہ!
-  instructions: ہدایات
-  HOME_PAGE: ہوم پیج
-  SPELL: جادو
-  HOME: گھر
-  THANK_YOU: آپ کا شکریہ
-  A: م
-  B: م
-  C: ے
-  D: ر
-  E: ر
-  F: ر
-  G: ل
-  H: ہ
-  I: ب
-  J: ا
-  K: ک
-  L: ی
-  M: ع
-  N: غ
-  O: ج
-  P: ح
-  Q: ط
-  R: د
-  S: و
-  T: ٹ
-  U: ت
-  V: س
-  W: ص
-  X: ف
-  Y: پ
-  Z: ق
-  _zero: "0"
-  _one: "1"
-  _two: "2"
-  _three: "3"
-  _four: "4"
-  _five: "5"
-  _six: "6"
-  _seven: "7"
-  _eight: "8"
-  _nine: "9"
-  im_too_hot: میں نے بہت گرم ہوں
-  im_too_cold: میں بھی سرد ہوں
-  cup_of_tea: چائے کا کپ!
-  cup_of_coffee: کافی کا کپ!
-  i_love_you: میں تم سے پیار کرتا ہوں
-  yes: جی ہاں
-  no: نہیں
-  CAR: گاڑی
-  BED: BED
-  CLOTHING: کپڑے
-  BATHTIME: نہانے کا وقت
-  MEALS: کھانے
-  COMFORT: آرام
-  TOILET: بیت الخلاء
-  DRINKS: مشروبات
-  TRAINING_PAGE: ٹریننگ PAGE
-  training_page: ٹریڈنگ صفحہ
-  _GBP: £
-  _USD: $
-  _percent: ٪
-  _plus: +
-  _minus: "-"
-  _slash: /
-  _X: ایکس
-  _equal: =
-  _question_mark: ؟
-  _atsign: "@"
-  YES: جی ہاں
-  NO: نہیں
+  copyof: text_dict
 slots_in_need_for_translation:
   - training-page-description
   - last-page-heading
@@ -119,7 +44,7 @@ inlinecss:
   --fsize-13: 38pt
 instruction_pages:
   - copyof: instruction_page01
-  - copyof: instruction_page02  
+  - copyof: instruction_page02
 grid_pages:
   - name: page04
     copyof: grid_page04
@@ -129,11 +54,11 @@ grid_pages:
   - name: page06
     copyof: grid_page06
     columns:
-      0:
+      "0":
         rows:
-          4:
+          "4":
             entries:
-              5:
+              "5":
                 comment: HOME
                 inlinecss:
                   font-size: 14pt
@@ -141,11 +66,11 @@ grid_pages:
     copyof: grid_page07
     start_spacing_slotname: cut-out-left-side-guide-04
     columns:
-      0:
+      "0":
         rows:
-          0:
+          "0":
             entries:
-              3:
+              "3":
                 comment: HOME
                 inlinecss:
                   font-size: 14pt
@@ -199,9 +124,9 @@ grid_pages:
   - name: page24
     copyof: grid_page24
     columns:
-      0:
+      "0":
         rows:
-          0:
+          "0":
             __OVERWRITE_rows:
               - image: shape-heart-1x-img
                 text_key: i_love_you
@@ -217,9 +142,9 @@ grid_pages:
     copyof: grid_page25
     start_spacing_slotname: cut-out-left-side-guide-13
     columns:
-      0:
+      "0":
         rows:
-          4:
+          "4":
             __OVERWRITE_rows:
               - image: shape-heart-1x-img
                 text_key: i_love_you

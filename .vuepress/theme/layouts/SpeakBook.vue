@@ -76,6 +76,11 @@ export default {
 
   },
 
+  beforeMount () {
+    // eval frontmatter text dict 
+    this.$page.frontmatter.text = this._eval_fm_data(this.$page.frontmatter.text, this.$page.frontmatter.templates_data)
+  },
+
   mounted () {
   },
 
@@ -83,7 +88,7 @@ export default {
     eval_instruction_pages (pages) {
       let templates = Object.assign({}, this.$page.frontmatter.templates_data)
       return pages.map((page) => {
-        return this._eval_page(page, templates)
+        return this._eval_fm_data(page, templates)
       })
     },
     eval_grid_pages (pages) {
@@ -94,11 +99,11 @@ export default {
         }
       }
       let grid_pages = pages.map((page) => {
-        return this._eval_page(page, templates)
+        return this._eval_fm_data(page, templates)
       })
       return grid_pages
     },
-    _eval_page (page, templates) {
+    _eval_fm_data (page, templates) {
       let copyoflist = []
       let tmp = page
       while (typeof tmp.copyof == 'string' && tmp.copyof && tmp.copyof in templates) {

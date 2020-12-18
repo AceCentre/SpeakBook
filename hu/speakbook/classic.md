@@ -11,6 +11,7 @@ external_templates_data:
   grid_page09: base/classic/grid-page09.yaml
   grid_page24: base/classic/grid-page24.yaml
   grid_page25: base/classic/grid-page25.yaml
+  text_dict: hu/speakbook-text.yaml
 external_append_content:
   - common/imgs.ejs
   - hu/guides.ejs
@@ -20,84 +21,7 @@ external_append_content:
   - hu/misc.ejs
 classic_edition: true
 text:
-  ring_bind_edge: Օղակաձեւ կապեն երկայնքով այս եզրին
-  cut_out_this_part: "Կտրել է այս մասը:"
-  SPEAKBOOK: SPEAKBOOK
-  classic: classic
-  EDITION: EDITION
-  color_blind: գույն Blind
-  friendly: Friendly!
-  instructions: հրահանգներ
-  HOME_PAGE: ԳԼԽԱՎՈՐ ԷՋ
-  SPELL: կախարդանք
-  HOME: ՏՈՒՆ
-  THANK_YOU: ՇՆՈՐՀԱԿԱԼՈՒԹՅՈՒՆ
-  A: Ա
-  B: Բ
-  C: Գ
-  D: Տ
-  E: Է
-  F: Ֆ
-  G: Կ
-  H: Հ
-  I: Ի
-  J: Ճ
-  K: Ք
-  L: Լ
-  M: Մ
-  N: Ն
-  O: Ո
-  P: Պ
-  Q: Խ
-  R: Ր
-  S: Ս
-  T: Դ
-  U: Ը
-  V: Ւ
-  W: Վ
-  X: Ց
-  Y: Ե
-  Z: Զ
-  _zero: "0"
-  _one: "1"
-  _two: "2"
-  _three: "3"
-  _four: "4"
-  _five: "5"
-  _six: "6"
-  _seven: "7"
-  _eight: "8"
-  _nine: "9"
-  im_too_hot: Ես չափազանց շոգ
-  im_too_cold: Ես շատ ցուրտ
-  cup_of_tea: Բաժակ թեյ!
-  cup_of_coffee: Բաժակ սուրճ!
-  i_love_you: Ես սիրում եմ քեզ
-  yes: այո
-  no: ոչ
-  CAR: ՄԵՔԵՆԱՆ
-  BED: ՄԱՀՃԱԿԱԼՆԵՐԻ
-  CLOTHING: ՀԱԳՈՒՍՏ
-  BATHTIME: Bathtime
-  MEALS: ՈՒՏԵՍՏՆԵՐ
-  COMFORT: COMFORT
-  TOILET: ԶՈՒԳԱՐԱՆԻ
-  DRINKS: ԽՄԻՉՔՆԵՐ
-  TRAINING_PAGE: ՈՒՍՈՒՄՆԱԿԱՆ PAGE
-  training_page: առեւտրային էջ
-  _GBP: £
-  _USD: $
-  _percent: "%"
-  _plus: +
-  _minus: "-"
-  _slash: /
-  _X: X
-  _equal: =
-  _question_mark: "?"
-  _atsign: "@"
-  YES: ԱՅՈ
-  NO: ՈՉ
-  edition_nth: 4-րդ
+  copyof: text_dict
 slots_in_need_for_translation:
   - training-page-description
   - last-page-heading
@@ -182,22 +106,22 @@ grid_pages:
   - name: page24
     copyof: grid_page24
     columns:
-      0:
+      "0":
         rows:
-          0:
+          "0":
             rows:
-              3:
+              "3":
                 comment: CAR
                 text_inlinecss:
                   font-size: 12pt
   - name: page25
     copyof: grid_page25
     columns:
-      0:
+      "0":
         rows:
-          4:
+          "4":
             rows:
-              3:
+              "3":
                 comment: CAR
                 text_inlinecss:
                   font-size: 12pt

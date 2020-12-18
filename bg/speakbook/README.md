@@ -11,6 +11,7 @@ external_templates_data:
   grid_page09: base/grid-page09.yaml
   grid_page24: base/grid-page24.yaml
   grid_page25: base/grid-page25.yaml
+  text_dict: bg/speakbook-text.yaml
 external_append_content:
   - common/guides.ejs
   - common/imgs.ejs
@@ -20,87 +21,7 @@ external_append_content:
   - bg/last-page.ejs
   - bg/misc.ejs
 text:
-  ring_bind_edge: Подвържете със спирала от тази страна
-  cut_out_this_part: Изрежете тази част
-  SPEAKBOOK: Книга за разговор
-  edition_nth: 5-то
-  EDITION: издание
-  color_blind: Адаптирано за
-  friendly: цветна слепота!
-  instructions: Инструкции
-  HOME_PAGE: Начална страница
-  SPELL: БУКВИ
-  HOME: НАЧАЛО
-  THANK_YOU: БЛАГОДАРЯ
-  A: А
-  B: Б
-  C: В
-  D: Г
-  E: Д
-  F: Е
-  G: Ж
-  H: З
-  I: И
-  J: Й
-  K: К
-  L: Л
-  M: М
-  N: Н
-  O: О
-  P: П
-  Q: Р
-  R: С
-  S: Т
-  T: У
-  U: Ф
-  V: Х
-  W: Ц
-  X: Ч
-  Y: Ш
-  Z: Щ
-  Z1: Ъ
-  Z2: Ь
-  Z3: Ю
-  Z4: Я
-  _zero: "0"
-  _one: "1"
-  _two: "2"
-  _three: "3"
-  _four: "4"
-  _five: "5"
-  _six: "6"
-  _seven: "7"
-  _eight: "8"
-  _nine: "9"
-  im_too_hot: Горещо ми е
-  im_too_cold: Студено ми е
-  cup_of_tea: Чаша чай!
-  cup_of_coffee: Чаша кафе!
-  i_love_you: Обичам те
-  yes: да
-  no: не
-  CAR: КОЛА
-  BED: ЛЕГЛО
-  CLOTHING: ДРЕХИ
-  BATHTIME: БАНЯ
-  MEALS: ХРАНА
-  COMFORT: УДОБСТВО
-  TOILET: ТОАЛЕТ
-  DRINKS: НАПИТКИ
-  TRAINING_PAGE: СТРАНИЦА ЗА УПРАЖНЕНИЕ
-  training_page: страница за упражнение
-  _GBP: лв.
-  _USD: €
-  _percent: "%"
-  _plus: +
-  _minus: "-"
-  _slash: ":"
-  _X: "*"
-  _equal: =
-  _question_mark: "?"
-  _atsign: "@"
-  YES: ДА
-  NO: НЕ
+  copyof: text_dict
 slots_in_need_for_translation:
   - training-page-description
   - last-page-heading

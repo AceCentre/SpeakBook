@@ -11,6 +11,7 @@ external_templates_data:
   grid_page09: base/classic/grid-page09.yaml
   grid_page24: base/classic/grid-page24.yaml
   grid_page25: base/classic/grid-page25.yaml
+  text_dict: sv/speakbook-text.yaml
 external_append_content:
   - common/imgs.ejs
   - common/misc.ejs
@@ -21,91 +22,7 @@ external_append_content:
   - sv/misc.ejs
 classic_edition: true
 text:
-  ring_bind_edge: Ringbind längs denna kant
-  cut_out_this_part: Klipp ut denna del.
-  SPEAKBOOK: PRATBOK
-  classic: classic
-  EDITION: EDITION
-  color_blind: Färgblinds-
-  friendly: vänlig!
-  instructions: Instruktioner
-  HOME_PAGE: STARTSIDA
-  SPELL: STAVA
-  HOME: START
-  THANK_YOU: TACK
-  A: A
-  A1: Å
-  A2: Ä
-  B: B
-  C: C
-  D: D
-  E: E
-  F: F
-  G: G
-  H: H
-  I: I
-  J: J
-  K: K
-  L: L
-  M: M
-  N: N
-  O: O
-  O1: Ö
-  P: P
-  Q: Q
-  R: R
-  S: S
-  T: T
-  U: U
-  V: V
-  W: W
-  X: X
-  Y: Y
-  Z: Z
-  _zero: "0"
-  _one: "1"
-  _two: "2"
-  _three: "3"
-  _four: "4"
-  _five: "5"
-  _six: "6"
-  _seven: "7"
-  _eight: "8"
-  _nine: "9"
-  im_too_hot: Jag är för varm
-  im_too_cold: Jag fyrser
-  cup_of_tea: En kopp te!
-  cup_of_coffee: En kopp kaffe!
-  i_love_you: jag älskar dig
-  yes: ja
-  no: nej
-  CAR: BIL
-  BED: SOVA
-  CLOTHING: KLÄ SIG
-  BATHTIME: BADA
-  MEALS: ÄTA
-  COMFORT: SITTA
-  TOILET: TOA
-  DRINKS: DRICKA
-  TRAINING_PAGE: ÖVNINGSSIDA
-  training_page: övnings sida
-  _GBP: Kr
-  _USD: €
-  _percent: "%"
-  _plus: +
-  _minus: "-"
-  _slash: /
-  _X: X
-  _equal: =
-  _question_mark: "?"
-  _atsign: "@"
-  YES: JA
-  NO: NEJ
-  edition_nth: 5th
-  _fel: FEL
-  _clear: KLAR
-  _nytt: NYTT
-  _start: START
+  copyof: text_dict
 slots_in_need_for_translation:
   - training-page-description
   - last-page-heading
