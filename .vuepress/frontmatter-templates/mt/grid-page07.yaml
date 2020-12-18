@@ -17,25 +17,25 @@ columns:
           height: var(--grid-item-height)
           background-color: var(--color-cyan)
         entries:
-          - text_key: _two
-            inlinecss:
-              color: var(--color-purple)
-          - text_key: _three
-            inlinecss:
-              color: var(--color-white)
           - text_key: _four
             inlinecss:
               color: var(--color-green)
-          - text_key: _five
+          - text_key: _three
             inlinecss:
-              color: var(--color-yellow)
-          - text_key: _six
+              color: var(--color-white)
+          - text_key: _two
             inlinecss:
-              color: var(--color-orange)
+              color: var(--color-purple)
           - text_key: HOME
             inlinecss:
               color: var(--color-cyan)
               font-size: 12pt
+          - text_key: _six
+            inlinecss:
+              color: var(--color-orange)
+          - text_key: _five
+            inlinecss:
+              color: var(--color-yellow)
       - comment: spacing
         inlinecss:
           flex-grow: 1
@@ -47,24 +47,24 @@ columns:
           height: var(--grid-item-height)
           background-color: var(--color-orange)
         entries:
-          - text_key: V
-            inlinecss:
-              color: var(--color-purple)
-          - text_key: W
-            inlinecss:
-              color: var(--color-white)
           - text_key: X
             inlinecss:
               color: var(--color-green)
-          - text_key: Y
+          - text_key: W
             inlinecss:
-              color: var(--color-yellow)
-          - text_key: Z
+              color: var(--color-white)
+          - text_key: V
             inlinecss:
-              color: var(--color-orange)
+              color: var(--color-purple)
           - text_key: _one
             inlinecss:
               color: var(--color-cyan)
+          - text_key: Z
+            inlinecss:
+              color: var(--color-orange)
+          - text_key: Y
+            inlinecss:
+              color: var(--color-yellow)
       - comment: spacing
         inlinecss:
           flex-grow: 1
@@ -76,24 +76,24 @@ columns:
           height: var(--grid-item-height)
           background-color: var(--color-yellow)
         entries:
-          - text_key: P
-            inlinecss:
-              color: var(--color-purple)
-          - text_key: Q
-            inlinecss:
-              color: var(--color-white)
           - text_key: R
             inlinecss:
               color: var(--color-green)
-          - text_key: S
+          - text_key: Q
             inlinecss:
-              color: var(--color-yellow)
-          - text_key: T
+              color: var(--color-white)
+          - text_key: P
             inlinecss:
-              color: var(--color-orange)
+              color: var(--color-purple)
           - text_key: U
             inlinecss:
               color: var(--color-cyan)
+          - text_key: T
+            inlinecss:
+              color: var(--color-orange)
+          - text_key: S
+            inlinecss:
+              color: var(--color-yellow)
   - comment: Center
     inlinecss:
       width: 76mm
@@ -116,24 +116,24 @@ columns:
           height: var(--grid-item-height)
           background-color: var(--color-purple)
         entries:
-          - text_key: A
-            inlinecss:
-              color: var(--color-purple)
-          - text_key: B
-            inlinecss:
-              color: var(--color-white)
           - text_key: C
             inlinecss:
               color: var(--color-green)
-          - text_key: D
+          - text_key: B
             inlinecss:
-              color: var(--color-yellow)
-          - text_key: E
+              color: var(--color-white)
+          - text_key: A
             inlinecss:
-              color: var(--color-orange)
+              color: var(--color-purple)
           - text_key: F
             inlinecss:
               color: var(--color-cyan)
+          - text_key: E
+            inlinecss:
+              color: var(--color-orange)
+          - text_key: D
+            inlinecss:
+              color: var(--color-yellow)
       - comment: spacing
         inlinecss:
           flex-grow: 1
@@ -146,24 +146,24 @@ columns:
           background-color: var(--color-white)
           border: 1px solid var(--color-black)
         entries:
-          - text_key: G
-            inlinecss:
-              color: var(--color-purple)
-          - text_key: G2
-            inlinecss:
-              color: var(--color-white)
           - text_key: G3
             inlinecss:
               color: var(--color-green)
-          - text_key: H
+          - text_key: G2
             inlinecss:
-              color: var(--color-yellow)
-          - text_key: H2
+              color: var(--color-white)
+          - text_key: G
             inlinecss:
-              color: var(--color-orange)
+              color: var(--color-purple)
           - text_key: I
             inlinecss:
               color: var(--color-cyan)
+          - text_key: H2
+            inlinecss:
+              color: var(--color-orange)
+          - text_key: H
+            inlinecss:
+              color: var(--color-yellow)
       - comment: spacing
         inlinecss:
           flex-grow: 1
@@ -175,21 +175,21 @@ columns:
           height: var(--grid-item-height)
           background-color: var(--color-green)
         entries:
-          - text_key: J
-            inlinecss:
-              color: var(--color-purple)
-          - text_key: K
-            inlinecss:
-              color: var(--color-white)
           - text_key: L
             inlinecss:
               color: var(--color-green)
-          - text_key: M
+          - text_key: K
             inlinecss:
-              color: var(--color-yellow)
-          - text_key: N
+              color: var(--color-white)
+          - text_key: J
             inlinecss:
-              color: var(--color-orange)
+              color: var(--color-purple)
           - text_key: O
             inlinecss:
               color: var(--color-cyan)
+          - text_key: N
+            inlinecss:
+              color: var(--color-orange)
+          - text_key: M
+            inlinecss:
+              color: var(--color-yellow)
