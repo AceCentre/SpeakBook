@@ -1,0 +1,93 @@
+comment: page08 no cut out
+columns:
+  - inlinecss:
+      width: 57mm
+    rows:
+      - comment: At top left
+        type: table
+        rowheight: 12mm
+        rows:
+          - image: shape-heart-1x-img
+          - image: shape-circle-1x-img
+          - image: shape-triangle-1x-img
+          - image: shape-square-1x-img
+            text_key: HOME
+        inlinecss:
+          --grid-item-width: 57mm
+          --grid-item-height: 94mm
+          height: var(--grid-item-height)
+      - comment: spacing
+        inlinecss:
+          flex-grow: 1
+      - comment: At center left
+        type: fig
+        image: shape-square-2x-img
+      - comment: spacing
+        inlinecss:
+          flex-grow: 1
+      - comment: At bottom left
+        type: table
+        rowheight: 12mm
+        rows:
+          - image: shape-heart-1x-img
+          - image: shape-circle-1x-img
+          - image: shape-triangle-1x-img
+          - image: shape-square-1x-img
+            text_key: SPELL
+        inlinecss:
+          --grid-item-width: 57mm
+          --grid-item-height: 94mm
+          height: var(--grid-item-height)
+  - inlinecss:
+      width: 72mm
+    rows:
+      - comment: At top center
+        type: fig
+        image: shape-triangle-2x-img
+        inlinecss:
+          padding-top: 10mm
+          padding-bottom: 10mm
+      - inlinecss:
+          flex-grow: 1
+      - comment: At bottom center
+        type: fig
+        image: shape-circle-2x-img
+        inlinecss:
+          padding-top: 10mm
+          padding-bottom: 10mm
+  - inlinecss:
+      width: 57mm
+    rows:
+      - comment: At top right
+        type: table
+        rowheight: 12mm
+        rows:
+          - image: shape-heart-1x-img
+          - image: shape-circle-1x-img
+          - image: shape-triangle-1x-img
+          - image: shape-square-1x-img
+        inlinecss:
+          --grid-item-width: 57mm
+          --grid-item-height: 94mm
+          height: var(--grid-item-height)
+      - comment: spacing
+        inlinecss:
+          flex-grow: 1
+      - comment: At center right
+        type: fig
+        image: shape-heart-2x-img
+      - comment: spacing
+        inlinecss:
+          flex-grow: 1
+      - comment: At bottom right
+        type: table
+        rowheight: 12mm
+        rows:
+          - image: shape-heart-1x-img
+          - image: shape-circle-1x-img
+          - image: shape-triangle-1x-img
+          - image: shape-square-1x-img
+        inlinecss:
+          --grid-item-width: 57mm
+          --grid-item-height: 94mm
+          height: var(--grid-item-height)

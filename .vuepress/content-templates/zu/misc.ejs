@@ -1,0 +1,16 @@
+::: slot training-page-description
+<p class="fsize-3">
+  Lapho usufunde amasu eyisisekelo usebenzisa leli khasi lokuqeqeshwa,
+  ungabhala amakhasi akho usebenzisa okungekho kule ncwadi.
+</p>
+:::
+
+::: slot table-overlay-01
+<div class="abs-at-top-left" style="top: 0.5mm; left: 0.5mm; width: 44mm; height: 44mm;">
+  <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/table-overlay-01.svg')" />
+  <div class="abs-at-center bold" style="transform: translate(calc(-50% - 8mm), calc(-50% - 8mm)) rotate(-45deg); color: white;text-align: center;font-size: 15pt;width: 35mm;line-height: 1;">{{ $page.frontmatter.text.training_page }}</div>
+</div>
+:::
+::: slot table-overlay-02
+<img class="abs-at-bottom-left rotate-180" style="bottom: 0.5mm; left: 0.5mm; width: 44mm; height: 44mm;" :src="$withBase('/speakbook/shapes/table-overlay-02.svg')" />
+:::

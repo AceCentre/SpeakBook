@@ -1,0 +1,115 @@
+comment: grid-page25 classic
+start_spacing_slotname: cut-out-right-side-guide-13
+start_spacing_inlinecss:
+  transform: rotate(180deg)
+inlinecss:
+  transform: rotate(180deg)
+columns:
+  - inlinecss:
+      width: 57mm
+    rows:
+      - comment: At bottom right
+        type: coloured-table02
+        rowheight: 12mm
+        rows:
+          - text_key: COMFORT
+          - text_key: TOILET
+          - text_key: DRINKS
+          - text_key: SPELL
+        inlinecss:
+          --grid-item-width: 57mm
+          --grid-item-height: 94mm
+          height: var(--grid-item-height)
+      - comment: spacing
+        inlinecss:
+          flex-grow: 1
+      - comment: At center right
+        type: text-with-coloured-circle
+        fixed: true
+        colour: yellow
+        text_slotname: training-page-description
+        inlinecss:
+          --grid-item-width: 57mm
+          --grid-item-height: 94mm
+          height: var(--grid-item-height)
+      - comment: spacing
+        inlinecss:
+          flex-grow: 1
+      - comment: At top right
+        type: coloured-table02
+        overlay_slotname: table-overlay-02
+        rowheight: 12mm
+        rows:
+          - text_key: i_love_you
+          - text_key: yes
+            inlinecss:
+              margin-right: 14mm
+          - text_key: no
+            inlinecss:
+              margin-right: 30mm
+          - text_key: CAR
+            inlinecss:
+              margin-right: 43mm
+        inlinecss:
+          --grid-item-width: 57mm
+          --grid-item-height: 94mm
+          height: var(--grid-item-height)
+  - inlinecss:
+      width: 72mm
+    rows:
+      - comment: At bottom center
+        type: coloured-circle
+        colour: green
+        inlinecss:
+          flex-grow: 1
+      - comment: Guide at center
+        type: custom
+        slotname: cut-out-center-guide
+        inlinecss:
+          flex-grow: 1
+          transform: rotate(180deg)
+      - comment: At top center
+        type: coloured-circle
+        colour: cyan
+        inlinecss:
+          flex-grow: 1
+  - inlinecss:
+      width: 57mm
+    rows:
+      - comment: At left bottom
+        type: coloured-table02
+        rowheight: 12mm
+        rows:
+          - text_key: BED
+          - text_key: CLOTHING
+          - text_key: BATHTIME
+          - text_key: MEALS
+        inlinecss:
+          --grid-item-width: 57mm
+          --grid-item-height: 94mm
+          height: var(--grid-item-height)
+      - comment: spacing
+        inlinecss:
+          flex-grow: 1
+      - comment: At center left
+        type: text-with-coloured-circle
+        colour: purple
+        text_key: TRAINING_PAGE
+        text_inlinecss:
+          font-size: 18pt
+        text_at_top: true
+      - comment: spacing
+        inlinecss:
+          flex-grow: 1
+      - comment: At top left
+        type: coloured-table02
+        rowheight: 12mm
+        rows:
+          - text_key: im_too_hot
+          - text_key: im_too_cold
+          - text_key: cup_of_tea
+          - text_key: cup_of_coffee
+        inlinecss:
+          --grid-item-width: 57mm
+          --grid-item-height: 94mm
+          height: var(--grid-item-height)
