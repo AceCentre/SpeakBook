@@ -4,7 +4,7 @@ const mkdirp = require('mkdirp')
 const path = require('path')
 const archiver = require('archiver');
 
-let langs_info = ["en", "af", "ar", "de", "es", "fr", "mt", "po", "sv", "tr", "zu", "hu","hr"].map((name) => ({ name, indir: name == 'en' ? '' : name, outdir: name }))
+let langs_info = ["en", "af", "ar", "bg", "de", "es", "fr", "mt", "po", "sv", "tr", "zu", "hu","hr"].map((name) => ({ name, indir: name == 'en' ? '' : name, outdir: name }))
 let default_lang_info = langs_info[0]
 let DIST_DIR = path.resolve(__dirname, '../.vuepress/dist')
 let DIST_FINAL_DIR = path.resolve(__dirname, '../.vuepress/dist-final')

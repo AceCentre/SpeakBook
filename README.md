@@ -268,6 +268,10 @@ This is simply a Vue.js themed template with some scripts to generate a PDF of t
 
 We also have a very natty script that uses Google translate to make a new po file.. See below
 
+<a target="_blank" rel="noopener noreferrer" href="https://www.netlify.com">
+<img src="https://www.netlify.com/img/global/badges/netlify-light.svg" alt="Deploys by Netlify">
+</a>
+
 ### Layout
 
     .vuepress/
