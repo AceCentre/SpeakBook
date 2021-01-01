@@ -17,23 +17,23 @@ columns:
           height: var(--grid-item-height)
           background-color: var(--color-cyan)
         entries:
-          - text_key: _four
-            inlinecss:
-              color: var(--color-green)
           - text_key: _three
             inlinecss:
-              color: var(--color-white)
+              color: var(--color-green)
           - text_key: _two
+            inlinecss:
+              color: var(--color-white)
+          - text_key: _one
             inlinecss:
               color: var(--color-purple)
           - text_key: HOME
             inlinecss:
               color: var(--color-cyan)
               font-size: 14pt
-          - text_key: _six
+          - text_key: _five
             inlinecss:
               color: var(--color-orange)
-          - text_key: _five
+          - text_key: _four
             inlinecss:
               color: var(--color-yellow)
       - comment: spacing
@@ -56,7 +56,7 @@ columns:
           - text_key: Y
             inlinecss:
               color: var(--color-purple)
-          - text_key: _one
+          - text_key: Z4
             inlinecss:
               color: var(--color-cyan)
           - text_key: Z3
