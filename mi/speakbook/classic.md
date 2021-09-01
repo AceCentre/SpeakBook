@@ -18,10 +18,10 @@ external_append_content:
   - common/imgs.ejs
   - common/misc.ejs
   - common/last-page.ejs
-  - en/instructions-page.ejs
-  - en/intro.ejs
-  - en/last-page-header.ejs
-  - en/misc.ejs
+  - mi/instructions-page.ejs
+  - mi/intro.ejs
+  - mi/last-page-header.ejs
+  - mi/misc.ejs
 text:
   copyof: text_dict
   ring_bind_edge: Me here te mowhiti ki tenei pito
@@ -37,31 +37,20 @@ text:
   HOME: KĀINGA
   THANK_YOU: NGA MAHI KATOA
   A: A
-  B: B
-  C: C
-  D: D
-  E: E
-  F: F
-  G: G
-  H: H
-  I: Ko au
-  J: J
-  K: K
-  L: L
-  M: M
-  N: N
-  O: E
-  P: P
-  Q: Q
-  R: R
-  S: S
-  T: T
-  U: U
-  V: V
-  W: W
-  X: X
-  Y: Y
-  Z: Z
+  B: E
+  C: H
+  D: I
+  E: K
+  F: M
+  G: N
+  H: NG
+  I: O
+  J: P
+  K: R
+  L: T
+  M: U
+  N: W
+  O: WH
   _zero: "0"
   _one: "1"
   _two: "2"

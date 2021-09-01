@@ -1,0 +1,45 @@
+::: slot inst-01-flt-right-content
+<div class="abs-fill-parent flex-h" style="align-items: flex-end;">
+  <div class="flex-grow-1"></div>
+  <div class="flex-v">
+    <img class="m-1" style="width: 58.5mm; height: 79.7mm; box-sizing: border-box;" :src="$withBase('/speakbook/images/01.png')"  />
+    <div class="m-1 p-1 flex-grow-1 flt-box" style="width: 57.5mm; min-height: 79.7mm; box-sizing: border-box;">
+      <h3 class = "my-1 fsize-5"> Me pehea te tuhi i runga i te pukapuka korero </h3>
+      <p class = "my-2 fsize-4_5"> Ko nga mea e tuhia ana e koe i runga i te pukapuka korero, ka whakawhirinaki ki o whakaritenga ake, engari ko nga mea katoa e tuhia ana e koe, he mea nui kia rite te tuhinga ki ia taha o ia wharangi whaarua. ana he whakaahua whakaata tetahi i tetahi - penei i te tauira i runga ake nei. Kei te korero koe me to hoa i nga momo reo? Kaore he raru - me tuhi noa i tetahi atu reo ki tetahi taha. </p>
+    </div>
+  </div>
+</div>
+:::
+::: slot inst-01-content
+<div class="p-1 text-c enter">
+  <SpeakBookTextFourColorBkg class="speakbook-title fsize-10 p-1 bold" :text="$page.frontmatter.text.SPEAKBOOK"></SpeakBookTextFourColorBkg>
+</div>
+<p> Ko te Pukapuka Korero he taputapu korero korero kore ma te hunga kaore e kaha ki te korero me te uaua ki te whakamahi i o ringaringa me o ringaringa, engari ka mau tonu te whakamahi o o raatau kanohi. Mo tenei taangata ma te hunga mohio ki te panui me te tuhi tuhi. Mo nga putanga mo nga kaipānui kore, i nga putanga reo ke, me te putanga pute, tirohia te <b> acecent.re/speakbook </b> </p>
+<h2 class = "fsize-6"> Tohutohu hei whakamahi. </h2>
+<p> Hei tiimata, me matua hiahia koe; te pukapuka korero, he pene papa ma, kaore-pumau, he kakahu hei muru, me tetahi hoa korero. </p>
+<p>
+Ka noho korua ko to hoa korero korero tata ki te toru putu te wehe. I runga i to tirohanga, ka pai pea ki a koe te whakaheke, te whakanui ake ranei i tenei tawhiti. Whakatuwherahia te pukapuka korero ki te whaarangi whakangungu kei roto o te uhi o muri. Kua whakakiia tenei hei awhina i a koe ki te ako i te tikanga maatauranga. Ka mohio ana koe ki te mahi, ka taea e koe te tuhi i o whaarangi pepa, ma te whakamahi i nga panui kua tohaina. Takahia te pukapuka ki runga ake, ka pupuri ki waenganui i a korua, kia anga atu ai korua ki te ‟wharangi whakangungu‟, ka kite koe i etahi atu kei te kowha o te poka o waenganui. Ka titiro koe inaianei ki nga kowhiringa kei te whaarangi hei whakatau ko wai hei korerorero. Ka whakatau ana koe, ka tohu koe ki to hoa kua rite koe ki te tiimata
+- Akene ma te tiro ki to hoa ka tiimata, ma te huri ranei i o kanohi ki runga-ki raro - nga mea e pai ana ki a koe. Kaatahi tirohia nga korero e hiahia ana koe, mo te hekona neke atu ranei, ka whai ake ko te tohu nui kia rite ki te mea iti i te taha o te korero. Ka whai to hoa i o nekehanga kanohi - hei tauira ka kite pea ia kua titiro koe ki te taha maui o runga o te papa i muri mai i te tapatoru nui, no reira ka mohio ia me hiahia koe ki te kii "kapu ti!". Ka kii atu ia, “kapu ti!” ma te reo nui, a ka whakatuturutia e koe me te kati, i etahi atu tohu kua oti te whakarite
+</p>
+<p> Koinei te tikanga matua mo te whakamahi i te pukapuka korero. Inaianei me ako koe me pehea te whakamahi i etahi atu whaarangi o te pukapuka, na te mea ko te maatauranga pono o te pukapuka korero kei te ahei ki te tuku wawe ki a koe ki nga rau o nga whiringa e hiahia ana koe, nga rerenga e taea ana e koe te whakarereke i nga waa katoa, me te he kakahu haukū noa iho me te whiu o te pene. </p>
+:::
+::: slot inst-02-flt-right-label
+<div class="pos-rel fill-height fill-width">
+  <img class="abs-fill-parent" :src="$withBase('/speakbook/shapes/inst-02-right-label-bkg.svg')" />
+  <div class="fsize-8 abs-at-center" style="transform: translate(calc(-50% + 5mm), calc(-50% - 5mm)) rotate(45deg); color: white;width: 42mm;text-align: center;">{{ $page.frontmatter.text.instructions }}</div>
+</div>
+:::
+::: slot inst-02-flt-left-content
+<div class="flex-h" style="padding: 3mm;">
+  <div class="flex-grow-1 flex-v">
+    <img class="m-1" style="width: 57.5mm; height: 79.7mm; box-sizing: border-box;" :src="$withBase('/speakbook/images/02.png')"  />
+    <img class="m-1" style="width: 57.5mm; height: 79.7mm; box-sizing: border-box;" :src="$withBase('/speakbook/images/03.png')"  />
+  </div>
+  <Content slot-key="cut-out-center-guide" />
+</div>
+:::
+::: slot inst-02-content
+<p> Kei ia whaarangi o te pukapuka korero 14, 15 ranei nga waahanga waatea kia taea ai e koe te tuhi i a koe ake tuhinga. Kia taea ai e te kaiwhakamahi te neke i waenga i nga whaarangi rereke, kua hangahia e matou te whaarangi „kaainga‟. Ka kitea tenei i mua o te pukapuka, ka tohua ki te ripa "HOME‟ pango i te pito o te whaarangi. Ko te whakaaro ko te tuhi i nga rerenga e 7 e tino whakamahia ana e koe i runga i tenei whaarangi, na te mea ko te whaarangi ka tiimata koe i nga wa katoa. Ano hoki, i runga i te 8 o nga pepa waatea ka tuhia e koe he hono ki etahi atu 8 wharangi rua taarua. Koinei nga waahanga o to koiora e hiahia ana kia hohonu ake nga waahanga rerenga korero, ko enei waahanga penei i te waa kaukau, te haere ranei ki te motuka. Kei te taha maui tetahi tauira o te whakatakotoranga ka taea mo te whaarangi „HOME‟. Ko nga kupu e 8 kei roto i nga reta maia he hononga ki te whaanui wharangi ki etahi atu waahanga o te pukapuka. Ko taau e mahi ana, ka kitea e koe he whaarangi paanui ka tuhi ana, hei tauira, "BED‟ i te ripa tapa, ka tuhi ki nga riipene ka tuhia e koe nga rerenga 14 e pa ana ki o mahi moenga. Na ka korero ano koe i tenei mahinga mo etahi atu hononga e 7, kia ki ra ano to pukapuka. Mena kua he koe, kei te hiahia ranei koe ki te whakarereke i tetahi rerenga, ka horoi noa me te kakahu haukū ka tiimata ano.</p>
+<p> Hei whakamahi i te pukapuka korero, tohua e koe ki to hoa hoa e hiahia ana koe ki te korero. Ka whakatuwherahia e to hoa pukapuka te whaarangi korero ki te whaarangi „HOME‟ ka korero koe, hei tauira, "BED‟. Ka huri to hoa ki te whaarangi „BED‟ ka taea e koe te korero, „E hiahia ana ahau ki te moe‟ - aha atu ranei. Kei ia whaarangi te „HOME‟ me te „SPELL‟ i taarua i runga. Ko te „HOME‟ kia taea ai e koe te hoki tonu ki te whaarangi 'KĀINGA' (ka hiahia pea koe ki te tango i te kapu "tī)! Ki te taha o to moenga). Ma te whaarangi 'SPELL ‟e ahei ai koe ki te tuhi kupu me nga rerenga takitahi kaore e kitea i etahi atu waahanga o te pukapuka. He rite te mahi ki etahi atu whaarangi, kotahi te rereketanga. I tenei whaarangi e 6 nga poraka karakara, e ono nga reta tae me nga nama kei runga. Kei kona katoa te taatai, me nga nama 1-9 (mo te kore whakamahi i te reta O). Ka tiro koe ki te reta e hiahia ana koe ki te whakawhitiwhiti, mo te hekona neke atu ranei, ka whai ake te poraka karakara o te tae kotahi me to reta i kowhiria e koe. E whai ana to hoa i o kanohi, ka kite kua tiro atu koe, hei tauira, ko te poraka maui o runga ka whai mai te poraka matau o runga (he kaakaariki), me te mohio kei te hiahia koe ki te „C‟. Ka kii atu to hoa „C‟ kia nui te whakamana, ka neke atu koe ki te reta e whai ake nei. Ka whakaarohia e to hoa te toenga o te kupu ka taea ana, kia tere ake te mahi. </p>
+<p> He waahi ta te Pukapuka Korero mo nga kianga 119 i whiriwhiria e koe. Mena kaore i te ranea, mena ka hiahia neke atu i te 14 nga kupu i roto i tetahi waahanga, ka taea e koe te taarua i tona kaha ma te tuhi i nga rerenga e rua ki ia raina, kotahi ki te pene pango, tetahi ki te whero. Ka kowhiri koe i tetahi rerenga pango i te huarahi noa, he whero ka tiipiri ka titiro ana koe ki te tohu nui. </p>
+:::
