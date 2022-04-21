@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "google-translate-api": "^2.3.0",
+    "netlify-cli": "^10.0.0",
     "node-poeditor": "1.0.7"
   }
 }
