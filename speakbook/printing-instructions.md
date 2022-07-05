@@ -32,6 +32,6 @@ inlinecss:
   <p>The ideal binding for Speakbook is wire binding. Wire binding is good because it keeps the pages together neatly and the holes exactly lined up. It allows the book to open right back on itself, which is important. However, you are unlikely to have wire binding facilities at home so we will have to explore other options. Probably the best home binding method is to punch holes down the left hand edge of the book and hold it together with string or treasury tags. Small metal keyrings are even better (available from key cutting shops). Punch holes near the corners of the book as well as in the middle of the edge to keep it all straight.</p>
 </div>
 <div class="page">
-  <p class="fsize-8 bold">If you have any questions about making your Speakbook then email me enquiries@acecentre.org.uk</p>
+  <p class="fsize-8 bold">If you have any questions about making your Speakbook then email  enquiries@acecentre.org.uk</p>
   <p class="fsize-9 bold text-center">acecent.re/speakbook</p>
 </div>
