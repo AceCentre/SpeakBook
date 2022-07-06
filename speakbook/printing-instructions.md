@@ -10,6 +10,8 @@ inlinecss:
     <SpeakBookTextFourColorBkg class="speakbook-title fsize-12 p-1 bold text-center" text="SPEAKBOOK"></SpeakBookTextFourColorBkg>
   </div>
   <h2>Printing Instructions</h2>
+  <p>How to get Speakbook printed - or how to make it yourself.</p>
+
   <h3>A4 or pocket sized?</h3>
   <p>All Speakbook PDF’s are sizable. This means that although it is nominally an A4 document, you can print it on any size paper. Do you plan to use Speakbook a lot? Or is it just for emergencies? If it’s the latter then you may decide to print a smaller one for the convenience of carrying it around. The difference in use with smaller Speakbooks is that you and your partner will have to sit closer together, and you and your partner will need to be able to comfortably read text that is that much closer to your eyes. We have tested Speakbook at A5 size, as well as ‘letter’, the standard American paper size - and they both work fine with our test subject’s eyesight. Before printing a pocket sized Speakbook however, we recommend that you print the training page (pages 24 and 25 of the PDF) on a pocket sized piece of paper, cut out the hole, and test it with your partner before making the complete book.</p>
   <h3>Professional printing</h3>
@@ -32,6 +34,6 @@ inlinecss:
   <p>The ideal binding for Speakbook is wire binding. Wire binding is good because it keeps the pages together neatly and the holes exactly lined up. It allows the book to open right back on itself, which is important. However, you are unlikely to have wire binding facilities at home so we will have to explore other options. Probably the best home binding method is to punch holes down the left hand edge of the book and hold it together with string or treasury tags. Small metal keyrings are even better (available from key cutting shops). Punch holes near the corners of the book as well as in the middle of the edge to keep it all straight.</p>
 </div>
 <div class="page">
-  <p class="fsize-8 bold">If you have any questions about making your Speakbook then email  enquiries@acecentre.org.uk</p>
+  <p class="fsize-8 bold">If you have any questions about making your Speakbook then email enquiries@acecentre.org.uk</p>
   <p class="fsize-9 bold text-center">acecent.re/speakbook</p>
 </div>
