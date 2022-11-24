@@ -118,7 +118,7 @@ With thanks to Suzanne Guerin and her colleagues for finding the mistake with th
 
 [Complete Zipped package with US Letter size](/mt/speakbook/mt-speakbook.zip)
 
-**Credits** Martina Zarb, Jamie Said, Access to Communication and Technology Unit (ACTU), Malta
+**Credits** Martina Zarb, Mariah Amber Busuttil, Jamie Said, Access to Communication and Technology Unit (ACTU), Malta
 
 
 
