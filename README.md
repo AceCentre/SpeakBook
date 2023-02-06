@@ -39,7 +39,7 @@ Table of Contents
 
 ## Introduction
 
-This is a repository to hold the working versions of [Patrick Joyce's SpeakBook project](https://web.archive.org/web/20170325172200/http://www.speakbook.org/). We aim to provide a platform for crowd-sourced version control of future PDF's here. More info (*and the current final releases*) can be found at the Ace Centre's project page [here](http://acecentre.org.uk/project/speakbook/).
+This is a repository to hold the working versions of [Patrick Joyce's SpeakBook project](./archive). We aim to provide a platform for crowd-sourced version control of future PDF's here. More info (*and the current final releases*) can be found at the Ace Centre's project page [here](http://acecentre.org.uk/project/speakbook/).
 
 The current *in-progress* versions (Note: will only look as intended in Chrome. We recommend looking at the PDF builds):
 
