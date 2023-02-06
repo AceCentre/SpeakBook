@@ -11,7 +11,8 @@
   "scripts": {
     "dev": "vuepress dev",
     "build": "vuepress build",
-    "buildpdf": "vuepress build && vuepress buildpdf"
+    "buildpdf": "vuepress build && vuepress buildpdf",
+    "full-build": "vuepress build && vuepress buildpdf && node .scripts/buildfinalzip.js"
   },
   "devDependencies": {
     "@vitalets/google-translate-api": "^3.0.0",
