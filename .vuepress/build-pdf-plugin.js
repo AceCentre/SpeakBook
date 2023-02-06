@@ -35,8 +35,11 @@ module.exports = {
         })
 	      let pbrowser = await puppeteer.launch()
         let ppage = await pbrowser.newPage()
+        let index = 0;
         for (let page of ctx.pages) {
+          index++;
           let pageurl = `http://${ctx.devProcess.host}:${ctx.devProcess.port}${page.path}`
+          console.log(`Started ${index} of ${ctx.pages.length}: ${pageurl}`);
           let destpath
           if (page.path[page.path.length-1] == '/') {        
             destpath = path.join(outdir, page.path, 'index.pdf')
@@ -48,6 +51,7 @@ module.exports = {
           await ppage.pdf(
             Object.assign({}, options, { path: destpath })
           )
+          console.log(`Finished ${index} of ${ctx.pages.length}: ${pageurl}`);
         }
         await pbrowser.close()
         ctx.devProcess.server.close()
