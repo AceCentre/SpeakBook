@@ -12,7 +12,7 @@
     "dev": "vuepress dev",
     "build": "vuepress build",
     "buildpdf": "vuepress build && vuepress buildpdf",
-    "full-build": "vuepress build && vuepress buildpdf && node .scripts/buildfinalzip.js"
+    "full-build": "vuepress build && vuepress buildpdf && node .scripts/buildfinalzip.js && cp -r ./archive ./.vuepress/dist"
   },
   "devDependencies": {
     "@vitalets/google-translate-api": "^3.0.0",
