@@ -33,7 +33,10 @@ module.exports = {
           sourceDir: targetdir,
           clearScreen: false,
         })
-	      let pbrowser = await puppeteer.launch()
+	      let pbrowser = await puppeteer.launch({
+          headless: true,
+          args: ['--no-sandbox']
+        })
         let ppage = await pbrowser.newPage()
         let index = 0;
         for (let page of ctx.pages) {
