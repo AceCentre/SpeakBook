@@ -5,6 +5,9 @@
   "author": "",
   "license": "GPL-2.0",
   "private": true,
+  "engines": {
+    "node": "14"
+  },
   "scripts": {
     "dev": "vuepress dev",
     "build": "vuepress build",
