@@ -18,10 +18,10 @@ external_append_content:
   - common/imgs.ejs
   - common/misc.ejs
   - common/last-page.ejs
-  - en/instructions-page.ejs
-  - en/intro.ejs
-  - en/last-page-header.ejs
-  - en/misc.ejs
+  - sr/instructions-page.ejs
+  - sr/intro.ejs
+  - sr/last-page-header.ejs
+  - sr/misc.ejs
 text:
   copyof: text_dict
   ring_bind_edge: Povežite prstenom preko ove ivice
