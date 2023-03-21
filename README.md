@@ -127,10 +127,9 @@ With thanks to Suzanne Guerin and her colleagues for finding the mistake with th
 - [Colour Version](/sr/speakbook/classic.html) - 📄 [A4 PDF](/sr/speakbook/classic.pdf)
 - [Printing Instructions](/sr/speakbook/printing-instructions.html) - 📄 [A4 PDF](/sr/speakbook/printing-instructions.pdf)
 
-[Complete Zipped package with US Letter size](/sr/speakbook/mt-speakbook.zip)
+[Complete Zipped package with US Letter size](/sr/speakbook/sr-speakbook.zip)
 
 **Credits** Marijana
-
 
 ### Bulgarian
 
