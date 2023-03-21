@@ -342,6 +342,7 @@ node .scripts/apply-po-to-md.js res/lang/SpeakBook_Maltese.po mt/speakbook/READM
 node .scripts/apply-po-to-md.js res/lang/SpeakBook_Armenian.po hu/speakbook/README.md > hu/speakbook/README2.md && mv hu/speakbook/README2.md hu/speakbook/README.md
 node .scripts/apply-po-to-md.js res/lang/SpeakBook_Croatian.po hr/speakbook/README.md > hr/speakbook/README2.md && mv hr/speakbook/README2.md hr/speakbook/README.md
 node .scripts/apply-po-to-md.js res/lang/SpeakBook_Maori.po mi/speakbook/README.md > mi/speakbook/README2.md && mv mi/speakbook/README2.md mi/speakbook/README.md
+node .scripts/apply-po-to-md.js res/lang/SpeakBook_Serbian.po sr/speakbook/README.md > sr/speakbook/README2.md && mv sr/speakbook/README2.md sr/speakbook/README.md
 
 ```
 
@@ -362,5 +363,6 @@ node .scripts/apply-po-to-md.js res/lang/SpeakBook_Maltese.po mt/speakbook/class
 node .scripts/apply-po-to-md.js res/lang/SpeakBook_Armenian.po hu/speakbook/classic.md > hu/speakbook/classic2.md && mv hu/speakbook/classic2.md hu/speakbook/classic.md
 node .scripts/apply-po-to-md.js res/lang/SpeakBook_Croatian.po hr/speakbook/classic.md > hr/speakbook/classic2.md && mv hr/speakbook/classic2.md hr/speakbook/classic.md
 node .scripts/apply-po-to-md.js res/lang/SpeakBook_Maori.po mi/speakbook/classic.md > mi/speakbook/classic2.md && mv mi/speakbook/classic2.md mi/speakbook/classic.md
+node .scripts/apply-po-to-md.js res/lang/SpeakBook_Serbian.po sr/speakbook/classic.md > sr/speakbook/classic2.md && mv sr/speakbook/classic2.md sr/speakbook/classic.md
 
 ```
