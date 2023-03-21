@@ -16,6 +16,7 @@ description: This is a project to build a toolchain for multi-lingual PDF's. Ini
   - [<g-emoji class="g-emoji" alias="portugal" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f5-1f1f9.png">🇵🇹</g-emoji> Portuguese](#portuguese)
   - [<g-emoji class="g-emoji" alias="bulgaria" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1e7-1f1ec.png">🇧🇬</g-emoji> Bulgarian](#bulgarian)
   - [<g-emoji class="g-emoji" alias="malta" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f2-1f1f9.png">🇲🇹</g-emoji> Maltese](#maltese)
+  - [<g-emoji class="g-emoji" alias="serbia" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f2-1f1f9.png">🇷🇸</g-emoji> Serbian](#serbian)
 - [Needing "Printing Instructions" (but complete otherwise)](#needing-printing-instructions-but-complete-otherwise)
   - [<g-emoji class="g-emoji" alias="sweden" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f8-1f1ea.png">🇸🇪</g-emoji> Swedish](#swedish)
   - [<g-emoji class="g-emoji" alias="es" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1ea-1f1f8.png">🇪🇸</g-emoji> Spanish](#spanish)
@@ -117,6 +118,19 @@ With thanks to Suzanne Guerin and her colleagues for finding the mistake with th
 [Complete Zipped package with US Letter size](/mt/speakbook/mt-speakbook.zip)
 
 **Credits** Martina Zarb, Mariah Amber Busuttil, Jamie Said, Access to Communication and Technology Unit (ACTU), Malta
+
+### Serbian
+
+🇷🇸
+
+- [Color-Blind Friendly](/sr/speakbook/) - 📄 [A4 PDF](/sr/speakbook/index.pdf)
+- [Colour Version](/sr/speakbook/classic.html) - 📄 [A4 PDF](/sr/speakbook/classic.pdf)
+- [Printing Instructions](/sr/speakbook/printing-instructions.html) - 📄 [A4 PDF](/sr/speakbook/printing-instructions.pdf)
+
+[Complete Zipped package with US Letter size](/sr/speakbook/mt-speakbook.zip)
+
+**Credits** Marijana
+
 
 ### Bulgarian
 
