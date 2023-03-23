@@ -1,0 +1,85 @@
+ring_bind_edge: Povežite prstenom preko ove ivice
+cut_out_this_part: Isecite ovaj deo.
+SPEAKBOOK: PRIČANKA
+edition_nth: Peto
+EDITION: Izdanje
+color_blind: Ukoliko ne razlikujete boje
+friendly: Prikladno!
+instructions: Uputstva
+HOME_PAGE: POČETNA STRANA
+SPELL: SPELOVANJE
+HOME: POČETNA
+THANK_YOU: HVALA
+A: А
+B: B
+C: C
+D: D
+E: E
+F: F
+G: G
+H: H
+I: I
+J: J
+K: K
+L: L
+M: M
+N: N
+O: O
+P: P
+Q: Š
+R: R
+S: S
+T: T
+U: U
+V: V
+W: Č
+X: Ž
+Y: Ć
+Z: Z
+_zero: 0
+_one: 1
+_two: 2
+_three: 3
+_four: 4
+_five: 5
+_six: 6
+_seven: 7
+_eight: 8
+_nine: 9
+im_too_hot: Vruće mi je
+im_too_cold: Hladno mi je
+cup_of_tea: Šolja čaja!
+cup_of_coffee: Šolja kafe!
+i_love_you: Volim te
+'yes': Da
+'no': Ne
+CAR: AUTO
+BED: KREVET
+CLOTHING: ODEĆA
+BATHTIME: KUPANJE
+MEALS: OBROCI
+COMFORT: UDOBNOST
+TOILET: TOALET
+DRINKS: PIĆE
+TRAINING_PAGE: STRANICA ZA VEŽBANJE
+training_page: stranica za vežbanje
+_GBP: Din
+_USD: $
+_percent: "%"
+_plus: +
+_minus: "-"
+_slash: /
+_X: X
+_equal: =
+_question_mark: "?"
+_atsign: "@"
+'YES': DA
+'NO': NE
+__slot_training-page-description: "<p class=\"fsize-3\">\n  Kada naučite osnovnu tehniku uz pomoć ove stranice za vežbanje,\n  možete da pišete svoje stranice koristeći prazne stranice u ovoj knjizi.\n</p>"
+__slot_last-page-heading: "<div class=\"float-left\" style=\"width: 40mm; height: 37mm; shape-outside: polygon(0 0, 40mm 0, 10mm 100%, 0 100%);\"></div>\n<h2 class=\"my-2\">Stranica za kucanje prstom.</h2>\n<p class=\"my-2\">\n  Ukoliko još uvek možete da koristite ruke, ove stranica je za vas. \n  Pokazujući prstom slova možete napisati reči i rečenice svom partneru.\n  Reči koje se često upotrebljavaju mogu se napisati u prazna polja.\n  Pokazujući reč <strong class=\"bold\">„ POČETNA‟*</strong> svojem partneru dajete do znanja da sada\n  želite da komunicirate pomoću očiju koristeći glavnu knjigu.\n</p>"
+__slot_cover-footer: "<div class=\"flex-h items-align-center lheight-1_5x\" style=\"width: calc(var(--page-width) - 60mm);\">\n  <p class=\"cover-footer-text\">\n    <span class=\"fsize-8 bold\">sistem neverbalne komunikacije</span><br>\n    <span class=\"red-color fsize-8 bold\">acecent.re/speakbook</span><br>\n    <span class=\"fsize-4\">Speakbook peto izdanje © 2011 Patrick Joyce, 2020 Ace Centre</span>\n  </p>\n  <div class=\"flex-grow-1\"></div>\n  <img style=\"width: 30mm;height: 30mm;\" :src=\"$withBase('/speakbook/images/PublishedByAce.svg')\" />\n</div>"
+__slot_inst-01-flt-right-content: "<div class=\"abs-fill-parent flex-h\" style=\"align-items: flex-end;\">\n  <div class=\"flex-grow-1\"></div>\n  <div class=\"flex-v\">\n    <img class=\"m-1\" style=\"width: 58.5mm; height: 79.7mm; box-sizing: border-box;\" :src=\"$withBase('/speakbook/images/01.png')\"  />\n    <div class=\"m-1 p-1 flex-grow-1 flt-box\" style=\"width: 57.5mm; min-height: 79.7mm; box-sizing: border-box;\">\n      <h3 class=\"my-1 fsize-5\">Kako da pišete u pričanki</h3>\n      <p class=\"my-2 fsize-4_5\">Šta ćete tačno pisati u svojoj pričanki zavisiće od vaših specifičnih potreba, ali što god pisali, važno je da svaka strana raširene knjige ima isti tekst i da su oni kao odraz u ogledalu - kao u gornjem primeru. Da li vi i vaš partner govorite različit od jezik? Nije problem - samo napišite različite jezike na svakoj od strana.</p>\n    </div>\n  </div>\n</div>"
+__slot_inst-01-content: "<div class=\"p-1 text-center\">\n  <SpeakBookTextFourColorBkg class=\"speakbook-title fsize-10 p-1 bold\" :text=\"$page.frontmatter.text.SPEAKBOOK\"></SpeakBookTextFourColorBkg>\n</div>\n<p>Pričanka je alat za neverbalnu komunikaciju za ljude koji ne mogu da govore i imaju teškoće sa upotrebom ruku a koji mogu da pokreću i koriste svoje oči. Ovo izdanje je za ljude koji mogu da čitaju i speluju. Za verzije za nečitače, verzije na stranim jezicima i džepno izdanje, posetite <b>acecent.re/speakbook</b></p>\n<h2 class=\"fsize-6\">Instructions for use.</h2>\n<p>Da biste počeli, trebaće vam; pričanka, crni flomaster za belu tablu, krpica za brisanje i partner za komunikaciju.</p>\n<p>\nVaš partner i vi sedite nasuprot jedan drugom na razdaljini od oko metar. U zavisnosti od vašeg vida, možda ćete želeti da smanjite ili povećate ovu razdaljinu. Otvorite pričanku na stranici za vežbanje unutar zadnje korice. Ova stranica je već popunjena da vam pomogne da naučite osnovnu tehniku. Kada savladate tehniku, možete da pišete svoje sopstvene strane koristeći prazne stranice u ovoj knjizi. Presavijte knjigu i držite je između vas tako da oboje gledate  ‟stranicu za vežbanje‟, i gledate jedan drugog u oči kroz rupu u sredini. Sada pogledajte u izbore koji su ponuđeni na stranici da biste odlučili koji želite da komunicirate. Kada izaberete, dajte signal partneru da ste spremni da počnete\n- to možete uraditi gledanjem u partnera i treptanjem ili pomeranjem očiju gore dole - šta god vam odgovara. Onda pogledajte u poruku koju želite, otprilike sekundu i potom u veliki simbol koji je isti kao mali simbol pored poruke koju ste izabrali. Vaš partner potom prati vaše pokrete oka - recimo, on vidi da ste pogledali ka gornjoj levoj strani table i potom u veliki trougao, tako da sada on zna da želite da kažete „šolja čaja !‟. Partner tada kaže, “šolja čaja !” naglas, i vi potvrđujete treptanjem ili nekim drugim prethodno dogovorenim signalom\n</p>\n<p>To je osnovna tehnika za korišćenje pričanke. Sada treba da naučite kako da koristite ostale stranice u knjizi, zato što prava genijalnost pričanke leži u njenoj mogućnosti da vam omogućava jednostavan pristup stotinama rečenica koje ste sami odabrali, rečenica koje u svakom trenutku možete promeniti samo uz pomoć vlažne krpice i pokreta olovke.</p>"
+__slot_inst-02-flt-right-label: "<div class=\"pos-rel fill-height fill-width\">\n  <img class=\"abs-fill-parent\" :src=\"$withBase('/speakbook/shapes/inst-02-right-label-bkg.svg')\" />\n  <div class=\"fsize-8 abs-at-center\" style=\"transform: translate(calc(-50% + 5mm), calc(-50% - 5mm)) rotate(45deg); color: white;width: 42mm;text-align: center;\">{{ $page.frontmatter.text.instructions }}</div>\n</div>"
+__slot_inst-02-content: "<p>Na svakoj stranici pričanke postoji 14 ili 15 praznih mesta na koje možete pisati svoj tekst. Da bi korisnik mogao da se kreće po različitim stranicama, napravili smo  „početnu‟ stranicu. Ona se nalazi na početku knjige i obeležena je sa crnom „POČETNA‟ etiketom na ivici stranice. Ideja je da na ovoj stranici napišete 7 rečenica koje najčešće koristite, obzirom da je ovo stranica na kojoj ćete uvek počinjati. Takođe, na 8 preostalih polja napišite nazive ostalih 8 dvostrukih stranica. To bi trebalo da budu oblasti vašeg života koje zahtevaju produbljeniji set rečenica, na primer oblasti poput kupanja ili vožnje kolima. Na levoj strani je jedan od mogućih rasporeda za „POČETNU‟ stranu.  8 reči napisanih crnim velikim slovima su veze ka dugim dvostrukim stranicama koje se nalaze u knjizi. Ono što treba da uradite je da pronađete praznu stranicu i na etiketi na ivici napišete, recimo, „KREVET‟ a zatim u praznim poljima napišite 14 rečenica najrelevantnijih za vašu rutinu pripreme za spavanje. Onda ponovite ovaj postupak i za ostalih 7 veza, dok ne popunite knjigu. Ukoliko pogrešite, ili želite da promenite neku rečenicu, samo je obrišite vlažnom krpicom i počnite ispočetka.</p>\n<p>Da biste koristili pričanku dajte znak svom partneru da želite da komunicirate. Vaš partner otvara pričanku na „POČETNOJ‟ strani i vi komunicirate, recimo, „KREVET‟. Vaš partner zatim okreče stranu „KREVET‟ i onda možete da komunicirate, „Hoću da idem u krevet‟ - ili šta god želite. Svaka strana na sebi ima odštampano „POČETNA‟ i „SPELOVANJE‟.  „POČETNA‟ da biste uvek mogli da se vratite na „POČETNU‟ stranu (možda ćete želeti da ponesete „Šolja čaja !‟ sa sobom u krevet). Stranica ‟SPELOVANJE‟ omogućava vam da spelujete pojedinačne reči i fraze koje se ne pojavljuju nigde u knjizi. Ona funkcioniše na sličan način kao i ostale stranice, sa jednom razlikom. Na ovoj stranici ima 6 obojenih blokova, svaki sa 6 obojenih slova ili brojeva na sebi. Tu je cela azbuka, plus brojevi 1-9 (za nulu koristite slovo O). Gledajte u slovo koje želite da komunicirate sekund dva, a potom u blok koji je iste boje kao i izabrano slovo. Partner prati vaše oči, vidi da ste pogledali, recimo, gornji levi blok i zatim gornji desni blok (koji je zelen), i zna da želite „C‟. Vaš partner kaže naglas „C‟ da potvrdi, i prelazite na sledeće slovo. Kada je moguće vaš partner može da pogađa ostatak reči, da bi ubrzao proces.</p>\n<p>Pričanka ima mesta za 119 rečenica po vašem izboru. Ukoliko vam to nije dovoljno, ili ukoliko vam treba više od 14 rečenica u nekoj određenoj oblasti, možete da udvostručite kapacitet tako što ćete pisati po dve rečenice na jednoj liniji, jednu crnom bojom a drugu crvenom. Crnu rečenicu birate na normalan način a crvenu tako što trepnete dok gledate u veliki simbol.</p>"
+__slot_inst-02-flt-left-label: __slot_inst-02-flt-left-label
